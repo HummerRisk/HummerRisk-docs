@@ -1,0 +1,129 @@
+site_name: 'HummerRisk 文档'
+site_url: 'https://docs.hummerrisk.com'
+site_author: 'Harris'
+site_description: 'HummerRisk 是开源的云原生安全合规检测平台'
+
+repo_name: 'HummerRisk/HummerRisk'
+repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
+edit_uri: ''
+
+theme:
+  name: 'material'
+  logo: 'img/logo/favicon-反白.png'
+  favicon: 'img/logo/favicon-彩色.png'
+  language: 'zh'
+  palette:
+    - scheme: default
+      accent: 'red'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      accent: 'red'
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - 系统介绍:
+      - 整体介绍: index.md
+      - 快速安装: system/setup_by_fast.md
+      - 升级文档: system/upgrade.md
+  - 用户手册:
+      - 使用流程: user/process.md
+      - 系统设置: user/settings.md
+      - 扫描规则: user/rule.md
+      - 云账号: user/account.md
+      - 扫描结果: user/resource.md
+      - 首页: user/dashboard.md
+  - 常见问题:
+      - 开发文档: question/dev_manual.md
+      - 等级保护: question/grade_protection.md
+      - 开启企业微信通知: question/weixin_settings.md
+      - 开启钉钉消息通知: question/dingtalk_settings.md
+      - 解决云账号校验失败问题(Custodian): question/account.md
+      - 如何自定义规则(Custodian): question/rule.md
+      - 自定义阿里云监控规则示例(Custodian): question/example.md
+      - 自定义漏洞扫描规则(Nuclei): question/nuclei.md
+      - 快速了解AWS扫描规则(Prowler): question/prowler.md
+  - 关于我们:
+      - 资源下载: about/download.md
+      - 更新说明: about/changelog.md
+      - 联系我们: about/contact.md
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: ⚓︎
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      options:
+        custom_icons:
+          - theme/.icons
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.saneheaders
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  hummerrisk:
+    version: v0.1.0
+  search:
+    separator: '[\s\-\.]+'
+    language: 'zh'
+    Content-Encoding: gzip
+  generator: false
+  version:
+    default: master
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HummerRisk
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@hummercloud.com
+    - icon: fontawesome/brands/skype
+    - icon: fontawesome/brands/qq
+      link: https://qm.qq.com/cgi-bin/qm/qr?k=yro3zdvticm8J4tdA5Dw20dh028NKeap&jump_from=webapi
+
+extra_css:
+  - css/extra.css
+
+copyright: Copyright &copy; 2022 <a href="https://www.hummercloud.com">北京瀚马信息科技有限公司</a>, All Rights Reserved. <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备xxx号</a>
+plugins:
+    - search
