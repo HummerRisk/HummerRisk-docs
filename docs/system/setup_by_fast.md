@@ -20,7 +20,7 @@
 
     !!! tip ""
         ```sh
-        curl -sSL https://github.com/hummerrisk/hummerrisk/releases/download/{{ hummerrisk.version }}/quick_start.sh | bash
+        curl -sSL https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk.version }}/quick_start.sh | bash
         ```
 
     !!! tip ""
@@ -47,7 +47,7 @@
     !!! tip ""
         ```sh
         cd /opt
-        wget https://github.com/hummerrisk/hummerrisk-installer/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
+        wget https://github.com/HummerRisk/installer/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
         tar -xf hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
         cd hummerrisk-installer-{{ hummerrisk.version }}
         cat config-example.txt
@@ -111,6 +111,7 @@
 
     !!! tip ""
         ```sh
+        百度网盘下载链接: https://pan.baidu.com/s/1LeDx5hF_RkkpO8HcsYUDAQ 提取码: 4ljt
         cd /opt
         unzip hummerrisk-offline-installer-{{ hummerrisk.version }}.zip
         cd hummerrisk-offline-installer-{{ hummerrisk.version }}

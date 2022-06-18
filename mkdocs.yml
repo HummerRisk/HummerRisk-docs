@@ -40,12 +40,12 @@ nav:
   - 系统介绍:
       - 整体介绍: index.md
       - 快速安装: system/setup_by_fast.md
-      - 升级文档: system/upgrade.md
+      - 一键升级: system/upgrade.md
   - 用户手册:
       - 使用流程: user/process.md
       - 系统设置: user/settings.md
       - 扫描规则: user/rule.md
-      - 云账号: user/account.md
+      - 云资源扫描: user/account.md
       - 扫描结果: user/resource.md
       - 首页: user/dashboard.md
   - 常见问题:

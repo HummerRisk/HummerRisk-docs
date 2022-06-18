@@ -17,7 +17,7 @@
     !!! tip ""
         ```sh
         cd /opt
-        wget https://github.com/hummerrisk/hummerrisk-installer/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
+        wget https://github.com/HummerRisk/installer/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
         tar -xf hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
         cd hummerrisk-installer-{{ hummerrisk.version }}
         ```
@@ -28,18 +28,18 @@
         是否将版本更新至 {{ hummerrisk.version }} ? (y/n)  (默认为 n): y
 
         1. 升级镜像文件
-        Docker: Pulling from x-lab/mysql:5.7.31 	        [ OK ]
-        Docker: Pulling from x-lab/hummerrisk:{{ hummerrisk.version }} 	    [ OK ]
+        Docker: Pulling from mysql:5.7.34 	        [ OK ]
+        Docker: Pulling from hummerrisk:{{ hummerrisk.version }} 	    [ OK ]
         完成
 
         2. 备份数据库
         正在备份...
         mysqldump: [Warning] Using a password on the command line interface can be insecure.
-        [SUCCESS] 备份成功! 备份文件已存放至: /opt/hummerrisk/db_backup/hummerrisk-2021-03-19_08:32:39.sql
+        [SUCCESS] 备份成功! 备份文件已存放至: /opt/hummerrisk/db_backup/hummerrisk-2022-07-01_08:30:30.sql
 
         3. 清理镜像
         是否需要清理旧版本镜像文件? (y/n)  (默认为 n): y
-        Untagged: x-lab/hummerrisk:v1.3.0
+        Untagged: hummerrisk:v0.1.0
 
         4. 升级成功, 可以重启程序了
         cd /opt/hummerrisk-installer-{{ hummerrisk.version }}
@@ -65,8 +65,8 @@
         是否将版本更新至 {{ hummerrisk.version }} ? (y/n)  (默认为 n): y
 
         1. 升级镜像文件
-        Docker: Pulling from x-lab/mysql:5.7.31 	        [ OK ]
-        Docker: Pulling from x-lab/hummerrisk:{{ hummerrisk.version }} 	    [ OK ]
+        Docker: Pulling from mysql:5.7.34 	        [ OK ]
+        Docker: Pulling from hummerrisk:{{ hummerrisk.version }} 	    [ OK ]
         完成
 
         2. 备份数据库
@@ -76,7 +76,7 @@
 
         3. 清理镜像
         是否需要清理旧版本镜像文件? (y/n)  (默认为 n): y
-        Untagged: x-lab/hummerrisk:v1.3.0
+        Untagged: hummerrisk:v0.1.0
 
         4. 升级成功, 可以重启程序了
         cd /opt/hummerrisk-offline-installer-{{ hummerrisk.version }}
