@@ -6,6 +6,8 @@ site_description: 'HummerRisk 是开源的云原生安全合规检测平台'
 repo_name: 'HummerRisk/HummerRisk'
 repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
 edit_uri: ''
+extra_javascript:
+  - 'js/baidutongji.js'
 
 theme:
   name: 'material'
