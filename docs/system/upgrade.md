@@ -86,3 +86,5 @@
         ./hrctl.sh down
         ./hrctl.sh start
         ```
+
+!!! warning "默认 web 登录账户: admin 密码：hummer"

@@ -2566,7 +2566,7 @@
         <td  colspan="3">√</td>
     </tr>
     <tr>
-        <td  colspan="3">应能够检测到针对无线接入设备的网络扫描、DDoS攻击、密钥破解、中间人攻击和欺骗攻击等行为。</td>
+        <td  colspan="3">应能够检测到针对无线接入设备的网络检测、DDoS攻击、密钥破解、中间人攻击和欺骗攻击等行为。</td>
         <td  colspan="3"></td>
         <td  colspan="3">√</td>
         <td  colspan="3">√</td>

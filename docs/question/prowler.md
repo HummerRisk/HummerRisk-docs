@@ -53,7 +53,7 @@ Options:
 | -V  |                show version number & exit|
 | -h  |                this help|
 
-#### 三、Prowler 工具扫描
+#### 三、Prowler 工具检测
 
 ![prowler](../img/question/prowler1.png)
 

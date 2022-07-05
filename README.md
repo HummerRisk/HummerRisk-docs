@@ -29,9 +29,9 @@ nav:
   - 用户手册:
       - 使用流程: user/process.md
       - 系统设置: user/settings.md
-      - 扫描规则: user/rule.md
+      - 检测规则: user/rule.md
       - 云账号: user/account.md
-      - 扫描结果: user/resource.md
+      - 检测结果: user/resource.md
       - 首页: user/dashboard.md
   - 常见问题:
       - 开发文档: question/dev_manual.md
@@ -41,8 +41,8 @@ nav:
       - 解决云账号校验失败问题(Custodian): question/account.md
       - 如何自定义规则(Custodian): question/rule.md
       - 自定义阿里云监控规则示例(Custodian): question/example.md
-      - 自定义漏洞扫描规则(Nuclei): question/nuclei.md
-      - 快速了解AWS扫描规则(Prowler): question/prowler.md
+      - 自定义漏洞检测规则(Nuclei): question/nuclei.md
+      - 快速了解AWS检测规则(Prowler): question/prowler.md
   - 关于我们:
       - 资源下载: about/download.md
       - 更新说明: about/changelog.md

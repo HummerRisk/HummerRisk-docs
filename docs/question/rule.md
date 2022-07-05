@@ -581,8 +581,8 @@ required:
 最终实现规则示例：
 ```
 policies:                                      -- policies 固定写法
-  - name: aliyun-ecs-underutilized             -- name 自定义扫描的名称（也是返回结果的目录名称）
-    resource: aliyun.ecs                       -- resource 要扫描的资源类型（根据custodian schema 查询的结果来写）
+  - name: aliyun-ecs-underutilized             -- name 自定义检测的名称（也是返回结果的目录名称）
+    resource: aliyun.ecs                       -- resource 要检测的资源类型（根据custodian schema 查询的结果来写）
     filters:                                   -- filters 过滤（下面是过滤各种条件）
       - type: metrics                          -- type 过滤类型
         name: CPUUtilization
