@@ -61,11 +61,15 @@ nav:
       - 等级保护: question/grade_protection.md
       - 开启企业微信通知: question/weixin_settings.md
       - 开启钉钉消息通知: question/dingtalk_settings.md
-      - 解决云账号校验失败问题(Custodian): question/account.md
-      - 如何自定义规则(Custodian): question/rule.md
-      - 自定义阿里云监控规则示例(Custodian): question/example.md
-      - 自定义漏洞检测规则(Nuclei): question/nuclei.md
-      - 快速了解AWS检测规则(Prowler): question/prowler.md
+      - 使用过程中遇到的问题: question/account.md
+      - 如何自定义云资源检测规则: question/rule.md
+      - 自定义阿里云监控规则示例: question/example.md
+      - 快速了解AWS安全检测Prowler: question/prowler.md
+      - 快速了解漏洞检测Nuclei: question/nuclei.md
+      - 快速了解漏洞检测Xray: question/xray.md
+      - 快速了解软件包依赖漏洞检测: question/dependency.md
+      - 快速了解镜像漏洞检测Grype: question/grype.md
+      - 快速了解镜像漏洞检测Syft: question/syft.md
   - 关于我们:
       - 资源下载: about/download.md
       - 更新说明: about/changelog.md

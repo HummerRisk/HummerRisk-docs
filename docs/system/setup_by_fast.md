@@ -47,7 +47,7 @@
     !!! tip ""
         ```sh
         cd /opt
-        wget https://github.com/HummerRisk/installer/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
+        wget https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
         tar -xf hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
         cd hummerrisk-installer-{{ hummerrisk.version }}
         cat config-example.txt

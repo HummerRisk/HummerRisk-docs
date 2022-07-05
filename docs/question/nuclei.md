@@ -1,5 +1,5 @@
 
-### 漏洞检测(Nuclei 规则)
+### Nuclei
 
 > Github 项目地址：https://github.com/hummerrisk/nuclei
  

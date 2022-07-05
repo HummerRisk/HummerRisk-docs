@@ -1,5 +1,5 @@
 
-### 安全合规(Prowler 规则)
+### Prowler
 
 > Github 项目地址：https://github.com/hummerrisk/prowler
  
