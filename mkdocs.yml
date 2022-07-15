@@ -1,7 +1,7 @@
 site_name: 'HummerRisk 文档'
 site_url: 'https://docs.hummerrisk.com'
 site_author: 'Harris'
-site_description: 'HummerRisk 是开源的云原生安全合规检测平台'
+site_description: 'HummerRisk 是开源的云原生安全检测平台'
 
 repo_name: 'HummerRisk/HummerRisk'
 repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
