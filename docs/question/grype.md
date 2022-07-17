@@ -39,6 +39,12 @@ Grype 将在第一次运行时下载其漏洞数据库。目前它的重量约�
 
 Grype 可以处理所有最流行的Linux 发行版的包。它还支持 Ruby Gems、NPM 和 Yarn 包、Python Eggs、Wheels 和 Poetry 依赖项，以及 JAR、WAR、EAR、JPI 和 HPI 格式的 Java 模块。
 
+Grype 还可以获取Anchore Feed服务所提供的漏洞数据库，这个数据库会在每一次扫描任务开始之前进行更新，不过我们也可以使用下列命令来进行手动更新：
+!!! tip ""
+    ```sh
+    grype db update
+    ```
+
 #### 四、扫描文件系统
 
 Grype 可以扫描您机器上的文件系统路径。这使您可以在构建映像之前发现源代码存储库中的漏洞。要使用此功能，请使用dir:方案指定目录路径：
