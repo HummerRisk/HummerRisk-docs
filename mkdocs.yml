@@ -39,8 +39,8 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
-  - 系统介绍:
-      - 整体介绍: index.md
+  - 系统介绍: index.md
+  - 安装配置:
       - 快速安装: system/setup_by_fast.md
       - 一键升级: system/upgrade.md
   - 用户手册:
@@ -115,7 +115,7 @@ markdown_extensions:
 
 extra:
   hummerrisk:
-    version: v0.1.1
+    version: v0.1.2
   search:
     separator: '[\s\-\.]+'
     language: 'zh'

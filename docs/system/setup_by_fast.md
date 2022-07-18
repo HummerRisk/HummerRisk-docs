@@ -112,6 +112,7 @@
     !!! tip ""
         ```sh
         百度网盘下载链接: https://pan.baidu.com/s/1LeDx5hF_RkkpO8HcsYUDAQ 提取码: 4ljt
+        网站资源下载链接: https://docs.hummerrisk.com/about/download/
         cd /opt
         unzip hummerrisk-offline-installer-{{ hummerrisk.version }}.zip
         cd hummerrisk-offline-installer-{{ hummerrisk.version }}
