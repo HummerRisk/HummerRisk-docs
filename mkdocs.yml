@@ -70,9 +70,12 @@ nav:
       - 快速了解软件包依赖漏洞检测: question/dependency.md
       - 快速了解镜像漏洞检测Grype: question/grype.md
       - 快速了解镜像漏洞检测Syft: question/syft.md
+  - 版本迭代:
+      - 更新日志: about/changelog.md
+      - 更新说明:
+        - ReleaseNote 0.2.0: about/release-0.2.0.md
   - 关于我们:
       - 资源下载: about/download.md
-      - 更新说明: about/changelog.md
       - 联系我们: about/contact.md
 
 markdown_extensions:
