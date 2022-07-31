@@ -10,7 +10,7 @@
         cd /opt/hummerrisk-installer-v0.1.0  # v0.1.0 是版本号, 你的环境可能是其他的版本, 修改成对应的即可
         # 如果使用离线版本: cd /opt/hummerrisk-offline-installer-v0.1.0
 
-        ./hrctl.sh check_update
+        hrctl upgrade
         ```
 
 === "在线升级"
@@ -22,7 +22,7 @@
         cd hummerrisk-installer-{{ hummerrisk.version }}
         ```
         ```sh
-        ./hrctl.sh upgrade
+        hrctl upgrade v0.2.0
         ```
         ```nginx hl_lines="1 35"
         是否将版本更新至 {{ hummerrisk.version }} ? (y/n)  (默认为 n): y
@@ -43,11 +43,11 @@
 
         4. 升级成功, 可以重启程序了
         cd /opt/hummerrisk-installer-{{ hummerrisk.version }}
-        ./hrctl.sh restart
+        hrctl restart
         ```
         ```sh
-        ./hrctl.sh down
-        ./hrctl.sh start
+        hrctl down
+        hrctl start
         ```
 
 === "离线升级"
@@ -55,11 +55,11 @@
     !!! tip ""
         ```sh
         cd /opt
-        unzip hummerrisk-offline-installer-{{ hummerrisk.version }}.zip
+        tar zxf hummerrisk-offline-installer-{{ hummerrisk.version }}.tar.gz
         cd hummerrisk-offline-installer-{{ hummerrisk.version }}
         ```
         ```sh
-        ./hrctl.sh upgrade
+        hrctl upgrade
         ```
         ```nginx hl_lines="1 35"
         是否将版本更新至 {{ hummerrisk.version }} ? (y/n)  (默认为 n): y
@@ -80,11 +80,11 @@
 
         4. 升级成功, 可以重启程序了
         cd /opt/hummerrisk-offline-installer-{{ hummerrisk.version }}
-        ./hrctl.sh restart
+        hrctl restart
         ```
         ```sh
-        ./hrctl.sh down
-        ./hrctl.sh start
+        hrctl down
+        hrctl start
         ```
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
