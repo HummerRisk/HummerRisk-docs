@@ -10,4 +10,4 @@
 
 
 !!! tip ""
-    - [v0.1.2下载链接：hummerrisk-offline-installer-v0.1.2.zip](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.1.2.zip)
+    - [v0.2.0下载链接：hummerrisk-offline-installer-v0.2.0.tar.gz](https://company.hummercloud.com/test-offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.2.0.tar.gz)
