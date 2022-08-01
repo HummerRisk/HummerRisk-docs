@@ -97,8 +97,6 @@
 !!! Abstract ""
 优化云端检测，检测结果按账号汇总生成安全评分。
 
-![组件样式_背景](../img/view_generation/组件样式_背景.png){ width="900px" }
-
 ### 2.3 漏洞检测
 
 !!! Abstract ""
