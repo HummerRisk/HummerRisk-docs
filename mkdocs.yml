@@ -73,7 +73,7 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
-        - ReleaseNote 0.2.0: about/release-0.2.0.md
+        - ReleaseNote 0.2.0: release/release-0.2.0.md
   - 关于我们:
       - 资源下载: about/download.md
       - 联系我们: about/contact.md
