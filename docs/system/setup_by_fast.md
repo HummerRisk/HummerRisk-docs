@@ -17,7 +17,6 @@
 
 
 === "一键部署"
-
     !!! tip ""
         ```sh
         curl -sSL https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk.version }}/quick_start.sh | bash

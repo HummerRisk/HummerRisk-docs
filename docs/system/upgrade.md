@@ -3,88 +3,56 @@
 !!! warning "更新前请一定要做好备份工作"
 
 ### 升级步骤
-=== "一键升级"
-    !!! tip ""
-        ```sh
-        # 如果已经部署旧版本，可通过如下命令一键升级至最新版本:
-        cd /opt/hummerrisk-installer-v0.1.0  # v0.1.0 是版本号, 你的环境可能是其他的版本, 修改成对应的即可
-        # 如果使用离线版本: cd /opt/hummerrisk-offline-installer-v0.1.0
-
-        hrctl upgrade
-        ```
-
 === "在线升级"
     !!! tip ""
+        #### 1.快捷升级
+        !!! info "📢注意：如果 upgrade 命令不指定版本号则会升级到当前最新版本，建议去 Github 查看版本号，指定版本升级"
+            https://github.com/HummerRisk/HummerRisk/releases
         ```sh
-        cd /opt
-        wget https://github.com/HummerRisk/installer/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
-        tar -xf hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
-        cd hummerrisk-installer-{{ hummerrisk.version }}
-        ```
-        ```sh
+        # 例如：升级到指定版本 v0.2.0 
         hrctl upgrade v0.2.0
         ```
+        #### 2.如果服务器网络环境不佳，可尝试手动在线升级
         ```nginx hl_lines="1 35"
-        是否将版本更新至 {{ hummerrisk.version }} ? (y/n)  (默认为 n): y
-
-        1. 升级镜像文件
-        Docker: Pulling from mysql:5.7.34 	        [ OK ]
-        Docker: Pulling from hummerrisk:{{ hummerrisk.version }} 	    [ OK ]
-        完成
-
-        2. 备份数据库
-        正在备份...
-        mysqldump: [Warning] Using a password on the command line interface can be insecure.
-        [SUCCESS] 备份成功! 备份文件已存放至: /opt/hummerrisk/db_backup/hummerrisk-2022-07-01_08:30:30.sql
-
-        3. 清理镜像
-        是否需要清理旧版本镜像文件? (y/n)  (默认为 n): y
-        Untagged: hummerrisk:v0.1.0
-
-        4. 升级成功, 可以重启程序了
-        cd /opt/hummerrisk-installer-{{ hummerrisk.version }}
-        hrctl restart
+        cd /tmp
+        # 指定需要升级的目标版本号
+        version=v0.2.0
+        wget https://github.com/HummerRisk/installer/releases/download/${version}/hummerrisk-installer-${version}.tar.gz
+        tar -xf hummerrisk-installer-${version}}.tar.gz
+        cd hummerrisk-installer-${version}}
+        # 执行升级命令，等待升级完成
+        hrctl upgrade
         ```
+        #### 3.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy 
         ```sh
-        hrctl down
-        hrctl start
+        [root@hummerrisk tmp]# hrctl version
+        v0.2.0
+        [root@hummerrisk tmp]# hrctl status
+        Name                  Command                  State                                Ports
+        -----------------------------------------------------------------------------------------------------------------------
+        hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
+        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp,:::80->8088/tcp, 8778/tcp, 9779/tcp
         ```
 
 === "离线升级"
 
     !!! tip ""
+        #### 1.下载解压离线安装包，进入安装包执行升级命令
         ```sh
-        cd /opt
+        cd /tmp
         tar zxf hummerrisk-offline-installer-{{ hummerrisk.version }}.tar.gz
         cd hummerrisk-offline-installer-{{ hummerrisk.version }}
-        ```
-        ```sh
         hrctl upgrade
         ```
-        ```nginx hl_lines="1 35"
-        是否将版本更新至 {{ hummerrisk.version }} ? (y/n)  (默认为 n): y
-
-        1. 升级镜像文件
-        Docker: Pulling from mysql:5.7.34 	        [ OK ]
-        Docker: Pulling from hummerrisk:{{ hummerrisk.version }} 	    [ OK ]
-        完成
-
-        2. 备份数据库
-        正在备份...
-        mysqldump: [Warning] Using a password on the command line interface can be insecure.
-        [SUCCESS] 备份成功! 备份文件已存放至: /opt/hummerrisk/db_backup/hummerrisk-2022-07-19_20:30:30.sql
-
-        3. 清理镜像
-        是否需要清理旧版本镜像文件? (y/n)  (默认为 n): y
-        Untagged: hummerrisk:v0.1.0
-
-        4. 升级成功, 可以重启程序了
-        cd /opt/hummerrisk-offline-installer-{{ hummerrisk.version }}
-        hrctl restart
-        ```
+        #### 2.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy 
         ```sh
-        hrctl down
-        hrctl start
+        [root@hummerrisk tmp]# hrctl version
+        v0.2.0
+        [root@hummerrisk tmp]# hrctl status
+        Name                  Command                  State                                Ports
+        -----------------------------------------------------------------------------------------------------------------------
+        hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
+        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp,:::80->8088/tcp, 8778/tcp, 9779/tcp
         ```
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
