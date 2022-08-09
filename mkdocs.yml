@@ -39,11 +39,11 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
-  - 系统介绍: index.md
-  - 安装配置:
+  - 产品介绍: index.md
+  - 安装部署:
       - 快速安装: system/setup_by_fast.md
       - 一键升级: system/upgrade.md
-  - 用户手册:
+  - 功能手册:
       - 使用流程: user/process.md
       - 系统设置: user/settings.md
       - 检测规则: user/rule.md
@@ -57,11 +57,12 @@ nav:
       - 任务编排: user/task.md
       - 首页: user/dashboard.md
   - 常见问题:
-      - 开发文档: question/dev_manual.md
       - 等级保护: question/grade_protection.md
       - 开启企业微信通知: question/weixin_settings.md
       - 开启钉钉消息通知: question/dingtalk_settings.md
       - 使用过程中遇到的问题: question/account.md
+  - 开发文档:
+      - 开发手册: question/dev_manual.md
       - 如何自定义云资源检测规则: question/rule.md
       - 自定义阿里云监控规则示例: question/example.md
       - 快速了解AWS安全检测Prowler: question/prowler.md
@@ -74,6 +75,7 @@ nav:
       - 更新日志: about/changelog.md
       - 更新说明:
           - ReleaseNote 0.2.0: release/release-0.2.0.md
+          - ReleaseNote 0.2.1: release/release-0.2.1.md
   - 关于我们:
       - 资源下载: about/download.md
       - 联系我们: about/contact.md
@@ -118,7 +120,7 @@ markdown_extensions:
 
 extra:
   hummerrisk:
-    version: v0.2.0
+    version: v0.2.1
   search:
     separator: '[\s\-\.]+'
     language: 'zh'
