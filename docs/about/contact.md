@@ -8,7 +8,14 @@
 
 <img src="https://hummerrisk-1312321453.cos.ap-beijing.myqcloud.com/qrcode_gongzhonghao.jpeg" width="156" height="156" alt="">
 
-## 瀚马科技
+## 反馈表单
 
-> 瀚马科技官网地址：https://hummercloud.com
+- [反馈表单(提交产品问题)](https://jinshuju.net/f/eBnJ2q)
 
+## 联系我们
+
+> 官网：https://hummercloud.com
+
+> 邮箱：support@hummercloud.com
+
+> Github：https://github.com/HummerRisk/HummerRisk/issues

@@ -82,6 +82,8 @@ run.mode=local
 
 #### 后端服务成功运行
 
+![后端服务成功运行](../img/question/manual/backend.png){ width="900px" }
+
 ### 前端
 
 hummerrisk 前端使用了 Vue.js 作为前端框架，ElementUI 作为 UI 框架，并使用 npm 作为包管理工具。开发者请先下载 Node.js 作为运行环境，IDEA 用户建议安装 Vue.js 插件，便于开发
@@ -120,6 +122,8 @@ yarn serve
 ```
 
 #### 前端服务成功运行
+
+![前端服务成功运行](../img/question/manual/frontend.png){ width="900px" }
 
 ## Cloud Custodian 项目结构（https://github.com/hummerrisk/cloud-custodian）(hummerrisk 分支)
 
