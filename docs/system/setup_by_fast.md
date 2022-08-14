@@ -15,11 +15,17 @@
 | MySQL   | >= 5.7  |
 | MariaDB | >= 10.2 |
 
+!!! info "快速安装预览"
+[![asciicast](https://asciinema.org/a/514353.svg)](https://asciinema.org/a/514353)
 
 === "一键部署"
     !!! tip ""
         ```sh
-        curl -sSL https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk.version }}/quick_start.sh | bash
+        # 下载最新版本的安装脚本
+        curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
+        
+        # 执行安装命令
+        bash quick_start.sh
         ```
 
     !!! tip ""
@@ -45,13 +51,20 @@
 === "手动部署"
     !!! tip ""
         ```sh
-        cd /opt
-        wget https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk.version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
-        tar -xf hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
-        cd hummerrisk-installer-{{ hummerrisk.version }}
+        # 指定需要安装的版本
+        export hummerrisk_version=v0.2.0
+
+        # 下载安装包
+        wget https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk_version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
+
+        # 解压安装包       
+        tar -xf hummerrisk-installer-{{ hummerrisk_version }}.tar.gz
+        cd hummerrisk-installer-{{ hummerrisk_version }}
+
+        # install.conf 为默认配置文件，可根据实际情况进行修改
         cat install.conf
         ```
-        ```vim
+        ``` vim
 
         # 以下设置如果为空系统会自动生成随机字符串填入
         
@@ -104,8 +117,6 @@
         # 安装完成后配置文件 /opt/hummerrisk/config/install.conf
         ```
         ```sh
-        cd /opt/hummerrisk-installer-{{ hummerrisk.version }}
-
         # 启动
         hrctl start
 
