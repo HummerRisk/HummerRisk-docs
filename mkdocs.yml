@@ -77,8 +77,8 @@ nav:
           - ReleaseNote 0.2.0: release/release-0.2.0.md
           - ReleaseNote 0.2.1: release/release-0.2.1.md
   - 关于我们:
-      - 资源下载: about/download.md
       - 联系我们: about/contact.md
+  - 资源下载: about/download.md
 
 markdown_extensions:
   - admonition
