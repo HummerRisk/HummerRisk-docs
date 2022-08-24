@@ -2,7 +2,7 @@
 
 > HummerRisk 通过简易操作实现多种资源安全检测，操作流程如下。
 
-![登录](../img/user/process.png)
+![流程](../img/user/process.png)
 
     系统设置 -> 用户配置 -> 消息通知 -> 代理设置
 

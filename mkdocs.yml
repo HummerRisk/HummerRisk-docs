@@ -45,17 +45,31 @@ nav:
       - 一键升级: system/upgrade.md
   - 功能手册:
       - 使用流程: user/process.md
-      - 系统设置: user/settings.md
-      - 检测规则: user/rule.md
-      - 检测结果: user/resource.md
-      - 云端检测: user/account.md
-      - 漏洞检测: user/vuln.md
-      - 虚机检测: user/server.md
-      - 镜像检测: user/image.md
-      - 软件检测: user/package.md
-      - 对象存储: user/oss.md
-      - 任务编排: user/task.md
       - 首页: user/dashboard.md
+      - 混合云安全:
+          - 多云检测: user/account.md
+          - 漏洞检测: user/vuln.md
+          - 合规报告: user/report.md
+          - 操作审计: user/event.md
+          - 对象存储: user/oss.md
+      - 云原生安全:
+          - 资源态势: user/situation.md
+          - 主机检测: user/server.md
+          - K8s 检测: user/k8s.md
+          - 镜像检测: user/k8sImage.md
+          - 部署检测: user/config.md
+      - 软件安全:
+          - SBOM 管理: user/sbom.md
+          - 源码检测: user/code.md
+          - 镜像依赖: user/image.md
+          - 软件依赖: user/package.md
+      - 任务编排:
+          - 任务列表: user/task.md
+          - 任务报告: user/taskReport.md
+      - 检测管理:
+          - 检测规则: user/rule.md
+          - 检测结果: user/resource.md
+      - 系统设置: user/settings.md
   - 常见问题:
       - 等级保护: question/grade_protection.md
       - 开启企业微信通知: question/weixin_settings.md
@@ -65,12 +79,13 @@ nav:
       - 开发手册: question/dev_manual.md
       - 如何自定义云资源检测规则: question/rule.md
       - 自定义阿里云监控规则示例: question/example.md
+      - 快速了解镜像SBOM检测Syft: question/trivy.md
       - 快速了解AWS安全检测Prowler: question/prowler.md
       - 快速了解漏洞检测Nuclei: question/nuclei.md
       - 快速了解漏洞检测Xray: question/xray.md
       - 快速了解软件包依赖漏洞检测: question/dependency.md
       - 快速了解镜像漏洞检测Grype: question/grype.md
-      - 快速了解镜像漏洞检测Syft: question/syft.md
+      - 快速了解镜像SBOM检测Syft: question/syft.md
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
@@ -120,7 +135,7 @@ markdown_extensions:
 
 extra:
   hummerrisk:
-    version: v0.2.1
+    version: v0.2.2
   search:
     separator: '[\s\-\.]+'
     language: 'zh'
