@@ -69,5 +69,5 @@
 
 > 云资源检测结果列表页面，可以查看所有云账号检测结果。
 
-> ![云资源检测结果](../img/user/account_result.png)
+![云资源检测结果](../img/user/account_result.png)
 
