@@ -86,5 +86,8 @@
 - [Syft](https://github.com/anchore/syft)：使用了 Syft 作为镜像物料清单检测引擎
 - [Element](https://element.eleme.cn/#/)：使用了 Element 提供的优秀组件库
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HummerRisk/HummerRisk&type=Date)](https://star-history.com/#HummerRisk/HummerRisk&Date)
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
