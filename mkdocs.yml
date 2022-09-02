@@ -89,6 +89,7 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 0.3.0: release/release-0.3.0.md
           - ReleaseNote 0.2.2: release/release-0.2.2.md
           - ReleaseNote 0.2.1: release/release-0.2.1.md
           - ReleaseNote 0.2.0: release/release-0.2.0.md
@@ -137,7 +138,7 @@ markdown_extensions:
 
 extra:
   hummerrisk:
-    version: v0.2.2
+    version: v0.3.0
   search:
     separator: '[\s\-\.]+'
     language: 'zh'
