@@ -79,7 +79,7 @@ nav:
       - 开发手册: question/dev_manual.md
       - 如何自定义云资源检测规则: question/rule.md
       - 自定义阿里云监控规则示例: question/example.md
-      - 快速了解镜像SBOM检测Syft: question/trivy.md
+      - 快速了解镜像漏洞扫描Trivy: question/trivy.md
       - 快速了解AWS安全检测Prowler: question/prowler.md
       - 快速了解漏洞检测Nuclei: question/nuclei.md
       - 快速了解漏洞检测Xray: question/xray.md
