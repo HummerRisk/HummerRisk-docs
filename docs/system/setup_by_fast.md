@@ -18,10 +18,11 @@
 !!! info "快速安装预览"
 [![asciicast](https://asciinema.org/a/514353.svg)](https://asciinema.org/a/514353)
 
+---
+
 === "一键部署"
-    1.使用快速安装脚本一键安装部署
-    !!! tip ""
-        ```sh
+    !!! tip "1.使用快速安装脚本一键安装部署"
+        ``` bash linenums="1"
         # 下载最新版本的安装脚本
         curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
         
@@ -31,10 +32,8 @@
         # 安装完成后配置文件 /opt/hummerrisk/config/install.conf
 
         ```
-    2.其他命令行功能
-    !!! tip ""
-        ```sh
-        ```sh
+    !!! tip "2.其他命令行功能"
+        ``` bash linenums="1"
         # 启动
         hrctl start
 
@@ -61,9 +60,8 @@
         ```
 
 === "手动部署"
-    !!! tip ""
-    1.下载安装包
-        ```sh
+    !!! tip "1.下载安装包"
+        ``` bash linenums="1"
         # 指定需要安装的版本
         export hummerrisk_version=v0.2.0
 
@@ -74,8 +72,9 @@
         tar -xf hummerrisk-installer-{{ hummerrisk_version }}.tar.gz
         cd hummerrisk-installer-{{ hummerrisk_version }}
         ```
-    2.根据需要修改配置文件（纯净系统环境使用默认配置即可）
-        ``` vim 
+
+    !!! tip "2.根据需要修改配置文件(纯净系统环境使用默认配置即可)"
+        ``` vim linenums="1"
         $ vim install.conf
 
         # 以下设置如果为空系统会自动生成随机字符串填入
@@ -116,57 +115,31 @@
         DOCKER_CLIENT_TIMEOUT=3600
 
         ```
-    3.开始安装
-        ```sh
+    !!! tip "3.开始安装"
+        ``` bash linenums="1"
         # 安装
         bash install.sh
 
         # 启动
         hrctl start
-        # 安装完成后配置文件 /opt/hummerrisk/config/install.conf
 
-        ```
-    4. 其他命令行功能
-    !!! tip ""
-        ```sh
-        # 启动
-        hrctl start
+        # 安装完成后默认配置文件在 /opt/hummerrisk/config/install.conf
 
-        # 停止
-        hrctl down
-
-        # 查看状态
-        hrctl status
-
-        # 卸载
-        hrctl uninstall
-
-        # 备份数据库
-        hrctl backup_db
-        
-        # 还原数据库
-        hrctl restore_db /opt/hummerrisk/db_backup/hummerrisk-xx.sql
-
-        # 查看当前版本
-        hrctl version
-
-        # 帮助
-        hrctl -h
         ```
 
 === "离线部署"
 
-    !!! tip ""
-    1.准备离线包
-        ```sh
+    !!! tip "1.准备离线包"
+        ``` bash linenums="1"
         百度网盘下载链接: https://pan.baidu.com/s/1LeDx5hF_RkkpO8HcsYUDAQ 提取码: 4ljt
         网站资源下载链接: https://docs.hummerrisk.com/about/download/
 
         tar zxf hummerrisk-offline-installer-{{ hummerrisk.version }}.tar.gz
         cd hummerrisk-offline-installer-{{ hummerrisk.version }}
         ```
-    2.根据需要修改配置文件 （纯净系统环境使用默认配置即可）
-        ```vim
+
+    !!! tip "2.根据需要修改配置文件 （纯净系统环境使用默认配置即可）"
+        ``` vim linenums="1"
         $ vim install.conf
 
         # 以下设置如果为空系统会自动生成随机字符串填入
@@ -211,20 +184,21 @@
         GRYPE_VERSION=0.43.0
         TRIVY_DB_VERSION=2022082212
         ```
-    3.开始安装
-        ```sh
+
+    !!! tip "3.开始安装"
+        ``` bash linenums="1"
         # 安装
-        hrctl install
+        ./install.sh
 
         # 启动
         hrctl start
 
         # 安装完成后配置文件 /opt/hummerrisk/conf/install.conf
         ```
-    4.其他命令行功能
-    !!! tip ""
-        ```sh
 
+=== "常用命令"
+    !!! tip "常用命令"
+        ``` bash linenums="1"
         # 启动
         hrctl start
 
@@ -239,7 +213,7 @@
 
         # 备份数据库
         hrctl backup_db
-        
+
         # 还原数据库
         hrctl restore_db /opt/hummerrisk/db_backup/hummerrisk-xx.sql
 
@@ -249,5 +223,4 @@
         # 帮助
         hrctl -h
         ```
-
 !!! warning "默认 web 登录账户: admin 密码：hummer"
