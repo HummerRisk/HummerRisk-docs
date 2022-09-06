@@ -2,9 +2,13 @@
 
 > HummerRisk 是开源的云原生安全平台，以非侵入的方式对云原生环境进行全面安全检测。我们核心解决三个方面的问题，底层的混合云安全合规，中层的K8S容器云安全和上层的软件安全。
 
-## 架构图
+## 功能架构图
 
 <img src="https://hummerrisk-1312321453.cos.ap-beijing.myqcloud.com/architecturev.png" alt="">
+
+## 系统架构图
+
+![系统架构图](./img/index/架构.png)
 
 ## HummerRisk 能做什么
 
