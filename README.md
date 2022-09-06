@@ -1,26 +1,54 @@
 本仓库保存了 [hummerrisk 项目]() 的 [官方文档](https://docs.hummerrisk.com)，该文档使用 [MkDocs]() 文档框架下的 [Material for MkDocs]() 主题进行构建。
 
-## 本地开发
-
+---
+## 一、开发环境准备
 ### 克隆本仓库
-
 ```sh
 git clone https://github.com/hummerrisk/hummerrisk-docs.git
 ```
 
-### 安装依赖
+### 运行方式1. 使用 Docker 运行
+本地运行环境
+```shell
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs registry.cn-beijing.aliyuncs.com/hummerrisk/mkdocs-material:8.4.2
+```
+本地构建
+```shell
+docker run --rm -it -v ${PWD}:/docs registry.cn-beijing.aliyuncs.com/hummerrisk/mkdocs-material:8.4.2 build
+```
+执行上述命令后，会在 `site` 目录下生成文档站点的静态文件，将目录中的内容复制到任意 HTTP 服务器上即可完成文档的部署。
+
+---
+### 运行方式2. 本地手动模式
+#### 安装依赖
 
 ```sh
 cd docs
 pip3 install -r requirements/requirements.txt
 ```
 
-### 修改文档内容
+#### 运行调试
+```sh
+pip3 install mkdocs 
+mkdocs --version
+pip3 install mkdocs-material
+mkdocs serve
+```
+执行上述命令后，可通过 `http://127.0.0.1:8000` 地址查看生成的文档内容，当修改文档后，页面内容会自动更新。
+
+#### 构建文档
+
+```sh
+mkdocs build
+```
+执行上述命令后，会在 `site` 目录下生成文档站点的静态文件，将目录中的内容复制到任意 HTTP 服务器上即可完成文档的部署。
+
+
+## 二、修改文档内容
 
 本文档的文档结构定义在 `mkdocs.yml` 文件中，文档的具体内容均在 `docs` 目录中。
 
 ```yaml
-..........
 nav:
   - 系统介绍:
       - 整体介绍: index.md
@@ -47,31 +75,12 @@ nav:
       - 资源下载: about/download.md
       - 更新说明: about/changelog.md
       - 联系我们: about/contact.md
-..........
 ```
 
 文档内容使用 markdown 语法编写，若要添加新的文档，需要先在 `mkdocs.yml` 文件中的 `nav` 部分增加对应章节导航。
 
-### 本地调试文档
 
-```sh
-pip3 install mkdocs 
-mkdocs --version
-pip3 install mkdocs-material
-mkdocs serve
-```
-
-执行上述命令后，可通过 `http://127.0.0.1:8000` 地址查看生成的文档内容，当修改文档后，页面内容会自动更新。
-
-### 构建文档
-
-```sh
-mkdocs build
-```
-
-执行上述命令后，会在 `site` 目录下生成文档站点的静态文件，将目录中的内容复制到任意 HTTP 服务器上即可完成文档的部署。
-
-## 帮助完善文档
+## 三、帮助完善文档
 
 ### Fork 文档仓库
 
