@@ -51,7 +51,7 @@ mkdocs build
 ```yaml
 nav:
   - 系统介绍:
-      - 整体介绍: index.md
+      - 整体介绍: architecture.md
       - 快速安装: system/setup_by_fast.md
       - 升级文档: system/upgrade.md
   - 用户手册:
