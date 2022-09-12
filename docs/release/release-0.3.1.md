@@ -1,75 +1,59 @@
 ## 1 新功能 Features
 
-### 1.1 源码检测
+### 1.1 镜像检测
 
 !!! Abstract ""
-如下图所示，新增源码检测功能，添加 GitHub 或 GitLab 项目地址、branch 分支名称或 tag 标签名称或 commit 提交记录，即可进行源码安全检测。
+如下图所示，新增 dockerhub、nexus 镜像仓库认证，手动同步仓库镜像，并且可以一键快速执行镜像检测。
 
-![源码检测](../img/release/0.3.0/code.png){ width="900px" }
-![源码检测](../img/release/0.3.0/code1.png){ width="900px" }
+![镜像检测](../img/release/0.3.1/image1.png){ width="900px" }
+![镜像检测](../img/release/0.3.1/image2.png){ width="900px" }
+![镜像检测](../img/release/0.3.1/image3.png){ width="900px" }
 
-> 点击统计，查看具体检测详情信息。点击检测状态，查看检测日志与漏洞清单。
-
-![源码检测](../img/release/0.3.0/code2.png){ width="900px" }
-![源码检测](../img/release/0.3.0/code3.png){ width="900px" }
-![源码检测](../img/release/0.3.0/code4.png){ width="900px" }
-
-### 1.2 Sbom 管理
+### 1.2 资源态势
 
 !!! Abstract ""
-如下图所示，新增 Sbom 管理功能，Sbom 管理源码、镜像和软件包的项目和版本，最终根据检测结果生成分析报告并进行下载。
+如下图所示，新增 K8s 资源态势同步日志功能，手动同步 K8s 资源。
 
-> 创建项目与项目版本。
+![资源态势](../img/release/0.3.1/k8s1.png){ width="900px" }
+![资源态势](../img/release/0.3.1/k8s2.png){ width="900px" }
 
-![Sbom 管理](../img/release/0.3.0/sbom.png){ width="900px" }
-
-> 可以在 Sbom 管理界面绑定检测资源，也可以在每个检测菜单创建资源时绑定 Sbom 的项目。
-
-![Sbom 管理](../img/release/0.3.0/sbom1.png){ width="900px" }
-
-> 最终根据检测结果生成统计分析报告，并进行下载。
-
-![Sbom 管理](../img/release/0.3.0/sbom2.png){ width="900px" }
-
-### 1.3 镜像仓库
+### 1.3 主机检测
 
 !!! Abstract ""
-如下图所示，新增镜像仓库 Harbor 对接功能，绑定 HarBor 镜像仓库自动获取镜像列表。
+如下图所示，新增密钥认证，新增 Ubuntu 等操作系统 ssh 连接。
 
-![镜像仓库](../img/release/0.3.0/image1.png){ width="900px" }
-![镜像仓库](../img/release/0.3.0/image2.png){ width="900px" }
-![镜像仓库](../img/release/0.3.0/image3.png){ width="900px" }
-![镜像仓库](../img/release/0.3.0/image4.png){ width="900px" }
+![主机检测](../img/release/0.3.1/server1.png){ width="900px" }
+![主机检测](../img/release/0.3.1/server2.png){ width="900px" }
+![主机检测](../img/release/0.3.1/server3.png){ width="900px" }
 
-### 1.4 操作审计
+### 1.4 主机检测
 
 !!! Abstract ""
-如下图所示，新增操作审计功能，根据公有云账号，同步获取资源操作事件日志。
+如下图所示，新增主机检测规则，绑定主机后一键检测获取结果。
 
-![操作审计](../img/release/0.3.0/event1.png){ width="900px" }
-![操作审计](../img/release/0.3.0/event.png){ width="900px" }
+![主机检测](../img/release/0.3.1/server4.png){ width="900px" }
 
 ## 2 性能优化 Optimization
 
 ### 2.1 K8s 检测
 
 !!! Abstract ""
-优化云原生 K8s 账号绑定时，需要在 K8s 环境中添加 operator 的提示，并且增加 operator 安装状态检测功能。
+新增 K8s 账号类型：Rancher、KubeSphere，绑定账号后一键检测。
 
-### 2.2 首页
-
-!!! Abstract ""
-修改首页内容，新增云原生检测、部署检测、源码检测数据展示。
-
-### 2.3 任务编排
+### 2.2 软件检测
 
 !!! Abstract ""
-优化任务编排，新增源码检测类型。
+优化软件检测、镜像检测，合并到云原生安全里，去除软件包检测。
 
-### 2.4 ICON图库
+### 2.3 操作审计
 
 !!! Abstract ""
-优化目录结构和 icon 图库。
+优化操作审计：云事件同步与云事件查询功能。
+
+### 2.4 执行检测
+
+!!! Abstract ""
+优化执行安全检测过程，抽象执行过程为 Hummer Plugin。
 
 
 ## 3 Bug修复 Bug Fixes
@@ -77,19 +61,19 @@
 ### 3.1 镜像检测
 
 !!! Abstract ""
-修复镜像检测结果漏洞列表数据。
+修复镜像检测结果被覆盖的问题。
 
-### 3.2 部署检测
-
-!!! Abstract ""
-修复部署检测 Yaml 文件为多脚本时校验失败的问题。
-
-### 3.3 pom
+### 3.2 操作审计
 
 !!! Abstract ""
-修复包版本冲突的问题。
+修复不支持多区域同时同步的问题。
 
-### 3.4 Dockerfile
+### 3.3 主机检测
 
 !!! Abstract ""
-优化分解 Dockerfile 文件，基础镜像单独提取。
+修复新增主机不支持添加密钥的问题。
+
+### 3.4 首页
+
+!!! Abstract ""
+优化首页显示数据不正确的问题。
