@@ -39,11 +39,11 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
-  - 产品介绍: architecture.md
+  - 产品介绍: index.md
+  - 系统架构: architecture/architecture.md
   - 安装部署:
       - 快速安装: system/setup_by_fast.md
       - 一键升级: system/upgrade.md
-  - 系统架构: architecture/architecture.md
   - 功能手册:
       - 使用流程: user/process.md
       - 首页: user/dashboard.md
