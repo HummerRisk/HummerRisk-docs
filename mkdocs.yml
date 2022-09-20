@@ -52,18 +52,14 @@ nav:
           - 漏洞检测: user/vuln.md
           - 合规报告: user/report.md
           - 操作审计: user/event.md
-          - 对象存储: user/oss.md
       - 云原生安全:
           - 资源态势: user/situation.md
           - 主机检测: user/server.md
           - K8s 检测: user/k8s.md
-          - 镜像检测: user/k8sImage.md
           - 部署检测: user/config.md
-      - 软件安全:
-          - SBOM 管理: user/sbom.md
+          - 镜像检测: user/image.md
           - 源码检测: user/code.md
-          - 镜像依赖: user/image.md
-          - 软件依赖: user/package.md
+          - SBOM 管理: user/sbom.md
       - 任务编排:
           - 任务列表: user/task.md
           - 任务报告: user/taskReport.md
