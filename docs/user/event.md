@@ -8,6 +8,6 @@
 
 > 根据云账号、区域、日期范围等条件查询云事件。
 
-![云事件](../img/user/event_log.png)
+![云事件](../img/release/0.3.2/event2.png)
 
 
