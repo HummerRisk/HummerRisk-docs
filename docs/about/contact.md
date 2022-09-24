@@ -19,3 +19,5 @@
 > 邮箱：support@hummercloud.com
 
 > Github：https://github.com/HummerRisk/HummerRisk/issues
+
+> Gitee: https://gitee.com/hummercloud/HummerRisk/issues
