@@ -33,4 +33,5 @@
 > 漏洞检测结果列表页面，可以查看所有漏洞检测结果。
 
  ![漏洞检测结果](../img/user/vuln_result.png)
+ ![漏洞检测结果](../img/user/vuln_result2.png)
 
