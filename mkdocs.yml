@@ -87,7 +87,32 @@ nav:
       - 快速了解镜像SBOM检测Syft: question/syft.md
   - 优化建议:
       - 阿里云:
+          - RAM用户MFA: suggest/aliyun/ram.md
           - 弹性 IP: suggest/aliyun/eip.md
+      - 华为云:
+          - 弹性 IP: suggest/huawei/eip.md
+      - 腾讯云:
+          - 弹性 IP: suggest/tencent/eip.md
+      - AWS:
+          - 弹性 IP: suggest/aws/eip.md
+      - Azure:
+          - 弹性 IP: suggest/azure/eip.md
+      - GCP:
+          - 弹性 IP: suggest/gcp/eip.md
+      - VMware:
+          - 弹性 IP: suggest/vsphere/eip.md
+      - OpenStack:
+          - 弹性 IP: suggest/openstack/eip.md
+      - 百度云:
+          - 弹性 IP: suggest/baidu/eip.md
+      - 火山引擎:
+          - 弹性 IP: suggest/volc/eip.md
+      - 青云:
+          - 弹性 IP: suggest/qingcloud/eip.md
+      - UCloud:
+          - 弹性 IP: suggest/ucloud/eip.md
+      - Qiniu:
+          - 弹性 IP: suggest/qiniu/eip.md
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
