@@ -1,24 +1,36 @@
-# 安装文档
-
 !!! info "说明"
     全新安装的 Linux(x64)  
     需要连接 互联网  
     使用 root 用户执行
 
-## 安装方式
+### 1.安装环境要求
 
 !!! info "外置环境要求"
     - 推荐使用外置 数据库, 方便日后扩展升级
 
-| DB      | Version |
-| :------ | :------ |
-| MySQL   | >= 5.7  |
-| MariaDB | >= 10.2 |
+
+| OS          | Version   |
+|:------------|:----------|
+| CentOS      | > = 7.3   |
+| Ubuntu      | > = 20.04 |
+| Debian      | > = 10.2  |
+| OpenCloudOS | > = 8     |
+| EulerOS     | > = 2.0   |
+
+| 配置项 | 最低配置         | 推荐配置                    |
+|:----|:-------------|-------------------------|
+| OS  | Ubuntu 20.04 | >= Ubuntu 20.04         |
+| CPU | 4核           | 8核                      |
+| 内存  | 8G           | 16G                     |
+| 磁盘  | 50GB         | 100GB                   |
+| 数据库 | MySQL 5.7    | MySQL 5.7/ MariaDB 10.2 |
 
 !!! info "快速安装预览"
 [![asciicast](https://asciinema.org/a/514353.svg)](https://asciinema.org/a/514353)
 
 ---
+
+### 2.开始安装
 
 === "一键部署"
     !!! tip "1.使用快速安装脚本一键安装部署"
@@ -66,11 +78,11 @@
         export hummerrisk_version=v0.2.0
 
         # 下载安装包
-        wget https://github.com/HummerRisk/HummerRisk/releases/download/{{ hummerrisk_version }}/hummerrisk-installer-{{ hummerrisk.version }}.tar.gz
+        wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
 
         # 解压安装包       
-        tar -xf hummerrisk-installer-{{ hummerrisk_version }}.tar.gz
-        cd hummerrisk-installer-{{ hummerrisk_version }}
+        tar -xf hummerrisk-installer-${hummerrisk_version}.tar.gz
+        cd hummerrisk-installer-${hummerrisk_version}
         ```
 
     !!! tip "2.根据需要修改配置文件(纯净系统环境使用默认配置即可)"
@@ -134,8 +146,8 @@
         百度网盘下载链接: https://pan.baidu.com/s/1LeDx5hF_RkkpO8HcsYUDAQ 提取码: 4ljt
         网站资源下载链接: https://docs.hummerrisk.com/about/download/
 
-        tar zxf hummerrisk-offline-installer-{{ hummerrisk.version }}.tar.gz
-        cd hummerrisk-offline-installer-{{ hummerrisk.version }}
+        tar zxf hummerrisk-offline-installer-${hummerrisk_version}.tar.gz
+        cd hummerrisk-offline-installer-${hummerrisk_version}
         ```
 
     !!! tip "2.根据需要修改配置文件 （纯净系统环境使用默认配置即可）"
