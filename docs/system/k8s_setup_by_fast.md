@@ -11,13 +11,13 @@
     ```
 
 !!! info "2. 更新 helm 仓库"
-    ``` bash linenums="1"
+    ``` bash
     helm repo list
     helm repo update
     ```
 
 !!! info "3. 安装 hummerrisk"
-    ``` bash linenums="1"
+    ``` bash
     # 查询 hummerrisk 安装包
     helm search repo hummerrisk
     

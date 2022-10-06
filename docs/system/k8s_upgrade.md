@@ -2,7 +2,7 @@
 
 ### 1.更新 hummerrisk
 !!! info "更新"
-    ``` bash linenums="1"
+    ``` bash
     # 更新某个配置项，例如修改 Service 类型为 NodePort
     helm upgrade hummerrisk hummerrisk/hummerrisk --set hummerrisk.serviceType=NodePort -ndev
     
