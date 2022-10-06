@@ -91,32 +91,41 @@ nav:
       - 快速了解镜像SBOM检测Syft: question/syft.md
   - 优化建议:
       - 阿里云:
-          - RAM用户MFA: suggest/aliyun/ram.md
+          - RAM 用户 MFA 检测: suggest/aliyun/ram.md
           - 弹性 IP: suggest/aliyun/eip.md
       - 华为云:
-          - 弹性 IP: suggest/huawei/eip.md
+          - GaussDBForOpenGauss 实例网络类型检测: suggest/huawei/gaussdbforopengauss.md
+          - GaussDBForOpenGauss 实例公网访问检测: suggest/huawei/gaussdbforopengauss2.md
+          - GaussDBForOpenGauss 实例高可用状态检测: suggest/huawei/gaussdbforopengauss3.md
+          - GaussDBForOpenGauss 实例磁盘空间检测: suggest/huawei/gaussdbforopengauss4.md
+          - GaussDBForOpenGauss 实例计费类型检测: suggest/huawei/gaussdbforopengauss5.md
+          - GaussDBForNoSql 实例网络类型检测: suggest/huawei/gaussdbfornosql.md
+          - GaussDBForNoSQL 实例计费类型检测: suggest/huawei/gaussdbfornosql2.md
+          - GaussDBForNoSql 实例高可用状态检测: suggest/huawei/gaussdbfornosql3.md
+          - GaussDBForNoSql 实例公网访问检测: suggest/huawei/gaussdbfornosql4.md
+          - GaussDBForOpenGauss 实例磁盘空间检测: suggest/huawei/gaussdbfornosql5.md
       - 腾讯云:
-          - 弹性 IP: suggest/tencent/eip.md
+          - 弹性 IP: suggest/tencent/gaussdbforopengauss.md
       - AWS:
-          - 弹性 IP: suggest/aws/eip.md
+          - 弹性 IP: suggest/aws/gaussdbforopengauss.md
       - Azure:
-          - 弹性 IP: suggest/azure/eip.md
+          - 弹性 IP: suggest/azure/gaussdbforopengauss.md
       - GCP:
-          - 弹性 IP: suggest/gcp/eip.md
+          - 弹性 IP: suggest/gcp/gaussdbforopengauss.md
       - VMware:
-          - 弹性 IP: suggest/vsphere/eip.md
+          - 弹性 IP: suggest/vsphere/gaussdbforopengauss.md
       - OpenStack:
-          - 弹性 IP: suggest/openstack/eip.md
+          - 弹性 IP: suggest/openstack/gaussdbforopengauss.md
       - 百度云:
-          - 弹性 IP: suggest/baidu/eip.md
+          - 弹性 IP: suggest/baidu/gaussdbforopengauss.md
       - 火山引擎:
-          - 弹性 IP: suggest/volc/eip.md
+          - 弹性 IP: suggest/volc/gaussdbforopengauss.md
       - 青云:
-          - 弹性 IP: suggest/qingcloud/eip.md
+          - 弹性 IP: suggest/qingcloud/gaussdbforopengauss.md
       - UCloud:
-          - 弹性 IP: suggest/ucloud/eip.md
+          - 弹性 IP: suggest/ucloud/gaussdbforopengauss.md
       - Qiniu:
-          - 弹性 IP: suggest/qiniu/eip.md
+          - 弹性 IP: suggest/qiniu/gaussdbforopengauss.md
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
