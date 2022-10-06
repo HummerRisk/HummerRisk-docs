@@ -23,5 +23,5 @@
 !!! info "帮助资源"
     https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/configuring-block-public-access-bucket.html
 
-    关于四个 Amazon S3 阻止公有访问设置的信息，请参考一下链接：
+    关于四个 Amazon S3 阻止公有访问设置的信息，请参考一下链接：  
     https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/access-control-block-public-access.html#access-control-block-public-access-options
