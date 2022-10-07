@@ -92,11 +92,11 @@ nav:
   - 优化建议:
       - 阿里云:
           - RAM 用户 MFA 检测: suggest/aliyun/ram.md
-          - CDN 域名HTTPS监听检测:  suggest/aliyun/cdn-https.md
+          - CDN 域名 HTTPS 监听检测:  suggest/aliyun/cdn-https.md
           - Disk 磁盘加密状态检测:  suggest/aliyun/disk-encrypt.md
-          - ECS 实例公网IP检测:  suggest/aliyun/ecs-public-ip.md
+          - ECS 实例公网 IP 检测:  suggest/aliyun/ecs-public-ip.md
           - ECS 实例网络类型检测:  suggest/aliyun/ecs-net-type.md
-          - ECS VPC检测:  suggest/aliyun/ecs-vpc.md
+          - ECS VPC 检测:  suggest/aliyun/ecs-vpc.md
           - EIP 带宽峰值检测:  suggest/aliyun/eip-bandwidth.md
           - MongoDB 实例网络类型检测:  suggest/aliyun/mongodb-net-type.md
           - MongoDB 实例公网访问检测:  suggest/aliyun/mongodb-public-ip.md
@@ -105,14 +105,14 @@ nav:
           - OSS 对象存储桶冗余存储检测:  suggest/aliyun/oss-data-redundancy-type.md
           - OSS 公开读取访问权限检测:  suggest/aliyun/oss-public-read.md
           - OSS 存储桶加密检测:  suggest/aliyun/oss-encrypt.md
-          - Polardb VPC检测:  suggest/aliyun/polardb-vpc.md
+          - Polardb VPC 检测:  suggest/aliyun/polardb-vpc.md
           - PolarDB 实例网络类型检测:  suggest/aliyun/polardb-net-type.md
           - PolarDB 实例公网访问检测:  suggest/aliyun/polardb-public-ip.md
           - RDS 实例网络类型检测:  suggest/aliyun/rds-net-type.md
           - RDS 实例高可用状态检测:  suggest/aliyun/rds-ha.md
           - RDS 实例公网访问检测:  suggest/aliyun/rds-public-ip.md
           - RDS 实例多可用区检测:  suggest/aliyun/rds-available-zones.md
-          - RDS VPC检测:  suggest/aliyun/rds-vpc.md
+          - RDS VPC 检测:  suggest/aliyun/rds-vpc.md
           - RDS 实例白名单检测:  suggest/aliyun/rds-white-list.md
           - RDS 实例的访问模式检测:  suggest/aliyun/rds-connection-mode.md
           - Redis 实例网络类型检测:  suggest/aliyun/redis-net-type.md
@@ -121,7 +121,7 @@ nav:
           - SecurityGroup 安全组端口访问检测:  suggest/aliyun/security-group-port.md
           - SecurityGroup 高危安全组检测:  suggest/aliyun/security-group-high-risk-port.md
           - SLB 带宽峰值检测:  suggest/aliyun/slb-bandwidth.md
-          - SLB VPC检测:  suggest/aliyun/slb-vpc.md
+          - SLB VPC 检测:  suggest/aliyun/slb-vpc.md
           - SLB 公网访问检测:  suggest/aliyun/slb-public-ip.md
           - SLB 负载均衡实例关联到VPC检测:  suggest/aliyun/slb-vpc2.md
           - SLB 负载均衡监听检测:  suggest/aliyun/slb-listener.md
@@ -166,7 +166,7 @@ nav:
       - 腾讯云:
           - EIP 带宽峰值检测: suggest/tencent/eip-bandwidth.md
           - CVM 实例关机计费模式检测: suggest/tencent/cvm-billing.md
-          - CVM 实例公网IP检测: suggest/tencent/cvm-public-network-ip.md
+          - CVM 实例公网 IP 检测: suggest/tencent/cvm-public-network-ip.md
           - Redis 实例网络类型检测: suggest/tencent/redis-network-type.md
           - SecurityGroup 配置检测: suggest/tencent/securitygroup-configuration.md
           - SecurityGroup 高危检测: suggest/tencent/securitygroup-highrisk-configuration.md
@@ -185,34 +185,43 @@ nav:
           - COS 公开写入访问权限检测: suggest/tencent/public-write-access-permission.md
           - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
       - AWS:
-          - AWS S3全局访问检测: suggest/aws/aws-s3-global-grants.md
-          - AWS S3公开读写访问权限检测: suggest/aws/aws-s3-public-access.md
-          - AWS EC2实例关机状态检测: suggest/aws/aws-stopped-instance.md
-          - AWS EBS未使用检测: suggest/aws/aws-ebs-unattached.md
-          - AWS EC2标签规范检测: suggest/aws/aws-ec2-tagged.md
+          - AWS S3 全局访问检测: suggest/aws/aws-s3-global-grants.md
+          - AWS S3 公开读写访问权限检测: suggest/aws/aws-s3-public-access.md
+          - AWS EC2 实例关机状态检测: suggest/aws/aws-stopped-instance.md
+          - AWS EBS 未使用检测: suggest/aws/aws-ebs-unattached.md
+          - AWS EC2 标签规范检测: suggest/aws/aws-ec2-tagged.md
       - Azure:
           - 弹性 IP: suggest/azure/gauss-db-for-open-gauss.md
       - GCP:
           - 弹性 IP: suggest/gcp/gauss-db-for-open-gauss.md
       - VMware:
-          - 弹性 IP: suggest/vsphere/gauss-db-for-open-gauss.md
+          - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
+          - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
+          - VMware vSphere Datacenter 关联资源检测: suggest/vsphere/datacenter.md
+          - VMware vSphere ResourcePool CPU 内存检测: suggest/vsphere/resource-pool.md
+          - VMware vSphere Network 分布式类型检测: suggest/vsphere/network.md
+          - VMware vSphere VM 状态检测: suggest/vsphere/vm.md
+          - VMware vSphere Cluster 高可用状态检测: suggest/vsphere/cluster.md
+          - VMware vSphere Datastore 多主机访问检测: suggest/vsphere/datastore.md
+          - VMware vSphere Datastore 可用空间检测: suggest/vsphere/datastore2.md
+          - VMware vSphere Datastore 精简配置检测: suggest/vsphere/datastore3.md
       - OpenStack:
           - 弹性 IP: suggest/openstack/gauss-db-for-open-gauss.md
       - 百度云:
-          - CDN域名HTTPS监听检测: suggest/baidu/cdn-domain-https-monitoring.md
-          - BCC实例公网IP监测: suggest/baidu/bcc-public-network-ip-monitoring.md
-          - BCC实例网络类型检测: suggest/baidu/bcc-network-type.md
-          - 普通型负载公网IP绑定扫描: suggest/baidu/common-public-network-ip.md
-          - EIP带宽峰值检测: suggest/baidu/eip-bandwidth.md
+          - CDN 域名 HTTPS 监听检测: suggest/baidu/cdn-domain-https-monitoring.md
+          - BCC 实例公网 IP 监测: suggest/baidu/bcc-public-network-ip-monitoring.md
+          - BCC 实例网络类型检测: suggest/baidu/bcc-network-type.md
+          - 普通型负载公网 IP 绑定扫描: suggest/baidu/common-public-network-ip.md
+          - EIP 带宽峰值检测: suggest/baidu/eip-bandwidth.md
           - 磁盘加密状态检测: suggest/baidu/disk-encryption.md
-          - BCC VPC检测: suggest/baidu/bcc-vpc.md
-          - BBC实例公网IP检测: suggest/baidu/bcc-public-network-ip.md
-          - 应用型负载公网IP绑定扫描: suggest/baidu/alb-public-network-ip.md
-          - BBC实例带宽检测: suggest/baidu/bcc-bandwidth.md
-          - SecurityGroup安全组端口访问: suggest/baidu/securityGroup-port-access.md
+          - BCC VPC 检测: suggest/baidu/bcc-vpc.md
+          - BBC 实例公网IP检测: suggest/baidu/bcc-public-network-ip.md
+          - 应用型负载公网 IP 绑定扫描: suggest/baidu/alb-public-network-ip.md
+          - BBC 实例带宽检测: suggest/baidu/bcc-bandwidth.md
+          - SecurityGroup 安全组端口访问: suggest/baidu/securityGroup-port-access.md
       - 火山引擎:
-          - CDN 域名HTTPS监听检测: suggest/volc/cdn-https.md
-          - ECS  VPC检测: suggest/volc/ecs-vpc.md
+          - CDN 域名 HTTPS 监听检测: suggest/volc/cdn-https.md
+          - ECS VPC 检测: suggest/volc/ecs-vpc.md
           - ECS 实例网络类型检测: suggest/volc/ecs-net-type.md
           - ECS 实例公网IP检测: suggest/volc/ecs-public-ip.md
           - EIP 带宽峰值检测: suggest/volc/eip-bandwidth.md
@@ -221,17 +230,17 @@ nav:
           - SecurityGroup 安全组端口访问检测: suggest/volc/securitygroup-port.md
           - SecurityGroup 高危安全组检测: suggest/volc/securitygroup-high-risk-port.md
       - 青云:
-          - MySQL实例网络类型检测: suggest/qingcloud/mysql-network-type.md
-          - ECS VPC检测: suggest/qingcloud/ecs-vpc.md
-          - MySQL实例公网访问检测: suggest/qingcloud/mysql-public-network-access.md
-          - MySQL实例高可用状态检测: suggest/qingcloud/mysql-ha.md
-          - ECS实例公网IP检测: suggest/qingcloud/ecs-public-network-ip.md
-          - EIP带宽峰值检测: suggest/qingcloud/eip-bandwidth.md
-          - MongoDB实例公网访问检测: suggest/qingcloud/mongodb-public-network.md
-          - ECS实例网络类型检测: suggest/qingcloud/ecs-network-type.md
-          - MongoDB实例网络类型检测: suggest/qingcloud/mongodb-network-type.md
+          - MySQL 实例网络类型检测: suggest/qingcloud/mysql-network-type.md
+          - ECS VPC 检测: suggest/qingcloud/ecs-vpc.md
+          - MySQL 实例公网访问检测: suggest/qingcloud/mysql-public-network-access.md
+          - MySQL 实例高可用状态检测: suggest/qingcloud/mysql-ha.md
+          - ECS 实例公网 IP 检测: suggest/qingcloud/ecs-public-network-ip.md
+          - EIP 带宽峰值检测: suggest/qingcloud/eip-bandwidth.md
+          - MongoDB 实例公网访问检测: suggest/qingcloud/mongodb-public-network.md
+          - ECS 实例网络类型检测: suggest/qingcloud/ecs-network-type.md
+          - MongoDB 实例网络类型检测: suggest/qingcloud/mongodb-network-type.md
       - UCloud:
-          - UHost公网IP检测: suggest/ucloud/uhost-public-network-ip.md
+          - UHost 公网IP检测: suggest/ucloud/uhost-public-network-ip.md
           - UHost VPC检测: suggest/ucloud/uhost-vpc.md
           - UHost 网络类型检测: suggest/ucloud/uhost-network-type.md
           - EIP 带宽峰值检测: suggest/ucloud/eip-bandwidth.md
