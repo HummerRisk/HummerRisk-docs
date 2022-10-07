@@ -206,7 +206,11 @@ nav:
           - VMware vSphere Datastore 可用空间检测: suggest/vsphere/datastore2.md
           - VMware vSphere Datastore 精简配置检测: suggest/vsphere/datastore3.md
       - OpenStack:
-          - 弹性 IP: suggest/openstack/gauss-db-for-open-gauss.md
+          - OpenStack 网络状态检测: suggest/openstack/network.md
+          - OpenStack 项目成员检测: suggest/openstack/project.md
+          - OpenStack 实例类型检测: suggest/openstack/server.md
+          - OpenStack 镜像状态检测: suggest/openstack/image.md
+          - OpenStack SecurityGroups 安全组配置检测: suggest/openstack/security-groups.md
       - 百度云:
           - CDN 域名 HTTPS 监听检测: suggest/baidu/cdn-domain-https-monitoring.md
           - BCC 实例公网 IP 监测: suggest/baidu/bcc-public-network-ip-monitoring.md
