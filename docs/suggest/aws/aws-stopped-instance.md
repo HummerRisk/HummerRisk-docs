@@ -4,6 +4,16 @@
     检测您账号下的EC2实例是否有处于'关机'状态的，开机视为“合规”，关机视为“不合规” 。
     AWS 的 EC2 实例在关机后仍然会收取部分费用，包括存储，IP等，当 EC2 实例不在使用后，不应该长时间处于关机状态，应当及时的进行回收处理。
 
+    ```YAML
+    policies:
+    # 检测您账号下的EC2实例是关机，开机视为“合规”，关机视为“不合规”
+    - name: aws-ec2-mark-stopped-instance
+        resource: aws.ec2
+        filters:
+        - "tag:c7n_stopped_instance": absent
+        - "State.Name": ${{state}}
+    ```
+
 !!! info "处置方案"
     您可以使用 AWS 控制台、AWS Command Line Interface (CLI)、REST API 来执行具体的操作。   
     我们以 AWS 控制台为例，删除关机状态的 EC2 实例 。

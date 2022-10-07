@@ -4,6 +4,16 @@
     检测您账号下的EBS是否为未使用状态，连接视为“合规”，否则视为“不合规”
     EBS通常情况下不应长时间处于空闲状态，应该进行回收或使用。
 
+    ```YAML
+    policies:
+    # 检测您账号下的EBS是否连接，连接视为“合规”，否则视为“不合规”
+    - name: aws-unattached-ebs
+        resource: aws.ebs
+        filters:
+        - Attachments: []
+        - "tag:maid_status": absent
+    ```
+
 !!! info "处置方案"
     您可以使用 AWS 控制台、AWS Command Line Interface (CLI)、REST API 来执行具体的操作。   
     我们以 AWS 控制台为例，删除未使用的 EBS 。

@@ -126,11 +126,11 @@ nav:
           - COS 公开写入访问权限检测: suggest/tencent/public-write-access-permission.md
           - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
       - AWS:
-          - AWS S3全局访问检测: suggest/aws/s3globalgrants.md
-          - AWS S3公开读写访问权限检测: suggest/aws/s3publicaccess.md
-          - AWS EC2实例关机状态检测: suggest/aws/stoppedinstance.md
-          - AWS EBS未使用检测: suggest/aws/ebsunattached.md
-          - AWS EC2标签规范检测: suggest/aws/ec2tagged.md
+          - AWS S3全局访问检测: suggest/aws/aws-s3-global-grants.md
+          - AWS S3公开读写访问权限检测: suggest/aws/aws-s3-public-access.md
+          - AWS EC2实例关机状态检测: suggest/aws/aws-stopped-instance.md
+          - AWS EBS未使用检测: suggest/aws/aws-ebs-unattached.md
+          - AWS EC2标签规范检测: suggest/aws/aws-ec2-tagged.md
       - Azure:
           - 弹性 IP: suggest/azure/gaussdbforopengauss.md
       - GCP:
