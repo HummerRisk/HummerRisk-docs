@@ -121,23 +121,48 @@ nav:
           - SecurityGroup 安全组端口访问检测:  suggest/aliyun/security-group-port.md
           - SecurityGroup 高危安全组检测:  suggest/aliyun/security-group-high-risk-port.md
           - SLB 带宽峰值检测:  suggest/aliyun/slb-bandwidth.md
-          - SLB  VPC检测:  suggest/aliyun/slb-vpc.md
+          - SLB VPC检测:  suggest/aliyun/slb-vpc.md
           - SLB 公网访问检测:  suggest/aliyun/slb-public-ip.md
           - SLB 负载均衡实例关联到VPC检测:  suggest/aliyun/slb-vpc2.md
           - SLB 负载均衡监听检测:  suggest/aliyun/slb-listener.md
           - SLB 负载均衡HTTPS监听检测:  suggest/aliyun/slb-https.md
           - SLB 负载均衡实例公网IP检测:  suggest/aliyun/slb-public-ip2.md
       - 华为云:
-          - GaussDBForOpenGauss 实例网络类型检测: suggest/huawei/gaussdbforopengauss.md
-          - GaussDBForOpenGauss 实例公网访问检测: suggest/huawei/gaussdbforopengauss2.md
-          - GaussDBForOpenGauss 实例高可用状态检测: suggest/huawei/gaussdbforopengauss3.md
-          - GaussDBForOpenGauss 实例磁盘空间检测: suggest/huawei/gaussdbforopengauss4.md
-          - GaussDBForOpenGauss 实例计费类型检测: suggest/huawei/gaussdbforopengauss5.md
-          - GaussDBForNoSql 实例网络类型检测: suggest/huawei/gaussdbfornosql.md
-          - GaussDBForNoSQL 实例计费类型检测: suggest/huawei/gaussdbfornosql2.md
-          - GaussDBForNoSql 实例高可用状态检测: suggest/huawei/gaussdbfornosql3.md
-          - GaussDBForNoSql 实例公网访问检测: suggest/huawei/gaussdbfornosql4.md
-          - GaussDBForOpenGauss 实例磁盘空间检测: suggest/huawei/gaussdbfornosql5.md
+          - ECS 实例公网 IP 检测: suggest/huawei/ecs.md
+          - ECS 实例网络类型检测: suggest/huawei/ecs2.md
+          - OBS 公开读取访问权限检测: suggest/huawei/obs.md
+          - OBS 公开写入访问权限检测: suggest/huawei/obs2.md
+          - RDS 实例计费类型检测: suggest/huawei/rds.md
+          - RDS 实例磁盘空间检测: suggest/huawei/rds2.md
+          - RDS 实例公网访问检测: suggest/huawei/rds3.md
+          - RDS 实例网络类型检测: suggest/huawei/rds4.md
+          - RDS 实例高可用状态检测: suggest/huawei/rds5.md
+          - Disk 磁盘加密状态检测: suggest/huawei/disk.md
+          - EIP 带宽峰值检测: suggest/huawei/eip.md
+          - ELB 负载均衡 HTTPS 监听检测: suggest/huawei/elb.md
+          - ELB 实例关联云服务器组检测: suggest/huawei/elb2.md
+          - ELB 实例绑定公网 IP 检测: suggest/huawei/elb3.md
+          - Redis 实例公网访问检测: suggest/huawei/redis.md
+          - Redis 实例免密码访问检测: suggest/huawei/redis2.md
+          - DDS 实例公网访问检测: suggest/huawei/dds.md
+          - IAM 用户是否登录保护检测: suggest/huawei/iam.md
+          - SecurityGroup 安全组配置检测: suggest/huawei/security-group.md
+          - SecurityGroup 高危安全组检测: suggest/huawei/security-group2.md
+          - GaussDBForOpenGauss 实例网络类型检测: suggest/huawei/gauss-db-for-open-gauss.md
+          - GaussDBForOpenGauss 实例公网访问检测: suggest/huawei/gauss-db-for-open-gauss2.md
+          - GaussDBForOpenGauss 实例高可用状态检测: suggest/huawei/gauss-db-for-open-gauss3.md
+          - GaussDBForOpenGauss 实例磁盘空间检测: suggest/huawei/gauss-db-for-open-gauss4.md
+          - GaussDBForOpenGauss 实例计费类型检测: suggest/huawei/gauss-db-for-open-gauss5.md
+          - GaussDBForNoSQL 实例网络类型检测: suggest/huawei/gauss-db-for-nosql.md
+          - GaussDBForNoSQL 实例计费类型检测: suggest/huawei/gauss-db-for-nosql2.md
+          - GaussDBForNoSQL 实例高可用状态检测: suggest/huawei/gauss-db-for-nosql3.md
+          - GaussDBForNoSQL 实例公网访问检测: suggest/huawei/gauss-db-for-nosql4.md
+          - GaussDBForNoSQL 实例磁盘空间检测: suggest/huawei/gauss-db-for-nosql5.md
+          - GaussDB 实例网络类型检测: suggest/huawei/gauss-db.md
+          - GaussDB 实例计费类型检测: suggest/huawei/gauss-db2.md
+          - GaussDB 实例高可用状态检测: suggest/huawei/gauss-db3.md
+          - GaussDB 实例磁盘空间检测: suggest/huawei/gauss-db4.md
+          - GaussDB 实例网络类型检测: suggest/huawei/gauss-db5.md
       - 腾讯云:
           - EIP 带宽峰值检测: suggest/tencent/eip-bandwidth.md
           - CVM 实例关机计费模式检测: suggest/tencent/cvm-billing.md
@@ -166,13 +191,13 @@ nav:
           - AWS EBS未使用检测: suggest/aws/aws-ebs-unattached.md
           - AWS EC2标签规范检测: suggest/aws/aws-ec2-tagged.md
       - Azure:
-          - 弹性 IP: suggest/azure/gaussdbforopengauss.md
+          - 弹性 IP: suggest/azure/gauss-db-for-open-gauss.md
       - GCP:
-          - 弹性 IP: suggest/gcp/gaussdbforopengauss.md
+          - 弹性 IP: suggest/gcp/gauss-db-for-open-gauss.md
       - VMware:
-          - 弹性 IP: suggest/vsphere/gaussdbforopengauss.md
+          - 弹性 IP: suggest/vsphere/gauss-db-for-open-gauss.md
       - OpenStack:
-          - 弹性 IP: suggest/openstack/gaussdbforopengauss.md
+          - 弹性 IP: suggest/openstack/gauss-db-for-open-gauss.md
       - 百度云:
           - CDN域名HTTPS监听检测: suggest/baidu/cdn-domain-https-monitoring.md
           - BCC实例公网IP监测: suggest/baidu/bcc-public-network-ip-monitoring.md
@@ -212,7 +237,7 @@ nav:
           - EIP 带宽峰值检测: suggest/ucloud/eip-bandwidth.md
           - UHost 挂载磁盘加密检测: suggest/ucloud/uhost-disk-encryption.md
       - Qiniu:
-          - 弹性 IP: suggest/qiniu/gaussdbforopengauss.md
+          - 弹性 IP: suggest/qiniu/gauss-db-for-open-gauss.md
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
