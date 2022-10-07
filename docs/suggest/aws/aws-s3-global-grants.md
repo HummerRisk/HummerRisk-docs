@@ -4,6 +4,13 @@
     检测您账号下的S3是否存在ACL配置，允许进行全局访问存储桶，不允许视为“合规”，否则视为“不合规”。
     全局访问的权限默认包括：'READ', 'WRITE', 'WRITE_ACP', 'READ_ACP', 'FULL_CONTROL'
 
+    ```YAML
+    policies:
+        - name: s3-global-access
+        resource: aws.s3
+        filters:
+            - type: global-grants
+    ```
 
 !!! info "处置方案" 
     您可以使用 AWS Management Console、AWS Command Line Interface (CLI)、REST API 或 AWS 软件开发工具包向资源 ACL 添加授权。    

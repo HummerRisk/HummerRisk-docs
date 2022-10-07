@@ -3,6 +3,17 @@
 !!! info "检查规则说明"
     检测您的S3存储桶是否有允许公开读写的访问权限。如允许则该存储桶不合规。
 
+    ```YAML
+    policies:
+        # 查看您的S3存储桶是否不允许公开读写访问权限。如允许则该存储桶不合规
+        - name: s3-public-acls
+        resource: aws.s3
+        filters:
+            - type: check-public-block
+            BlockPublicAcls: false
+            BlockPublicPolicy: false
+    ```
+
 !!! info "处置方案"
     进入 AWS 控制台，依次操作：S3控制台-存储桶-存储桶详情-权限
 
