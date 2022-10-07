@@ -209,8 +209,18 @@ nav:
           - OpenStack 网络状态检测: suggest/openstack/network.md
           - OpenStack 项目成员检测: suggest/openstack/project.md
           - OpenStack 实例类型检测: suggest/openstack/server.md
+          - OpenStack 实例标签检测: suggest/openstack/server2.md
+          - OpenStack 实例镜像检测: suggest/openstack/server3.md
+          - OpenStack 实例时间检测: suggest/openstack/server4.md
+          - OpenStack 用户项目检测: suggest/openstack/user.md
+          - OpenStack 用户角色检测: suggest/openstack/user2.md
+          - OpenStack 卷加密检测: suggest/openstack/volume.md
+          - OpenStack 卷状态检测: suggest/openstack/volume2.md
+          - OpenStack 模板类型检测: suggest/openstack/flavor.md
+          - OpenStack 路由状态检测: suggest/openstack/router.md
           - OpenStack 镜像状态检测: suggest/openstack/image.md
           - OpenStack SecurityGroups 安全组配置检测: suggest/openstack/security-groups.md
+          - OpenStack SecurityGroups 高危安全组检测: suggest/openstack/security-groups2.md
       - 百度云:
           - CDN 域名 HTTPS 监听检测: suggest/baidu/cdn-domain-https-monitoring.md
           - BCC 实例公网 IP 监测: suggest/baidu/bcc-public-network-ip-monitoring.md
