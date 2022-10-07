@@ -25,6 +25,6 @@
 
 ### 4.帮助资源
 !!! info ""
-    https://cloud.tencent.com/document/product/239/30871
-    https://cloud.tencent.com/document/product/239/30910
+    - https://cloud.tencent.com/document/product/239/30871
+    - https://cloud.tencent.com/document/product/239/30910
     

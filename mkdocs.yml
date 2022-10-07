@@ -143,8 +143,8 @@ nav:
           - CVM 实例关机计费模式检测: suggest/tencent/cvm-billing.md
           - CVM 实例公网IP检测: suggest/tencent/cvm-public-network-ip.md
           - Redis 实例网络类型检测: suggest/tencent/redis-network-type.md
-          - SecurityGroup 安全组配置检测: suggest/tencent/securitygroup-configuration.md
-          - SecurityGroup 高危安全组检测: suggest/tencent/securitygroup-highrisk-configuration.md
+          - SecurityGroup 配置检测: suggest/tencent/securitygroup-configuration.md
+          - SecurityGroup 高危检测: suggest/tencent/securitygroup-highrisk-configuration.md
           - CDB 实例网络类型检测: suggest/tencent/cdb-network-type.md
           - CDB 实例高可用状态检测: suggest/tencent/cdb-ha-status.md
           - CDB 实例公网访问检测: suggest/tencent/cdb-public-network-access.md
@@ -152,7 +152,7 @@ nav:
           - COS 公开读取访问权限检测: suggest/tencent/cos-public-read-access-permission.md
           - CLB 带宽峰值检测: suggest/tencent/clb-bandwidth.md
           - CLB 公网访问检测: suggest/tencent/clb-public-network-access.md
-          - CLB 负载均衡实例关联到VPC检测: suggest/tencent/clb-associated-with-vpc.md
+          - CLB 负载均衡实例VPC检测: suggest/tencent/clb-associated-with-vpc.md
           - Disk 磁盘加密检测: suggest/tencent/disk-encryption.md
           - MongoDB 实例网络类型检测: suggest/tencent/mongo-instance-network-type.md
           - MongoDB 实例公网访问检测: suggest/tencent/mongo-public-network.md
