@@ -144,9 +144,21 @@ nav:
       - 火山引擎:
           - 弹性 IP: suggest/volc/gaussdbforopengauss.md
       - 青云:
-          - 弹性 IP: suggest/qingcloud/gaussdbforopengauss.md
+          - 弹性 IP: suggest/qingcloud/mysql-network-type.md
+          - 弹性 IP: suggest/qingcloud/ecs-vpc.md
+          - 弹性 IP: suggest/qingcloud/mysql-public-network-access.md
+          - 弹性 IP: suggest/qingcloud/mysql-ha.md
+          - 弹性 IP: suggest/qingcloud/ecs-public-network-ip.md
+          - 弹性 IP: suggest/qingcloud/eip-bandwidth.md
+          - 弹性 IP: suggest/qingcloud/mongodb-public-network.md
+          - 弹性 IP: suggest/qingcloud/ecs-network-type.md
+          - 弹性 IP: suggest/qingcloud/mongodb-network-type.md
       - UCloud:
-          - 弹性 IP: suggest/ucloud/gaussdbforopengauss.md
+          - UHost公网IP检测: suggest/ucloud/uhost-public-network-ip.md
+          - UHost VPC检测: suggest/ucloud/uhost-vpc.md
+          - UHost 网络类型检测: suggest/ucloud/uhost-network-type.md
+          - EIP 带宽峰值检测: suggest/ucloud/eip-bandwidth.md
+          - UHost 挂载磁盘加密检测: suggest/ucloud/uhost-disk-encryption.md
       - Qiniu:
           - 弹性 IP: suggest/qiniu/gaussdbforopengauss.md
   - 版本迭代:
