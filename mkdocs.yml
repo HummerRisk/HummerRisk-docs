@@ -105,7 +105,26 @@ nav:
           - GaussDBForNoSql 实例公网访问检测: suggest/huawei/gaussdbfornosql4.md
           - GaussDBForOpenGauss 实例磁盘空间检测: suggest/huawei/gaussdbfornosql5.md
       - 腾讯云:
-          - 弹性 IP: suggest/tencent/gaussdbforopengauss.md
+          - EIP 带宽峰值检测: suggest/tencent/eip_bandwidth.md
+          - CVM 实例关机计费模式检测: suggest/tencent/cvm_billing.md
+          - CVM 实例公网IP检测: suggest/tencent/cvm_public_network_ip.md
+          - Redis 实例网络类型检测: suggest/tencent/redis_network_type.md
+          - SecurityGroup 安全组配置检测: suggest/tencent/securitygroup_configuration.md
+          - SecurityGroup 高危安全组检测: suggest/tencent/securitygroup_highrisk_configuration.md
+          - CDB 实例网络类型检测: suggest/tencent/cdb_network_type.md
+          - CDB 实例高可用状态检测: suggest/tencent/cdb_ha_status.md
+          - CDB 实例公网访问检测: suggest/tencent/cdb_public_network_access.md
+          - CDB 实例多可用区检测: suggest/tencent/cdb_multiAZ.md
+          - COS 公开读取访问权限检测: suggest/tencent/cos_public_read_access_permission.md
+          - CLB 带宽峰值检测: suggest/tencent/clb_bandwidth.md
+          - CLB 公网访问检测: suggest/tencent/clb_public_network_access.md
+          - CLB 负载均衡实例关联到VPC检测: suggest/tencent/clb_associated_with_vpc.md
+          - Disk 磁盘加密检测: suggest/tencent/disk_encryption.md
+          - MongoDB 实例网络类型检测: suggest/tencent/mongo_instance_network_type.md
+          - MongoDB 实例公网访问检测: suggest/tencent/mongo_public_network.md
+          - COS 防盗链检测: suggest/tencent/cos_antileech.md
+          - COS 公开写入访问权限检测: suggest/tencent/public_write_access_permission.md
+          - COS 存储桶加密检测: suggest/tencent/cos_bucket_encryption.md
       - AWS:
           - AWS S3全局访问检测: suggest/aws/s3globalgrants.md
           - AWS S3公开读写访问权限检测: suggest/aws/s3publicaccess.md
