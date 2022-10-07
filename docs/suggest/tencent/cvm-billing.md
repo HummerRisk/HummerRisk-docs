@@ -1,13 +1,15 @@
 # 腾讯云CVM实例关机计费模式检测
 
-!!! info "检查项说明"
+### 1.检查项说明
+!!! info ""
     Tencent CVM实例的关机计费模式是否为关机停止收费，是视为“合规”，否则视为“不合规”
 
-
-!!! info "处置方案"
+### 2.处置方案
+!!! info ""
     前往腾讯云控制台，调整公网IP带宽
 
-!!! info "操作步骤"
+### 3.操作步骤
+!!! info ""
     1. 使用腾讯云账号登录控制台
     2. 通过导航菜单进入云服务器控制台。https://console.cloud.tencent.com/cvm/instance
     3. 找到相关的CVM
@@ -17,7 +19,8 @@
 
 ![处置方案](../../img/suggest/tencent/cvm-bulling.png){ width="900px" }
 
-!!! info "帮助资源"
+### 4.帮助资源
+!!! info ""
     https://cloud.tencent.com/document/product/213/19922
     https://cloud.tencent.com/document/product/213/19918
     
