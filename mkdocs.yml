@@ -186,7 +186,15 @@ nav:
           - BBC实例带宽检测: suggest/baidu/bcc-bandwidth.md
           - SecurityGroup安全组端口访问: suggest/baidu/securityGroup-port-access.md
       - 火山引擎:
-          - 弹性 IP: suggest/volc/gaussdbforopengauss.md
+          - CDN 域名HTTPS监听检测: suggest/volc/cdn-https.md
+          - ECS  VPC检测: suggest/volc/ecs-vpc.md
+          - ECS 实例网络类型检测: suggest/volc/ecs-net-type.md
+          - ECS 实例公网IP检测: suggest/volc/ecs-public-ip.md
+          - EIP 带宽峰值检测: suggest/volc/eip-bandwidth.md
+          - MongoDB 实例公网访问检测: suggest/volc/mongodb-public-ip.md
+          - MongoDB 实例网络类型检测: suggest/volc/mongodb-net-type.md
+          - SecurityGroup 安全组端口访问检测: suggest/volc/securitygroup-port.md
+          - SecurityGroup 高危安全组检测: suggest/volc/securitygroup-high-risk-port.md
       - 青云:
           - MySQL实例网络类型检测: suggest/qingcloud/mysql-network-type.md
           - ECS VPC检测: suggest/qingcloud/ecs-vpc.md
