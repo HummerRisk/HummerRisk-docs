@@ -140,19 +140,29 @@ nav:
       - OpenStack:
           - 弹性 IP: suggest/openstack/gaussdbforopengauss.md
       - 百度云:
-          - 弹性 IP: suggest/baidu/gaussdbforopengauss.md
+          - CDN域名HTTPS监听检测: suggest/baidu/cdn-domain-https-monitoring.md
+          - BCC实例公网IP监测: suggest/baidu/bcc-public-network-ip-monitoring.md
+          - BCC实例网络类型检测: suggest/baidu/bcc-network-type.md
+          - 普通型负载公网IP绑定扫描: suggest/baidu/common-public-network-ip.md
+          - EIP带宽峰值检测: suggest/baidu/eip-bandwidth.md
+          - 磁盘加密状态检测: suggest/baidu/disk-encryption.md
+          - BCC VPC检测: suggest/baidu/bcc-vpc.md
+          - BBC实例公网IP检测: suggest/baidu/bcc-public-network-ip.md
+          - 应用型负载公网IP绑定扫描: suggest/baidu/alb-public-network-ip.md
+          - BBC实例带宽检测: suggest/baidu/bcc-bandwidth.md
+          - SecurityGroup安全组端口访问: suggest/baidu/securityGroup-port-access.md
       - 火山引擎:
           - 弹性 IP: suggest/volc/gaussdbforopengauss.md
       - 青云:
-          - 弹性 IP: suggest/qingcloud/mysql-network-type.md
-          - 弹性 IP: suggest/qingcloud/ecs-vpc.md
-          - 弹性 IP: suggest/qingcloud/mysql-public-network-access.md
-          - 弹性 IP: suggest/qingcloud/mysql-ha.md
-          - 弹性 IP: suggest/qingcloud/ecs-public-network-ip.md
-          - 弹性 IP: suggest/qingcloud/eip-bandwidth.md
-          - 弹性 IP: suggest/qingcloud/mongodb-public-network.md
-          - 弹性 IP: suggest/qingcloud/ecs-network-type.md
-          - 弹性 IP: suggest/qingcloud/mongodb-network-type.md
+          - MySQL实例网络类型检测: suggest/qingcloud/mysql-network-type.md
+          - ECS VPC检测: suggest/qingcloud/ecs-vpc.md
+          - MySQL实例公网访问检测: suggest/qingcloud/mysql-public-network-access.md
+          - MySQL实例高可用状态检测: suggest/qingcloud/mysql-ha.md
+          - ECS实例公网IP检测: suggest/qingcloud/ecs-public-network-ip.md
+          - EIP带宽峰值检测: suggest/qingcloud/eip-bandwidth.md
+          - MongoDB实例公网访问检测: suggest/qingcloud/mongodb-public-network.md
+          - ECS实例网络类型检测: suggest/qingcloud/ecs-network-type.md
+          - MongoDB实例网络类型检测: suggest/qingcloud/mongodb-network-type.md
       - UCloud:
           - UHost公网IP检测: suggest/ucloud/uhost-public-network-ip.md
           - UHost VPC检测: suggest/ucloud/uhost-vpc.md
