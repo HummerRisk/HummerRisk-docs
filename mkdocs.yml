@@ -92,7 +92,41 @@ nav:
   - 优化建议:
       - 阿里云:
           - RAM 用户 MFA 检测: suggest/aliyun/ram.md
-          - 弹性 IP: suggest/aliyun/eip.md
+          - CDN 域名HTTPS监听检测:  suggest/aliyun/cdn-https.md
+          - Disk 磁盘加密状态检测:  suggest/aliyun/disk-encrypt.md
+          - ECS 实例公网IP检测:  suggest/aliyun/ecs-public-ip.md
+          - ECS 实例网络类型检测:  suggest/aliyun/ecs-net-type.md
+          - ECS VPC检测:  suggest/aliyun/ecs-vpc.md
+          - EIP 带宽峰值检测:  suggest/aliyun/eip-bandwidth.md
+          - MongoDB 实例网络类型检测:  suggest/aliyun/mongodb-net-type.md
+          - MongoDB 实例公网访问检测:  suggest/aliyun/mongodb-public-ip.md
+          - OSS 防盗链检测:  suggest/aliyun/oss-referer.md
+          - OSS 公开写入访问权限检测:  suggest/aliyun/oss-public-write.md
+          - OSS 对象存储桶冗余存储检测:  suggest/aliyun/oss-data-redundancy-type.md
+          - OSS 公开读取访问权限检测:  suggest/aliyun/oss-public-read.md
+          - OSS 存储桶加密检测:  suggest/aliyun/oss-encrypt.md
+          - Polardb VPC检测:  suggest/aliyun/polardb-vpc.md
+          - PolarDB 实例网络类型检测:  suggest/aliyun/polardb-net-type.md
+          - PolarDB 实例公网访问检测:  suggest/aliyun/polardb-public-ip.md
+          - RDS 实例网络类型检测:  suggest/aliyun/rds-net-type.md
+          - RDS 实例高可用状态检测:  suggest/aliyun/rds-ha.md
+          - RDS 实例公网访问检测:  suggest/aliyun/rds-public-ip.md
+          - RDS 实例多可用区检测:  suggest/aliyun/rds-available-zones.md
+          - RDS VPC检测:  suggest/aliyun/rds-vpc.md
+          - RDS 实例白名单检测:  suggest/aliyun/rds-white-list.md
+          - RDS 实例的访问模式检测:  suggest/aliyun/rds-connection-mode.md
+          - Redis 实例网络类型检测:  suggest/aliyun/redis-net-type.md
+          - Redis 实例公网访问检测:  suggest/aliyun/redis-public-ip.md
+          - SecurityGroup 安全组配置检测:  suggest/aliyun/security-group-config.md
+          - SecurityGroup 安全组端口访问检测:  suggest/aliyun/security-group-port.md
+          - SecurityGroup 高危安全组检测:  suggest/aliyun/security-group-high-risk-port.md
+          - SLB 带宽峰值检测:  suggest/aliyun/slb-bandwidth.md
+          - SLB  VPC检测:  suggest/aliyun/slb-vpc.md
+          - SLB 公网访问检测:  suggest/aliyun/slb-public-ip.md
+          - SLB 负载均衡实例关联到VPC检测:  suggest/aliyun/slb-vpc2.md
+          - SLB 负载均衡监听检测:  suggest/aliyun/slb-listener.md
+          - SLB 负载均衡HTTPS监听检测:  suggest/aliyun/slb-https.md
+          - SLB 负载均衡实例公网IP检测:  suggest/aliyun/slb-public-ip2.md
       - 华为云:
           - GaussDBForOpenGauss 实例网络类型检测: suggest/huawei/gaussdbforopengauss.md
           - GaussDBForOpenGauss 实例公网访问检测: suggest/huawei/gaussdbforopengauss2.md
