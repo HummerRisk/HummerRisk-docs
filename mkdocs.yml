@@ -306,15 +306,15 @@ nav:
           - SecurityGroup 安全组端口访问检测: suggest/volc/securitygroup-port.md
           - SecurityGroup 高危安全组检测: suggest/volc/securitygroup-high-risk-port.md
       - 青云:
-          - MySQL 实例网络类型检测: suggest/qingcloud/mysql-network-type.md
-          - ECS VPC 检测: suggest/qingcloud/ecs-vpc.md
-          - MySQL 实例公网访问检测: suggest/qingcloud/mysql-public-network-access.md
-          - MySQL 实例高可用状态检测: suggest/qingcloud/mysql-ha.md
           - ECS 实例公网 IP 检测: suggest/qingcloud/ecs-public-network-ip.md
+          - ECS VPC 检测: suggest/qingcloud/ecs-vpc.md
+          - ECS 实例网络类型检测: suggest/qingcloud/ecs-network-type.md
           - EIP 带宽峰值检测: suggest/qingcloud/eip-bandwidth.md
           - MongoDB 实例公网访问检测: suggest/qingcloud/mongodb-public-network-status.md
-          - ECS 实例网络类型检测: suggest/qingcloud/ecs-network-type.md
           - MongoDB 实例网络类型检测: suggest/qingcloud/mongodb-network-type.md
+          - MySQL 实例网络类型检测: suggest/qingcloud/mysql-network-type.md
+          - MySQL 实例公网访问检测: suggest/qingcloud/mysql-public-network-access.md
+          - MySQL 实例高可用状态检测: suggest/qingcloud/mysql-ha.md
       - UCloud:
           - UHost 公网IP检测: suggest/ucloud/uhost-public-network-ip.md
           - UHost VPC检测: suggest/ucloud/uhost-vpc.md
