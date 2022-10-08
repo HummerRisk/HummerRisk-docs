@@ -182,12 +182,13 @@ nav:
           - COS 公开读取访问权限检测: suggest/tencent/cos-public-read-access-permission.md
           - CLB 带宽峰值检测: suggest/tencent/clb-bandwidth.md
           - CLB 公网访问检测: suggest/tencent/clb-public-network-access.md
-          - CLB 负载均衡实例VPC检测: suggest/tencent/clb-associated-with-vpc.md
+          - CLB 负载均衡实例 VPC 检测: suggest/tencent/clb-associated-with-vpc.md
           - Disk 磁盘加密检测: suggest/tencent/disk-encryption.md
           - MongoDB 实例网络类型检测: suggest/tencent/mongo-instance-network-type.md
           - MongoDB 实例公网访问检测: suggest/tencent/mongo-public-network-status.md
           - COS 防盗链检测: suggest/tencent/cos-antileech.md
           - COS 公开写入访问权限检测: suggest/tencent/public-write-access-permission.md
+          - COS 公开读取访问权限检测: suggest/tencent/public-read-access-permission.md
           - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
       - AWS:
           - AWS EC2 实例关机状态检测: suggest/aws/aws-stopped-instance.md
