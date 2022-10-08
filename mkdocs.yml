@@ -128,10 +128,10 @@ nav:
           - SLB 带宽峰值检测:  suggest/aliyun/slb-bandwidth.md
           - SLB VPC 检测:  suggest/aliyun/slb-vpc.md
           - SLB 公网访问检测:  suggest/aliyun/slb-public-ip.md
-          - SLB 负载均衡实例关联到VPC检测:  suggest/aliyun/slb-vpc2.md
+          - SLB 负载均衡实例关联到 VPC 检测:  suggest/aliyun/slb-bind-vpc.md
           - SLB 负载均衡监听检测:  suggest/aliyun/slb-listener.md
-          - SLB 负载均衡HTTPS监听检测:  suggest/aliyun/slb-https.md
-          - SLB 负载均衡实例公网IP检测:  suggest/aliyun/slb-public-ip2.md
+          - SLB 负载均衡 HTTPS 监听检测:  suggest/aliyun/slb-https.md
+          - SLB 负载均衡实例公网 IP 检测:  suggest/aliyun/slb-bind-public-ip.md
       - 华为云:
           - DDS 实例公网访问检测: suggest/huawei/dds.md
           - Disk 磁盘加密状态检测: suggest/huawei/disk.md
@@ -284,17 +284,17 @@ nav:
           - OpenStack SecurityGroups 安全组配置检测: suggest/openstack/security-groups.md
           - OpenStack SecurityGroups 高危安全组检测: suggest/openstack/security-groups2.md
       - 百度云:
-          - CDN 域名 HTTPS 监听检测: suggest/baidu/cdn-domain-https-monitoring.md
-          - BCC 实例公网 IP 监测: suggest/baidu/bcc-public-network-ip-monitoring.md
+          - BBC 实例公网 IP 检测: suggest/baidu/bbc-public-network-ip.md
+          - BBC 实例带宽检测: suggest/baidu/bbc-bandwidth.md
+          - BCC 实例公网 IP 检测: suggest/baidu/bcc-public-network-ip-monitoring.md
           - BCC 实例网络类型检测: suggest/baidu/bcc-network-type.md
-          - 普通型负载公网 IP 绑定扫描: suggest/baidu/common-public-network-ip.md
-          - EIP 带宽峰值检测: suggest/baidu/eip-bandwidth.md
-          - 磁盘加密状态检测: suggest/baidu/disk-encryption.md
           - BCC VPC 检测: suggest/baidu/bcc-vpc.md
-          - BBC 实例公网IP检测: suggest/baidu/bcc-public-network-ip.md
-          - 应用型负载公网 IP 绑定扫描: suggest/baidu/alb-public-network-ip.md
-          - BBC 实例带宽检测: suggest/baidu/bcc-bandwidth.md
+          - CDN 域名 HTTPS 监听检测: suggest/baidu/cdn-domain-https-monitoring.md
+          - EIP 带宽峰值检测: suggest/baidu/eip-bandwidth.md
           - SecurityGroup 安全组端口访问: suggest/baidu/securityGroup-port-access.md
+          - 磁盘加密状态检测: suggest/baidu/disk-encryption.md
+          - 普通型负载公网 IP 绑定检测: suggest/baidu/common-public-network-ip.md
+          - 应用型负载公网 IP 绑定检测: suggest/baidu/alb-public-network-ip.md
       - 火山引擎:
           - CDN 域名 HTTPS 监听检测: suggest/volc/cdn-https.md
           - ECS VPC 检测: suggest/volc/ecs-vpc.md
