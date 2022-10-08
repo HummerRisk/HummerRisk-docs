@@ -58,10 +58,10 @@ nav:
           - 操作审计: user/event.md
       - 云原生安全:
           - 资源态势: user/situation.md
-          - 主机检测: user/server.md
+          - 主机检测: user/server-type.md
           - K8s 检测: user/k8s.md
           - 部署检测: user/config.md
-          - 镜像检测: user/image.md
+          - 镜像检测: user/image-status.md
           - 源码检测: user/code.md
           - SBOM 管理: user/sbom.md
       - 任务编排:
@@ -133,7 +133,7 @@ nav:
           - SLB 负载均衡 HTTPS 监听检测:  suggest/aliyun/slb-https.md
           - SLB 负载均衡实例公网 IP 检测:  suggest/aliyun/slb-bind-public-ip.md
       - 华为云:
-          - DDS 实例公网访问检测: suggest/huawei/dds-public-network.md
+          - DDS 实例公网访问检测: suggest/huawei/dds-public-network-status.md
           - Disk 磁盘加密状态检测: suggest/huawei/disk-encrypted.md
           - ECS 实例公网 IP 检测: suggest/huawei/ecs-public-ip.md
           - ECS 实例网络类型检测: suggest/huawei/ecs-network-type.md
@@ -154,14 +154,14 @@ nav:
           - GaussDBForNoSQL 实例网络类型检测: suggest/huawei/gauss-db-for-nosql-network-type.md
           - GaussDBForNoSQL 实例计费类型检测: suggest/huawei/gauss-db-for-nosql-cost-type.md
           - GaussDBForNoSQL 实例高可用状态检测: suggest/huawei/gauss-db-for-nosql-ha.md
-          - GaussDBForNoSQL 实例公网访问检测: suggest/huawei/gauss-db-for-nosql-public-network.md
+          - GaussDBForNoSQL 实例公网访问检测: suggest/huawei/gauss-db-for-nosql-public-network-status.md
           - GaussDBForNoSQL 实例磁盘空间检测: suggest/huawei/gauss-db-for-nosql-disk.md
           - IAM 用户是否登录保护检测: suggest/huawei/iam-login.md
           - OBS 公开读取访问权限检测: suggest/huawei/obs-read.md
           - OBS 公开写入访问权限检测: suggest/huawei/obs-write.md
           - RDS 实例计费类型检测: suggest/huawei/rds-cost-type.md
           - RDS 实例磁盘空间检测: suggest/huawei/rds-disk.md
-          - RDS 实例公网访问检测: suggest/huawei/rds-public-network.md
+          - RDS 实例公网访问检测: suggest/huawei/rds-public-network-status.md
           - RDS 实例网络类型检测: suggest/huawei/rds-network-type.md
           - RDS 实例高可用状态检测: suggest/huawei/rds-ha.md
           - Redis 实例公网访问检测: suggest/huawei/redis-unencrypt.md
@@ -185,7 +185,7 @@ nav:
           - CLB 负载均衡实例VPC检测: suggest/tencent/clb-associated-with-vpc.md
           - Disk 磁盘加密检测: suggest/tencent/disk-encryption.md
           - MongoDB 实例网络类型检测: suggest/tencent/mongo-instance-network-type.md
-          - MongoDB 实例公网访问检测: suggest/tencent/mongo-public-network.md
+          - MongoDB 实例公网访问检测: suggest/tencent/mongo-public-network-status.md
           - COS 防盗链检测: suggest/tencent/cos-antileech.md
           - COS 公开写入访问权限检测: suggest/tencent/public-write-access-permission.md
           - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
@@ -264,25 +264,25 @@ nav:
           - VMware vSphere Datastore 精简配置检测: suggest/vsphere/datastore3.md
           - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
           - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
-          - VMware vSphere Network 分布式类型检测: suggest/vsphere/network.md
+          - VMware vSphere Network 分布式类型检测: suggest/vsphere/network-status.md
           - VMware vSphere ResourcePool CPU 内存检测: suggest/vsphere/resource-pool.md
           - VMware vSphere VM 状态检测: suggest/vsphere/vm.md
       - OpenStack:
-          - OpenStack 网络状态检测: suggest/openstack/network.md
-          - OpenStack 项目成员检测: suggest/openstack/project.md
-          - OpenStack 实例类型检测: suggest/openstack/server.md
-          - OpenStack 实例标签检测: suggest/openstack/server2.md
-          - OpenStack 实例镜像检测: suggest/openstack/server3.md
-          - OpenStack 实例时间检测: suggest/openstack/server4.md
-          - OpenStack 用户项目检测: suggest/openstack/user.md
-          - OpenStack 用户角色检测: suggest/openstack/user2.md
-          - OpenStack 卷加密检测: suggest/openstack/volume.md
-          - OpenStack 卷状态检测: suggest/openstack/volume2.md
-          - OpenStack 模板类型检测: suggest/openstack/flavor.md
-          - OpenStack 路由状态检测: suggest/openstack/router.md
-          - OpenStack 镜像状态检测: suggest/openstack/image.md
-          - OpenStack SecurityGroups 安全组配置检测: suggest/openstack/security-groups.md
-          - OpenStack SecurityGroups 高危安全组检测: suggest/openstack/security-groups2.md
+          - OpenStack 网络状态检测: suggest/openstack/network-status.md
+          - OpenStack 项目成员检测: suggest/openstack/project-member.md
+          - OpenStack 实例类型检测: suggest/openstack/server-type.md
+          - OpenStack 实例标签检测: suggest/openstack/server-tag.md
+          - OpenStack 实例镜像检测: suggest/openstack/server-image-status.md
+          - OpenStack 实例时间检测: suggest/openstack/server-time.md
+          - OpenStack 用户项目检测: suggest/openstack/user-project-member.md
+          - OpenStack 用户角色检测: suggest/openstack/user-role.md
+          - OpenStack 卷加密检测: suggest/openstack/volume-encrypt.md
+          - OpenStack 卷状态检测: suggest/openstack/volume-status.md
+          - OpenStack 模板类型检测: suggest/openstack/flavor-type.md
+          - OpenStack 路由状态检测: suggest/openstack/router-status.md
+          - OpenStack 镜像状态检测: suggest/openstack/image-status.md
+          - OpenStack SecurityGroups 安全组配置检测: suggest/openstack/security-groups-config.md
+          - OpenStack SecurityGroups 高危安全组检测: suggest/openstack/security-groups-high-risk-port.md
       - 百度云:
           - BBC 实例公网 IP 检测: suggest/baidu/bbc-public-network-ip.md
           - BBC 实例带宽检测: suggest/baidu/bbc-bandwidth.md
@@ -312,7 +312,7 @@ nav:
           - MySQL 实例高可用状态检测: suggest/qingcloud/mysql-ha.md
           - ECS 实例公网 IP 检测: suggest/qingcloud/ecs-public-network-ip.md
           - EIP 带宽峰值检测: suggest/qingcloud/eip-bandwidth.md
-          - MongoDB 实例公网访问检测: suggest/qingcloud/mongodb-public-network.md
+          - MongoDB 实例公网访问检测: suggest/qingcloud/mongodb-public-network-status.md
           - ECS 实例网络类型检测: suggest/qingcloud/ecs-network-type.md
           - MongoDB 实例网络类型检测: suggest/qingcloud/mongodb-network-type.md
       - UCloud:
