@@ -317,11 +317,18 @@ nav:
           - MySQL 实例公网访问检测: suggest/qingcloud/mysql-public-network-access.md
           - MySQL 实例高可用状态检测: suggest/qingcloud/mysql-ha.md
       - UCloud:
-          - UHost 公网IP检测: suggest/ucloud/uhost-public-network-ip.md
-          - UHost VPC检测: suggest/ucloud/uhost-vpc.md
-          - UHost 网络类型检测: suggest/ucloud/uhost-network-type.md
           - EIP 带宽峰值检测: suggest/ucloud/eip-bandwidth.md
+          - UHost 公网 IP 检测: suggest/ucloud/uhost-public-network-ip.md
+          - UHost VPC 检测: suggest/ucloud/uhost-vpc.md
+          - UHost 网络类型检测: suggest/ucloud/uhost-network-type.md
           - UHost 挂载磁盘加密检测: suggest/ucloud/uhost-disk-encryption.md
+          - ULB 负载均衡 HTTPS 监听检测: suggest/ucloud/ulb-listener.md
+          - ULB VPC 检测: suggest/ucloud/ulb-vpc-type.md
+          - ULB 带宽峰值检测: suggest/ucloud/ulb-bandwidth.md
+          - ULB 负载均衡监听检测: suggest/ucloud/ulb-listener-type.md
+          - SecurityGroup 安全组配置检测: suggest/ucloud/sg-source-cidr-ip.md
+          - SecurityGroup 安全组端口访问检测: suggest/ucloud/sg-ports.md
+          - SecurityGroup 高危安全组检测: suggest/ucloud/sg-high-risk-port.md
       - Qiniu:
           - 弹性 IP: suggest/qiniu/gauss-db-for-open-gauss-network-type.md
   - 版本迭代:
