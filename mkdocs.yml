@@ -300,7 +300,7 @@ nav:
           - CDN 域名 HTTPS 监听检测: suggest/volc/cdn-https.md
           - ECS VPC 检测: suggest/volc/ecs-vpc.md
           - ECS 实例网络类型检测: suggest/volc/ecs-net-type.md
-          - ECS 实例公网IP检测: suggest/volc/ecs-public-ip.md
+          - ECS 实例公网 IP 检测: suggest/volc/ecs-public-ip.md
           - EIP 带宽峰值检测: suggest/volc/eip-bandwidth.md
           - MongoDB 实例公网访问检测: suggest/volc/mongodb-public-ip.md
           - MongoDB 实例网络类型检测: suggest/volc/mongodb-net-type.md
