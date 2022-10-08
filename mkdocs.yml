@@ -190,10 +190,67 @@ nav:
           - AWS EC2 实例关机状态检测: suggest/aws/aws-stopped-instance.md
           - AWS EBS 未使用检测: suggest/aws/aws-ebs-unattached.md
           - AWS EC2 标签规范检测: suggest/aws/aws-ec2-tagged.md
+          - AWS EBS加密检测: suggest/aws/suggest/aws/aws-ebs-encrypted.md
+          - AWS EC2运行时间检测: suggest/aws/suggest/aws/aws-ec2-runnningtime.md
+          - AWS EC2 CPU使用率检测: suggest/aws/suggest/aws/aws-ec2-usage.md
+          - AWS EIP未使用检测: suggest/aws/suggest/aws/aws-eip-unattached.md
+          - AWS ELB SSL 黑名单检测: suggest/aws/suggest/aws/aws-elb-sslblacklist.md
+          - AWS ELB实例使用检测: suggest/aws/suggest/aws/aws-elb-unattached.md
+          - AWS RDS实例加密检测: suggest/aws/suggest/aws/aws-rds-encrypted.md
+          - AWS RDS实例公网访问检测: suggest/aws/suggest/aws/aws-rds-public-access.md
+          - AWS RDS实例是否使用检测: suggest/aws/suggest/aws/aws-rds-unused.md
+          - AWS SecurityGroup高危安全组检测: suggest/aws/suggest/aws/aws-securitygroup-check.md
+          - AWS 1.0 Identity and Access Management: suggest/aws/suggest/aws/aws-iam-cis.md
+          - AWS 2.0 Logging: suggest/aws/suggest/aws/aws-logging-cis.md
+          - AWS 3.0 Monitoring: suggest/aws/suggest/aws/aws-monitoring-cis.md
+          - AWS 4.0 Networking: suggest/aws/suggest/aws/aws-networking-cis.md
+          - AWS 5.0 CIS Level 1: suggest/aws/suggest/aws/aws-cis-level1.md
+          - AWS 6.0 CIS Level 2: suggest/aws/suggest/aws/aws-cis-level2.md
+          - AWS 7.0 Extras: suggest/aws/aws-cis-extras.md
+          - AWS 8.0 Forensics Readiness: suggest/aws/suggest/aws/aws-forensics.md
+          - AWS 9.0 GDPR Readiness: suggest/aws/suggest/aws/aws-gdpr.md
+          - AWS 10.0 HIPAA Compliance: suggest/aws/suggest/aws/aws-hippa.md
+          - AWS 11.0 Look for keys secrets or passwords: suggest/aws/suggest/aws/aws-secrets-check.md
+          - AWS 12.0 API Gateway security checks: suggest/aws/aws-api-gateway.md
+          - AWS 13.0 RDS security checks: suggest/aws/suggest/aws/aws-rds-security.md
+          - AWS 14.0 Elasticsearch related security checks: suggest/aws/suggest/aws/aws-elasticseatch.md
+          - AWS 15.0 PCI-DSS v3.2.1 Readiness: suggest/aws/suggest/aws/aws-pcidss.md
+          - AWS 16.0 Find cross-account trust boundaries: suggest/aws/suggest/aws/aws-trustboundaries.md
+          - AWS 17.0 Find resources exposed to the internet: suggest/aws/suggest/aws/aws-internet-exposed.md
+          - AWS 18.0 ISO 27001:2013 Readiness: suggest/aws/suggest/aws/aws-iso27001.md
+          - AWS 19.0 CIS EKS Benchmark: suggest/aws/suggest/aws/aws-eks-cis.md
+          - AWS 20.0 FFIEC Cybersecurity Readiness: suggest/aws/suggest/aws/aws-ffiec.md
+          - AWS 21.0 SOC2 Readiness: suggest/aws/suggest/aws/aws-soc2.md
+          - AWS 22.0 Amazon SageMaker related security checks: suggest/aws/suggest/aws/aws-sagemaker.md
+          - AWS 23.0 ENS Esquema Nacional: suggest/aws/suggest/aws/aws-ens.md
+          - AWS 24.0 Amazon Glue related security checks: suggest/aws/suggest/aws/aws-glue.md
       - Azure:
-          - 弹性 IP: suggest/azure/gauss-db-for-open-gauss.md
+          - Azure App Services CORS配置检测: suggest/azure/azure-app-cors.md
+          - Azure Cosmos DB检测: suggest/azure/azure-cosmosdb.md
+          - Azure LoadBalancer负载均衡器检测: suggest/azure/azure-loadbalancer-publicip.md
+          - Azure 网络接口连接检测: suggest/azure/azure-network-interface.md
+          - Azure 网络安全组检测: suggest/azure/azure-network-securitygroup.md
+          - Azure 公网IP地址DDoS攻击检测: suggest/azure/azure-publicip-ddos.md
+          - Azure 资源组检测: suggest/azure/azure-rg-empty.md
+          - Azure SQL数据库保留策略检测: suggest/azure/azure-sql-database.md
+          - Azure SQL Server使用率检测: suggest/azure/azure-sqlserver-usage.md
+          - Azure VM虚拟机状态检测: suggest/azure/azure-stopped-vm.md
+          - Azure 存储账户检测: suggest/azure/azure-storage-allowip.md
+          - Azure 存储公网访问检测: suggest/azure/azure-storage-public-access.md
+          - Azure Disk关联虚拟机检测: suggest/azure/azure-unused-disk.md
+          - Azure VM虚拟机公网IP检测: suggest/azure/azure-vm-publicip.md
+          - Azure VM虚拟机使用率检测: suggest/azure/azure-vm-usage.md
       - GCP:
-          - 弹性 IP: suggest/gcp/gauss-db-for-open-gauss.md
+          - Google Cloud 域使用状态检测: suggest/gcp/gcp-appengine-blacklist.md
+          - Google Cloud SSL 证书过期检测: suggest/gcp/gcp-appengine-certificate.md
+          - Google Cloud 防火墙入口规则配置检测: suggest/gcp/gcp-appengine-firewall-ingress.md
+          - Google Cloud 防火墙规则检测: suggest/gcp/gcp-appengine-firewall-rules.md
+          - Google Cloud DNS 区域的资源检测: suggest/gcp/gcp-dns-managed-zones.md
+          - Google Cloud DNS 策略日志记录检测: suggest/gcp/gcp-dns-policies-if-logging-disabled.md
+          - Google Cloud 部署管理器检测: suggest/gcp/gcp-expired-deployments.md
+          - Google Cloud 实例模板检测: suggest/gcp/gcp-instance-template.md
+          - Google Cloud 负载均衡器检测: suggest/gcp/gcp-load-balancing-ssl-policies.md
+          - Google Cloud SQL实例检测: suggest/gcp/gcp-sql-backup-run.md
       - VMware:
           - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
           - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
