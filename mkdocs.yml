@@ -131,6 +131,7 @@ nav:
           - MSE VPC 检测:  suggest/aliyun/mse-vpc.md
           - NAS 带宽峰值检测:  suggest/aliyun/nas-bandwidth.md
           - NAS 磁盘加密状态检测:  suggest/aliyun/nas-encrypted.md
+          - Event 事件跟踪检测:  suggest/aliyun/event-trail.md
       - 华为云:
           - ECS 实例公网 IP 检测: suggest/huawei/ecs.md
           - ECS 实例网络类型检测: suggest/huawei/ecs2.md
