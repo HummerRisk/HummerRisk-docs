@@ -133,26 +133,19 @@ nav:
           - SLB 负载均衡HTTPS监听检测:  suggest/aliyun/slb-https.md
           - SLB 负载均衡实例公网IP检测:  suggest/aliyun/slb-public-ip2.md
       - 华为云:
+          - DDS 实例公网访问检测: suggest/huawei/dds.md
+          - Disk 磁盘加密状态检测: suggest/huawei/disk.md
           - ECS 实例公网 IP 检测: suggest/huawei/ecs.md
           - ECS 实例网络类型检测: suggest/huawei/ecs2.md
-          - OBS 公开读取访问权限检测: suggest/huawei/obs.md
-          - OBS 公开写入访问权限检测: suggest/huawei/obs2.md
-          - RDS 实例计费类型检测: suggest/huawei/rds.md
-          - RDS 实例磁盘空间检测: suggest/huawei/rds2.md
-          - RDS 实例公网访问检测: suggest/huawei/rds3.md
-          - RDS 实例网络类型检测: suggest/huawei/rds4.md
-          - RDS 实例高可用状态检测: suggest/huawei/rds5.md
-          - Disk 磁盘加密状态检测: suggest/huawei/disk.md
           - EIP 带宽峰值检测: suggest/huawei/eip.md
           - ELB 负载均衡 HTTPS 监听检测: suggest/huawei/elb.md
           - ELB 实例关联云服务器组检测: suggest/huawei/elb2.md
           - ELB 实例绑定公网 IP 检测: suggest/huawei/elb3.md
-          - Redis 实例公网访问检测: suggest/huawei/redis.md
-          - Redis 实例免密码访问检测: suggest/huawei/redis2.md
-          - DDS 实例公网访问检测: suggest/huawei/dds.md
-          - IAM 用户是否登录保护检测: suggest/huawei/iam.md
-          - SecurityGroup 安全组配置检测: suggest/huawei/security-group.md
-          - SecurityGroup 高危安全组检测: suggest/huawei/security-group2.md
+          - GaussDB 实例网络类型检测: suggest/huawei/gauss-db.md
+          - GaussDB 实例计费类型检测: suggest/huawei/gauss-db2.md
+          - GaussDB 实例高可用状态检测: suggest/huawei/gauss-db3.md
+          - GaussDB 实例磁盘空间检测: suggest/huawei/gauss-db4.md
+          - GaussDB 实例网络类型检测: suggest/huawei/gauss-db5.md
           - GaussDBForOpenGauss 实例网络类型检测: suggest/huawei/gauss-db-for-open-gauss.md
           - GaussDBForOpenGauss 实例公网访问检测: suggest/huawei/gauss-db-for-open-gauss2.md
           - GaussDBForOpenGauss 实例高可用状态检测: suggest/huawei/gauss-db-for-open-gauss3.md
@@ -163,11 +156,18 @@ nav:
           - GaussDBForNoSQL 实例高可用状态检测: suggest/huawei/gauss-db-for-nosql3.md
           - GaussDBForNoSQL 实例公网访问检测: suggest/huawei/gauss-db-for-nosql4.md
           - GaussDBForNoSQL 实例磁盘空间检测: suggest/huawei/gauss-db-for-nosql5.md
-          - GaussDB 实例网络类型检测: suggest/huawei/gauss-db.md
-          - GaussDB 实例计费类型检测: suggest/huawei/gauss-db2.md
-          - GaussDB 实例高可用状态检测: suggest/huawei/gauss-db3.md
-          - GaussDB 实例磁盘空间检测: suggest/huawei/gauss-db4.md
-          - GaussDB 实例网络类型检测: suggest/huawei/gauss-db5.md
+          - IAM 用户是否登录保护检测: suggest/huawei/iam.md
+          - OBS 公开读取访问权限检测: suggest/huawei/obs.md
+          - OBS 公开写入访问权限检测: suggest/huawei/obs2.md
+          - RDS 实例计费类型检测: suggest/huawei/rds.md
+          - RDS 实例磁盘空间检测: suggest/huawei/rds2.md
+          - RDS 实例公网访问检测: suggest/huawei/rds3.md
+          - RDS 实例网络类型检测: suggest/huawei/rds4.md
+          - RDS 实例高可用状态检测: suggest/huawei/rds5.md
+          - Redis 实例公网访问检测: suggest/huawei/redis.md
+          - Redis 实例免密码访问检测: suggest/huawei/redis2.md
+          - SecurityGroup 安全组配置检测: suggest/huawei/security-group.md
+          - SecurityGroup 高危安全组检测: suggest/huawei/security-group2.md
       - 腾讯云:
           - EIP 带宽峰值检测: suggest/tencent/eip-bandwidth.md
           - CVM 实例关机计费模式检测: suggest/tencent/cvm-billing.md
@@ -247,7 +247,7 @@ nav:
           - Azure 资源组检测: suggest/azure/azure-rg-empty.md
       - GCP:
           - Google Cloud DNS 区域的资源检测: suggest/gcp/gcp-dns-managed-zones.md
-          - Google Cloud DNS 策略日志记录检测: suggest/gcp/gcp-dns-policies-if-logging-disabled.md         
+          - Google Cloud DNS 策略日志记录检测: suggest/gcp/gcp-dns-policies-if-logging-disabled.md
           - Google Cloud SSL 证书过期检测: suggest/gcp/gcp-appengine-certificate.md
           - Google Cloud SQL 实例检测: suggest/gcp/gcp-sql-backup-run.md
           - Google Cloud 部署管理器检测: suggest/gcp/gcp-expired-deployments.md
@@ -257,16 +257,16 @@ nav:
           - Google Cloud 实例模板检测: suggest/gcp/gcp-instance-template.md
           - Google Cloud 域使用状态检测: suggest/gcp/gcp-appengine-blacklist.md
       - VMware:
-          - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
-          - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
-          - VMware vSphere Datacenter 关联资源检测: suggest/vsphere/datacenter.md
-          - VMware vSphere ResourcePool CPU 内存检测: suggest/vsphere/resource-pool.md
-          - VMware vSphere Network 分布式类型检测: suggest/vsphere/network.md
-          - VMware vSphere VM 状态检测: suggest/vsphere/vm.md
           - VMware vSphere Cluster 高可用状态检测: suggest/vsphere/cluster.md
+          - VMware vSphere Datacenter 关联资源检测: suggest/vsphere/datacenter.md
           - VMware vSphere Datastore 多主机访问检测: suggest/vsphere/datastore.md
           - VMware vSphere Datastore 可用空间检测: suggest/vsphere/datastore2.md
           - VMware vSphere Datastore 精简配置检测: suggest/vsphere/datastore3.md
+          - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
+          - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
+          - VMware vSphere Network 分布式类型检测: suggest/vsphere/network.md
+          - VMware vSphere ResourcePool CPU 内存检测: suggest/vsphere/resource-pool.md
+          - VMware vSphere VM 状态检测: suggest/vsphere/vm.md
       - OpenStack:
           - OpenStack 网络状态检测: suggest/openstack/network.md
           - OpenStack 项目成员检测: suggest/openstack/project.md
