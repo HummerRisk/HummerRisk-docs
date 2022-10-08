@@ -237,7 +237,7 @@ nav:
           - Azure LoadBalancer 负载均衡器检测: suggest/azure/azure-loadbalancer-publicip.md
           - Azure SQL 数据库保留策略检测: suggest/azure/azure-sql-database.md
           - Azure SQL Server 使用率检测: suggest/azure/azure-sqlserver-usage.md
-          - Azure VM 虚拟机状态检测: suggest/azure/azure-stopped-vm.md
+          - Azure VM 虚拟机状态检测: suggest/azure/azure-stopped-vm-status.md
           - Azure VM 虚拟机公网 IP 检测: suggest/azure/azure-vm-publicip.md
           - Azure VM 虚拟机使用率检测: suggest/azure/azure-vm-usage.md
           - Azure 存储账户检测: suggest/azure/azure-storage-allowip.md
@@ -261,13 +261,13 @@ nav:
           - VMware vSphere Cluster 高可用状态检测: suggest/vsphere/cluster.md
           - VMware vSphere Datacenter 关联资源检测: suggest/vsphere/datacenter.md
           - VMware vSphere Datastore 多主机访问检测: suggest/vsphere/datastore.md
-          - VMware vSphere Datastore 可用空间检测: suggest/vsphere/datastore2.md
-          - VMware vSphere Datastore 精简配置检测: suggest/vsphere/datastore3.md
+          - VMware vSphere Datastore 可用空间检测: suggest/vsphere/datastore-available.md
+          - VMware vSphere Datastore 精简配置检测: suggest/vsphere/datastore-config.md
           - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
-          - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
+          - VMware vSphere Host 连接状态检测: suggest/vsphere/host-connect-status.md
           - VMware vSphere Network 分布式类型检测: suggest/vsphere/network-status.md
           - VMware vSphere ResourcePool CPU 内存检测: suggest/vsphere/resource-pool.md
-          - VMware vSphere VM 状态检测: suggest/vsphere/vm.md
+          - VMware vSphere VM 状态检测: suggest/vsphere/vm-status.md
       - OpenStack:
           - OpenStack 网络状态检测: suggest/openstack/network-status.md
           - OpenStack 项目成员检测: suggest/openstack/project-member.md
