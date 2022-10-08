@@ -190,8 +190,6 @@ nav:
           - COS 公开写入访问权限检测: suggest/tencent/public-write-access-permission.md
           - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
       - AWS:
-          - AWS S3 全局访问检测: suggest/aws/aws-s3-global-grants.md
-          - AWS S3 公开读写访问权限检测: suggest/aws/aws-s3-public-access.md
           - AWS EC2 实例关机状态检测: suggest/aws/aws-stopped-instance.md
           - AWS EC2 标签规范检测: suggest/aws/aws-ec2-tagged.md
           - AWS EC2 运行时间检测: suggest/aws/aws-ec2-runnningtime.md
@@ -204,6 +202,8 @@ nav:
           - AWS RDS 实例加密检测: suggest/aws/aws-rds-encrypted.md
           - AWS RDS 实例公网访问检测: suggest/aws/aws-rds-public-access.md
           - AWS RDS 实例是否使用检测: suggest/aws/aws-rds-unused.md
+          - AWS S3 全局访问检测: suggest/aws/aws-s3-global-grants.md
+          - AWS S3 公开读写访问权限检测: suggest/aws/aws-s3-public-access.md
           - AWS SecurityGroup 高危安全组检测: suggest/aws/aws-securitygroup-check.md
           - AWS 1.0 Identity and Access Management: suggest/aws/aws-iam-cis.md
           - AWS 2.0 Logging: suggest/aws/aws-logging-cis.md
@@ -232,30 +232,30 @@ nav:
       - Azure:
           - Azure App Services CORS配置检测: suggest/azure/azure-app-cors.md
           - Azure Cosmos DB 检测: suggest/azure/azure-cosmosdb.md
+          - Azure Disk 关联虚拟机检测: suggest/azure/azure-unused-disk.md
           - Azure LoadBalancer 负载均衡器检测: suggest/azure/azure-loadbalancer-publicip.md
-          - Azure 网络接口连接检测: suggest/azure/azure-network-interface.md
-          - Azure 网络安全组检测: suggest/azure/azure-network-securitygroup.md
-          - Azure 公网 IP 地址 DDoS 攻击检测: suggest/azure/azure-publicip-ddos.md
-          - Azure 资源组检测: suggest/azure/azure-rg-empty.md
           - Azure SQL 数据库保留策略检测: suggest/azure/azure-sql-database.md
           - Azure SQL Server 使用率检测: suggest/azure/azure-sqlserver-usage.md
           - Azure VM 虚拟机状态检测: suggest/azure/azure-stopped-vm.md
-          - Azure 存储账户检测: suggest/azure/azure-storage-allowip.md
-          - Azure 存储公网访问检测: suggest/azure/azure-storage-public-access.md
-          - Azure Disk 关联虚拟机检测: suggest/azure/azure-unused-disk.md
           - Azure VM 虚拟机公网 IP 检测: suggest/azure/azure-vm-publicip.md
           - Azure VM 虚拟机使用率检测: suggest/azure/azure-vm-usage.md
+          - Azure 存储账户检测: suggest/azure/azure-storage-allowip.md
+          - Azure 存储公网访问检测: suggest/azure/azure-storage-public-access.md
+          - Azure 公网 IP 地址 DDoS 攻击检测: suggest/azure/azure-publicip-ddos.md
+          - Azure 网络接口连接检测: suggest/azure/azure-network-interface.md
+          - Azure 网络安全组检测: suggest/azure/azure-network-securitygroup.md
+          - Azure 资源组检测: suggest/azure/azure-rg-empty.md
       - GCP:
-          - Google Cloud 域使用状态检测: suggest/gcp/gcp-appengine-blacklist.md
+          - Google Cloud DNS 区域的资源检测: suggest/gcp/gcp-dns-managed-zones.md
+          - Google Cloud DNS 策略日志记录检测: suggest/gcp/gcp-dns-policies-if-logging-disabled.md         
           - Google Cloud SSL 证书过期检测: suggest/gcp/gcp-appengine-certificate.md
+          - Google Cloud SQL 实例检测: suggest/gcp/gcp-sql-backup-run.md
+          - Google Cloud 部署管理器检测: suggest/gcp/gcp-expired-deployments.md
           - Google Cloud 防火墙入口规则配置检测: suggest/gcp/gcp-appengine-firewall-ingress.md
           - Google Cloud 防火墙规则检测: suggest/gcp/gcp-appengine-firewall-rules.md
-          - Google Cloud DNS 区域的资源检测: suggest/gcp/gcp-dns-managed-zones.md
-          - Google Cloud DNS 策略日志记录检测: suggest/gcp/gcp-dns-policies-if-logging-disabled.md
-          - Google Cloud 部署管理器检测: suggest/gcp/gcp-expired-deployments.md
-          - Google Cloud 实例模板检测: suggest/gcp/gcp-instance-template.md
           - Google Cloud 负载均衡器检测: suggest/gcp/gcp-load-balancing-ssl-policies.md
-          - Google Cloud SQL 实例检测: suggest/gcp/gcp-sql-backup-run.md
+          - Google Cloud 实例模板检测: suggest/gcp/gcp-instance-template.md
+          - Google Cloud 域使用状态检测: suggest/gcp/gcp-appengine-blacklist.md
       - VMware:
           - VMware vSphere Host 电源状态检测: suggest/vsphere/host.md
           - VMware vSphere Host 连接状态检测: suggest/vsphere/host2.md
