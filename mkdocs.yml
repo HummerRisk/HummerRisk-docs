@@ -52,12 +52,13 @@ nav:
       - 使用流程: user/process.md
       - 首页: user/dashboard.md
       - 混合云安全:
+          - 资源态势: user/cloud-k8s-situation.md
           - 多云检测: user/account.md
           - 漏洞检测: user/vuln.md
           - 合规报告: user/report.md
           - 操作审计: user/event.md
       - 云原生安全:
-          - 资源态势: user/situation.md
+          - 资源态势: user/k8s-k8s-situation.md
           - 主机检测: user/server-type.md
           - K8s 检测: user/k8s.md
           - 部署检测: user/config.md

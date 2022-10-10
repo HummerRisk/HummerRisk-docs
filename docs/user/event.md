@@ -1,13 +1,25 @@
+### 操作审计概览
+
+> 操作审计数据概览。
+
+![云事件](../img/release/0.4.0/event.png){ width="900px" }
+
 ### 云事件同步
 
 > 获取云事件同步日志列表，选择云账号、区域及事件事件范围点击同步按钮可同步云事件。
 
-![云事件](../img/user/event_sync.png)
+![云事件](../img/user/event_sync.png){ width="900px" }
 
 ### 云事件分析
 
 > 根据云账号、区域、日期范围等条件查询云事件。
 
-![云事件](../img/release/0.3.2/event2.png)
+![云事件](../img/release/0.3.2/event2.png){ width="900px" }
+
+### 云事件聚合
+
+> 根据同步的云事件数据进行深度聚合查询。
+
+![云事件](../img/release/0.4.0/event2.png){ width="900px" }
 
 
