@@ -1,6 +1,7 @@
 # AWS EC2标签规范检测
 
-!!! info "检查规则说明"
+### 检查规则说明
+!!! info ""
     在 AWS 的管理最佳实践下，每个 EC2 实例都应该打上合理的标签，以进行管理。本规则是一个实例，检测您账号下的EC2实例是否打了符合要求的标签。。
     这里我们定义所有的主机应该具备3个必要标签：Owner，CostCenter，Project。本规则检测所有非 autoscaling 实例，是否都已具备这3个标签，如果标签完备视为“合规”，否则视为“不合规”
 
@@ -21,15 +22,16 @@
             - "tag:Project": ${{Project}}
     ```
 
-!!! info "处置方案"
+### 处置方案
+!!! info ""
     您可以使用 AWS 控制台、AWS Command Line Interface (CLI)、REST API 来执行具体的操作。   
     我们以 AWS 控制台为例，在控制台中为 EC2 实例补全必要标签 。
 
     *注意：
     关于 AWS 中标签的使用，可以参考最佳实践介绍：https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf*
 
-
-!!! info "操作步骤"
+### 操作步骤
+!!! info ""
 
     * 1.登录 AWS 管理控制台，通过导航菜单进入 EC2 控制面板。 https://console.aws.amazon.com/ec2/ 
     * 2.在导航窗格中，选择资源类型 (例如，实例 Instances)。
@@ -48,7 +50,7 @@
 
 
 
-
-!!! info "帮助资源"
+### 帮助资源
+!!! info ""
     
     https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/Using_Tags.html

@@ -1,6 +1,7 @@
 # Google Cloud 实例模板检测
 
-!!! info "检查规则说明"
+### 检查规则说明
+!!! info ""
     Google Cloud 检测账号下不符合要求的实例模板，符合的视为“合规”，否则属于“不合规”
     
   ```YAML
@@ -23,18 +24,18 @@
   ```
 
     
-!!! info "处置方案"
-    
+### 处置方案
+!!! info ""
     我们以 GCP 控制台为例，在控制台中处理问题 。
 
 
-
-!!! info "操作步骤"
-
-
+### 操作步骤
+!!! info ""
 
 
 
-!!! info "帮助资源"
+
+### 帮助资源
+!!! info ""
 https://cloud.google.com/compute/docs/machine-types
     
