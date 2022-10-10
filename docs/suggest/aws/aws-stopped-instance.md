@@ -1,6 +1,8 @@
 # AWS EC2实例关机状态检测
 
-!!! info "检查规则说明"
+
+### 检查规则说明
+!!! info ""
     检测您账号下的EC2实例是否有处于'关机'状态的，开机视为“合规”，关机视为“不合规” 。
     AWS 的 EC2 实例在关机后仍然会收取部分费用，包括存储，IP等，当 EC2 实例不在使用后，不应该长时间处于关机状态，应当及时的进行回收处理。
 
@@ -14,7 +16,8 @@
         - "State.Name": ${{state}}
     ```
 
-!!! info "处置方案"
+### 处置方案
+!!! info ""
     您可以使用 AWS 控制台、AWS Command Line Interface (CLI)、REST API 来执行具体的操作。   
     我们以 AWS 控制台为例，删除关机状态的 EC2 实例 。
 
@@ -24,7 +27,8 @@
     *注意2：
     EC2 实例删除时需要注意管理的 EBS 卷，如果 EBS 卷不需要保留，要把管理的卷同时删除掉。*
 
-!!! info "操作步骤"
+### 操作步骤
+!!! info ""
 
     * 1.登录 AWS 管理控制台，通过导航菜单进入 EC2 控制面板。 https://console.aws.amazon.com/ec2/ 
     * 2.在左侧菜单中找到实例 。
@@ -34,6 +38,7 @@
 
 
 
-!!! info "帮助资源"
+### 帮助资源
+!!! info ""
     https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/terminating-instances.html#Using_ChangingInstanceInitiatedShutdownBehavior
     https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ebs-deleting-volume.html

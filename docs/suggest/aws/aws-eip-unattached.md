@@ -1,6 +1,7 @@
 # AWS EIP未使用检测
 
-!!! info "检查规则说明"
+### 检查规则说明
+!!! info ""
     检测您账号下的弹性IP实例是否都已使用，是视为“合规”，否则视为“不合规”
 
     ```YAML
@@ -12,18 +13,18 @@
         - NetworkInterfaceId: absent
         - AssociationId: absent
     ```
-
-!!! info "处置方案"
+    
+### 处置方案
+!!! info ""
     您可以使用 AWS 控制台、AWS Command Line Interface (CLI)、REST API 来执行具体的操作。   
     我们以 AWS 控制台为例，在控制台中处理问题 。
 
 
-
-!!! info "操作步骤"
-
-
+### 操作步骤
+!!! info ""
 
 
 
-!!! info "帮助资源"
-    
+
+### 帮助资源
+!!! info ""
