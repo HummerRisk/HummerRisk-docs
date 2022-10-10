@@ -19,7 +19,7 @@
         --set global.storageClass="nfs"         # 设置存储类
         --set hummerrisk.serviceType="NodePort" # 设置 service 类型，例如：CLusterIP/NodePort
         --set hummerrisk.replicas=2             # 设置 hummerrisk 副本数量
-        --set hummerrisk.image.tag="v0.3.2"     # 设置 hummerrisk 版本
+        --set hummerrisk.image.tag="v0.4.0"     # 设置 hummerrisk 版本
     内部数据库部分:
         --set mysql.enabled=true                # 开启内部数据库，会在k8s集群启动一个MySQL
         --set mysql.rootPassword="password"     # 设置数据库密码

@@ -16,15 +16,15 @@
 
     !!! tip "1.快捷升级"
         ``` bash linenums="1"
-        # 例如：升级到指定版本 v0.3.2 
-        hrctl upgrade v0.3.2
+        # 例如：升级到指定版本 v0.4.0 
+        hrctl upgrade v0.4.0
         ```
 
     !!! question "如果服务器网络环境不佳，可尝试手动在线升级"
         ``` bash linenums="1"
         cd /tmp
         # 指定需要升级的目标版本号
-        version=v0.3.2
+        version=v0.4.0
         wget https://github.com/HummerRisk/installer/releases/download/${version}/hummerrisk-installer-${version}.tar.gz
         tar -xf hummerrisk-installer-${version}}.tar.gz
         cd hummerrisk-installer-${version}}

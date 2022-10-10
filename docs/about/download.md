@@ -7,5 +7,5 @@
 
 | version |                                                      linux/amd64                                                       |
 |---------|:----------------------------------------------------------------------------------------------------------------------:|
-| v0.3.2  | [点击下载(hummerrisk-offline-installer-v0.3.2.tar.gz)](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.3.2.tar.gz) |
+| v0.4.0  | [点击下载(hummerrisk-offline-installer-v0.4.0.tar.gz)](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.4.0.tar.gz) |
 
