@@ -25,7 +25,7 @@ Trivy 可以在两种不同的模式下运行：
 * 独立
 * 客户端服务器
 
-它旨在用于 CI。在推送到容器注册表或部署应用程序之前，您可以轻松扫描本地容器映像和其他工件。
+它旨在用于 CI。在推送到容器注册表或部署应用程序之前，您可以轻松扫描本地容器镜像和其他工件。
 
 #### 二、Trivy 特征
 
@@ -54,7 +54,7 @@ Trivy 可以在两种不同的模式下运行：
   * 适用于Travis CI、CircleCI、Jenkins、GitLab CI 等 CI。
 * 支持多种格式
   * 容器镜像
-    * 作为守护进程运行的 Docker Engine 中的本地映像
+    * 作为守护进程运行的 Docker Engine 中的本地镜像
     * Podman中暴露套接字的本地图像
     * Docker Registry 中的远程镜像，例如 Docker Hub、ECR、GCR 和 ACR
     * 存储在docker save/podman save格式文件中的 tar 存档
@@ -185,7 +185,7 @@ Trivy 可以在两种不同的模式下运行：
 
 #### 五、文件系统漏洞扫描
 
-> 扫描文件系统（例如主机、虚拟机映像或解压缩的容器映像文件系统）
+> 扫描文件系统（例如主机、虚拟机镜像或解压缩的容器镜像文件系统）
 
     !!! tip ""
       # trivy fs /application/zookeeper/
