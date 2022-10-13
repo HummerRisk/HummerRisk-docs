@@ -73,11 +73,12 @@ nav:
           - 检测结果: user/resource.md
       - 系统设置: user/settings.md
   - 常见问题:
+      - 多云检测常见问题: question/cloud.md
+      - 云原生检测常见问题: question/k8s.md
       - 等级保护: question/grade-protection.md
       - 安全基线: question/cis.md
       - 开启企业微信通知: question/weixin-settings.md
       - 开启钉钉消息通知: question/dingtalk-settings.md
-      - 使用过程中遇到的问题: question/account.md
   - 开发文档:
       - 开发手册: question/dev-manual.md
       - 如何自定义云资源检测规则: question/rule.md
