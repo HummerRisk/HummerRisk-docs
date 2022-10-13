@@ -73,8 +73,8 @@ nav:
           - 检测结果: user/resource.md
       - 系统设置: user/settings.md
   - 常见问题:
-      - 多云检测常见问题: question/cloud.md
-      - 云原生检测常见问题: question/k8s.md
+      - 多云账号校验失败问题: question/cloud.md
+      - K8s 账号校验失败问题: question/k8s.md
       - 等级保护: question/grade-protection.md
       - 安全基线: question/cis.md
       - 开启企业微信通知: question/weixin-settings.md
