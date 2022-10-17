@@ -27,7 +27,7 @@
       name: cluster-admin
     subjects:
       - kind: ServiceAccount
-        name: hummer-user
+        name: hummer
         namespace: kube-system
     EOF
     ```
