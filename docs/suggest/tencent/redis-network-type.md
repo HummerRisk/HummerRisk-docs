@@ -2,7 +2,7 @@
 
 ### 1.检查项说明
 !!! info ""
-    Tencent  检测您账号下的Redis实例是否运行在VPC网络环境下，是视为“合规”，否则属于“不合规”
+    Tencent  检测您账号下的 Redis 实例是否运行在VPC网络环境下，是视为“合规”，否则属于“不合规”
 
 ### 2.处置方案
 !!! info ""
@@ -19,7 +19,7 @@
 ### 3.操作步骤
 !!! info ""
     1. 使用腾讯云账号登录控制台。
-    2. 通过导航菜单进入云数据库-redis控制台。https://console.cloud.tencent.com/redis
+    2. 通过导航菜单进入云数据库-redis 控制台。https://console.cloud.tencent.com/redis
     3. 查看当前redis实例的网络类型，如果是非VPC网络，根据实际情况可迁移至VPC网络
     4. 登录 Redis 控制台。
     5. 在右侧实例列表页面上方，选择地域。
