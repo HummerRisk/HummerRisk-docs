@@ -19,5 +19,5 @@
 
 ### 4.帮助资源
 !!! info ""
-    https://cloud.tencent.com/document/product/1199/41702
+    - https://cloud.tencent.com/document/product/1199/41702
     
