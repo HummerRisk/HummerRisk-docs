@@ -14,6 +14,7 @@
         - AssociationId: absent
     ```
     
+    
 ### 处置方案
 !!! info ""
     您可以使用 AWS 控制台、AWS Command Line Interface (CLI)、REST API 来执行具体的操作。   
@@ -28,3 +29,4 @@
 
 ### 帮助资源
 !!! info ""
+https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html

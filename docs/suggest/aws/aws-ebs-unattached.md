@@ -23,7 +23,6 @@
 
 ### 操作步骤
 !!! info ""
-
     * 1.登录 AWS 管理控制台，通过导航菜单进入 EC2 控制面板。 https://console.aws.amazon.com/ec2/ 
     * 2.在左侧菜单中找到Elastic Block Store > 卷 。
     * 3.在列表中找到检测结果中对应的卷，确认状态是'可用'。
