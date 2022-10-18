@@ -171,27 +171,26 @@ nav:
           - SecurityGroup 安全组配置检测: suggest/huawei/security-group-config.md
           - SecurityGroup 高危安全组检测: suggest/huawei/security-group-high-risk-port.md
       - 腾讯云:
-          - EIP 带宽峰值检测: suggest/tencent/eip-bandwidth.md
           - CVM 实例关机计费模式检测: suggest/tencent/cvm-billing.md
           - CVM 实例公网 IP 检测: suggest/tencent/cvm-public-network-ip.md
-          - Redis 实例网络类型检测: suggest/tencent/redis-network-type.md
-          - SecurityGroup 配置检测: suggest/tencent/securitygroup-configuration.md
-          - SecurityGroup 高危检测: suggest/tencent/securitygroup-highrisk-configuration.md
+          - COS 防盗链检测: suggest/tencent/cos-antileech.md
+          - COS 公开写入访问权限检测: suggest/tencent/cos-public-write-access-permission.md
+          - COS 公开读取访问权限检测: suggest/tencent/cos-public-read-access-permission.md
+          - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
           - CDB 实例网络类型检测: suggest/tencent/cdb-network-type.md
           - CDB 实例高可用状态检测: suggest/tencent/cdb-ha-status.md
           - CDB 实例公网访问检测: suggest/tencent/cdb-public-network-access.md
           - CDB 实例多可用区检测: suggest/tencent/cdb-multiAZ.md
-          - COS 公开读取访问权限检测: suggest/tencent/cos-public-read-access-permission.md
           - CLB 带宽峰值检测: suggest/tencent/clb-bandwidth.md
           - CLB 公网访问检测: suggest/tencent/clb-public-network-access.md
           - CLB 负载均衡实例 VPC 检测: suggest/tencent/clb-associated-with-vpc.md
           - Disk 磁盘加密检测: suggest/tencent/disk-encryption.md
+          - EIP 带宽峰值检测: suggest/tencent/eip-bandwidth.md
+          - Redis 实例网络类型检测: suggest/tencent/redis-network-type.md
+          - SecurityGroup 配置检测: suggest/tencent/securitygroup-configuration.md
+          - SecurityGroup 高危检测: suggest/tencent/securitygroup-highrisk-configuration.md
           - MongoDB 实例网络类型检测: suggest/tencent/mongo-instance-network-type.md
           - MongoDB 实例公网访问检测: suggest/tencent/mongo-public-network.md
-          - COS 防盗链检测: suggest/tencent/cos-antileech.md
-          - COS 公开写入访问权限检测: suggest/tencent/public-write-access-permission.md
-          - COS 公开读取访问权限检测: suggest/tencent/public-read-access-permission.md
-          - COS 存储桶加密检测: suggest/tencent/cos-bucket-encryption.md
       - AWS:
           - AWS EC2 实例关机状态检测: suggest/aws/aws-stopped-instance.md
           - AWS EC2 标签规范检测: suggest/aws/aws-ec2-tagged.md
