@@ -180,7 +180,7 @@ nav:
           - CDB 实例网络类型检测: suggest/tencent/cdb-network-type.md
           - CDB 实例高可用状态检测: suggest/tencent/cdb-ha-status.md
           - CDB 实例公网访问检测: suggest/tencent/cdb-public-network-access.md
-          - CDB 实例多可用区检测: suggest/tencent/cdb-multiAZ.md
+          - CDB 实例多可用区检测: suggest/tencent/cdb-multi-zone.md
           - CLB 带宽峰值检测: suggest/tencent/clb-bandwidth.md
           - CLB 公网访问检测: suggest/tencent/clb-public-network-access.md
           - CLB 负载均衡实例 VPC 检测: suggest/tencent/clb-associated-with-vpc.md
