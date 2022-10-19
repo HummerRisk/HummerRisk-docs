@@ -27,7 +27,7 @@
 
 
 ![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-mysql-instance.png){ width="900px" }
-![处置方案-切户当前网络类型](../../img/suggest/tencent/cdb-mysql-ha-status.png){ width="900px" }
+![处置方案-切换当前网络类型](../../img/suggest/tencent/cdb-mysql-ha-status.png){ width="900px" }
 
 
 ### 4.帮助资源

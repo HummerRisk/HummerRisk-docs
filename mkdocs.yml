@@ -189,8 +189,8 @@ nav:
           - Redis 实例网络类型检测: suggest/tencent/redis-network-type.md
           - SecurityGroup 配置检测: suggest/tencent/securitygroup-configuration.md
           - SecurityGroup 高危检测: suggest/tencent/securitygroup-highrisk-configuration.md
-          - MongoDB 实例网络类型检测: suggest/tencent/mongo-instance-network-type.md
-          - MongoDB 实例公网访问检测: suggest/tencent/mongo-public-network.md
+          - MongoDB 实例网络类型检测: suggest/tencent/mongodb-instance-network-type.md
+          - MongoDB 实例公网访问检测: suggest/tencent/mongodb-public-network.md
       - AWS:
           - AWS EC2 实例关机状态检测: suggest/aws/aws-stopped-instance.md
           - AWS EC2 标签规范检测: suggest/aws/aws-ec2-tagged.md
