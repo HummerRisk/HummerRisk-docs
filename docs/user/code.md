@@ -7,7 +7,7 @@
 
 > 目前绑定仓库支持两种类型：GitHub 和 GitLab 。
 
->Token 的获取：首先私有仓库需要填入Token，共有仓库无需填写Token
+>Token 的获取：首先私有仓库需要填入Token，公有仓库无需填写Token
 
 Gtihub Token:   
 1. 登录你的帐号，登录后点击右上角你的头像的Settings.
