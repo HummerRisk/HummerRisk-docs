@@ -22,6 +22,7 @@
 
 ![多云检测](../img/release/0.4.1/img_9.png){ width="900px" }
 ![多云检测](../img/release/0.4.1/img_10.png){ width="900px" }
+![多云检测](../img/release/0.4.1/img_14.png){ width="900px" }
 
 ### 1.3 资源态势
 
