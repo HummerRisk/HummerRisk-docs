@@ -16,7 +16,7 @@ v0.4.1
 - refactor（任务编排）：优化 task 任务编排，新增 fs 文件检测类型。
 - refactor（任务报告）：优化任务报告，新增 fs 文件检测结果类型。
 - refactor（关于）：优化关于菜单，优化弹出框展示信息。
-- refactor（主机管理）：优化批量添加主机，绑定策略。
+- refactor（主机管理）：优化批量添加主机，绑定凭证。
 
 !!! success "🐛 Bug修复 Bug Fixes"
 - fix (项目依赖）：升级前后端依赖版本，解决 warning 提示。
