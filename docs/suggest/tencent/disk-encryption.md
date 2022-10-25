@@ -24,6 +24,7 @@
     5. 如果您需要对云硬盘现有数据从加密状态转换为非加密状态，则建议您使用相同命令将数据从加密盘上复制到新创建的非加密盘上。
 
 ![处置方案-查看当前磁盘列表](../../img/suggest/tencent/disk-list.png){ width="900px" }
+
 ![处置方案-查看当前磁盘加密](../../img/suggest/tencent/disk-encryption-status.png){ width="900px" }
 
 

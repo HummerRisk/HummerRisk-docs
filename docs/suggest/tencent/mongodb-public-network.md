@@ -26,6 +26,7 @@
 
 
 ![处置方案-查看当前当前安全组](../../img/suggest/tencent/mangodb-list.png){ width="900px" }
+
 ![处置方案-切换当前安全组](../../img/suggest/tencent/mongodb-security.png){ width="900px" }
 
 ### 4.帮助资源

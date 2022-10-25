@@ -27,7 +27,9 @@
         - 指定地址：您可以在新IPV4地址的输入框指定具体的 IP 地址。指定 IP 地址，请查看该私有网络的网段，指定网段内并未被占用的 IP 地址。
 
 ![处置方案-查看当前网络类型](../../img/suggest/tencent/mangodb-list.png){ width="900px" }
+
 ![处置方案-查看当前网络类型](../../img/suggest/tencent/mangodb-network-type.png){ width="900px" }
+
 ![处置方案-切换当前网络类型](../../img/suggest/tencent/mangodb-change-network.png){ width="900px" }
 
 

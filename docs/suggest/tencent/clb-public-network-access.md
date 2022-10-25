@@ -23,7 +23,9 @@
     5. 在安全组内配置正确的访问规则。
 
 ![处置方案-查看clb](../../img/suggest/tencent/clb-list.png){ width="900px" }
+
 ![处置方案-查看安全组](../../img/suggest/tencent/clb-security.png){ width="900px" }
+
 ![处置方案-编辑规则](../../img/suggest/tencent/clb-secruity-edit.png){ width="900px" }
 
 ### 4.帮助资源

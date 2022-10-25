@@ -20,7 +20,9 @@
     5. 点击保存。
 
 ![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="900px" }
+
 ![处置方案-存储桶加密](../../img/suggest/tencent/cos-private-policy.png){ width="900px" }
+
 ![处置方案-存储桶加密](../../img/suggest/tencent/cos-policy.png){ width="900px" }
 
 ### 4.帮助资源

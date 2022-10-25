@@ -29,6 +29,7 @@
             - 配置*.example.com：可限制a.b.example.com/123、a.example.com等地址。
 
 ![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="900px" }
+
 ![处置方案-设置防盗链](../../img/suggest/tencent/cos-antileech-set.png){ width="900px" }
 
 ### 4.帮助资源
