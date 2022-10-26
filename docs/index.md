@@ -61,6 +61,6 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=HummerRisk/HummerRisk&type=Date)](https://star-history.com/#HummerRisk/HummerRisk&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=HummerRisk/HummerRisk&type=Date){ width="900px" }](https://star-history.com/#HummerRisk/HummerRisk&Date)
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
