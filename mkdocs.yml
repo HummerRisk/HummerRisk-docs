@@ -1,7 +1,7 @@
 site_name: 'HummerRisk 文档'
 site_url: 'https://docs.hummerrisk.com'
 site_author: 'Harris'
-site_description: 'HummerRisk 是开源的云原生安全检测平台'
+site_description: 'HummerRisk 是开源的云原生安全平台'
 
 repo_name: 'HummerRisk/HummerRisk'
 repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
@@ -74,8 +74,9 @@ nav:
           - 检测结果: user/resource.md
       - 系统设置: user/settings.md
   - 常见问题:
-      - 多云账号校验失败问题: question/cloud.md
+      - 混合云账号校验失败问题: question/cloud.md
       - K8s 账号校验失败问题: question/k8s.md
+      - 页面报错到哪去查看log: question/log.md
       - 等级保护: question/grade-protection.md
       - 安全基线: question/cis.md
       - 开启企业微信通知: question/weixin-settings.md
@@ -85,13 +86,13 @@ nav:
       - 如何自定义云资源检测规则: develop/rule.md
       - 自定义阿里云监控规则示例: develop/example.md
   - 技术相关:
-      - 快速了解镜像漏洞扫描Trivy: related/trivy.md
-      - 快速了解AWS安全检测Prowler: related/prowler.md
-      - 快速了解漏洞检测Nuclei: related/nuclei.md
-      - 快速了解漏洞检测Xray: related/xray.md
-      - 快速了解软件包依赖漏洞检测: related/dependency.md
-      - 快速了解镜像漏洞检测Grype: related/grype.md
-      - 快速了解镜像SBOM检测Syft: related/syft.md
+      - 开源工具 Trivy: related/trivy.md
+      - 开源工具 Prowler: related/prowler.md
+      - 开源工具 Nuclei: related/nuclei.md
+      - 开源工具 Xray: related/xray.md
+      - 开源工具 DependencyCheck: related/dependency.md
+      - 开源工具 Grype: related/grype.md
+      - 开源工具 Syft: related/syft.md
   - 优化建议:
       - 阿里云:
           - ACK 删除保护检测:  suggest/aliyun/ack-deletion-protection.md

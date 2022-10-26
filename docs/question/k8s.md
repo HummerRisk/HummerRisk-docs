@@ -1,5 +1,7 @@
 ### K8s 检测
+
 #### 1.k8s 添加验证失败
+
 !!! question ""
     1. 确定部署 hummerrisk 的主机可以访问该 k8s 集群的 6443 端口，需要网络可达、端口可以通，如果不通可以检查防火墙;
     2. 确定提供的 k8s Token 有足够的权限，hummerrisk 会通过该 Token 调用 k8s apiserver 的api
