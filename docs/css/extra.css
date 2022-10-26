@@ -136,3 +136,8 @@
 .md-top {
   margin-top: 2rem;
 }
+
+img {
+  border-radius: 15px;
+  box-shadow:#333333 0px 0px 10px;
+}
