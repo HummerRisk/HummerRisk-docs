@@ -7,7 +7,7 @@
 
 !!! info "1. 添加 helm 仓库源"
     ```bash
-    helm add repo hummerrisk https://hummerrisk.github.io/helm-repo
+    helm repo add hummerrisk https://hummerrisk.github.io/helm-repo
     ```
 
 !!! info "2. 更新 helm 仓库"
@@ -20,11 +20,29 @@
     ``` bash
     # 查询 hummerrisk 安装包
     helm search repo hummerrisk
-    
+
     # 安装
     helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace
     ```
 
+!!! info "4. 使用外部的 MySQL 安装 hummerrisk"
+    ``` bash
+    # 查询 hummerrisk 安装包
+    helm search repo hummerrisk
+
+    # 使用 --set 设置外部数据库配置信，存储信息
+    helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace  \
+    --set global.storageClass="cfs"  \                # 你的存储类名称
+    --set storage.accessModes={"ReadWriteOnce"}  \    # 存储类的访问模式，ReadWriteOnce、ReadWriteMany等
+    --set mysql.enabled=false   \                     # 关闭创建 MySQL 实例
+    --set externalMySQL.enabled=true  \               # 开启使用外部 MySQL 数据库
+    --set externalMySQL.host="172.21.0.7"   \
+    --set externalMySQL.username="root"   \
+    --set externalMySQL.port=3306   \
+    --set externalMySQL.password="Your password"  \
+    --set externalMySQL.databases="hummerrisk"
+    ```
+ 
 ### 2.自定义配置参数说明
 通过修改 vales.yaml 文件或者 helm --set 可以修改 HummerRisk 安装参数，例如：端口、存储信息等，以下为默认配置项，可根据实际环境修改。
 
