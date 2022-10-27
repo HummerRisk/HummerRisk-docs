@@ -31,17 +31,16 @@
         - 预留 IP ：默认为自动分配；选择手动配置需为集群配置高可用写 IP、高可用读 IP、高可用Proxy IP；
     7. 点击提交，返回集群详情页面，即可查看修改后的私有网络信息。
 
-![处置方案-查看vpc网络类型](../../img/suggest/qingcloud/vpc-list.png){ width="900px" }
+![处置方案-查看vpc网络类型](../../img/suggest/qingcloud/vpc-list.png){ width="95%" }
 
-![处置方案-查看当前MongoDB列表](../../img/suggest/qingcloud/mongodb-list.png){ width="900px" }
+![处置方案-查看当前MongoDB列表](../../img/suggest/qingcloud/mongodb-list.png){ width="95%" }
 
-![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mongodb-detail.png){ width="900px" }
+![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mongodb-detail.png){ width="95%" }
 
-![处置方案-切换当前网络类型](../../img/suggest/qingcloud/mongodb-change-network.png){ width="900px" }
+![处置方案-切换当前网络类型](../../img/suggest/qingcloud/mongodb-change-network.png){ width="95%" }
 
 
 
 ### 4.帮助资源
 !!! info ""
     - https://docsv3.qingcloud.com/database/mongodb/manual/mgt_connect/mgt_vxnet/
-    

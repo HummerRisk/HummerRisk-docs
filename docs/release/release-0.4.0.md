@@ -5,109 +5,109 @@
 !!! info ""
     如下图所示，新增云资源态势功能，根据云账号同步云资源，进行资源汇总。
 
-![云资源态势](../img/release/0.4.0/cloud1.png){ width="900px" }
-![云资源态势](../img/release/0.4.0/cloud2.png){ width="900px" }
+![云资源态势](../img/release/0.4.0/cloud1.png){ width="95%" }
+![云资源态势](../img/release/0.4.0/cloud2.png){ width="95%" }
 
 ### 1.2 云资源态势
 
 !!! info ""
     如下图所示，新增云资源拓扑图功能，根据同步云资源汇总信息，形成拓扑图。
 
-![云资源态势](../img/release/0.4.0/cloud3.png){ width="900px" }
-![云资源态势](../img/release/0.4.0/cloud4.png){ width="900px" }
+![云资源态势](../img/release/0.4.0/cloud3.png){ width="95%" }
+![云资源态势](../img/release/0.4.0/cloud4.png){ width="95%" }
 
 ### 1.3 云检测规则组
 
 !!! info ""
     如下图所示，新增阿里云最佳实践规则组，新增规则组直接快速检测功能。
 
-![云检测规则组](../img/release/0.4.0/group.png){ width="900px" }
-![云检测规则组](../img/release/0.4.0/group2.png){ width="900px" }
+![云检测规则组](../img/release/0.4.0/group.png){ width="95%" }
+![云检测规则组](../img/release/0.4.0/group2.png){ width="95%" }
 
 ### 1.4 云检测规则
 
 !!! info ""
     如下图所示，新增 UCloud 、 Aliyun 云检测规则。
 
-![云检测规则](../img/release/0.4.0/rule.png){ width="900px" }
+![云检测规则](../img/release/0.4.0/rule.png){ width="95%" }
 
 ### 1.5 云检测结果
 
 !!! info ""
     如下图所示，新增云资源检测优化建议功能，根据检测规则跳转优化建议页面。
 
-![云检测结果](../img/release/0.4.0/resource.png){ width="900px" }
+![云检测结果](../img/release/0.4.0/resource.png){ width="95%" }
 
 ### 1.6 操作审计
 
 !!! info ""
     如下图所示，新增操作审计概览、云事件聚合功能。
 
-![操作审计](../img/release/0.4.0/event.png){ width="900px" }
-![操作审计](../img/release/0.4.0/event2.png){ width="900px" }
+![操作审计](../img/release/0.4.0/event.png){ width="95%" }
+![操作审计](../img/release/0.4.0/event2.png){ width="95%" }
 
 ### 1.7 源码检测
 
 !!! info ""
     如下图所示，新增源码概览、源码检测历史记录、历史检测数据对比、下载检测报告功能。
 
-![源码检测](../img/release/0.4.0/code.png){ width="900px" }
-![源码检测](../img/release/0.4.0/code2.png){ width="900px" }
-![源码检测](../img/release/0.4.0/code3.png){ width="900px" }
-![源码检测](../img/release/0.4.0/code4.png){ width="900px" }
+![源码检测](../img/release/0.4.0/code.png){ width="95%" }
+![源码检测](../img/release/0.4.0/code2.png){ width="95%" }
+![源码检测](../img/release/0.4.0/code3.png){ width="95%" }
+![源码检测](../img/release/0.4.0/code4.png){ width="95%" }
 
 ### 1.8 部署检测
 
 !!! info ""
     如下图所示，新增部署概览、部署检测历史记录、历史检测数据对比、下载检测报告功能。
 
-![部署检测](../img/release/0.4.0/config.png){ width="900px" }
-![部署检测](../img/release/0.4.0/config2.png){ width="900px" }
-![部署检测](../img/release/0.4.0/config3.png){ width="900px" }
-![部署检测](../img/release/0.4.0/config4.png){ width="900px" }
-![部署检测](../img/release/0.4.0/config5.png){ width="900px" }
+![部署检测](../img/release/0.4.0/config.png){ width="95%" }
+![部署检测](../img/release/0.4.0/config2.png){ width="95%" }
+![部署检测](../img/release/0.4.0/config3.png){ width="95%" }
+![部署检测](../img/release/0.4.0/config4.png){ width="95%" }
+![部署检测](../img/release/0.4.0/config5.png){ width="95%" }
 
 ### 1.9 镜像检测
 
 !!! info ""
     如下图所示，新增镜像概览、镜像检测历史记录、历史检测数据对比、下载检测报告功能。
 
-![镜像检测](../img/release/0.4.0/image.png){ width="900px" }
-![镜像检测](../img/release/0.4.0/image2.png){ width="900px" }
-![镜像检测](../img/release/0.4.0/image3.png){ width="900px" }
-![镜像检测](../img/release/0.4.0/image4.png){ width="900px" }
+![镜像检测](../img/release/0.4.0/image.png){ width="95%" }
+![镜像检测](../img/release/0.4.0/image2.png){ width="95%" }
+![镜像检测](../img/release/0.4.0/image3.png){ width="95%" }
+![镜像检测](../img/release/0.4.0/image4.png){ width="95%" }
 
 ### 1.10 主机检测
 
 !!! info ""
     如下图所示，新增主机概览、主机检测历史记录、历史检测数据对比功能。
 
-![主机检测](../img/release/0.4.0/server.png){ width="900px" }
-![主机检测](../img/release/0.4.0/server2.png){ width="900px" }
-![主机检测](../img/release/0.4.0/server3.png){ width="900px" }
+![主机检测](../img/release/0.4.0/server.png){ width="95%" }
+![主机检测](../img/release/0.4.0/server2.png){ width="95%" }
+![主机检测](../img/release/0.4.0/server3.png){ width="95%" }
 
 ### 1.11 K8s 检测
 
 !!! info ""
     如下图所示，新增 K8s 概览、K8s 检测历史记录、历史检测数据对比、下载检测报告功能。
 
-![K8s 检测](../img/release/0.4.0/k8s.png){ width="900px" }
-![K8s 检测](../img/release/0.4.0/k8s2.png){ width="900px" }
-![K8s 检测](../img/release/0.4.0/k8s3.png){ width="900px" }
+![K8s 检测](../img/release/0.4.0/k8s.png){ width="95%" }
+![K8s 检测](../img/release/0.4.0/k8s2.png){ width="95%" }
+![K8s 检测](../img/release/0.4.0/k8s3.png){ width="95%" }
 
 ### 1.12 K8s 资源态势
 
 !!! info ""
     如下图所示，新增 K8s 资源拓扑图功能，根据同步 K8s 资源汇总信息，形成拓扑图。
 
-![K8s 资源态势](../img/release/0.4.0/k8sto.png){ width="900px" }
+![K8s 资源态势](../img/release/0.4.0/k8sto.png){ width="95%" }
 
 ### 1.13 HummerRisk 安装
 
 !!! info ""
     如下图所示，新增 K8s 安装部署 HummerRisk。
 
-![HummerRisk 安装](../img/release/0.4.0/install.png){ width="900px" }
+![HummerRisk 安装](../img/release/0.4.0/install.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 

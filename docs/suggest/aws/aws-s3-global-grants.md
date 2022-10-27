@@ -33,7 +33,7 @@
     * 6.在 Access control list (访问控制列表) 下，选择 Edit (编辑)。
     * 7.这里我们要修改 Bucket ACL 的公共访问，请将'所有人(公有访问权限)'后面的权限都取消掉。
 
-![处置方案](../../img/suggest/aws/s3bucketacl.jpg){ width="900px" }
+![处置方案](../../img/suggest/aws/s3bucketacl.jpg){ width="95%" }
 
 
 ### 帮助资源

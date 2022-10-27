@@ -25,9 +25,9 @@
     7. 查看当前 MongoDB 绑定的安全组，以及生效的安全策略，如果开启来源为 0.0.0.0/0 的访问，则进行修改
 
 
-![处置方案-查看当前当前安全组](../../img/suggest/tencent/mangodb-list.png){ width="900px" }
+![处置方案-查看当前当前安全组](../../img/suggest/tencent/mangodb-list.png){ width="95%" }
 
-![处置方案-切换当前安全组](../../img/suggest/tencent/mongodb-security.png){ width="900px" }
+![处置方案-切换当前安全组](../../img/suggest/tencent/mongodb-security.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

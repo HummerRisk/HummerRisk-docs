@@ -82,7 +82,7 @@ run.mode=local
 
 #### 后端服务成功运行
 
-![后端服务成功运行](../img/question/manual/backend.png){ width="900px" }
+![后端服务成功运行](../img/question/manual/backend.png){ width="95%" }
 
 ### 前端
 
@@ -123,7 +123,7 @@ yarn serve
 
 #### 前端服务成功运行
 
-![前端服务成功运行](../img/question/manual/frontend.png){ width="900px" }
+![前端服务成功运行](../img/question/manual/frontend.png){ width="95%" }
 
 ## Cloud Custodian 项目结构（https://github.com/hummerrisk/cloud-custodian）(hummerrisk 分支)
 

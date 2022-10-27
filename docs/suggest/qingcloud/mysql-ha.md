@@ -35,9 +35,8 @@
     12. 配置填写高可用集群的连接信息，进行迁移同步，将基础版的数据库数据迁移到高可用数据库；
         - ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-migration-set.png){ width="300px" }
 
-![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mysql-list.png){ width="900px" }
+![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mysql-list.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/1003/79713
-    

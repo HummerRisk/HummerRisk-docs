@@ -16,9 +16,8 @@
     4. 选择调整网络，弹出设置框后，填写带宽的值;
     5. 注意包年包月的IP无法修改带宽.
 
-![处置方案](../../img/suggest/tencent/eip-setting.png){ width="900px" }
+![处置方案](../../img/suggest/tencent/eip-setting.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     https://cloud.tencent.com/document/product/213/15517
-    

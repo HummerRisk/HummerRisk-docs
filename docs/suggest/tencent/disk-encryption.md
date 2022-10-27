@@ -23,9 +23,9 @@
     4. 如果您需要对云硬盘现有数据从非加密状态转换为加密状态，建议您使用 Linux 下的 rsync 命令或者 Windows 下的 robocopy 命令，将数据从非加密盘上复制到新创建的加密盘上；
     5. 如果您需要对云硬盘现有数据从加密状态转换为非加密状态，则建议您使用相同命令将数据从加密盘上复制到新创建的非加密盘上。
 
-![处置方案-查看当前磁盘列表](../../img/suggest/tencent/disk-list.png){ width="900px" }
+![处置方案-查看当前磁盘列表](../../img/suggest/tencent/disk-list.png){ width="95%" }
 
-![处置方案-查看当前磁盘加密](../../img/suggest/tencent/disk-encryption-status.png){ width="900px" }
+![处置方案-查看当前磁盘加密](../../img/suggest/tencent/disk-encryption-status.png){ width="95%" }
 
 
 ### 4.帮助资源

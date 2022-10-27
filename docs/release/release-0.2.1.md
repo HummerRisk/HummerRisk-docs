@@ -7,39 +7,39 @@
 
 > 绑定火山引擎(字节云)账号。
 
-![新增火山引擎](../img/release/0.2.1/huoshan.png){ width="900px" }
-![新增火山引擎](../img/release/0.2.1/huoshan2.png){ width="900px" }
+![新增火山引擎](../img/release/0.2.1/huoshan.png){ width="95%" }
+![新增火山引擎](../img/release/0.2.1/huoshan2.png){ width="95%" }
 
 > 执行一键安全检测。
 
-![火山引擎](../img/release/0.2.1/huoshan3.png){ width="900px" }
+![火山引擎](../img/release/0.2.1/huoshan3.png){ width="95%" }
 
 > 查看合规报告。
 
-![火山引擎](../img/release/0.2.1/huoshan4.png){ width="900px" }
+![火山引擎](../img/release/0.2.1/huoshan4.png){ width="95%" }
 
-![火山引擎](../img/release/0.2.1/huoshan5.png){ width="900px" }
+![火山引擎](../img/release/0.2.1/huoshan5.png){ width="95%" }
 
 ### 1.2 华为云账号规则
 
 !!! info ""
     如下图所示，新增华为云检测规则若干，绑定华为云账号即可进行安全合规检测。
 
-![华为云](../img/release/0.2.1/huawei.png){ width="900px" }
+![华为云](../img/release/0.2.1/huawei.png){ width="95%" }
 
 ### 1.3 阿里矢量图标库
 
 !!! info ""
     新增阿里矢量图标库，增强图标库。
 
-![首页](../img/release/0.2.1/ali.png){ width="900px" }
+![首页](../img/release/0.2.1/ali.png){ width="95%" }
 
 ### 1.4 合规报告
 
 !!! info ""
     如下图所示，新增漏洞检测合规报告。
 
-![漏洞检测](../img/release/0.2.1/vuln.png){ width="900px" }
+![漏洞检测](../img/release/0.2.1/vuln.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 

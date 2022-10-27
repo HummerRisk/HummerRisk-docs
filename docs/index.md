@@ -4,7 +4,7 @@
 
 ## 功能架构图
 
-![系统架构图](./img/index/architecturev.png){ width="900px" }
+![系统架构图](./img/index/architecturev.png){ width="95%" }
 
 ## HummerRisk 能做什么
 
@@ -21,7 +21,7 @@
 * 操作审计：
   统一监控多云环境上的账号活动，对云上产品和服务的访问和使用行为的操作日志进行审计。
   
-![混合云安全合规](./img/index/multi-cloud.png){ width="900px" }
+![混合云安全合规](./img/index/multi-cloud.png){ width="95%" }
 
 > **优势是什么？**
 
@@ -50,7 +50,7 @@
 * SBOM 管理:
   SBOM 的可视化管理和分析，检测 SBOM 的变更，快速发现和定位软件供应链中的风险和漏洞，给出合理的处理建议。
 
-![k8s](./img/index/k8s.png){ width="900px" }
+![k8s](./img/index/k8s.png){ width="95%" }
 
 >**优势是什么？**  
 
@@ -61,6 +61,6 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=HummerRisk/HummerRisk&type=Date){ width="900px" }](https://star-history.com/#HummerRisk/HummerRisk&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=HummerRisk/HummerRisk&type=Date){ width="95%" }](https://star-history.com/#HummerRisk/HummerRisk&Date)
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"

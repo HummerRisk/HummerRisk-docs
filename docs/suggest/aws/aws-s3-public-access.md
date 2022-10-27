@@ -21,7 +21,7 @@
 !!! info ""
     进入 AWS 控制台，依次操作：S3控制台-存储桶-存储桶详情-权限
 
-![处置方案](../../img/suggest/aws/awss3access-check.jpg){ width="900px" }
+![处置方案](../../img/suggest/aws/awss3access-check.jpg){ width="95%" }
 
 ### 操作步骤
 !!! info ""

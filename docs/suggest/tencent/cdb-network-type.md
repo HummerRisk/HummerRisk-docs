@@ -26,12 +26,11 @@
     7. 在实例详情的网络信息区域，可看到当前 MySQL 实例所属网络和内网地址，单击所属网络后面的更换网络。
     8. 可从基础网络转换为私有网络或从当前私有网络更换到另一个私有网络。
 
-![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-mysql-instance.png){ width="900px" }
+![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-mysql-instance.png){ width="95%" }
 
-![处置方案-切换当前网络类型](../../img/suggest/tencent/cdb-mysql-change-network.png){ width="900px" }
+![处置方案-切换当前网络类型](../../img/suggest/tencent/cdb-mysql-change-network.png){ width="95%" }
 
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/1003/79713
-    

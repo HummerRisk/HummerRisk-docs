@@ -2,15 +2,15 @@
 
 主机数据概览。
 
-![主机检测](../img/release/0.4.0/server.png){ width="900px" }
+![主机检测](../img/release/0.4.0/server.png){ width="95%" }
 
 ### 统一凭证
 
 主机认证统一凭证，新建、修改主机信息时，可灵活绑定凭证，凭证由密码或密钥组成。
 
-![主机检测](../img/release/0.3.2/server.png){ width="900px" }
-![主机检测](../img/release/0.3.2/server2.png){ width="900px" }
-![主机检测](../img/release/0.3.2/server3.png){ width="900px" }
+![主机检测](../img/release/0.3.2/server.png){ width="95%" }
+![主机检测](../img/release/0.3.2/server2.png){ width="95%" }
+![主机检测](../img/release/0.3.2/server3.png){ width="95%" }
 
 ### 主机管理
 

@@ -24,11 +24,11 @@
 
 > 图1 进入连接管理: 内网连接设置
 
-![处置方案](../../img/suggest/huawei/dds/img_1.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/dds/img_1.png){ width="95%" }
 
 > 图2 进入连接管理: 公网连接设置
 
-![处置方案](../../img/suggest/huawei/dds/img_2.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/dds/img_2.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

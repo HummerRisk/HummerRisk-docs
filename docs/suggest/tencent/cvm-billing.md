@@ -29,10 +29,9 @@
     5. 注意只有"按需实例"才支持"关机停止收费"
     6. 如果已经关机，但不是"停止收费"状态，可以重新关机，并勾选关机不收费
 
-![处置方案](../../img/suggest/tencent/cvm-bulling.png){ width="900px" }
+![处置方案](../../img/suggest/tencent/cvm-bulling.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/213/19922
     - https://cloud.tencent.com/document/product/213/19918
-    

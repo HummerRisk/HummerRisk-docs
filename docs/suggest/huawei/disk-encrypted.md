@@ -59,7 +59,7 @@ Huawei 账号下所有的磁盘均已加密；若您配置阈值，则磁盘加�
 |    已经被删除    |   若加密磁盘已经挂载至云服务器，则该磁盘将在一段时间后不可读写，甚至数据永远无法恢复。且该磁盘卸载后，将无法重新挂载。 若加密磁盘没有挂载至云服务器，该磁盘将无法实现挂载。   | 磁盘数据永远无法恢复。 |
 
 图1 用户关系示意图
-![处置方案](../../img/suggest/huawei/disk/img.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/disk/img.png){ width="95%" }
 
 ### 3.操作步骤
 !!! info ""
@@ -67,7 +67,7 @@ Huawei 账号下所有的磁盘均已加密；若您配置阈值，则磁盘加�
     2. 通过导航菜单进入服务控制台。https://console.huaweicloud.com/ecm。
     3. 找到相关的资源，进入云硬盘管理菜单进行设置。
 
-![处置方案](../../img/suggest/huawei/disk/img_1.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/disk/img_1.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

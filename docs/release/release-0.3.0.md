@@ -5,14 +5,14 @@
 !!! info ""
     如下图所示，新增源码检测功能，添加 GitHub 或 GitLab 项目地址、branch 分支名称或 tag 标签名称或 commit 提交记录，即可进行源码安全检测。
 
-![源码检测](../img/release/0.3.0/code.png){ width="900px" }
-![源码检测](../img/release/0.3.0/code1.png){ width="900px" }
+![源码检测](../img/release/0.3.0/code.png){ width="95%" }
+![源码检测](../img/release/0.3.0/code1.png){ width="95%" }
 
 > 点击统计，查看具体检测详情信息。点击检测状态，查看检测日志与漏洞清单。
 
-![源码检测](../img/release/0.3.0/code2.png){ width="900px" }
-![源码检测](../img/release/0.3.0/code3.png){ width="900px" }
-![源码检测](../img/release/0.3.0/code4.png){ width="900px" }
+![源码检测](../img/release/0.3.0/code2.png){ width="95%" }
+![源码检测](../img/release/0.3.0/code3.png){ width="95%" }
+![源码检测](../img/release/0.3.0/code4.png){ width="95%" }
 
 ### 1.2 Sbom 管理
 
@@ -21,33 +21,33 @@
 
 > 创建项目与项目版本。
 
-![Sbom 管理](../img/release/0.3.0/sbom.png){ width="900px" }
+![Sbom 管理](../img/release/0.3.0/sbom.png){ width="95%" }
 
 > 可以在 Sbom 管理界面绑定检测资源，也可以在每个检测菜单创建资源时绑定 Sbom 的项目。
 
-![Sbom 管理](../img/release/0.3.0/sbom1.png){ width="900px" }
+![Sbom 管理](../img/release/0.3.0/sbom1.png){ width="95%" }
 
 > 最终根据检测结果生成统计分析报告，并进行下载。
 
-![Sbom 管理](../img/release/0.3.0/sbom2.png){ width="900px" }
+![Sbom 管理](../img/release/0.3.0/sbom2.png){ width="95%" }
 
 ### 1.3 镜像仓库
 
 !!! info ""
     如下图所示，新增镜像仓库 Harbor 对接功能，绑定 HarBor 镜像仓库自动获取镜像列表。
 
-![镜像仓库](../img/release/0.3.0/image1.png){ width="900px" }
-![镜像仓库](../img/release/0.3.0/image2.png){ width="900px" }
-![镜像仓库](../img/release/0.3.0/image3.png){ width="900px" }
-![镜像仓库](../img/release/0.3.0/image4.png){ width="900px" }
+![镜像仓库](../img/release/0.3.0/image1.png){ width="95%" }
+![镜像仓库](../img/release/0.3.0/image2.png){ width="95%" }
+![镜像仓库](../img/release/0.3.0/image3.png){ width="95%" }
+![镜像仓库](../img/release/0.3.0/image4.png){ width="95%" }
 
 ### 1.4 操作审计
 
 !!! info ""
     如下图所示，新增操作审计功能，根据公有云账号，同步获取资源操作事件日志。
 
-![操作审计](../img/release/0.3.0/event1.png){ width="900px" }
-![操作审计](../img/release/0.3.0/event.png){ width="900px" }
+![操作审计](../img/release/0.3.0/event1.png){ width="95%" }
+![操作审计](../img/release/0.3.0/event.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 

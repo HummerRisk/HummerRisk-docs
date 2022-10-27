@@ -21,7 +21,7 @@
     7. 如已经开启外网访问可以点击关闭，以保证数据的安全性。
 
 
-![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-public-access-disable.png){ width="900px" }
+![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-public-access-disable.png){ width="95%" }
 
 
 ### 4.帮助资源
