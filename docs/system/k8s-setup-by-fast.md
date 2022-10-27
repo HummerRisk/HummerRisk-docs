@@ -38,23 +38,23 @@
     --set hummerrisk.replicas=2             # 设置 hummerrisk 副本数量
     --set hummerrisk.image.tag="v0.4.0"     # 设置 hummerrisk 版本
     内部数据库部分:
-    --set mysql.enabled=true                # 开启内部数据库，会在k8s集群启动一个MySQL
+    --set mysql.enabled=true                # 开启后会在 k8s 集群启动一个 MySQL
     --set mysql.rootPassword="password"     # 设置数据库密码
     --set mysql.persistence.enable=true     # 开启持久化存储
     外部数据库部分:
-    --set externalMySQL.enabled=true        # 开启外部部数据库，会在k8s集群启动一个MySQL
-    --set externalMySQL.host="192.168.10.100"     # 设置数据库地址，IP或者域名
+    --set externalMySQL.enabled=true        # 开启后直接连接外部数据库
+    --set externalMySQL.host="192.168.10.100"     # 设置数据库地址，IP 或者域名
     --set externalMySQL.port=true           # 设置数据库端口，默认 3306
     --set externalMySQL.username="root"     # 设置数据库用户名，默认 root
     --set externalMySQL.password="pass"     # 设置数据库密码
     --set externalMySQL.databases="hummerrisk"    # 设置数据库名称
     持久化存储配置:
-    --set storage.logSize="20Gi"            # 设置hummerrisk日志存储卷大小
-    --set storage.imageSize="30Gi"          # 设置hummerrisk镜像存储卷大小
-    --set storage.fileSize="30Gi"           # 设置hummerrisk文件存储卷大小
-    --set storage.dbSize="50Gi"             # 设置hummerrisk数据库存储卷大小，如果使用内部数据需要设置
+    --set storage.logSize="20Gi"            # 设置 hummerrisk 日志存储卷大小
+    --set storage.imageSize="30Gi"          # 设置 hummerrisk 镜像存储卷大小
+    --set storage.fileSize="30Gi"           # 设置 hummerrisk 文件存储卷大小
+    --set storage.dbSize="50Gi"             # 设置 hummerrisk 数据库存储卷大小，如果使用内部数据需要设置
     ingress配置:
-    --set ingress.enabled=false             # ture 启用ingress，false 不启用 ingress
+    --set ingress.enabled=false             # ture 启用 ingress，false 不启用 ingress
     --set ingress.hosts.host="hr.example.local" # 设置访问域名
     ```
 
