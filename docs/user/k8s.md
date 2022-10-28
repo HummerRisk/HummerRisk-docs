@@ -1,4 +1,4 @@
-!!! info "使用云原生安全扫描任务前需在k8s集群上安装 tirvy-operator"
+!!! info "使用云原生 K8s 安全检测任务前需在k8s集群上安装 tirvy-operator"
 
 ```shell
 # 1.添加 chart 仓库
