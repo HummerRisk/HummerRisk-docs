@@ -1,10 +1,10 @@
-### K8s 检测
+### K8s 校验失败
 
-#### 1.k8s 添加验证失败
+#### 1.k8s 解决添加校验失败问题
 
-!!! question ""
+!!! warning "解决添加校验失败问题"
     1. 确定部署 hummerrisk 的主机可以访问该 k8s 集群的 6443 端口，需要网络可达、端口可以通，如果不通可以检查防火墙;
-    2. 确定提供的 k8s Token 有足够的权限，hummerrisk 会通过该 Token 调用 k8s apiserver 的api
+    2. 确定提供的 k8s Token 有足够的权限，hummerrisk 会通过该 Token 调用 k8s apiserver 的 api
     3. k8s token 权限可以参考如下
     创建 ServiceAccount
     ```yaml
@@ -37,6 +37,11 @@
     ```bash
     kubectl create -f ./hummer-sa.yaml
     kubectl create -f ./hummer-clusterrolebinding.yaml
+    ```
+
+#### 2. 足够权限获取 token
+!!! question "获取 token"
+    ```bash
     # 获取 token
     kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep hummer | awk '{print $1}') | grep token: | awk '{print $2}'
     ```

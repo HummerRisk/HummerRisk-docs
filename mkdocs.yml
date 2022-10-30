@@ -48,7 +48,7 @@ nav:
       - 在 K8s 上安装:
           - 安装部署: system/k8s-setup-by-fast.md
           - 备份升级: system/k8s-upgrade.md
-          - K8s 检测: system/k8s-scan.md
+      - 安装 operator: system/k8s-scan.md
   - 功能手册:
       - 使用流程: user/process.md
       - 首页: user/dashboard.md
