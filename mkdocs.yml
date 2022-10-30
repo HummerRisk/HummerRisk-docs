@@ -48,6 +48,7 @@ nav:
       - 在 K8s 上安装:
           - 安装部署: system/k8s-setup-by-fast.md
           - 备份升级: system/k8s-upgrade.md
+          - K8s 检测: system/k8s-scan.md
   - 功能手册:
       - 使用流程: user/process.md
       - 首页: user/dashboard.md
@@ -76,6 +77,7 @@ nav:
   - 常见问题:
       - 混合云账号校验失败问题: question/cloud.md
       - K8s 账号校验失败问题: question/k8s.md
+      - K8s Operator 校验失败问题: system/k8s-scan.md
       - 页面报错到哪去查看log: question/log.md
       - 等级保护: question/grade-protection.md
       - 安全基线: question/cis.md

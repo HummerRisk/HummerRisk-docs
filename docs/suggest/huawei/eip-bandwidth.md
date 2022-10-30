@@ -14,7 +14,7 @@ Huawei 检测您账号下的弹性 IP 实例是否达到最低带宽要求，符
             * “按流量计费”的计费项有：流量费、IP保有费。
             * “加入共享带宽”的计费项有：带宽费、IP保有费。
 
-![处置方案](../../img/suggest/huawei/eip/img.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/eip/img.png){ width="95%" }
 
 ### 3.操作步骤
 !!! info ""
@@ -24,7 +24,7 @@ Huawei 检测您账号下的弹性 IP 实例是否达到最低带宽要求，符
 
 > 图1 进入弹性 IP 管理: 修改带宽
 
-![处置方案](../../img/suggest/huawei/eip/img_1.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/eip/img_1.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

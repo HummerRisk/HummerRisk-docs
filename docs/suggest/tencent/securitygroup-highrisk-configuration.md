@@ -28,9 +28,8 @@
         - TCP:3389：放通3389端口，允许 RDP 远程连接 Windows 云服务器。
         - 放通内网：放通内网，允许不同云资源间内网互通（IPv4）。
 
-![处置方案-修改安全组规则](../../img/suggest/tencent/network-policy.png){ width="900px" }
+![处置方案-修改安全组规则](../../img/suggest/tencent/network-policy.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/213/15377
-    

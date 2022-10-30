@@ -22,9 +22,9 @@
         - ![处置方案-设置eip带宽](../../img/suggest/qingcloud/eip-set.png){ width="400px" }
     5. 注意包年包月的IP无法修改带宽.
 
-![处置方案-查看eip列表](../../img/suggest/qingcloud/eip-list.png){ width="900px" }
+![处置方案-查看eip列表](../../img/suggest/qingcloud/eip-list.png){ width="95%" }
 
-![处置方案-查看eip详情](../../img/suggest/qingcloud/eip-set-detail.png){ width="900px" }
+![处置方案-查看eip详情](../../img/suggest/qingcloud/eip-set-detail.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

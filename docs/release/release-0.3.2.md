@@ -5,32 +5,32 @@
 !!! info ""
     如下图所示，新增首页面板，登录访问直接到面板，可快速进入混合云安全与云原生安全模块。
 
-![首页面板](../img/release/0.3.2/panel.png){ width="900px" }
+![首页面板](../img/release/0.3.2/panel.png){ width="95%" }
 
 ### 1.2 操作审计
 
 !!! info ""
     如下图所示，新增华为云、腾讯云平台事件日志信息同步，并且按事件的风险等级分类。
 
-![操作审计](../img/release/0.3.2/event.png){ width="900px" }
-![操作审计](../img/release/0.3.2/event2.png){ width="900px" }
+![操作审计](../img/release/0.3.2/event.png){ width="95%" }
+![操作审计](../img/release/0.3.2/event2.png){ width="95%" }
 
 ### 1.3 统一凭证
 
 !!! info ""
     如下图所示，新增主机认证统一凭证，新建、修改主机信息时，可灵活绑定凭证，凭证由密码或密钥组成。
 
-![主机检测](../img/release/0.3.2/server.png){ width="900px" }
-![主机检测](../img/release/0.3.2/server2.png){ width="900px" }
-![主机检测](../img/release/0.3.2/server3.png){ width="900px" }
+![主机检测](../img/release/0.3.2/server.png){ width="95%" }
+![主机检测](../img/release/0.3.2/server2.png){ width="95%" }
+![主机检测](../img/release/0.3.2/server3.png){ width="95%" }
 
 ### 1.4 检测规则
 
 !!! info ""
     如下图所示，新增云资源检测规则组，符合多场景检测任务，规则组可自由配置绑定检测规则。
 
-![检测规则](../img/release/0.3.2/group.png){ width="900px" }
-![检测规则](../img/release/0.3.2/group2.png){ width="900px" }
+![检测规则](../img/release/0.3.2/group.png){ width="95%" }
+![检测规则](../img/release/0.3.2/group2.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 
@@ -39,7 +39,7 @@
 !!! info ""
     新增任务编排类型: K8s 检测和部署检测。
 
-![任务编排](../img/release/0.3.2/task.png){ width="900px" }
+![任务编排](../img/release/0.3.2/task.png){ width="95%" }
 
 ### 2.2 首页
 
@@ -56,15 +56,15 @@
 !!! info ""
     优化检测结果，新增进度条实时展示数据。新增检测结果详情，可多维度查看检测资源信息。
 
-![检测结果](../img/release/0.3.2/result.png){ width="900px" }
-![检测结果](../img/release/0.3.2/result2.png){ width="900px" }
+![检测结果](../img/release/0.3.2/result.png){ width="95%" }
+![检测结果](../img/release/0.3.2/result2.png){ width="95%" }
 
 ### 2.5 检测结果
 
 !!! info ""
     优化云原生安全检测结果，新增风险等级展示。
 
-![检测结果](../img/release/0.3.1/server4.png){ width="900px" }
+![检测结果](../img/release/0.3.1/server4.png){ width="95%" }
 
 ### 2.6 菜单栏
 

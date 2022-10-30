@@ -26,8 +26,8 @@
     10. 数据库迁移可参考 https://cloud.tencent.com/document/product/236/8464
 
 
-![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-mysql-instance.png){ width="900px" }
-![处置方案-切换当前网络类型](../../img/suggest/tencent/cdb-mysql-ha-status.png){ width="900px" }
+![处置方案-查看当前网络类型](../../img/suggest/tencent/cdb-mysql-instance.png){ width="95%" }
+![处置方案-切换当前网络类型](../../img/suggest/tencent/cdb-mysql-ha-status.png){ width="95%" }
 
 
 ### 4.帮助资源

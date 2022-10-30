@@ -6,7 +6,7 @@
 !!! info "处置方案"
     进入阿里云后台，顺序操作：管理控制台-账号管理-安全设置-虚拟MFA-设置
 
-![处置方案](../../img/suggest/aliyun/ram/ram.png){ width="900px" }
+![处置方案](../../img/suggest/aliyun/ram/ram.png){ width="95%" }
 
 !!! info "操作步骤"
 

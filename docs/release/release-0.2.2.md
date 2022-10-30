@@ -7,8 +7,8 @@
 
 > 绑定 QingCloud 账号, 即可执行安全合规检测。
 
-![QingCloud](../img/release/0.2.2/qingcloud1.png){ width="900px" }
-![QingCloud](../img/release/0.2.2/qingcloud2.png){ width="900px" }
+![QingCloud](../img/release/0.2.2/qingcloud1.png){ width="95%" }
+![QingCloud](../img/release/0.2.2/qingcloud2.png){ width="95%" }
 
 
 ### 1.2 Ucloud 云账号规则
@@ -18,8 +18,8 @@
 
 > 绑定 Ucloud 账号, 即可执行安全合规检测。
 
-![Ucloud](../img/release/0.2.2/ucloud1.png){ width="900px" }
-![Ucloud](../img/release/0.2.2/ucloud2.png){ width="900px" }
+![Ucloud](../img/release/0.2.2/ucloud1.png){ width="95%" }
+![Ucloud](../img/release/0.2.2/ucloud2.png){ width="95%" }
 
 ### 1.3 K8s 检测
 
@@ -28,22 +28,22 @@
 
 > 绑定 K8s 账号, 即可执行安全检测。
 
-![K8s](../img/release/0.2.2/k8s1.png){ width="900px" }
-![K8s](../img/release/0.2.2/k8s2.png){ width="900px" }
+![K8s](../img/release/0.2.2/k8s1.png){ width="95%" }
+![K8s](../img/release/0.2.2/k8s2.png){ width="95%" }
 
 > 云原生检测结果列表，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告。
 
-![K8s](../img/release/0.2.2/k8s3.png){ width="900px" }
-![K8s](../img/release/0.2.2/k8s4.png){ width="900px" }
-![K8s](../img/release/0.2.2/k8s5.png){ width="900px" }
-![K8s](../img/release/0.2.2/k8s6.png){ width="900px" }
+![K8s](../img/release/0.2.2/k8s3.png){ width="95%" }
+![K8s](../img/release/0.2.2/k8s4.png){ width="95%" }
+![K8s](../img/release/0.2.2/k8s5.png){ width="95%" }
+![K8s](../img/release/0.2.2/k8s6.png){ width="95%" }
 
 ### 1.4 资源态势
 
 !!! info ""
     如下图所示，新增资源态势功能，绑定 K8s 环境信息，即可获取 K8s 的 Namespace、Pod、Node、Deployment、Service 等20余种资源信息。
 
-![资源态势](../img/release/0.2.2/situation.png){ width="900px" }
+![资源态势](../img/release/0.2.2/situation.png){ width="95%" }
 
 ### 1.5 镜像检测
 
@@ -52,10 +52,10 @@
 
 > 云原生镜像漏洞检测结果列表，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告。
 
-![镜像检测](../img/release/0.2.2/image1.png){ width="900px" }
-![镜像检测](../img/release/0.2.2/image2.png){ width="900px" }
-![镜像检测](../img/release/0.2.2/image3.png){ width="900px" }
-![镜像检测](../img/release/0.2.2/image4.png){ width="900px" }
+![镜像检测](../img/release/0.2.2/image1.png){ width="95%" }
+![镜像检测](../img/release/0.2.2/image2.png){ width="95%" }
+![镜像检测](../img/release/0.2.2/image3.png){ width="95%" }
+![镜像检测](../img/release/0.2.2/image4.png){ width="95%" }
 
 ### 1.6 K8s 部署检测
 
@@ -64,17 +64,17 @@
 
 > K8s 部署检测结果列表，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告。
 
-![部署检测](../img/release/0.2.2/config1.png){ width="900px" }
-![部署检测](../img/release/0.2.2/config2.png){ width="900px" }
-![部署检测](../img/release/0.2.2/config3.png){ width="900px" }
-![部署检测](../img/release/0.2.2/config4.png){ width="900px" }
+![部署检测](../img/release/0.2.2/config1.png){ width="95%" }
+![部署检测](../img/release/0.2.2/config2.png){ width="95%" }
+![部署检测](../img/release/0.2.2/config3.png){ width="95%" }
+![部署检测](../img/release/0.2.2/config4.png){ width="95%" }
 
 ### 1.7 插件列表
 
 !!! info ""
     如下图所示，系统设置，新增插件列表，展示云插件与云原生插件信息。
 
-![插件列表](../img/release/0.2.2/situation.png){ width="900px" }
+![插件列表](../img/release/0.2.2/situation.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 

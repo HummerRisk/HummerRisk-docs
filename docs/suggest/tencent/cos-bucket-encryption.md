@@ -18,12 +18,11 @@
     4. 在左侧导航栏中，单击安全管理 > 服务端加密。
     5. 在服务端加密配置项，单击编辑，将当前状态修改为“开启”
 
-![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="900px" }
+![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="95%" }
 
-![处置方案-存储桶加密](../../img/suggest/tencent/cos-bucket-encryption.png){ width="900px" }
+![处置方案-存储桶加密](../../img/suggest/tencent/cos-bucket-encryption.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/436/40117
-    
     

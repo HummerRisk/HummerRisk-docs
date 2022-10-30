@@ -28,12 +28,11 @@
             - 支持带端口的域名和 IP，例如www.example.com:8080、10.10.10.10:8080等地址。
             - 配置*.example.com：可限制a.b.example.com/123、a.example.com等地址。
 
-![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="900px" }
+![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="95%" }
 
-![处置方案-设置防盗链](../../img/suggest/tencent/cos-antileech-set.png){ width="900px" }
+![处置方案-设置防盗链](../../img/suggest/tencent/cos-antileech-set.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/436/13319
-    
     

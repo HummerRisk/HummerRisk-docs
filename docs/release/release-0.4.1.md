@@ -5,39 +5,39 @@
 !!! info ""
     如下图所示，新增依赖文件检测功能，手动添加项目依赖文件(单独文件或包含依赖文件的压缩包zip或tar)，例如：pom.xml、package.json、yarn.lock、pnpm.yaml等，检测依赖项的漏洞风险等信息。
 
-![文件检测](../img/release/0.4.1/img.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_1.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_2.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_3.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_4.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_5.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_6.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_7.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_8.png){ width="900px" }
+![文件检测](../img/release/0.4.1/img.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_1.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_2.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_3.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_4.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_5.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_6.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_7.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_8.png){ width="95%" }
 
 ### 1.2 多云检测
 
 !!! info ""
     如下图所示，新增 AWS 检测规则组与规则，实现具体等保合规、CIS、最佳实践等场景的检测。
 
-![多云检测](../img/release/0.4.1/img_9.png){ width="900px" }
-![多云检测](../img/release/0.4.1/img_10.png){ width="900px" }
-![多云检测](../img/release/0.4.1/img_14.png){ width="900px" }
+![多云检测](../img/release/0.4.1/img_9.png){ width="95%" }
+![多云检测](../img/release/0.4.1/img_10.png){ width="95%" }
+![多云检测](../img/release/0.4.1/img_14.png){ width="95%" }
 
 ### 1.3 资源态势
 
 !!! info ""
     如下图所示，新增云资源态势页面的资源清单，关联已检测的不合规的结果，可以快速查看同步的资源哪些有风险。
 
-![资源态势](../img/release/0.4.1/img_11.png){ width="900px" }
-![资源态势](../img/release/0.4.1/img_12.png){ width="900px" }
+![资源态势](../img/release/0.4.1/img_11.png){ width="95%" }
+![资源态势](../img/release/0.4.1/img_12.png){ width="95%" }
 
 ### 1.4 sbom 管理
 
 !!! info ""
     如下图所示，sbom管理里添加文件系统检测，历史数据展示，报告下载等功能。
 
-![sbom 管理](../img/release/0.4.1/img_13.png){ width="900px" }
+![sbom 管理](../img/release/0.4.1/img_13.png){ width="95%" }
 
 
 ## 2 性能优化 Optimization

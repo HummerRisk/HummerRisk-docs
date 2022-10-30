@@ -38,10 +38,9 @@
 
 
 
-![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mysql-public-ip-set.png){ width="900px" }
+![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mysql-public-ip-set.png){ width="95%" }
 
 
 ### 4.帮助资源
 !!! info ""
     - https://docsv3.qingcloud.com/database/mysql/manual/mgt_connect/enable_external_network/
-    

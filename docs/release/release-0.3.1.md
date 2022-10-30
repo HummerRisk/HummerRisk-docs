@@ -5,33 +5,33 @@
 !!! info ""
     如下图所示，新增 dockerhub、nexus 镜像仓库认证，手动同步仓库镜像，并且可以一键快速执行镜像检测。
 
-![镜像检测](../img/release/0.3.1/image1.png){ width="900px" }
-![镜像检测](../img/release/0.3.1/image2.png){ width="900px" }
-![镜像检测](../img/release/0.3.1/image3.png){ width="900px" }
+![镜像检测](../img/release/0.3.1/image1.png){ width="95%" }
+![镜像检测](../img/release/0.3.1/image2.png){ width="95%" }
+![镜像检测](../img/release/0.3.1/image3.png){ width="95%" }
 
 ### 1.2 资源态势
 
 !!! info ""
     如下图所示，新增 K8s 资源态势同步日志功能，手动同步 K8s 资源。
 
-![资源态势](../img/release/0.3.1/k8s1.png){ width="900px" }
-![资源态势](../img/release/0.3.1/k8s2.png){ width="900px" }
+![资源态势](../img/release/0.3.1/k8s1.png){ width="95%" }
+![资源态势](../img/release/0.3.1/k8s2.png){ width="95%" }
 
 ### 1.3 主机检测
 
 !!! info ""
     如下图所示，新增密钥认证，新增 Ubuntu 等操作系统 ssh 连接。
 
-![主机检测](../img/release/0.3.1/server1.png){ width="900px" }
-![主机检测](../img/release/0.3.1/server2.png){ width="900px" }
-![主机检测](../img/release/0.3.1/server3.png){ width="900px" }
+![主机检测](../img/release/0.3.1/server1.png){ width="95%" }
+![主机检测](../img/release/0.3.1/server2.png){ width="95%" }
+![主机检测](../img/release/0.3.1/server3.png){ width="95%" }
 
 ### 1.4 主机检测
 
 !!! info ""
     如下图所示，新增主机检测规则，绑定主机后一键检测获取结果。
 
-![主机检测](../img/release/0.3.1/server4.png){ width="900px" }
+![主机检测](../img/release/0.3.1/server4.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 

@@ -4,22 +4,22 @@
 
 ### 依赖文件概览
 
-![文件检测](../img/release/0.4.1/img_8.png){ width="900px" }
+![文件检测](../img/release/0.4.1/img_8.png){ width="95%" }
 
 ### 依赖文件管理
 
 > 依赖文件管理，手动添加依赖文件或压缩文件夹。
 
-![文件检测](../img/release/0.4.1/img.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_1.png){ width="900px" }
+![文件检测](../img/release/0.4.1/img.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_1.png){ width="95%" }
 
 ### 依赖文件检测结果
 
-![文件检测](../img/release/0.4.1/img_3.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_4.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_5.png){ width="900px" }
+![文件检测](../img/release/0.4.1/img_3.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_4.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_5.png){ width="95%" }
 
 ### 依赖文件检测历史记录
 
-![文件检测](../img/release/0.4.1/img_6.png){ width="900px" }
-![文件检测](../img/release/0.4.1/img_7.png){ width="900px" }
+![文件检测](../img/release/0.4.1/img_6.png){ width="95%" }
+![文件检测](../img/release/0.4.1/img_7.png){ width="95%" }

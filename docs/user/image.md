@@ -44,7 +44,7 @@
 
 镜像检测数据概览。
 
-![镜像检测](../img/release/0.4.0/image.png){ width="900px" }
+![镜像检测](../img/release/0.4.0/image.png){ width="95%" }
 
 ### 镜像检测结果
 
@@ -65,5 +65,5 @@
 
 ### 镜像检测历史记录
 
-![镜像检测](../img/release/0.4.0/image3.png){ width="900px" }
-![镜像检测](../img/release/0.4.0/image4.png){ width="900px" }
+![镜像检测](../img/release/0.4.0/image3.png){ width="95%" }
+![镜像检测](../img/release/0.4.0/image4.png){ width="95%" }

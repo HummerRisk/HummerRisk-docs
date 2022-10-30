@@ -15,9 +15,8 @@
     2. 通过导航菜单进入云服务器控制台。https://console.cloud.tencent.com/cvm/ip
     3. 选择需要绑定公网IP的VM, 更多-IP/网卡-解绑弹性IP或解绑弹性网卡
 
-![处置方案](../../img/suggest/tencent/cvm-eip-bind.png){ width="900px" }
+![处置方案](../../img/suggest/tencent/cvm-eip-bind.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/1199/41702
-    

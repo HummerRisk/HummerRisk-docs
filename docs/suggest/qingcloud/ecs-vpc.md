@@ -18,16 +18,15 @@
     4. 离开当前网络；
     5. 加入新的目标网络。
 
-![处置方案](../../img/suggest/qingcloud/ecs-list.png){ width="900px" }
+![处置方案](../../img/suggest/qingcloud/ecs-list.png){ width="95%" }
 
-![处置方案](../../img/suggest/qingcloud/ecs-config.png){ width="900px" }
+![处置方案](../../img/suggest/qingcloud/ecs-config.png){ width="95%" }
 
-![处置方案](../../img/suggest/qingcloud/ecs-level-vpc.png){ width="900px" }
+![处置方案](../../img/suggest/qingcloud/ecs-level-vpc.png){ width="95%" }
 
-![处置方案](../../img/suggest/qingcloud/ecs-add-vpc.png){ width="900px" }
+![处置方案](../../img/suggest/qingcloud/ecs-add-vpc.png){ width="95%" }
 
 
 ### 4.帮助资源
 !!! info ""
     - https://docsv3.qingcloud.com/helpcenter/net/
-    

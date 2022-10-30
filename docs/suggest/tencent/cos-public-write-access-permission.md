@@ -19,14 +19,13 @@
     5. 选择私有读写，配置账户规则，关闭公有写入；
     5. 点击保存。
 
-![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="900px" }
+![处置方案-存储存储列表](../../img/suggest/tencent/cos-bucket-list.png){ width="95%" }
 
-![处置方案-存储桶加密](../../img/suggest/tencent/cos-private-policy.png){ width="900px" }
+![处置方案-存储桶加密](../../img/suggest/tencent/cos-private-policy.png){ width="95%" }
 
-![处置方案-存储桶加密](../../img/suggest/tencent/cos-policy.png){ width="900px" }
+![处置方案-存储桶加密](../../img/suggest/tencent/cos-policy.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://cloud.tencent.com/document/product/436/13315
-    
     

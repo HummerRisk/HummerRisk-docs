@@ -21,9 +21,8 @@
     8. 在云服务器列表页面，您可以查看云服务器的公网 IP 所在列显示为空。
 
 
-![处置方案](../../img/suggest/qingcloud/ecs-bind-public-ip.png){ width="900px" }
+![处置方案](../../img/suggest/qingcloud/ecs-bind-public-ip.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""
     - https://docsv3.qingcloud.com/compute/vm/manual/public_ip/20_del_public_ip/
-    

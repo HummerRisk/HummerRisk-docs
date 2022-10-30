@@ -22,7 +22,7 @@
 
 > 图1 进入安全设置
 
-![处置方案](../../img/suggest/huawei/iam/img.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/iam/img.png){ width="95%" }
 
 !!! info ""
     * 管理员可通过IAM控制台进入“安全设置”。
@@ -31,13 +31,13 @@
 
 > 图2 进入统一身份认证服务
         
-![处置方案](../../img/suggest/huawei/iam/img.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/iam/img.png){ width="95%" }
 
 
 > 图3 图4 如何进行安全设置
 
-![处置方案](../../img/suggest/huawei/iam/iam-login.png){ width="900px" }
-![处置方案](../../img/suggest/huawei/iam/iam-login2.png){ width="900px" }
+![处置方案](../../img/suggest/huawei/iam/iam-login.png){ width="95%" }
+![处置方案](../../img/suggest/huawei/iam/iam-login2.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

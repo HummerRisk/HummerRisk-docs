@@ -24,8 +24,8 @@
     6. 在实例详情的配置信息中，可看到当前数据所在的可用区；
     7. 点击迁移实例-选择目标可用区-选择多可用区部署为"是"-备库选择为其他可用区.
 
-![处置方案-查看数据详情](../../img/suggest/tencent/cdb-multi-zone-detail.png){ width="900px" }
-![处置方案-修改数据可用区](../../img/suggest/tencent/cdb-multi-zone-setting.png){ width="900px" }
+![处置方案-查看数据详情](../../img/suggest/tencent/cdb-multi-zone-detail.png){ width="95%" }
+![处置方案-修改数据可用区](../../img/suggest/tencent/cdb-multi-zone-setting.png){ width="95%" }
 
 ### 4.帮助资源
 !!! info ""

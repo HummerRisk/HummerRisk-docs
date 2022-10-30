@@ -27,7 +27,7 @@
     * 2.在左侧菜单中找到Elastic Block Store > 卷 。
     * 3.在列表中找到检测结果中对应的卷，确认状态是'可用'。
     * 4.选择要操作的卷，点击上方的操作按钮，选择删除卷。
-![处置方案](../../img/suggest/aws/unattachedebs.jpg){ width="900px" }
+![处置方案](../../img/suggest/aws/unattachedebs.jpg){ width="95%" }
 
 ### 帮助资源
 !!! info ""
