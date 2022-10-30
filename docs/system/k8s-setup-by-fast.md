@@ -30,7 +30,7 @@
     # 查询 hummerrisk 安装包
     helm search repo hummerrisk
 
-    # 使用 --set 设置外部数据库配置信，存储信息
+    # 使用 --set 设置外部数据库配置信息，存储信息
     helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace  \
     --set global.storageClass="cfs"  \                # 你的存储类名称
     --set storage.accessModes={"ReadWriteOnce"}  \    # 存储类的访问模式，ReadWriteOnce、ReadWriteMany等
@@ -62,7 +62,7 @@
     外部数据库部分:
     --set externalMySQL.enabled=true        # 开启后直接连接外部数据库
     --set externalMySQL.host="192.168.10.100"     # 设置数据库地址，IP 或者域名
-    --set externalMySQL.port=true           # 设置数据库端口，默认 3306
+    --set externalMySQL.port=3306           # 设置数据库端口，默认 3306
     --set externalMySQL.username="root"     # 设置数据库用户名，默认 root
     --set externalMySQL.password="pass"     # 设置数据库密码
     --set externalMySQL.databases="hummerrisk"    # 设置数据库名称

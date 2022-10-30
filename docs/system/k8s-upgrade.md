@@ -1,7 +1,7 @@
 !!! warning "更新前请一定要做好数据库备份工作"
 
 ### 1.更新 hummerrisk
-!!! info "更新"
+!!! info ""
     ``` bash
     # 更新某个配置项，例如修改 Service 类型为 NodePort
     helm upgrade hummerrisk hummerrisk/hummerrisk --set hummerrisk.serviceType=NodePort -ndev
@@ -11,7 +11,7 @@
     ```
 
 ### 2.常用可配置项
-!!! info "更新"
+!!! info ""
     ```yaml linenums="1"
     全局配置:
         --set global.imageRegistry=""           # 设置镜像仓库地址
