@@ -297,7 +297,7 @@ nav:
           - MySQL 实例高可用状态检测: suggest/qingcloud/mysql-ha.md
       - UCloud:
           - EIP 带宽峰值检测: suggest/ucloud/eip-bandwidth.md
-          - UHost 公网 IP 检测: suggest/ucloud/uhost-public-network-ip.md
+          - UHost 公网 IP 检测: suggest/ucloud/uhost-eip.md
           - UHost VPC 检测: suggest/ucloud/uhost-vpc.md
           - UHost 网络类型检测: suggest/ucloud/uhost-network-type.md
           - UHost 挂载磁盘加密检测: suggest/ucloud/uhost-disk-encryption.md
