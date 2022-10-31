@@ -4,8 +4,7 @@
 
 >将企业网络安全进行一个整体的统筹划分，按照企业网络安全建设的全方面，将网络安全技术领域细分为9个安全子域，其中网络安全基线为基础域，通过各个子域的建设实施，不断完善网络安全基线的建设，将网络安全基线作为网络安全技术标准，统一实施，提高企业网络安全整体防御实力。
 
-![CIS](../img/question/cis/img.png){ width="95%" }
-![CIS](../img/question/cis/img_1.png){ width="95%" }
+![](../img/question/cis/img.png){ width="60%"} ![](../img/question/cis/img_1.png){ width="60%"}
 
 ### 1、安全基线
 
@@ -15,7 +14,7 @@
 Benchmarks是保护IT系统和数据免受最普遍网络攻击的全球标准和公认的最佳实践。CIS Benchmarks提供了一系列指导手册来保护容易受到网络攻击的操作系统、软件和网络。主要包括如下内容：
 
 |   序号    |   类别    | 内容 |
-|:-------:|:-------:| :----: |
+|:-------:|:-------:|:-------|
 |    1    |  操作系统   | Amazon Linux、CentOS Linux、Debian Linux、Oracle Linux、Red Hat Linux、SUSE Linux、Ubuntu Linux、Apple OS、IBM AIX、Oracle Solaris、Windows |
 |    2    |   数据库   | IBM DB2、Microsoft SQL Server、MongoDB、Oracle Database、Oracle MySQL |
 |    3    |   服务器   | Apache HTTP Server、Apache Tomcat、Microsoft IIS |
