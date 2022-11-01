@@ -1,23 +1,27 @@
 
 ### Prowler
 
-> Github 项目地址：https://github.com/hummerrisk/prowler
+!!! info "项目地址"
+    Github 项目地址：https://github.com/hummerrisk/prowler
  
 #### 一、Prowler 是什么
 
-Prowler 是一个命令行工具，可帮助您进行 AWS 安全评估、审计、强化和事件响应。
-
-它遵循 CIS Amazon Web Services Foundations Benchmark（49 项检查）的指导方针，并有 100 多项额外检查，包括与 GDPR、HIPAA、PCI-DSS、ISO-27001、FFIEC、SOC2 等相关的检查。
+!!! abstract "Prowler 是什么"
+    - Prowler 是一个命令行工具，可帮助您进行 AWS 安全评估、审计、强化和事件响应。
+    - 它遵循 CIS Amazon Web Services Foundations Benchmark（49 项检查）的指导方针，并有 100 多项额外检查，包括与 GDPR、HIPAA、PCI-DSS、ISO-27001、FFIEC、SOC2 等相关的检查。
 
 #### 二、Prowler 使用
 
-> 工具使用: ./prowler -h
-
-上述命令将显示该工具的帮助信息，下面给出的是该工具的常用选项：
-
-USAGE:
-
+!!! tip "Prowler 使用"
+    ```sh
+    # 工具使用:
+    ./prowler -h
+    ```
+!!! tip "USAGE"
+    ```sh
+    # 上述命令将显示该工具的帮助信息，下面给出的是该工具的常用选项：
     prowler [ -p <profile> -r <region>  -h ]
+    ```
 
 Options:
 
@@ -64,8 +68,6 @@ Options:
 
 #### 三、Prowler 工具检测
 
-![prowler](../img/question/prowler1.png)
-
-![prowler](../img/question/prowler2.png)
+![prowler](../img/question/prowler1.png){ width="95%" }
 
 

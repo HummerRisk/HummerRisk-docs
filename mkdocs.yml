@@ -87,7 +87,7 @@ nav:
       - 开发手册: develop/dev-manual.md
       - 如何自定义云资源检测规则: develop/rule.md
       - 自定义阿里云监控规则示例: develop/example.md
-  - 技术软文:
+  - 技术文章:
       - 开源工具系列(一) Trivy: related/trivy.md
       - 开源工具系列(二) Prowler: related/prowler.md
       - 开源工具系列(三) Nuclei: related/nuclei.md
