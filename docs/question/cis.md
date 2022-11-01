@@ -4,7 +4,8 @@
 
 >将企业网络安全进行一个整体的统筹划分，按照企业网络安全建设的全方面，将网络安全技术领域细分为9个安全子域，其中网络安全基线为基础域，通过各个子域的建设实施，不断完善网络安全基线的建设，将网络安全基线作为网络安全技术标准，统一实施，提高企业网络安全整体防御实力。
 
-![](../img/question/cis/img.png){ width="60%"} ![](../img/question/cis/img_1.png){ width="60%"}
+![](../img/question/cis/img.svg){ width="75%"} 
+![](../img/question/cis/img_1.svg){ width="75%"}
 
 ### 1、安全基线
 
@@ -31,11 +32,11 @@ CIS还提供了配置评估工具CIS-CAT Pro，当前支持85+ CIS Benchmarks。
 
 关于基线的建立和实施落地的最佳实践是这样的：
 
-![CIS](../img/question/cis/img_2.png){ width="95%" }
+![CIS](../img/question/cis/img_2.svg){ width="95%" }
 
 基于官方最佳实践、CIS和自身实际具体情况等，首先完成相应内容的基线文档编写。然后在进行基线文档编写的同时或基于基线文档，完成脚本的编写和脚本部署（技术工程师在编写基线文档时，可以同时输出脚本和文档）。通过基线文档和基线脚本固化系统、应用、数据库等部署方式，并且可以形成自动化部署，以此为基础，结合实际架构，形成标准的虚拟机模板或是容器镜像，并再配套自定义脚本，完成基线的落地实施。
 
-![CIS](../img/question/cis/img_3.png){ width="95%" }
+![CIS](../img/question/cis/img_3.svg){ width="75%" }
 
 ### 2、物理安全域
 
@@ -45,13 +46,13 @@ CIS还提供了配置评估工具CIS-CAT Pro，当前支持85+ CIS Benchmarks。
 
 从企业网络安全的角度来说，安保、门禁、监控以及电话录音等部门所归属有的时候不属于IT部，或不属于网络安全部门，但是这一块还是应该引起网络安全责任者的足够重视，一旦物理防线失守，任何上层高阶防护都将都成为浮云。物理安全方面也可引申出灾备建设这一概念，通过建立灾备机房、异地备份等手段，避免因单节点物理故障造成巨大影响。'
 
-![CIS](../img/question/cis/img_4.png){ width="95%" }
+![CIS](../img/question/cis/img_4.svg){ width="75%" }
 
 ### 3、网络安全域
 
 网络安全域主要是指网络规划架构、网络防护、控制等方面安全，与企业网络安全相比，此处的网络安全属于狭义的网络安全，仅是“网络”方面的安全。
 
-![CIS](../img/question/cis/img_5.png){ width="95%" }
+![CIS](../img/question/cis/img_5.svg){ width="95%" }
 
 网络安全域的防护建设应该从网络架构、边界防护、访问控制和安全通信四个方面进行，具体如下：
 
@@ -87,7 +88,7 @@ CIS还提供了配置评估工具CIS-CAT Pro，当前支持85+ CIS Benchmarks。
 
 主机安全域主要包括主机服务器安全和终端安全。
 
-![CIS](../img/question/cis/img_6.png){ width="95%" }
+![CIS](../img/question/cis/img_6.svg){ width="95%" }
 
 >主机安全
 
@@ -150,7 +151,7 @@ mv /usr/bin/chattr /usr/bin/lockkeyfile
 
 应用安全域主要覆盖应用系统的网络安全，特别是web应用系统，由于web应用系统多对外发布，故所面临的的安全威胁和攻击相比内网系统要高得多，甚至每时每刻都处于被扫描和被攻击中。非营利性组织开放式Web应用安全项目（OWASP）正式发布了十大最关键的Web应用安全风险：
 
-![CIS](../img/question/cis/img_7.png){ width="95%" }
+![CIS](../img/question/cis/img_7.svg){ width="95%" }
 
 >A1：2017-Injection（注入漏洞）
 
@@ -198,13 +199,13 @@ mv /usr/bin/chattr /usr/bin/lockkeyfile
 
 实际上，在应用安全域中最主要的安全设备是WAF，WEB应用防火墙。一般WEB应用防火墙应具备SQL防注入、防XSS攻击、防CSRF攻击、防文件上传漏洞、webshell检测与阻断、防暴力破解、防止页面被恶意篡改、页面被劫持等常见web防护功能。设备配合安全策略，也可以防住绝对多数的安全攻击。
 
-![CIS](../img/question/cis/img_8.png){ width="95%" }
+![CIS](../img/question/cis/img_8.svg){ width="95%" }
 
 ### 6、数据安全域
 
 数据安全域是网络安全域中最核心的内容之一。因为所有的应用系统最终都转化成数据进行存储、管理和使用，数据也是企业最重要的核心资产之一。
 
-![CIS](../img/question/cis/img_9.png){ width="95%" }
+![CIS](../img/question/cis/img_9.svg){ width="95%" }
 
 数据安全主要包括四个部分：数据安全的基本特性、数据保护、数据库安全和其他数据安全等。
 
@@ -246,7 +247,7 @@ mv /usr/bin/chattr /usr/bin/lockkeyfile
 
 如果说数据安全域是网络安全域最重要的部分，那么业务安全域极有可能是网络安全域中最困难的部分。因为业务安全域需要在安全技术和业务知识方面有很深的理解和融合，才能做好业务安全的防护。
 
-![CIS](../img/question/cis/img_10.png){ width="95%" }
+![CIS](../img/question/cis/img_10.svg){ width="95%" }
 
 业务安全域可以从三个方面介绍：用户安全、业务风控以及常见业务风险。
 
@@ -274,7 +275,7 @@ mv /usr/bin/chattr /usr/bin/lockkeyfile
 
 内容安全域在网络安全工作中比较容易忽视，尤其是一些中小型公司的网络安全工作中比较淡薄。内容安全域主要是指企业日常经营过程中网络舆情、媒介内容宣传等方面内容。
 
-![CIS](../img/question/cis/img_11.png){ width="95%" }
+![CIS](../img/question/cis/img_11.svg){ width="95%" }
 
 根据当下主流方式，舆情监控的重点主要在微信公众号、抖音公众号、微博、贴吧、论坛、知乎等区域。通过监控公司声誉形象、敏感信息、公司关键人物信息等在不同信息渠道的不同评价，及时遏制负面舆论导向，积极进行正面引导，避免因舆论导致公司经营受阻。特别是注意舆论黑天鹅事件。
 
@@ -286,10 +287,10 @@ mv /usr/bin/chattr /usr/bin/lockkeyfile
 
 移动安全域主要是针对企业的移动网站、移动App等内容，该域安全主要涉及两个方面：一方面是移动安全加固，即在开发和发布移动网站、移动App时，应主动进行安全加固，避免出现高危安全漏洞；另一方面是移动安全监控，即企业移动应用在运行过程中，要进行安全监控，包括可用性监控和安全性监控。
 
-![CIS](../img/question/cis/img_12.png){ width="95%" }
+![CIS](../img/question/cis/img_12.svg){ width="75%" }
 
 ### 10、云安全域
 
 云安全域详情参考第二部分第四章云安全部分。
 
-![CIS](../img/question/cis/img_13.png){ width="95%" }
+![CIS](../img/question/cis/img_13.svg){ width="75%" }
