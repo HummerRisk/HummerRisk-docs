@@ -18,15 +18,14 @@
     1. 使用UCloud账号登录控制台；
     2. 通过导航菜单进入云服务器控制台；https://console.ucloud.cn/uhost/uhost
     3. 选择需要更换 VPC 网络的的 Uhost, 点击实例名称；
-        - ![处置方案](../../img/suggest/ucloud/uhost-list.png){ width="600px" }
-        - ![处置方案](../../img/suggest/ucloud/eip-network-type.png){ width="600px" }
+        ![处置方案](../../img/suggest/ucloud/uhost-list.png){ width="600px" }
+        ![处置方案](../../img/suggest/ucloud/eip-network-type.png){ width="600px" }
     4. 进入磁盘与恢复，对当前系统盘制作镜像；
     5. 用新的镜像创建 Uhost, 创建时选择正确的 vpc。
-        - ![处置方案](../../img/suggest/ucloud/uhost-clone.png){ width="600px" }
-        - ![处置方案](../../img/suggest/ucloud/vhost-select-vpc.png){ width="600px" }
+        ![处置方案](../../img/suggest/ucloud/uhost-clone.png){ width="600px" }
+        ![处置方案](../../img/suggest/ucloud/vhost-select-vpc.png){ width="600px" }
 
 ### 4.帮助资源
 !!! info ""
     - https://docs.ucloud.cn/udisk/userguide/clone
     - https://docs.ucloud.cn/uhost/introduction/network/vpc
-    

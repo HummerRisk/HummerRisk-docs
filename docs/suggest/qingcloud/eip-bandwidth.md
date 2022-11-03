@@ -19,7 +19,7 @@
     2. 通过导航菜单进入云服务器控制台; https://console.qingcloud.com/pek3/eips
     3. 选择需要调整的 IP，点击公网IP的 ID;
     4. 在"基本属性"版块，点击右上方更多，选择调整带宽上限，弹出设置框后，填写带宽的值;
-        - ![处置方案-设置eip带宽](../../img/suggest/qingcloud/eip-set.png){ width="400px" }
+        ![处置方案-设置eip带宽](../../img/suggest/qingcloud/eip-set.png){ width="400px" }
     5. 注意包年包月的IP无法修改带宽.
 
 ![处置方案-查看eip列表](../../img/suggest/qingcloud/eip-list.png){ width="95%" }

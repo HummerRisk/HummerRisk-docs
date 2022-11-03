@@ -20,13 +20,13 @@
     1. 使用青云账号登录控制台；
     2. 在集群管理页面，点击目标集群 ID，进入集群详情页面；
     3. 在左侧连接信息模块，点击申请外网地址；
-        - ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-detail.png){ width="300px" }
+        ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-detail.png){ width="300px" }
     4. 在弹出的外网地址申请须知窗口，确认申请须知和免责声明信息后，勾选已阅读申请须知和免责声明，并同意申请外网地址；
-        - ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-enable.png){ width="400px" }
+        ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-enable.png){ width="400px" }
     5. 点击免费申请，返回集群详情页面；
-        - ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-set-rule.png){ width="300px" }
+        ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-set-rule.png){ width="300px" }
     6. 在连接信息模块，点击设置 IP 白名单；
-        - ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-set-white-rule.png){ width="400px" }
+        ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-set-white-rule.png){ width="400px" }
     7. 弹出白名单配置窗口，根据配置要求，输入允许访问的外网服务器 IP；
         - 可输入 IP 地址、IP 段；多个 IP 之间换行分隔；
         - IP 白名单不支持为空，不支持重复 IP 地址；
@@ -34,7 +34,7 @@
         - IP 白名单添加0.0.0.0/0，表示任何外网 IP 地址均可连接数据库，请谨慎使用；
         - IP 白名单添加127.0.0.1，表示任何 IP 地址均无法连接数据库；
     8. 点击提交，返回集群详情页面，在连接信息模块，即可查看外网地址和 IP 白名单；
-        - ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-set-success.png){ width="300px" }
+        ![处置方案-配置图](../../img/suggest/qingcloud/mysql-public-ip-set-success.png){ width="300px" }
 
 
 
