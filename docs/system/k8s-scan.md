@@ -1,4 +1,6 @@
 ### K8s 检测须知
+!!! warning "环境要求"
+    - Helm 3.0
 
 !!! warning "使用云原生 K8s 安全检测前，需在k8s集群上安装 tirvy-operator"
     ```shell
