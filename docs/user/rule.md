@@ -41,10 +41,10 @@
 
 !!! abstract "检测规则"
     1. 漏洞检测规则：用户可以根据自己的需要手动创建规则，注意内容符合 nuclei Yaml 格式规范和 xray 检测命令规范。
-    ![检测规则](../img/user/vuln_rule1.png){ width="95%" }
+    ![检测规则](../img/user/vuln/vuln_rule1.png){ width="95%" }
 
 !!! abstract "新增/编辑检测规则"
-    ![新增](../img/user/vuln_rule2.png){ width="95%" }
+    ![新增](../img/user/vuln/vuln_rule2.png){ width="95%" }
 
 ### 主机检测规则
 
