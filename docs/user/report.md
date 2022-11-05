@@ -8,13 +8,13 @@
 
 > 云资源历史记录根据云账号，展示历史检测安全评分。
 
- ![云资源检测结果](../img/user/account_history.png)
+ ![云资源检测结果](../img/user/cloud/account_history.png)
 
 ### 云资源统计分析
 
 > 云资源统计分析根据云账号，展示不同维度的检测结果信息，包括检测规则、规则组别、等保条例、规则标签、检测区域、检测资源等维度展示数据。
 
- ![云资源统计分析](../img/user/account_ana.png)
+ ![云资源统计分析](../img/user/cloud/account_ana.png)
 
 ### 漏洞检测合规报告
 

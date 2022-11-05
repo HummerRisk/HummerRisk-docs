@@ -17,7 +17,7 @@
     1. 使用青云账号登录控制台；
     2. 通过导航菜单进入云数据库-MySQL (或其他数据库)控制台；https://console.cloud.tencent.com/mysql
     3. 查看当前 MySQL 实例的版本，如果当前是基础版，根据实际情况可迁移至高可用版本的机器；
-        - ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-ha-status.png){ width="600px" }
+        ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-ha-status.png){ width="600px" }
     4. 进入 MySQL 控制台；
     5. 选择产品与服务 > 数据库与缓存 > 关系型数据库 MySQL Plus，进入 MySQL Plus 集群管理页面；
     6. 点击立即部署，进入应用部署页面；
@@ -31,9 +31,9 @@
     9. 确认配置和费用信息无误后，点击提交，创建集群；
     10. 集群创建成功后，可在集群管理页面，查看和管理当前高可用版本 MySQL Plus 集群，然后配置获取高可用机器的连接信息；
     11. 进入基础版 MySQL 集群页面，进行在线迁移；
-        - ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-migration.png){ width="600px" }
+        ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-migration.png){ width="600px" }
     12. 配置填写高可用集群的连接信息，进行迁移同步，将基础版的数据库数据迁移到高可用数据库；
-        - ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-migration-set.png){ width="300px" }
+        ![处置方案-查看当前数据库类型](../../img/suggest/qingcloud/mysql-migration-set.png){ width="300px" }
 
 ![处置方案-查看当前网络类型](../../img/suggest/qingcloud/mysql-list.png){ width="95%" }
 

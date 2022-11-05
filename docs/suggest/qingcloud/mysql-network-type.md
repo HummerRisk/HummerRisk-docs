@@ -22,7 +22,7 @@
     3. 选择目标集群，点击目标集群 ID，进入集群详情页面；
     4. 在基本属性模块，点击编辑下拉列表，展开属性编辑栏目；
     5. 点击切换私有网络，弹出私有网络配置窗口；
-        - ![处置方案-切换当前网络类型](../../img/suggest/qingcloud/mysql-change-network-st2.png){ width="400px" }
+        ![处置方案-切换当前网络类型](../../img/suggest/qingcloud/mysql-change-network-st2.png){ width="400px" }
     6. 配置网络信息；
         - 角色 ：选择需切换网络环境的节点角色；仅可选择节点列表已有角色；
         - VPC 网络 ：默认为集群当前 VPC 网络；

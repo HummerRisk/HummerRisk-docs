@@ -89,7 +89,7 @@
     !!! tip "Windows"
         - 以下载到 C:\Users\$User\Downloads 为例，右键解压，就可以得到 xray_windows_amd64.exe 文件了（有的解压软件还会创建一个 xray_windows_amd64.exe 的文件夹，不要和最终的可执行文件混淆了）。
         - 支持的系统版本为大于等于 10.10
-        - ![Windows](../img/question/xray1.png){ width="95%" }
+        ![Windows](../img/question/xray1.png){ width="95%" }
         - 使用桌面左下方的的搜索框，输入 PowerShell，点击 Windows PowerShell，进入命令终端。
         - 然后 cd 到下载目录，运行 .\xray_windows_amd64.exe version 即可查看 xray 的版本号。
 
@@ -97,13 +97,13 @@
     !!! tip "MacOS"
         - 以下载到 ~/Downloads 为例，双击解压，就可以得到 xray_darwin_amd64 文件了。
         - 打开使用的终端工具，比如 Terminal 或者 iTerm
-        - ![MacOS](../img/question/xray2.png){ width="95%" }
+        ![MacOS](../img/question/xray2.png){ width="95%" }
         - 然后 cd 到下载目录，运行 ./xray_darwin_amd64 version 即可查看 xray 的版本号。
-        - ![MacOS](../img/question/xray3.png){ width="95%" }
+        ![MacOS](../img/question/xray3.png){ width="95%" }
 
 === "Linux"
     !!! tip "Linux"
         - 以下载到 ~/xray 为例，使用 unzip 命令解压，就可以得到 xray_linux_amd64 文件了。
         - 然后运行 ./xray_linux_amd64 version 即可查看 xray 的版本号。
-        - ![Linux](../img/question/xray4.png){ width="95%" }
+        ![Linux](../img/question/xray4.png){ width="95%" }
 
