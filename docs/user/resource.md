@@ -9,17 +9,17 @@
 !!! abstract "云资源检测结果"
     展示混合云安全合规检测的结果和安全评分。可以重新检测与删除检测。
 
-![检测结果](../img/user/resource.png){ width="95%" }
+![检测结果](../img/user/report/resource.png){ width="95%" }
 
 !!! abstract "云资源检测日志"
     点击检测状态查看日志信息, 可以查看区域的检测日志、检测API、检测结果等信息。
 
-![检测结果](../img/user/resource_log.png){ width="95%" }
+![检测结果](../img/user/report/resource_log.png){ width="95%" }
 
 !!! abstract "云资源检测详情"
     检测结果详情页面，根据云账号对应的规则展示具体资源详细信息。
 
-![检测结果](../img/user/resource2.png){ width="95%" }
+![检测结果](../img/user/report/resource2.png){ width="95%" }
 
 ### 漏洞检测结果
 
