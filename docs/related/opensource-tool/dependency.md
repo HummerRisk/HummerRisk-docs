@@ -112,11 +112,11 @@
 
 执行依赖分析配置：
 
-![与Jenkins集成](../img/question/dependency1.png){ width="95%" }
+![与Jenkins集成](../../img/question/dependency1.png){ width="95%" }
 
 查看检查分析结果配置：
 
-![与Jenkins集成](../img/question/dependency2.png){ width="95%" }
+![与Jenkins集成](../../img/question/dependency2.png){ width="95%" }
 
 #### 五、与代码质量管理平台 SonarQube 7.x 以上的版本集成
 
@@ -144,6 +144,6 @@
 !!! abstract "报告查看"
     样本报告demo：https://jeremylong.github.io/DependencyCheck/general/SampleReport.html
 
-![报告查看](../img/question/dependency3.png){ width="95%" }
+![报告查看](../../img/question/dependency3.png){ width="95%" }
 
-![报告查看](../img/question/dependency4.png){ width="95%" }
+![报告查看](../../img/question/dependency4.png){ width="95%" }

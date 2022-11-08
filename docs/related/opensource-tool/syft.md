@@ -20,7 +20,7 @@
 !!! abstract "Mac 安装 Syft"
     Mac 用户也可以从Homebrew获得Syft，方法是加入anchore/syft储存库，并安装syft包。
 
-![Syft](../img/question/syft1.png){ width="95%" }
+![Syft](../../img/question/syft1.png){ width="95%" }
 
 !!! warning "注意"
     1. 一旦你在你的系统上安装了 Syft，运行 syft 在你的终端中显示可用的命令。你可以通过运行以下程序为你的 shell 生成补全信息 syft completion.
@@ -40,7 +40,7 @@
 !!! abstract "内容"
     Syft 将下载镜像，扫描其内容，并产生一个被发现的软件包的目录。输出将在你的终端显示为一个表格。每个结果都包括检测到的软件包名称、版本和类型。
 
-![Syft](../img/question/syft2.png){ width="95%" }
+![Syft](../../img/question/syft2.png){ width="95%" }
 
 !!! abstract "原理"
     - 这个镜像的软件包清单很短。由于这是一个base的基本形象，安装的软件包被有意精简，以提供尽可能小的表面。
@@ -78,7 +78,7 @@
     - 默认的输出格式称为table.它在你的终端显示一个基于柱状的结果表，为每个检测到的软件包创建一个新的行。
     - 另一种人类可读的格式是text的软件包列表，该列表呈现了一个带有Version和Type嵌套在每个部分下的字段。
 
-![Syft](../img/question/syft3.png){ width="95%" }
+![Syft](../../img/question/syft3.png){ width="95%" }
 
 !!! abstract "程序化的格式"
     - Syft也支持几种程序化的格式。

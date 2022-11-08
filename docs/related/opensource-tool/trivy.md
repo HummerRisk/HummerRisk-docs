@@ -13,7 +13,7 @@
     - 此外，Trivy 会扫描基础设施即代码 (IaC) 文件，例如 Terraform 和 Kubernetes，以检测使您的部署面临攻击风险的潜在配置问题。 
     - Trivy 易于使用。 只需安装二进制文件，您就可以开始扫描了。 扫描所需要做的就是指定一个目标，例如容器的图像名称。
 
-![Trivy](../img/question/trivy1.png){ width="95%" }
+![Trivy](../../img/question/trivy1.png){ width="95%" }
 
 !!! abstract "Trivy 类型"
     1. Trivy 检测两种类型的安全问题 ：

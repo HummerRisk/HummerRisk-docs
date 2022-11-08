@@ -68,6 +68,6 @@ Options:
 
 #### 三、Prowler 工具检测
 
-![prowler](../img/question/prowler1.png){ width="95%" }
+![prowler](../../img/question/prowler1.png){ width="95%" }
 
 

@@ -103,4 +103,4 @@
 
 ##### 工具截图
 
-![img.png](../img/question/nuclei1.png){ width="95%" }
+![img.png](../../img/question/nuclei1.png){ width="95%" }
