@@ -89,13 +89,18 @@ nav:
       - 如何自定义云资源检测规则: develop/rule.md
       - 自定义阿里云监控规则示例: develop/example.md
   - 技术文章:
-      - 开源工具系列(一) Trivy: related/trivy.md
-      - 开源工具系列(二) Prowler: related/prowler.md
-      - 开源工具系列(三) Nuclei: related/nuclei.md
-      - 开源工具系列(四) Xray: related/xray.md
-      - 开源工具系列(五) DependencyCheck: related/dependency.md
-      - 开源工具系列(六) Grype: related/grype.md
-      - 开源工具系列(七) Syft: related/syft.md
+      - 开源工具系列:
+          - 开源工具系列(一) Trivy: related/opensource-tool/trivy.md
+          - 开源工具系列(二) Prowler: related/opensource-tool/prowler.md
+          - 开源工具系列(三) Nuclei: related/opensource-tool/nuclei.md
+          - 开源工具系列(四) Xray: related/opensource-tool/xray.md
+          - 开源工具系列(五) DependencyCheck: related/opensource-tool/dependency.md
+          - 开源工具系列(六) Grype: related/opensource-tool/grype.md
+          - 开源工具系列(七) Syft: related/opensource-tool/syft.md  
+      - 云原生安全系列:
+          - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
+      - 云安全系列:
+          - 云安全系列 1：深度解析云安全责任共担模型: related/cloudsecurity/cloudsec-series1.md
   - 优化建议:
       - 阿里云:
           - ACK 删除保护检测:  suggest/aliyun/ack-deletion-protection.md
