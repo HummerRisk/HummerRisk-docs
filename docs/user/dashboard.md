@@ -8,14 +8,14 @@
 !!! abstract "面板"
     首页面板，登录访问直接到面板，可快速进入混合云安全与云原生安全模块。
 
-![面板](../img/user/panel.png){ width="95%" }
+![面板](../img/user/dashboard/panel.png){ width="95%" }
 
 ### 总览
 
 !!! abstract "总览"
     总览页面展示用户数、账号数、规则数、结果数、任务数、安全评分等信息，以及云账号统计、漏洞统计、虚机统计、软件包溶剂、镜像统计，通过日历展示任务执行情况。
 
-![总览](../img/user/dashboard.png){ width="95%" }
+![总览](../img/user/dashboard/dashboard.png){ width="95%" }
 
 ### 分析
 
@@ -23,11 +23,11 @@
     * 通过用户自定义展示样式与颜色，按分析周期、检测人员、检测类型、检测账号等信息进行分析。
     * 通过按检测类型筛选、按检测分组筛选、按检测账号筛选、按风险等级筛选、按检测人员筛选、按时间节点筛选数据，获取检测结果。
 
-![总览](../img/user/dashboard_ana.png){ width="95%" }
+![总览](../img/user/dashboard/dashboard_ana.png){ width="95%" }
 
 ### 活动记录
 
 !!! abstract "活动记录"
     活动页面记录并显示了所有的用户主要活动信息，包括操作人、操作、操作描述、资源名称、资源类型、操作 IP、时间等。
 
-![总览](../img/user/dashboard_active.png){ width="95%" }
+![总览](../img/user/dashboard/dashboard_active.png){ width="95%" }

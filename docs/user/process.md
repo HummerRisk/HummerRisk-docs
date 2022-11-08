@@ -20,10 +20,10 @@
 
 ### 主菜单
 
-![主菜单](../img/user/panel.png){ width="95%" }
+![主菜单](../img/user/dashboard/panel.png){ width="95%" }
 
 ### 登录
 
-![登录](../img/user/login.png){ width="95%" }
+![登录](../img/user/system/login.png){ width="95%" }
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"

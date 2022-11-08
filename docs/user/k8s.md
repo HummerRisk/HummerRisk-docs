@@ -81,17 +81,17 @@
 !!! abstract "云原生检测结果"
     绑定 K8s 账号, 即可执行安全检测。
 
-![K8s](../img/user/k8s1.png){ width="95%" }
-![K8s](../img/user/k8s2.png){ width="95%" }
+![K8s](../img/user/k8s/k8s1.png){ width="95%" }
+![K8s](../img/user/k8s/k8s2.png){ width="95%" }
 
 ### K8s 检测结果
 !!! abstract "云原生检测结果"
     云原生检测结果列表，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告。
 
-![K8s](../img/user/k8s3.png){ width="95%" }
-![K8s](../img/user/k8s4.png){ width="95%" }
-![K8s](../img/user/k8s5.png){ width="95%" }
-![K8s](../img/user/k8s6.png){ width="95%" }
+![K8s](../img/user/k8s/k8s3.png){ width="95%" }
+![K8s](../img/user/k8s/k8s4.png){ width="95%" }
+![K8s](../img/user/k8s/k8s5.png){ width="95%" }
+![K8s](../img/user/k8s/k8s6.png){ width="95%" }
 
 ### K8s 检测历史记录
 

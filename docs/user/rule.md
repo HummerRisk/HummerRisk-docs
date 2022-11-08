@@ -50,7 +50,7 @@
 
 !!! abstract "检测规则"
     1. 用户可以根据自己的需要手动创建规则，注意内容符合 Linux 检测命令格式规范。
-    ![检测规则](../img/user/server_rule1.png){ width="95%" }
+    ![检测规则](../img/user/server/server_rule1.png){ width="95%" }
 
 !!! abstract "新增/编辑检测规则"
-    ![新增](../img/user/server_rule2.png){ width="95%" }
+    ![新增](../img/user/server/server_rule2.png){ width="95%" }
