@@ -101,6 +101,7 @@ nav:
           - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
       - 云安全系列:
           - 云安全系列 1：深度解析云安全责任共担模型: related/cloudsecurity/cloudsec-series1.md
+          - 云安全系列 2：访问安全和身份管理: related/cloudsecurity/cloudsec-series2.md
   - 优化建议:
       - 阿里云:
           - ACK 删除保护检测:  suggest/aliyun/ack-deletion-protection.md
