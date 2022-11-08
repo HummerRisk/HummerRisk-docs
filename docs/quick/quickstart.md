@@ -151,8 +151,8 @@
 ## 4 新手引导
 
 !!! info ""
-    - [常见问题](./question/cloud.md)
-    - [功能手册](./user/process.md)
-    - [开发文档](./develop/dev-manual.md)
+    - [常见问题](../question/cloud.md)
+    - [功能手册](../user/process.md)
+    - [开发文档](../develop/dev-manual.md)
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
