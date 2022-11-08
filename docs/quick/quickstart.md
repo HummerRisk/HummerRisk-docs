@@ -117,36 +117,176 @@
 
 #### 3.2.1 主机检测
 
-!!! abstract "主机检测"      
-    - 完成上述漏洞设置后，点击一键检测，将自动跳转漏洞检测结果页面，检测结果将会显示正在执行。
-    - 等待检测执行完毕后，获得检测结果的漏洞信息与优化建议。
-![漏洞检测](../img/quickstart/img_10.png){ width="95%" }
+!!! abstract "统一凭据"      
+    - 用户可以在统一凭据页面将常用的或重复的主机认证进行保存，这样在创建主机的过程中可以直接绑定，方便操作防止重复拷贝。
+    - 新建、修改主机信息时，可灵活绑定凭据，统一凭据有三种类型，密码、密钥字符串、密钥文件。
+![主机检测](../img/quickstart/img_19.png){ width="95%" }
+![主机检测](../img/quickstart/img_20.png){ width="95%" }
+
+!!! abstract "主机管理"      
+    - 主机管理列表页面提供了对主机分组、主机的创建、删除、编辑、查找、校验、检测等操作。
+    - 创建主机时，可以为多个主机批量添加统一凭据，也可以分别为主机添加凭据。
+    - 目前只针对 Linux 操作系统类型的主机。
+![主机检测](../img/quickstart/img_21.png){ width="95%" }
+![主机检测](../img/quickstart/img_22.png){ width="95%" }
+
+!!! abstract "主机检测结果"      
+    - 在主机管理界面，选中待检测主机，一键执行后将自动跳转到主机检测结果页面。
+    - 主检测结果页面将只会保留最新的一次检测结果，历史检测结果请到主机检测历史记录中查看。
+    - 点击检测状态按钮，可以查看检测结果日志详情。
+![主机检测](../img/quickstart/img_23.png){ width="95%" }
+![主机检测](../img/quickstart/img_24.png){ width="95%" }
 
 #### 3.2.2 K8s 检测
 
-!!! abstract "K8s 检测"  
-    - 完成上述漏洞设置后，点击一键检测，将自动跳转漏洞检测结果页面，检测结果将会显示正在执行。
-    - 等待检测执行完毕后，获得检测结果的漏洞信息与优化建议。
-![漏洞检测](../img/quickstart/img_10.png){ width="95%" }
+!!! warning "K8s 检测前置条件"
+
+!!! info "使用云原生 K8s 安全检测任务前需在 k8s 集群上安装 tirvy-operator"
+    ```shell
+    # 1.添加 chart 仓库
+    helm repo add hummer https://registry.hummercloud.com/repository/charts
+
+    # 2.更新仓库源
+    helm repo update
+    
+    # 3.开始安装, 可以自定义应用名称和NameSpace
+    helm install trivy-operator hummer/trivy-operator \
+     --namespace trivy-system \
+     --set="image.repository=registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
+     --create-namespace --set="trivy.ignoreUnfixed=true"
+    
+    # 4.检测operator是否启动成功
+    kubectl get pod -A|grep trivy-operator
+    trivy-system   trivy-operator-69f99f79c4-lvzvs           1/1     Running            0          118s
+    ```
+
+!!! question "k8s 账号添加校验"
+    1. 确定部署 hummerrisk 的主机可以访问该 k8s 集群的 6443 端口，需要网络可达、端口可以通，如果不通可以检查防火墙;
+    2. 确定提供的 k8s Token 有足够的权限，hummerrisk 会通过该 Token 调用 k8s apiserver 的 api
+    3. k8s token 权限可以参考如下
+    
+    创建 ServiceAccount
+    ```yaml
+    cat <<EOF > hummer-sa.yaml
+    apiVersion: v1
+    kind: ServiceAccount
+    metadata:
+      name: hummer
+      namespace: kube-system
+    EOF
+    ```
+    创建 clusterrolebinding
+    ```yaml
+    cat <<EOF > hummer-clusterrolebinding.yaml
+    apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    metadata:
+      name: hummer-user
+    roleRef:
+      apiGroup: rbac.authorization.k8s.io
+      kind: ClusterRole
+      name: cluster-admin
+    subjects:
+      - kind: ServiceAccount
+      name: hummer
+      namespace: kube-system
+    EOF
+    ```
+    创建资源
+    ```bash
+    kubectl create -f ./hummer-sa.yaml
+    kubectl create -f ./hummer-clusterrolebinding.yaml
+    ```
+
+!!! question "足够权限获取 token"
+    ```bash
+    # 获取 token
+    kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep hummer | awk '{print $1}') | grep token: | awk '{print $2}'
+    ```
+
+!!! abstract "Kuberbetes 配置"      
+    - K8s 配置与云原生 K8s 环境安全检测功能，绑定 K8s Url 与 Token 信息即可进行安全检测，并生成安全漏洞结果。
+    - K8s 平台环境有四种：分别是 Kubernetes、Rancher、OpenShift、KubeSphere。
+![K8s 检测](../img/quickstart/img_42.png){ width="95%" }
+![K8s 检测](../img/quickstart/img_43.png){ width="95%" }
+
+!!! abstract "K8s 检测结果"      
+    - K8s 检测结果，主要展示 K8s 环境的漏洞安全信息和配置审计风险信息。
+![K8s 检测](../img/quickstart/img_44.png){ width="95%" }
+![K8s 检测](../img/quickstart/img_45.png){ width="95%" }
+![K8s 检测](../img/quickstart/img_46.png){ width="95%" }
+
+!!! abstract "K8s 资源态势"
+    - 资源态势功能，绑定 K8s 环境信息，即可获取 K8s 的 Namespace、Pod、Node、Deployment、Service 等20余种资源信息。
+    - 绑定完 K8s 账号是可以自动获取资源态势信息的。
+    - 同时，也可以在同步日志页面手动获取资源态势信息。
+    - 手动创建同步任务，即可查看同步资源数与同步状态。
+![K8s 检测](../img/quickstart/img_47.png){ width="95%" }
 
 #### 3.2.3 部署检测
 
-!!! abstract "部署检测"  
-    - 完成上述漏洞设置后，点击一键检测，将自动跳转漏洞检测结果页面，检测结果将会显示正在执行。
-    - 等待检测执行完毕后，获得检测结果的漏洞信息与优化建议。
-![漏洞检测](../img/quickstart/img_10.png){ width="95%" }
+!!! abstract "K8s 部署配置"
+    - 云原生K8s 部署检测功能，输入 K8s 部署配置 YAML 文件，即可进行部署检测，输出部署配置检测结果。
+![部署检测](../img/quickstart/img_25.png){ width="95%" }
+
+!!! abstract "部署检测结果"
+    - 针对部署文件（YAML），一键执行检测后展示结果。
+    - 用户可以根据检测结果的提示，修改对应的 YAML 文件内容，达到最佳要求。
+![部署检测](../img/quickstart/img_26.png){ width="95%" }
+![部署检测](../img/quickstart/img_27.png){ width="95%" }
+![部署检测](../img/quickstart/img_28.png){ width="95%" }
 
 #### 3.2.4 镜像检测
 
-!!! abstract "镜像检测"  
+!!! abstract "镜像仓库"      
+    - 用户可以绑定镜像仓库，之后检测的镜像可以从绑定的镜像仓库中查找和获取。
+    - 镜像仓库类型：目前支持四种类型 harbor、dockerhub、nexus 和 other。如果选择 other 不会同步镜像，只做登录验证。
+    - 镜像仓库中同步的镜像列表，可以直接执行检测，直接跳转到检测结果页面。（这个过程也会默认在镜像管理中新建一条数据）
+![镜像检测](../img/quickstart/img_29.png){ width="95%" }
+![镜像检测](../img/quickstart/img_30.png){ width="95%" }
+
+!!! abstract "镜像管理"      
+    - 在镜像管理页面，我们可以对具体需要检测的镜像进行管理。
+    - 镜像列表中会显示出已经创建成功的待检测镜像，列表会显示出镜像的名称、状态、地址等信息。   
+    - 通过校验的镜像，镜像状态会显示为 [有效]，可以对其执行检测。
+    - 镜像可以是公有镜像，也可以是私有镜像。可以手动填写镜像地址，上传镜像tar包，也可以从镜像仓库中选择同步的镜像。
+    - 在镜像列表中，选择希望执行检测的镜像，点击列表后的[检测]按钮，确认后系统就会对该镜像进行检测。
+![镜像检测](../img/quickstart/img_31.png){ width="95%" }
+![镜像检测](../img/quickstart/img_32.png){ width="95%" }
+
+!!! abstract "镜像检测结果"      
+    - 镜像检测结果列表，展示镜像的漏洞信息。
+![镜像检测](../img/quickstart/img_33.png){ width="95%" }
+![镜像检测](../img/quickstart/img_34.png){ width="95%" }
 
 #### 3.2.5 源码检测
 
-!!! abstract "源码检测"  
+!!! abstract "项目源码配置"      
+    - 在源码检测部分，通过对源码依赖的扫描，发现项目中存在的漏洞。
+    - 目前绑定仓库支持两种类型：GitHub 和 GitLab 。
+    - Token 的获取：首先私有仓库需要填入Token，公有仓库无需填写Token。
+![源码检测](../img/quickstart/img_35.png){ width="95%" }
+![源码检测](../img/quickstart/img_36.png){ width="95%" }
+
+!!! abstract "源码检测结果"      
+    - 源码检测，可以针对 branch 分支、可以针对 tag 标签、可以针对 commit 某次提交。
+    - 源码检测结果列表，展示源码项目依赖的漏洞信息。
+![源码检测](../img/quickstart/img_37.png){ width="95%" }
+![源码检测](../img/quickstart/img_38.png){ width="95%" }
 
 #### 3.2.6 文件检测
 
-!!! abstract "文件检测"  
+!!! abstract "依赖文件管理"      
+    - 对于源码检测的补充，如果只想检测源码项目的依赖文件检测，可以上传对应的文件进行检测。
+    - 依赖文件可以是单个文件，也可以是文件夹的压缩文件。
+    - 依赖文件的格式，例如 java 的 pom.xml，vue 的 package.json 或 yarn.lock 等。
+![文件检测](../img/quickstart/img_39.png){ width="95%" }
+![文件检测](../img/quickstart/img_48.png){ width="95%" }
+
+!!! abstract "依赖文件检测结果"      
+    - 依赖文件检测结果列表，展示项目依赖的漏洞信息。
+![文件检测](../img/quickstart/img_40.png){ width="95%" }
+![文件检测](../img/quickstart/img_41.png){ width="95%" }
 
 ## 4 新手引导
 
