@@ -60,7 +60,7 @@
     kubectl create -f ./hummer-clusterrolebinding.yaml
     ```
 
-#### 3. 足够权限获取 token
+#### 3. 获取 token
 !!! question "获取 token"
     ```bash
     # 获取 token
