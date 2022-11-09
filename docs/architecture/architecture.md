@@ -10,7 +10,7 @@
 
 ## 工作流程
 
-![系统架构图](../img/architecture/流程图.png){ width="95%" }
+![系统架构图](../img/architecture/工作流程.png){ width="95%" }
 
 ## 组件说明
 
