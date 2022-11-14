@@ -77,6 +77,7 @@ nav:
       - 系统设置: user/settings.md
   - 常见问题:
       - 混合云账号校验失败问题: question/cloud.md
+      - 多云检测结果状态不停问题: question/rule.md
       - K8s 账号校验失败问题: question/k8s.md
       - K8s Operator 校验失败问题: system/k8s-scan.md
       - 页面报错到哪去查看log: question/log.md
@@ -96,7 +97,7 @@ nav:
           - 开源工具系列(四) Xray: related/opensource-tool/xray.md
           - 开源工具系列(五) DependencyCheck: related/opensource-tool/dependency.md
           - 开源工具系列(六) Grype: related/opensource-tool/grype.md
-          - 开源工具系列(七) Syft: related/opensource-tool/syft.md  
+          - 开源工具系列(七) Syft: related/opensource-tool/syft.md
       - 云原生安全系列:
           - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
       - 云安全系列:
