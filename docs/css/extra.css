@@ -124,7 +124,6 @@
 .md-typeset hr {
   margin: 1em;
   display: inline-block;
-  border-bottom: .05rem var(--md-default-fg-color--lightest);
 }
 
 .md-grid {
@@ -141,4 +140,10 @@ img {
   border-radius: 10px;
   box-shadow:#333333 0px 0px 10px;
   margin: 10px 0;
+}
+
+.x-pack-span {
+  background-color: #d4944d;
+  padding: 2px 5px;
+  color: #ffffff;
 }

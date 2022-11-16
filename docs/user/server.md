@@ -1,6 +1,7 @@
 ### 主机概览
 
 !!! abstract "主机数据概览"
+    展示主机风险检测统计数据。
 
 ![主机检测](../img/release/0.4.0/server.png){ width="95%" }
 
