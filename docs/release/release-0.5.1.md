@@ -2,7 +2,7 @@
 
 ### 1.1 对象存储
 
-!!! abstract "对象存储账号列表"
+!!! abstract "对象存储账号管理"
     如下图所示，新增对象存储模块，创建对象存储账号同步存储桶资源，目前支持阿里云、华为云、腾讯云、AWS、百度云。
 
 ![对象存储](../img/release/0.5.1/img.png){ width="95%" }
@@ -10,26 +10,24 @@
 ![对象存储](../img/release/0.5.1/img_2.png){ width="95%" }
 ![对象存储](../img/release/0.5.1/img_3.png){ width="95%" }
 
-### 1.2 对象存储
-
-!!! abstract "存储桶列表"
-    如下图所示，对象存储查看存储桶下面的目录、文件对象，存储用量、存储类型、读写权限等信息。
+!!! abstract "存储桶查看"
+    如下图所示，查看具体对象存储账号下存储桶中的目录、文件对象，存储用量、存储类型、读写权限等信息。
 ![对象存储](../img/release/0.5.1/img_4.png){ width="95%" }
 ![对象存储](../img/release/0.5.1/img_5.png){ width="95%" }
 ![对象存储](../img/release/0.5.1/img_6.png){ width="95%" }
 
-### 1.3 K8s 资源态势
+### 1.2 K8s 资源态势    
 
 !!! abstract "K8s 资源态势"
-    如下图所示，K8s 资源态势，新增资源详情，可以点击查看同步的资源 Yaml 或 Json 部署配置，Pod/Deployment/DaemonSet/StatefulSet/CronJob/Job 等资源的镜像信息等。
-![资源态势](../img/release/0.5.0/img_7.png){ width="95%" }
-![资源态势](../img/release/0.5.0/img_8.png){ width="95%" }
-![资源态势](../img/release/0.5.0/img_9.png){ width="95%" }
-![资源态势](../img/release/0.5.0/img_10.png){ width="95%" }
+    如下图所示，K8s 资源态势，新增资源详情，可以点击查看同步资源的部署配置( Yaml / Json)，Pod/Deployment/DaemonSet/StatefulSet/CronJob/Job 等资源的关联镜像信息等。
+![资源态势](../img/release/0.5.1/img_7.png){ width="95%" }
+![资源态势](../img/release/0.5.1/img_8.png){ width="95%" }
+![资源态势](../img/release/0.5.1/img_9.png){ width="95%" }
+![资源态势](../img/release/0.5.1/img_10.png){ width="95%" }
 
-### 1.4 K8s 资源态势
+### 1.3 K8s 资源拓扑
 
-!!! abstract "K8s 资源态势"
+!!! abstract "K8s 资源拓扑"
     如下图所示，K8s 资源拓扑新增 K8s 风险视角，将资源态势信息和已检测的 K8s 漏洞结果关联，得到有风险的镜像与漏洞信息。
 ![资源态势](../img/release/0.5.1/img_11.png){ width="95%" }
 ![资源态势](../img/release/0.5.1/img_12.png){ width="95%" }
