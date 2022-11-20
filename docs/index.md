@@ -72,7 +72,7 @@
 			面板
 		</td>
 		<td>
-			登录进入 HummerRisk 的导航，快速进入混合云安全治理与容器云安全检测场景；
+			登录进入 HummerRisk 的导航，快速进入「混合云安全治理」与「容器云安全检测」场景；
 		</td>
 	</tr>
     <tr>
@@ -96,11 +96,11 @@
 			活动记录
 		</td>
 		<td>
-			活动页面记录并显示了所有的用户主要活动信息，包括操作人、操作、操作描述、资源名称、资源类型、操作 IP、时间等；
+			活动页面记录并显示了所有的用户在系统中的活动信息，包括操作人、操作、操作描述、资源名称、资源类型、操作 IP、时间等；
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="33">
+		<td rowspan="28">
 			混合云安全
 		</td>
 		<td rowspan="3">
@@ -214,7 +214,7 @@
             操作审计
         </td>
 		<td>
-			云事件概览，操作审计云事件数据概览；
+			云事件概览，多云操作事件的数据概览；
         </td>
 	</tr>
 	<tr>
@@ -261,34 +261,6 @@
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="5">
-			费用分析
-		</td>
-		<td>
-			费用概览，展示混合云费用统计数据；<span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			账单分析，根据云账号同步账单元数据；<span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-    <tr>
-		<td>
-			费用分析，根据云账号账单元数据，进行费用聚合和过滤分析；<span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-    <tr>
-		<td>
-			趋势分析，根据云账号账单元数据，进行费用趋势分析；<span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-    <tr>
-		<td>
-			成本优化，根据云账号账单元数据，进行成本优化建议；<span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
 		<td rowspan="32">
             云原生安全
 		</td>
@@ -301,7 +273,7 @@
 	</tr>
 	<tr>
 		<td>
-			K8s 资源拓扑图，根据同步 K8s 资源汇总信息，形成拓扑图。同时，根据 K8s 资源的镜像与检测得到镜像漏洞风险信息；
+			K8s 资源拓扑图，根据同步 K8s 资源汇总信息，形成拓扑图。同时，展示 K8s 资源对应镜像与检测得到镜像漏洞风险信息；
 		</td>
 	</tr>
 	<tr>
@@ -357,7 +329,7 @@
 	</tr>
 	<tr>
 		<td>
-			K8s 检测结果，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告；
+			K8s 检测结果，查看检测的详细结果包括漏洞信息和配置风险，并可以查看检测的日志与报告；
 		</td>
 	</tr>
 	<tr>
@@ -370,7 +342,7 @@
             部署检测
         </td>
         <td>
-            部署概览，展示部署风险检测统计数据；
+            部署概览，展示部署风险检测的统计数据；
         </td>
     </tr>
     <tr>
@@ -380,7 +352,7 @@
     </tr>
     <tr>
         <td>
-            部署检测结果，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告；
+            部署检测结果，查看检测到的部署文件风险，并可以查看检测的日志与报告；
         </td>
     </tr>
 	<tr>
@@ -408,7 +380,7 @@
 	</tr>
     <tr>
         <td>
-            镜像检测结果，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告；
+            镜像检测结果，查看检测出的镜像相关漏洞的详细信息，并可以查看检测的日志与报告；
         </td>
     </tr>
     <tr>
@@ -431,7 +403,7 @@
     </tr>
     <tr>
 		<td>
-			源码检测结果，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告；
+			源码检测结果，查看检测出的源码依赖中存在的漏洞信息，并可以查看检测的日志与报告；
 		</td>
 	</tr>
 	<tr>
@@ -454,7 +426,7 @@
 	</tr>
 	<tr>
 		<td>
-			依赖文件检测结果，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告；
+			依赖文件检测结果，查看依赖文件中检测出的漏洞信息，并可以查看检测的日志与报告；
 		</td>
 	</tr>
 	<tr>
@@ -496,7 +468,7 @@
             任务报告
         </td>
         <td>
-            任务报告，根据任务编排，执行任务完成后, 可以进入任务报告界面，查看任务生成详细结果报告。最终可导出 H5；<span class="x-pack-span">X-Pack</span>
+            任务报告，根据任务编排，执行任务完成后, 可以进入任务报告界面，查看任务生成详细结果报告。
         </td>
     </tr>
     <tr>
@@ -507,7 +479,7 @@
             检测规则
         </td>
         <td>
-            检测规则，规则是 HummerRisk 针对各种资源检测进行检测的基础，它定义了需要检测与过滤的基本内容。检测规则模块定义了规则标签、规则组、风险条例以及其他资源的检测规则。规则将不断丰富，已达到用户需求；<span class="x-pack-span">X-Pack</span>
+            检测规则，规则是 HummerRisk 针对各种资源检测进行检测的基础，它定义了需要检测与过滤的基本内容。检测规则模块定义了规则标签、规则组、风险条例以及其他资源的检测规则。规则将不断丰富，以满足各种场景的需要；
         </td>
     </tr>
     <tr>
@@ -519,63 +491,14 @@
         </td>
     </tr>
     <tr>
-		<td rowspan="38">
+		<td rowspan="13">
 			系统设置
 		</td>
-		<td rowspan="4">
+		<td rowspan="1">
 			用户管理
 		</td>
 		<td>
 			支持用户的新建、编辑、删除、修改密码、启用、禁用、搜索等；
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持批量导入用户； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持给用户分配组织； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持给用户分配角色； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="1">
-			角色管理
-		</td>
-		<td>
-			支持角色的新建、编辑、删除、搜索等； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="1">
-			组织管理
-		</td>
-		<td>
-			支持组织的新建、编辑、删除、搜索、排序、移动等； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="3">
-			权限管理
-		</td>
-		<td>
-			支持从组织、角色、用户维度（组织架构维度）进行使用、管理、授权等形式的权限控制； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持菜单和操作层面的权限控制； <span class="x-pack-span">X-Pack（计划）</span> 
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持检测结果权限控制； <span class="x-pack-span">X-Pack（计划）</span>
 		</td>
 	</tr>
     <tr>
@@ -628,121 +551,21 @@
 		</td>
 	</tr>
     <tr>
-		<td rowspan="4">
+		<td rowspan="1">
 			站内消息
 		</td>
 		<td>
-			支持系统常见消息的通知；
+			支持系统常见消息的通知；支持消息的接收配置；支持消息状态标记；支持已读消息的删除；
 		</td>
 	</tr>
     <tr>
-		<td>
-			支持消息的接收配置；
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持消息状态标记；
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持已读消息的删除；
-		</td>
-	</tr>
-    <tr>
-        <td rowspan="4">
+        <td rowspan="1">
             系统参数
         </td>
         <td>
             支持手动更新部署宿主机的操作系统各项参数；
         </td>
     </tr>
-    <tr>
-        <td>
-            支持设置系统请求超时时间、消息保留时间、风险检测时间间隔；<span class="x-pack-span">X-Pack（计划）</span>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            支持设置默认登录方式（普通登录、LDAP、OIDC、CAS）；  <span class="x-pack-span">X-Pack（计划）</span>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            支持设置限制登录失败次数及限制登录失败时间；<span class="x-pack-span">X-Pack（计划）</span>
-        </td>
-    </tr>
-	<tr>
-		<td rowspan="1">
-			显示设置
-		</td>
-		<td>
-			支持头部系统 Logo 、登录页 Logo 、登录页图片、登录页标题、系统名称、系统图标、帮助文档及首页链接、登录页脚等设置； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="3">
-			主题设置
-		</td>
-		<td>
-			支持两种默认主题； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持自定义主题的新建、编辑、删除等； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			支持对主题进行基础配色、字体配色、边框配色、背景配色等多属性的设置； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-    <tr>
-        <td rowspan="3">
-            平台对接
-        </td>
-        <td>
-            支持飞书与国际飞书平台接入，可扫码登录、接收消息和定时报告；  <span class="x-pack-span">X-Pack（计划）</span>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            支持钉钉平台接入，可扫码登录、接收消息和定时报告；  <span class="x-pack-span">X-Pack（计划）</span>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            支持企业微信平台接入，可扫码登录、接收消息和定时报告；  <span class="x-pack-span">X-Pack（计划）</span>
-        </td>
-    </tr>
-	<tr>
-		<td rowspan="3">
-			认证设置
-		</td>
-		<td>
-			支持 LDAP 认证对接； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-    </tr>
-    <tr>
-		<td>
-			支持 OIDC 单点登录系统对接； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-    </tr>
-    <tr>
-		<td>
-			支持 CAS 单点登录系统对接； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="1">
-			集成与扩展
-		</td>
-		<td>
-			提供完善的 API 接口及文档； <span class="x-pack-span">X-Pack（计划）</span>
-		</td>
-	</tr>
 	<tr>
 		<td rowspan="1">
 			操作日志
@@ -767,7 +590,7 @@
             在 Linux 主机上安装
         </td>
         <td>
-            支持一键主机 All in one 部署，自带 MySQL，也可自行另外配置 MySQL 引擎；
+            支持一键主机 All in one 部署，自带 MySQL，也可自行另外配置 MySQL ；
         </td>
     </tr>
     <tr>
@@ -775,7 +598,7 @@
             在 K8s 上安装
         </td>
         <td>
-            支持 K8s 模式部署，自带 MySQL，可另外配置 MySQL 引擎；
+            支持 K8s 模式部署，自带 MySQL，可另外配置 MySQL ；
         </td>
     </tr>
 </table>
