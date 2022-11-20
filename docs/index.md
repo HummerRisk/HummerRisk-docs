@@ -50,8 +50,6 @@
 
 ## 功能列表
 
-!!! warning "说明: 功能后带有 "X-Pack" 标识含义为此功能为企业版本所有，其它核心功能均开源开放。"
-
 <table>
 	<tr>
 		<td bgcolor="#d4944d" align="middle" style="font-weight:bold;color: white;width: 20%">
