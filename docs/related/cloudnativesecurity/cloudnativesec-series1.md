@@ -1,3 +1,5 @@
+![配图](../../img/related/cloudnativesec-series1-pic3.jpeg){ width="80%" }   
+
 ### 引言：
 
 !!! abstract "引言："
