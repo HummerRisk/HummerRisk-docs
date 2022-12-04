@@ -60,7 +60,7 @@
     kubectl create -f ./hummer-clusterrolebinding.yaml
     ```
 
-#### 3. 足够权限获取 token
+#### 3. 获取 token
 !!! question "获取 token"
     ```bash
     # 获取 token
@@ -72,7 +72,7 @@
 !!! abstract "K8s 概览"
     K8s 检测数据概览。
 
-![K8s 检测](../img/release/0.4.0/k8s.png){ width="95%" }
+![K8s](../img/user/k8s/k8s_overview.jpg){ width="95%" }
 
 !!! warning "注意"
     K8s 配置与云原生 K8s 环境安全检测功能，绑定 K8s Url 与 Token 信息即可进行安全检测，并生成安全漏洞结果。
@@ -81,19 +81,21 @@
 !!! abstract "云原生检测结果"
     绑定 K8s 账号, 即可执行安全检测。
 
-![K8s](../img/user/k8s1.png){ width="95%" }
-![K8s](../img/user/k8s2.png){ width="95%" }
+![K8s](../img/user/k8s/k8s1.jpg){ width="95%" }
+![K8s](../img/user/k8s/k8s2.jpg){ width="95%" }
 
 ### K8s 检测结果
 !!! abstract "云原生检测结果"
-    云原生检测结果列表，点击"统计按钮"进入详情列表，点击"状态按钮"查看日志与报告。
+    - K8s 检测结果列表，检测结果会涉及两方面：漏洞和配置错误。
+    - 「漏洞检测统计」和「配置审计统计」中会显示出本次检测涉及的风险数量，点击数字可以进入详细的信息页面。
+    - 点击「检测状态」的按钮可以查看日志与报告。
+    - 点击操作中的「下载」按钮可以下载报告。
 
-![K8s](../img/user/k8s3.png){ width="95%" }
-![K8s](../img/user/k8s4.png){ width="95%" }
-![K8s](../img/user/k8s5.png){ width="95%" }
-![K8s](../img/user/k8s6.png){ width="95%" }
+![K8s](../img/user/k8s/k8s3.jpg){ width="95%" }
+![K8s](../img/user/k8s/k8s4.jpg){ width="95%" }
+![K8s](../img/user/k8s/k8s5.png){ width="95%" }
+![K8s](../img/user/k8s/k8s6.png){ width="95%" }
 
 ### K8s 检测历史记录
 
-![K8s 检测](../img/release/0.4.0/k8s2.png){ width="95%" }
-![K8s 检测](../img/release/0.4.0/k8s3.png){ width="95%" }
+![K8s](../img/user/k8s/k8s7.jpg){ width="95%" }

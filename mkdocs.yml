@@ -59,6 +59,7 @@ nav:
           - 漏洞检测: user/vuln.md
           - 合规报告: user/report.md
           - 操作审计: user/event.md
+          - 对象存储: user/oss.md
       - 云原生安全:
           - 资源态势: user/k8s-situation.md
           - 主机检测: user/server.md
@@ -77,6 +78,8 @@ nav:
       - 系统设置: user/settings.md
   - 常见问题:
       - 混合云账号校验失败问题: question/cloud.md
+      - 多云检测结果状态不停问题: question/rule.md
+      - 漏洞里报错需要更新漏洞库: question/rule.md
       - K8s 账号校验失败问题: question/k8s.md
       - K8s Operator 校验失败问题: system/k8s-scan.md
       - 页面报错到哪去查看log: question/log.md
@@ -89,13 +92,23 @@ nav:
       - 如何自定义云资源检测规则: develop/rule.md
       - 自定义阿里云监控规则示例: develop/example.md
   - 技术文章:
-      - 开源工具系列(一) Trivy: related/trivy.md
-      - 开源工具系列(二) Prowler: related/prowler.md
-      - 开源工具系列(三) Nuclei: related/nuclei.md
-      - 开源工具系列(四) Xray: related/xray.md
-      - 开源工具系列(五) DependencyCheck: related/dependency.md
-      - 开源工具系列(六) Grype: related/grype.md
-      - 开源工具系列(七) Syft: related/syft.md
+      - 开源工具系列:
+          - 开源工具系列(一) Trivy: related/opensource-tool/trivy.md
+          - 开源工具系列(二) Prowler: related/opensource-tool/prowler.md
+          - 开源工具系列(三) Nuclei: related/opensource-tool/nuclei.md
+          - 开源工具系列(四) Xray: related/opensource-tool/xray.md
+          - 开源工具系列(五) DependencyCheck: related/opensource-tool/dependency.md
+          - 开源工具系列(六) Grype: related/opensource-tool/grype.md
+          - 开源工具系列(七) Syft: related/opensource-tool/syft.md
+      - 云原生安全系列:
+          - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
+          - 云原生安全系列 2：关于镜像安全必须知道的事儿: related/cloudnativesecurity/cloudnativesec-series2.md
+      - 云安全系列:
+          - 云安全系列 1：深度解析云安全责任共担模型: related/cloudsecurity/cloudsec-series1.md
+          - 云安全系列 2：访问安全和身份管理: related/cloudsecurity/cloudsec-series2.md
+          - 云安全系列 3：如何构建云安全策略: related/cloudsecurity/cloudsec-series3.md
+          - 云安全系列 4：解析云安全工具集: related/cloudsecurity/cloudsec-series4.md
+          
   - 优化建议:
       - 阿里云:
           - ACK 删除保护检测:  suggest/aliyun/ack-deletion-protection.md
@@ -314,6 +327,8 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 0.5.2: release/release-0.5.2.md
+          - ReleaseNote 0.5.1: release/release-0.5.1.md
           - ReleaseNote 0.5.0: release/release-0.5.0.md
           - ReleaseNote 0.4.1: release/release-0.4.1.md
           - ReleaseNote 0.4.0: release/release-0.4.0.md
