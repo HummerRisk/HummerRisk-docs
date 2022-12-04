@@ -158,7 +158,7 @@
 ## 4 本地安装引擎组件
 
 !!! warning "**注意：** 若需要调试相应的检测功能，需要安装相应的组件引擎"
-    1. Cloud Custodian 作为云平台检测引擎，详细的相关操作，请参考 [Cloud Custodian](../develop/rule.md)
+    1. Cloud Custodian 作为云平台检测引擎，详细的相关操作，请参考 [Cloud Custodian](../related/opensource-tool/custodian.md)
     2. Prowler 作为 AWS 检测引擎，详细的相关操作，请参考 [Prowler](../related/opensource-tool/prowler.md)
     3. Nuclei 作为漏洞检测引擎，详细的相关操作，请参考 [Nuclei](../related/opensource-tool/nuclei.md)
     4. Xray 作为漏洞检测引擎，详细的相关操作，请参考 [Xray](../related/opensource-tool/xray.md)

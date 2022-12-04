@@ -52,6 +52,7 @@
         $ python3 -m venv custodian
         $ source custodian/bin/activate
         (custodian) $ pip install c7n
+        (custodian) $ pip install -e tools/c7n_aliyun
         ```
 
 #### 四、Cloud Custodian 用法
