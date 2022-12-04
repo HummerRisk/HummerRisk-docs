@@ -10,11 +10,52 @@
     - Prowler 是一个命令行工具，可帮助您进行 AWS 安全评估、审计、强化和事件响应。
     - 它遵循 CIS Amazon Web Services Foundations Benchmark（49 项检查）的指导方针，并有 100 多项额外检查，包括与 GDPR、HIPAA、PCI-DSS、ISO-27001、FFIEC、SOC2 等相关的检查。
 
-#### 二、Prowler 使用
+#### 二、Prowler 安装
+
+!!! abstract ""
+    1. Prowler 是使用下面的 AWS-CLI 用 bash 编写的，它可以在 Linux、Mac OS 或 Windows 中使用 cygwin 或虚拟化运行。还需要jq和detect-secrets才能正常工作。
+    2. 确保安装了最新版本的 AWS-CLI。它适用于 v1 或 v2，但如果使用新区域，建议使用最新的 v2，因为它们需要 STS v2 令牌和其他所需组件，并且已经安装了 Python pip。
+
+!!! tip "对于 Amazon Linux（yum基于 Linux 发行版和 AWS CLI v2）"
+    ```bash
+    sudo yum update -y
+    sudo yum remove -y awscli
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    unzip awscliv2.zip
+    sudo ./aws/install
+    sudo yum install -y python3 jq git
+    sudo pip3 install detect-secrets==1.0.3
+    git clone https://github.com/prowler-cloud/prowler
+    ```
+
+!!! tip "对于 Ubuntu Linux（apt基于 Linux 发行版和 AWS CLI v2）"
+    ```bash
+    sudo apt update
+    sudo apt install python3 python3-pip jq git zip
+    pip install detect-secrets==1.0.3
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    unzip awscliv2.zip
+    sudo ./aws/install
+    git clone https://github.com/prowler-cloud/prowler
+    ```
+
+!!! warning "注意"
+    注意：不再支持 detect-secrets Yelp 版本，现在维护来自 IBM 的版本。使用下面提到的一个或特定的 Yelp 版本 1.0.3 以确保它按预期工作 ( pip install detect-secrets==1.0.3)
+
+!!! tip ""
+    ```bash
+    #AWS-CLI 也可以通过其他方式安装，具体请参考官方文档：https ://aws.amazon.com/cli/ ，但必须使用或detect-secrets来安装。pippip3
+    #克隆 Prowler 存储库后，进入文件夹并运行它
+    cd prowler
+    ./prowler
+    ```
+
+#### 三、Prowler 使用
 
 !!! tip "Prowler 使用"
     ```sh
     # 工具使用:
+    cd prowler
     ./prowler -h
     ```
 !!! tip "USAGE"
@@ -66,7 +107,7 @@ Options:
 | -i                             | Run Prowler Quick Inventory. The inventory will be stored in an output csv by default.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | -u <audit_id>                  | Add audit_id field to use with postgres connector.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-#### 三、Prowler 工具检测
+#### 四、Prowler 工具检测
 
 ![prowler](../../img/question/prowler1.png){ width="95%" }
 
