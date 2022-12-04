@@ -1,4 +1,4 @@
-![处置方案](../../img/related/cloudsec-series1-pic5.jpeg){ width="90%" }   
+![配图](../../img/related/cloudsec-series1-pic5.jpeg){ width="90%" }   
 
 ### 引言
 
