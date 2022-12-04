@@ -18,7 +18,14 @@
     - 创建完成镜像仓库后，页面中会列出所有已经绑定的镜像仓库。
     - 系统会对创建的仓库进行校验，可以正常访问的仓库会显示为有效状态。可以对仓库进行修改和删除操作。
 
-![镜像仓库](../img/user/image/image_repo.png){ width="95%" }
+![镜像仓库](../img/user/image/image_repo.jpg){ width="95%" }
+
+!!! abstract "同步镜像"
+    - 点击「同步镜像」按钮会自动将目标仓库中的镜像信息同步到 HummerRisk 中。
+    - 点击「镜像列表」按钮可以查看目前已经同步的镜像信息，在镜像列表中可以快速执行镜像检测。   
+
+![镜像仓库](../img/user/image/sync_repo.jpg){ width="95%" }
+![镜像仓库](../img/user/image/repo_list.jpg){ width="95%" }
 
 
 ### 镜像管理
@@ -28,7 +35,7 @@
     - 镜像列表中会显示出已经创建成功的待检测镜像，列表会显示出镜像的名称、状态、地址等信息。   
     - 通过校验的镜像，镜像状态会显示为 [有效]，可以对其执行检测。
 
-![镜像管理](../img/user/image/image.png){ width="95%" }
+![镜像管理](../img/user/image/image.jpg){ width="95%" }
 
 !!! abstract "新增镜像"
     - 新增镜像信息。点击[创建镜像按钮]，在弹出填写相关信息可以新增镜像。
@@ -60,7 +67,7 @@
     - 列表中会显示出所有执行过的检测任务。   
     - 检测状态显示当前任务的执行情况，正在执行的任务会显示为 [正在处理]，已经执行完的任务显示为 [已完成] 或 [异常]   
 
-![镜像检测结果](../img/user/image/image_result.png){ width="95%" }
+![镜像检测结果](../img/user/image/image_result.jpg){ width="95%" }
 
 !!! abstract "统计"
     [统计] 会直接显示出本次检测任务发现的不合规资源数量，点击数字会跳转到漏洞信息列表。
@@ -75,5 +82,5 @@
 
 ### 镜像检测历史记录
 
-![镜像检测](../img/release/0.4.0/image3.png){ width="95%" }
+![镜像检测](../img/user/image/image_result_history.jpg){ width="95%" }
 ![镜像检测](../img/release/0.4.0/image4.png){ width="95%" }
