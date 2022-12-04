@@ -53,6 +53,10 @@
         $ source custodian/bin/activate
         (custodian) $ pip install c7n
         (custodian) $ pip install -e tools/c7n_aliyun
+        (custodian) $ pip install -e tools/c7n_huawei
+        (custodian) $ pip install -e tools/c7n_tencent
+        (custodian) $ pip install -e tools/c7n_baidu
+        ……
         ```
 
 #### 四、Cloud Custodian 用法

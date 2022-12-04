@@ -16,28 +16,30 @@
     1. Prowler 是使用下面的 AWS-CLI 用 bash 编写的，它可以在 Linux、Mac OS 或 Windows 中使用 cygwin 或虚拟化运行。还需要jq和detect-secrets才能正常工作。
     2. 确保安装了最新版本的 AWS-CLI。它适用于 v1 或 v2，但如果使用新区域，建议使用最新的 v2，因为它们需要 STS v2 令牌和其他所需组件，并且已经安装了 Python pip。
 
-!!! tip "对于 Amazon Linux（yum基于 Linux 发行版和 AWS CLI v2）"
-    ```bash
-    sudo yum update -y
-    sudo yum remove -y awscli
-    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    unzip awscliv2.zip
-    sudo ./aws/install
-    sudo yum install -y python3 jq git
-    sudo pip3 install detect-secrets==1.0.3
-    git clone https://github.com/prowler-cloud/prowler
-    ```
+=== "yum 源方式安装"
+    !!! tip "对于 Amazon Linux（yum 基于 Linux 发行版和 AWS CLI v2）"
+        ```bash
+        sudo yum update -y
+        sudo yum remove -y awscli
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install
+        sudo yum install -y python3 jq git
+        sudo pip3 install detect-secrets==1.0.3
+        git clone https://github.com/prowler-cloud/prowler
+        ```
 
-!!! tip "对于 Ubuntu Linux（apt基于 Linux 发行版和 AWS CLI v2）"
-    ```bash
-    sudo apt update
-    sudo apt install python3 python3-pip jq git zip
-    pip install detect-secrets==1.0.3
-    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    unzip awscliv2.zip
-    sudo ./aws/install
-    git clone https://github.com/prowler-cloud/prowler
-    ```
+=== "apt 源方式安装"
+    !!! tip "对于 Ubuntu Linux（apt 基于 Linux 发行版和 AWS CLI v2）"
+        ```bash
+        sudo apt update
+        sudo apt install python3 python3-pip jq git zip
+        pip install detect-secrets==1.0.3
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install
+        git clone https://github.com/prowler-cloud/prowler
+        ```
 
 !!! warning "注意"
     注意：不再支持 detect-secrets Yelp 版本，现在维护来自 IBM 的版本。使用下面提到的一个或特定的 Yelp 版本 1.0.3 以确保它按预期工作 ( pip install detect-secrets==1.0.3)

@@ -3,7 +3,7 @@
 ```
 .
 ├── Dockerfile                                      # 构建容器镜像使用的 dockerfile
-├── Dockerfile_base                                      # 构建基础容器镜像使用的 dockerfile    
+├── Dockerfile_base                                 # 构建基础容器镜像使用的 dockerfile    
 ├── LICENSE
 ├── README.md
 ├── ROADMAP.md
@@ -27,20 +27,21 @@
 ## 2 配置开发环境
 ### 2.1 环境准备
 
-!!! abstract ""
-    **后端：**  
-    HummerRisk 后端使用了 Java 语言的 Spring Boot 框架，并使用 Maven 作为项目管理工具。开发者需要先在开发环境中安装 JDK 11 及 Maven。  
-    **前端：**  
-    HummerRisk 前端使用了 Vue.js 作为前端框架，ElementUI 作为 UI 框架，并使用 npm 或 yarn 作为包管理工具。开发者请先下载 Node.js 或 Yarn 作为运行环境，IDEA 用户建议安装 Vue.js 插件，便于开发。  
-    **安装 npm 或 yarn:**  
-    进入网站 https://nodejs.org/en/download 或 https://yarn.bootcss.com/docs/install， 选择相应的安装包进行安装即可。
+=== "后端"
+    !!! abstract "后端"
+        HummerRisk 后端使用了 Java 语言的 Spring Boot 框架，并使用 Maven 作为项目管理工具。开发者需要先在开发环境中安装 JDK 11 及 Maven。  
 
+=== "前端"
+    !!! abstract "前端"
+        HummerRisk 前端使用了 Vue.js 作为前端框架，ElementUI 作为 UI 框架，并使用 npm 或 yarn 作为包管理工具。开发者请先下载 Node.js 或 Yarn 作为运行环境，IDEA 用户建议安装 Vue.js 插件，便于开发。  
+
+=== "安装 npm 或 yarn"
+    !!! abstract "安装 npm 或 yarn"
+        进入网站 https://nodejs.org/en/download 或 https://yarn.bootcss.com/docs/install， 选择相应的安装包进行安装即可。
 
 ### 2.2 初始化配置
 
-!!! abstract ""
-    **数据库初始化：**
-
+!!! abstract "数据库初始化"
     HummerRisk 使用 MySQL 数据库，推荐使用 MySQL 5.7 版本。同时 hummerrisk 对数据库部分配置项有要求，请参考下附的数据库配置，修改开发环境中的数据库配置文件
 
     ```
@@ -71,8 +72,7 @@
     CREATE DATABASE `hummerrisk` /*!40100 DEFAULT CHARACTER SET utf8mb4 */
     ```
 
-!!! abstract ""
-    **配置文件：**  
+!!! abstract "配置文件"
     HummerRisk 会默认加载该路径下的配置文件 /opt/hummerrisk/conf/hummerrisk.properties，请参考下列配置创建对应目录及配置文件，**请参考下面配置创建对应目录及配置文件**。  
     **提示：** 请自行将 MYSQL_HOST 配置为自己的 MySQL 地址。
 
@@ -167,7 +167,7 @@
 
 ### 4.1 准备运行环境
 
-!!! abstract ""
+!!! abstract "配置本地目录和配置文件"
     **下载 installer 工程：**
     ```shell
     git clone https://github.com/HummerRisk/installer
@@ -186,6 +186,92 @@
     cd installer/hummerrisk/config_init/hummerrisk
     cp hummerrisk.properties /opt/hummerrisk/conf/hummerrisk.properties
     ```
+
+=== "安装 Custodian"
+    !!! tip "安装 Custodian"
+        ```bash
+        $ python3 -m venv custodian
+        $ source custodian/bin/activate
+        (custodian) $ pip install c7n
+        (custodian) $ pip install -e tools/c7n_aliyun
+        (custodian) $ pip install -e tools/c7n_huawei
+        (custodian) $ pip install -e tools/c7n_tencent
+        (custodian) $ pip install -e tools/c7n_baidu
+        ……
+        ```
+
+=== "安装 Prowler"
+    !!! tip "安装 Prowler"
+        *  yum 源方式安装 Prowler
+        *  对于 Amazon Linux（yum 基于 Linux 发行版和 AWS CLI v2）
+        ```bash
+        sudo yum update -y
+        sudo yum remove -y awscli
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install
+        sudo yum install -y python3 jq git
+        sudo pip3 install detect-secrets==1.0.3
+        git clone https://github.com/prowler-cloud/prowler
+        ```
+        * apt 源方式安装 Prowler
+        *  对于 Ubuntu Linux（apt 基于 Linux 发行版和 AWS CLI v2）
+        ```bash
+        sudo apt update
+        sudo apt install python3 python3-pip jq git zip
+        pip install detect-secrets==1.0.3
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install
+        git clone https://github.com/prowler-cloud/prowler
+        ```
+
+=== "安装 Nuclei"
+    !!! tip "安装 Nuclei"
+        * tar 安装 Nuclei
+        ```bash
+        tar -xzvf nuclei-linux-amd64.tar> mv nuclei-linux-amd64 /usr/bin/nuclei> nuclei -h
+        ```
+        * 源安装 Nuclei
+        ```bash
+        # Nuclei 要求目标设备成功配置好 Go v1.13+ 环境，然后运行下列命令获取项目代码：
+        GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/cmd/nuclei
+        # 如需更新 Nuclei，可以使用 -u 选项和 go get 命令。
+        ```
+
+=== "安装 Xray"
+    !!! tip "安装 Xray"
+        * 请下载的时候选择最新的版本下载。
+        * Github: https://github.com/chaitin/xray/releases （国外速度快）
+        * 网盘: https://yunpan.360.cn/surl_y3Gu6cugi8u （国内速度快）
+        * 注意： 不要直接 clone 仓库，xray 并不开源，仓库内不含源代码，直接下载构建的二进制文件即可。
+
+=== "安装 Trivy"
+    !!! tip "安装 Trivy"
+        * Yum 源方式安装
+        ```bash
+        $ sudo vim /etc/yum.repos.d/trivy.repo
+        [trivy]
+        name=Trivy repository
+        baseurl=https://aquasecurity.github.io/trivy-repo/rpm/releases/$releasever/$basearch/
+        gpgcheck=0
+        enabled=1
+        $ sudo yum -y update
+        $ sudo yum -y install trivy
+        ```
+        * rpm 方式安装
+        ```bash
+        rpm -ivh https://github.com/aquasecurity/trivy/releases/download/v0.19.2/trivy_0.19.2_Linux-64bit.rpm
+        ```
+        * 二进制方式安装
+        ```bash
+        mkdir -p $GOPATH/src/github.com/aquasecurity
+        cd $GOPATH/src/github.com/aquasecurity
+        git clone --depth 1 --branch v0.19.2 https://github.com/aquasecurity/trivy
+        cd trivy/cmd/trivy/
+        export GO111MODULE=on
+        go install
+        ```
 
 ## 5 镜像打包（推荐）
 
