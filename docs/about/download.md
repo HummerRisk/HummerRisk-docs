@@ -14,4 +14,4 @@
 
 | version    |                                                                           linux/amd64                                                                            |
 |------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 2022112408 | [点击下载(trivy-offline-v1-2022112408.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v1-2022112408.db.tar.gz) |
+| 2022120606 | [点击下载(trivy-offline-v1-2022120606.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v1-2022120606.db.tar.gz) |
