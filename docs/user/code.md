@@ -60,5 +60,5 @@
 
 ### 源码检测历史记录
 
-![源码检测概览](../img/release/0.4.0/code3.png){ width="95%" }
+![源码检测概览](../img/user/code/code_scan_history.jpg){ width="95%" }
 ![源码检测概览](../img/release/0.4.0/code4.png){ width="95%" }
