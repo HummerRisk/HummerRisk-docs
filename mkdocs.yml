@@ -79,7 +79,7 @@ nav:
   - 常见问题:
       - 混合云账号校验失败问题: question/cloud.md
       - 多云检测结果状态不停问题: question/rule.md
-      - 漏洞里报错需要更新漏洞库: question/rule.md
+      - 漏洞里报错需要更新漏洞库: question/updateDb.md
       - K8s 账号校验失败问题: question/k8s.md
       - K8s Operator 校验失败问题: system/k8s-scan.md
       - 页面报错到哪去查看log: question/log.md
@@ -328,6 +328,7 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 0.6.0: release/release-0.6.0.md
           - ReleaseNote 0.5.2: release/release-0.5.2.md
           - ReleaseNote 0.5.1: release/release-0.5.1.md
           - ReleaseNote 0.5.0: release/release-0.5.0.md
