@@ -12,6 +12,7 @@
 
 !!! info "直接在页面上点击更新漏洞库"
 
+![在线更新漏洞库](../img/question/updatedb/img.png){ width="95%" }
 
 #### 离线更新漏洞库
 
@@ -19,4 +20,6 @@
     - https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v1-2022111508.db.tar.gz
 
 !!! info "在页面上点击上传漏洞库"
-    
+
+![离线更新漏洞库](../img/question/updatedb/img_1.png){ width="95%" }
+![离线更新漏洞库](../img/question/updatedb/img_2.png){ width="95%" }
