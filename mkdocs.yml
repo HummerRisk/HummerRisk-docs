@@ -105,6 +105,7 @@ nav:
       - 云原生安全系列:
           - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
           - 云原生安全系列 2：关于镜像安全必须知道的事儿: related/cloudnativesecurity/cloudnativesec-series2.md
+          - 云原生安全系列 3：5个 Kubernetes API 网络访问最佳实践: related/cloudnativesecurity/cloudnativesec-series3.md
       - 云安全系列:
           - 云安全系列 1：深度解析云安全责任共担模型: related/cloudsecurity/cloudsec-series1.md
           - 云安全系列 2：访问安全和身份管理: related/cloudsecurity/cloudsec-series2.md
