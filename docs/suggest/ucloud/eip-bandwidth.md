@@ -21,5 +21,4 @@
 ### 4.帮助资源
 !!! info ""
     - https://docs.ucloud.cn/uhost/introduction/network/eip
-    - https://docs.ucloud.c![img.png](img.png)n/unet/eip/introduction
-    
+    - https://docs.ucloud.cn/unet/eip/introduction
