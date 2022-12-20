@@ -1,4 +1,4 @@
-![配图](../../img/related/cloudnativesec-series2-pic1.jpeg){ width="80%" }   
+![配图](../../img/related/cloudnativesec-series3-pic1.jpeg){ width="80%" }   
 
 ### 引言：
 
