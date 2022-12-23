@@ -84,6 +84,7 @@ nav:
       - K8s 账号校验失败问题: question/k8s.md
       - K8s Operator 校验失败问题: system/k8s-scan.md
       - 页面报错到哪去查看log: question/log.md
+      - 安全 Azure CL: question/azure.md
       - 等级保护: question/grade-protection.md
       - 安全基线: question/cis.md
       - 开启企业微信通知: question/weixin-settings.md
@@ -111,8 +112,8 @@ nav:
           - 云安全系列 2：访问安全和身份管理: related/cloudsecurity/cloudsec-series2.md
           - 云安全系列 3：如何构建云安全策略: related/cloudsecurity/cloudsec-series3.md
           - 云安全系列 4：解析云安全工具集: related/cloudsecurity/cloudsec-series4.md
-      - 使用场景:
-          - 使用场景 3：云原生安全检测: related/scenes/cloudnative1.md
+      - 安全检测场景:
+          - 安全检测场景 3：云原生安全检测: related/scenes/cloudnative1.md
   - 优化建议:
       - 阿里云:
           - ACK 删除保护检测:  suggest/aliyun/ack-deletion-protection.md
@@ -331,6 +332,7 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 0.7.0: release/release-0.7.0.md
           - ReleaseNote 0.6.0: release/release-0.6.0.md
           - ReleaseNote 0.5.2: release/release-0.5.2.md
           - ReleaseNote 0.5.1: release/release-0.5.1.md
