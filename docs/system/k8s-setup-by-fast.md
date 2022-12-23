@@ -22,7 +22,10 @@
     helm search repo hummerrisk
 
     # 安装
-    helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace
+    helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace \
+    --set hummerrisk.serviceType="NodePort" \
+    --set trivyServer.serviceType="NodePort" \
+    --set trivyServer.servicePort=4975
     ```
 
 !!! info "4. 使用外部的 MySQL 安装 hummerrisk"
@@ -32,6 +35,9 @@
 
     # 使用 --set 设置外部数据库配置信息，存储信息
     helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace  \
+    --set hummerrisk.serviceType="NodePort" \
+    --set trivyServer.serviceType="NodePort" \
+    --set trivyServer.servicePort=4975 \
     --set global.storageClass="cfs"  \                # 你的存储类名称
     --set storage.accessModes={"ReadWriteOnce"}  \    # 存储类的访问模式，ReadWriteOnce、ReadWriteMany等
     --set mysql.enabled=false   \                     # 关闭创建 MySQL 实例
@@ -55,6 +61,10 @@
     --set hummerrisk.serviceType="NodePort" # 设置 service 类型，例如：CLusterIP/NodePort
     --set hummerrisk.replicas=2             # 设置 hummerrisk 副本数量
     --set hummerrisk.image.tag="v0.4.0"     # 设置 hummerrisk 版本
+    trivy Server部分:
+    --set trivyServer.trivyDBVersion="2022122008"  # 漏洞库版本
+    --set trivyServer.servicePort=4975             # service 端口号
+    --set trivyServer.serviceType=ClusterIP        # service 类型
     内部数据库部分:
     --set mysql.enabled=true                # 开启后会在 k8s 集群启动一个 MySQL
     --set mysql.rootPassword="password"     # 设置数据库密码
@@ -112,7 +122,13 @@
       username: root
       password: ""
       database: ""
-    
+
+    #  trivy Server 配置
+    trivyServer:
+      trivyDBVersion: "2022122008"
+      servicePort: 4975
+      serviceType: ClusterIP
+
     # 存储卷配置
     storage:
       logSize: 20Gi

@@ -10,12 +10,18 @@
     # 2.更新仓库源
     helm repo update
     
-    # 3.开始安装, 可以自定义应用名称和NameSpace
+    # 3.开始安装, 可以自定义应用名称和NameSpace, 注意 trivy.serverURL 的 IP 地址需要替换为 Trivy 实际的 IP 地址
+    如果 hummerrisk 以主机方式运行，则<hummerrisk-trivy-server-ip>为主机 IP。
+    如果hummerrisk 在 k8s 上运行，则<hummerrisk-trivy-server-ip>和端口为节点IP和 NodePort 端口，若配置的有 ingress 则可配置域名
+
     helm install trivy-operator hummer/trivy-operator \
-     --namespace trivy-system \
-     --set="image.repository=registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
-     --create-namespace --set="trivy.ignoreUnfixed=true"
-    
+    --namespace trivy-system \
+    --set trivy.mode="ClientServer" \
+    --set trivy.serverURL="http://<hummerrisk-trivy-server-ip>:4975" \
+    --set="image.repository=registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
+    --set="trivy.ignoreUnfixed=true" \
+    --create-namespace \
+
     # 4.检测operator是否启动成功
     kubectl get pod -A|grep trivy-operator
     trivy-system   trivy-operator-69f99f79c4-lvzvs           1/1     Running            0          118s

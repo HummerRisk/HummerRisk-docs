@@ -123,10 +123,16 @@
         ## Compose 项目设置
         # 项目名称
         COMPOSE_PROJECT_NAME=hr
+
         # 超时时间
         COMPOSE_HTTP_TIMEOUT=3600
+
         # docker 客户端超时时间
         DOCKER_CLIENT_TIMEOUT=3600
+
+        # cve 漏洞库版本
+        TRIVY_SERVER_PORT=4975
+        TRIVY_DB_VERSION=2022122020
 
         ```
     !!! tip "3.开始安装"
@@ -194,9 +200,8 @@
         DOCKER_CLIENT_TIMEOUT=3600
         
         # cve 漏洞库版本
-        DEPENDENCY_VERSION=7.1.1
-        GRYPE_VERSION=0.43.0
-        TRIVY_DB_VERSION=2022082212
+        TRIVY_SERVER_PORT=4975
+        TRIVY_DB_VERSION=2022122020
         ```
 
     !!! tip "3.开始安装"
