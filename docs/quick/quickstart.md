@@ -1,6 +1,6 @@
 
 ## 1 一键部署
-
+[![安装部署](./img/../../img/vedio/install-cover.jpeg){ width="280"}](https://www.bilibili.com/video/BV1JK411d79A/)
 !!! tip "3分钟快速一键部署"
     1. 部署服务器要求
         - 操作系统要求：任何支持 Docker 的 Linux x64
@@ -54,7 +54,7 @@
 ## 3 快速上手
 
 ### 3.1 场景一：混合云安全
-
+[![快速入门1](./img/../../img/vedio/quickstart1.jpeg){ width="280"}](https://www.bilibili.com/video/BV1g84y1b79N/?vd_source=40cffdce443e3b05aff80ddde424f0c3)
 #### 3.1.1 绑定账号
 
 !!! abstract "添加/编辑云账号"
@@ -124,7 +124,7 @@
 
 
 ### 3.2 场景二：云原生安全
-
+[![快速入门2](./img/../../img/vedio/quickstart2.jpeg){ width="280"}](https://www.bilibili.com/video/BV1yA411D7kc/)
 #### 3.2.1 前置 K8s 配置
 
 !!! warning "K8s 检测前置条件"
@@ -304,6 +304,7 @@
 ## 4 常用信息
 
 !!! info ""
+    - [教学视频](../video/video.md)
     - [常见问题](../question/cloud.md)
     - [功能手册](../user/process.md)
     - [开发文档](../develop/dev-manual.md)

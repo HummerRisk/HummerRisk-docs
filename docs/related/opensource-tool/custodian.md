@@ -1,4 +1,4 @@
-
+![c7n](./img/../../img/../../img/related/c7ncover.png){ width="80%" }   
 ### Cloud Custodian
 
 !!! info "项目地址"
