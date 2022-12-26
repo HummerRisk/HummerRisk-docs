@@ -103,6 +103,7 @@ nav:
           - 开源工具系列(六) DependencyCheck: related/opensource-tool/dependency.md
           - 开源工具系列(七) Grype: related/opensource-tool/grype.md
           - 开源工具系列(八) Syft: related/opensource-tool/syft.md
+          - 开源工具系列(九) Kube-bench: related/opensource-tool/kube-bench.md
       - 云原生安全系列:
           - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
           - 云原生安全系列 2：关于镜像安全必须知道的事儿: related/cloudnativesecurity/cloudnativesec-series2.md
