@@ -1,4 +1,4 @@
-![配图](../../img/related/cloudnativesec-series1-pic3.jpeg){ width="80%" }   
+![配图](../../img/related/scenes/scenes3-cover.png){ width="80%" }   
 
 ### HummerRisk 使用场景-云原生安全检测（3）--全生命周期检测
 
