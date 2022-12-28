@@ -84,7 +84,7 @@ nav:
       - K8s 账号校验失败问题: question/k8s.md
       - K8s Operator 校验失败问题: system/k8s-scan.md
       - 页面报错到哪去查看log: question/log.md
-      - 安全 Azure CL: question/azure.md
+      - 安装 Azure CL 并生成 service principal 文件: question/azure.md
       - 等级保护: question/grade-protection.md
       - 安全基线: question/cis.md
       - 开启企业微信通知: question/weixin-settings.md
