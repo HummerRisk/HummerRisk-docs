@@ -19,7 +19,7 @@
     * 操作审计: 统一监控多云环境上的账号活动，对云上产品和服务的访问和使用行为的操作日志进行审计；
     * 对象存储: 同步云上对象存储桶资源，查看、上传、下载存储对象。根据对象存储安全与合规要求，快速检测并生成报告。
   
-![混合云安全合规](./img/index/multi-cloud.png){ width="95%" }
+![混合云安全合规](https://hummerrisk-1312321453.cos.ap-beijing.myqcloud.com/multicloud.png){ width="95%" }
 
 !!! abstract "优势是什么"
     * 支持全面: 支持的几乎所有公有云，包括: 阿里云、腾讯云、华为云、火山引擎、百度云、青云、UCloud、Amazon Web Services、Microsoft Azure、Google Cloud，支持的私有云包括: OpenStack、VMware vSphere，并还在不断的扩充支持的范围；
