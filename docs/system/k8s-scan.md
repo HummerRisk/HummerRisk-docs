@@ -5,6 +5,10 @@
 !!! warning "使用云原生 K8s 安全检测前，需在k8s集群上安装 tirvy-operator"
     ```shell
     # 1.添加 chart 仓库
+    # 如果可以访问 github，可以使用 trivy 官方仓库
+    helm repo add hummer https://aquasecurity.github.io/helm-charts/
+    # 或
+    # 如果访问 github 异常，使用国内仓库，使用是一样的
     helm repo add hummer https://registry.hummercloud.com/repository/charts
     
     # 2.更新仓库源
