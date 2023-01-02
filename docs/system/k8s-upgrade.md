@@ -21,9 +21,9 @@
         --set hummerrisk.replicas=2             # 设置 hummerrisk 副本数量
         --set hummerrisk.image.tag="v0.4.0"     # 设置 hummerrisk 版本
     trivy Server部分:
-    --set trivyServer.trivyDBVersion="2022122008"  # 漏洞库版本
-    --set trivyServer.servicePort=4975             # service 端口号
-    --set trivyServer.serviceType=ClusterIP        # service 类型
+        --set trivyServer.trivyDBVersion="2022122008"  # 漏洞库版本
+        --set trivyServer.servicePort=4975             # service 端口号
+        --set trivyServer.serviceType=ClusterIP        # service 类型
     内部数据库部分:
         --set mysql.enabled=true                # 开启内部数据库，会在k8s集群启动一个MySQL
         --set mysql.rootPassword="password"     # 设置数据库密码
