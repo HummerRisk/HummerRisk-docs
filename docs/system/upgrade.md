@@ -16,15 +16,15 @@
 
     !!! tip "1.快捷升级"
         ``` bash linenums="1"
-        # 例如：升级到指定版本 v0.4.0 
-        hrctl upgrade v0.4.0
+        # 例如：升级到指定版本 v0.7.0 
+        hrctl upgrade v0.7.0
         ```
 
     !!! question "如果服务器网络环境不佳，可尝试手动在线升级"
         ``` bash linenums="1"
         cd /tmp
         # 指定需要升级的目标版本号
-        version=v0.4.0
+        version=v0.7.0
         wget https://github.com/HummerRisk/installer/releases/download/${version}/hummerrisk-installer-${version}.tar.gz
         tar -xf hummerrisk-installer-${version}}.tar.gz
         cd hummerrisk-installer-${version}}
@@ -34,12 +34,13 @@
     !!! tip "2.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy"
         ``` bash linenums="1"
         [root@hummerrisk tmp]# hrctl version
-        v0.2.0
+        v0.7.0
         [root@hummerrisk tmp]# hrctl status
-        Name                  Command                  State                                Ports
-        -----------------------------------------------------------------------------------------------------------------------
+            Name                  Command                  State                         Ports
+        ---------------------------------------------------------------------------------------------------------
         hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
-        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp,:::80->8088/tcp, 8778/tcp, 9779/tcp
+        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp, 8778/tcp, 9779/tcp
+        trivy_server   trivy server --skip-update ...   Up (healthy)   0.0.0.0:4975->4975/tcp, 8778/tcp, 9779/tcp
         ```
 
 === "离线升级"
@@ -56,12 +57,13 @@
     !!! tip "2.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy"
         ``` bash linenums="1"
         [root@hummerrisk tmp]# hrctl version
-        v0.2.0
+        v0.7.0
         [root@hummerrisk tmp]# hrctl status
-        Name                  Command                  State                                Ports
-        -----------------------------------------------------------------------------------------------------------------------
+            Name                  Command                  State                         Ports
+        ---------------------------------------------------------------------------------------------------------
         hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
-        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp,:::80->8088/tcp, 8778/tcp, 9779/tcp
+        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp, 8778/tcp, 9779/tcp
+        trivy_server   trivy server --skip-update ...   Up (healthy)   0.0.0.0:4975->4975/tcp, 8778/tcp, 9779/tcp
         ```
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
