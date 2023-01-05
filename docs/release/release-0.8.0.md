@@ -4,7 +4,7 @@
 
 !!! abstract "多云检测"
     如下图所示，新增金山云类型检测，新增金山云检测规则。
-![多云检测](../img/release/0.8.0/img_.png){ width="95%" }
+![多云检测](../img/release/0.8.0/img.png){ width="95%" }
 ![多云检测](../img/release/0.8.0/img_1.png){ width="95%" }
 
 ### 1.2 K8s 检测
