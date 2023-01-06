@@ -36,8 +36,9 @@
 !!! abstract "云检测规则组"
     - 规则组页面提供了对规则组的创建、删除、编辑、查找、绑定规则、执行检测等操作。
     - hummerrisk 系统初始化时会默认创建内置的对应云平台的规则组，用户也可以根据自己的需要手动创建规则组。
-    ![云检测规则组](../img/release/0.4.0/group.png){ width="95%" }
-    ![云检测规则组](../img/release/0.4.0/group2.png){ width="95%" }
+    ![云检测规则组](../img/user/rule/rule_group.jpg){ width="95%" }
+    ![云检测规则组](../img/user/rule/rule_group2.jpg){ width="95%" }
+
 
 ### 云账号检测规则
 
@@ -49,9 +50,9 @@
 
 !!! abstract "云账号检测规则"
     - 检测规则页面提供了对规则的创建、关闭、删除、编辑、查找等操作。hummerrisk 系统初始化时会默认创建规则，用户也可以根据自己的需要手动创建规则，但是要注意云资源规则内容符合 Yaml 格式规范。
-    ![检测规则](../img/user/rule/rule.png){ width="95%" }
+    ![检测规则](../img/user/rule/rule.jpg){ width="95%" }
     - 新增/编辑检测规则。
-    ![新增](../img/user/rule/rule_add.png){ width="95%" }
+    ![新增](../img/user/rule/rule_add.jpg){ width="95%" }
 
 ### 云账号定时检测
 
