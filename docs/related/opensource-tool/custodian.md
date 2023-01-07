@@ -9,7 +9,7 @@
 
 !!! abstract "Cloud Custodian 是什么"
     * Cloud Custodian 是用于管理公有云帐户和资源的规则引擎。规则策略用简单的 YAML 格式，使用户能够指定资源类型（EC2、ASG、Redshift、CosmosDB、PubSub 主题）的策略，并由过滤器和操作的词汇表构建。
-    * 官方的 Cloud Custodian 可用于管理 AWS、Azure 和 GCP 环境，我们在此基础上新增了阿里云、华为云、腾讯云、火山云、金山云、百度云、青云、七牛云、UCloud、OpenStack、VMware vSphere等。
+    * 官方的 Cloud Custodian 可用于管理 AWS、Azure 和 GCP 环境，我们在此基础上新增了阿里云、华为云、腾讯云、火山引擎、金山云、京东云、百度云、青云、七牛云、UCloud、OpenStack、VMware vSphere等。
 
 #### 二、Cloud Custodian 项目结构
 
