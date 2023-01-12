@@ -13,10 +13,13 @@
     通过邮件设置配置 SMTP 主机、SMTP 端口、SMTP 账户、SMTP 密码等信息。
 
 !!! abstract "企业微信设置"
-    通过企业微信设置配置 cropid、agentid、secret、测试用户等信息。
+    通过企业微信设置，配置 cropid、agentid、secret、测试用户等信息实现企业微信消息通知。
 
 !!! abstract "钉钉设置"
-    通过钉钉设置配置 AppKey、AgentId、AppSecret、测试用户等信息。
+    通过钉钉设置配置 AppKey、AgentId、AppSecret、测试用户等信息实现钉钉消息通知。
+
+!!! abstract "WebHook 设置"
+    通过 WebHook 设置绑定 WebHook 服务端地址，可以实现基于 WebHook 的消息通知。
 
 !!! abstract "检测参数设置"
     - 通过检测参数设置， 配置云原生安全检测的参数，例如是否离线检测、检测安全项、风险等级等信息。
