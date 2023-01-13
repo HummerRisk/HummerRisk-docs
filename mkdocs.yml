@@ -109,6 +109,7 @@ nav:
           - 云原生安全系列 2：关于镜像安全必须知道的事儿: related/cloudnativesecurity/cloudnativesec-series2.md
           - 云原生安全系列 3：5个 Kubernetes API 网络安全访问最佳实践: related/cloudnativesecurity/cloudnativesec-series3.md
           - 云原生安全系列 4：6个 Kubernetes 安全最佳实践: related/cloudnativesecurity/cloudnativesec-series4.md
+          - 云原生安全系列 5：ETCD 安全加固: related/cloudnativesecurity/cloudnativesec-series5.md
       - 云安全系列:
           - 云安全系列 1：深度解析云安全责任共担模型: related/cloudsecurity/cloudsec-series1.md
           - 云安全系列 2：访问安全和身份管理: related/cloudsecurity/cloudsec-series2.md
