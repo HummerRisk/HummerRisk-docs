@@ -1,31 +1,34 @@
 !!! info "说明"
-    全新安装的 Linux(x64)  
-    需要连接 互联网  
-    使用 root 用户执行
+全新安装的 Linux(x64)  
+需要连接 互联网  
+使用 root 用户执行
 
 ### 1.安装环境要求
 
 !!! info "外置环境要求"
-    - 推荐使用外置 数据库, 方便日后扩展升级
-系统支持:
 
-| OS          | Version   |
-|:------------|:----------|
-| CentOS      | > = 7.3   |
-| Ubuntu      | > = 20.04 |
-| Debian      | > = 10.2  |
-| OpenCloudOS | > = 8     |
-| EulerOS     | > = 2.0   |
+- 推荐使用外置 数据库, 方便日后扩展升级
+  系统类型及版本支持:
+
+| OS           | Version   |
+|:-------------|:----------|
+| CentOS       | > = 7.3   |
+| Ubuntu       | > = 20.04 |
+| Debian       | > = 10.2  |
+| OpenCloudOS  | > = 8     |
+| EulerOS      | > = 2.0   |
+| Amazon Linux | > = 2.0   |
 
 系统配置要求:
 
-| 配置项 | 最低配置         | 推荐配置                    |
-|:----|:-------------|-------------------------|
-| OS  | Ubuntu 20.04 | >= Ubuntu 20.04         |
-| CPU | 4核           | 8核                      |
-| 内存  | 8G           | 16G                     |
-| 磁盘  | 50GB         | 100GB                   |
-| 数据库 | MySQL 5.7    | MySQL 5.7/ MariaDB 10.2 |
+| 配置项    | 最低配置         | 推荐配置                    |
+|:-------|:-------------|-------------------------|
+| OS     | Ubuntu 20.04 | >= Ubuntu 20.04         |
+| CPU    | 4核           | 8核                      |
+| 内存     | 8G           | 16G                     |
+| 磁盘     | 50GB         | 100GB                   |
+| 数据库    | MySQL 5.7    | MySQL 5.7/ MariaDB 10.2 |
+| Docker | v20.10.10    | >= v20.10.10            |
 
 !!! info "快速安装预览"
 [![asciicast](https://asciinema.org/a/514353.svg)](https://asciinema.org/a/514353)
@@ -35,11 +38,12 @@
 ### 2.开始安装
 
 === "一键部署"
-    !!! tip "1.使用快速安装脚本一键安装部署"
-        ``` bash linenums="1"
-        # 下载最新版本的安装脚本
-        curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
-        
+!!! tip "1.使用快速安装脚本一键安装部署"
+
+``` bash linenums="1"
+# 下载最新版本的安装脚本
+curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
+
         # 执行安装命令
         bash quick_start.sh
 
@@ -74,10 +78,10 @@
         ```
 
 === "手动部署"
-    !!! tip "1.下载安装包"
-        ``` bash linenums="1"
-        # 指定需要安装的版本
-        export hummerrisk_version=v0.2.0
+!!! tip "1.下载安装包"
+``` bash linenums="1"
+# 指定需要安装的版本
+export hummerrisk_version=v0.2.0
 
         # 下载安装包
         wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
@@ -216,10 +220,10 @@
         ```
 
 === "常用命令"
-    !!! tip "常用命令"
-        ``` bash linenums="1"
-        # 启动
-        hrctl start
+!!! tip "常用命令"
+``` bash linenums="1"
+# 启动
+hrctl start
 
         # 停止
         hrctl down
@@ -242,4 +246,5 @@
         # 帮助
         hrctl -h
         ```
+
 !!! warning "默认 web 登录账户: admin 密码：hummer"

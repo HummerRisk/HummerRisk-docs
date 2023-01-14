@@ -35,11 +35,11 @@
         - `--auto-tls`：为与客户端的 TLS 连接使用自动生成的自签名证书。
     * 对等（服务器到服务器/集群）通信：
         对等选项的工作方式与客户端到服务器选项的工作方式相同：
-        `--peer-cert-file=<path>`：用于对等点之间 SSL/TLS 连接的证书。这将用于侦听对等地址以及向其他对等点发送请求。
-        `--peer-key-file=<path>`：证书的密钥。必须未加密。
-        `--peer-client-cert-auth`：设置后，etcd 将检查来自集群的所有传入对等请求，以获取由提供的 CA 签名的有效客户端证书。
-        `--peer-trusted-ca-file=<path>`：受信任的证书颁发机构。
-        `--peer-auto-tls`：使用自动生成的自签名证书进行对等点之间的 TLS 连接。
+        - `--peer-cert-file=<path>`：用于对等点之间 SSL/TLS 连接的证书。这将用于侦听对等地址以及向其他对等点发送请求。
+        - `--peer-key-file=<path>`：证书的密钥。必须未加密。
+        - `--peer-client-cert-auth`：设置后，etcd 将检查来自集群的所有传入对等请求，以获取由提供的 CA 签名的有效客户端证书。
+        - `--peer-trusted-ca-file=<path>`：受信任的证书颁发机构。
+        - `--peer-auto-tls`：使用自动生成的自签名证书进行对等点之间的 TLS 连接。
     如果提供了客户端到服务器或对等证书，则还必须设置密钥。所有这些配置选项也可通过环境变量、ETCD_CA_FILE等ETCD_PEER_CA_FILE获得。
 
 ### 配置示例
