@@ -6,7 +6,7 @@
 
 | version |                                                                           linux/amd64                                                                            |
 |---------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| v0.8.0  | [点击下载(hummerrisk-offline-installer-v0.8.0.tar.gz)](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.8.0.tar.gz) |
+| v0.9.0  | [点击下载(hummerrisk-offline-installer-v0.9.0.tar.gz)](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.9.0.tar.gz) |
 
 ## Vulnerabilities DB
 
