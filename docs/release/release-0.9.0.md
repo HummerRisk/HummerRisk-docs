@@ -70,9 +70,9 @@
 
 !!! abstract "优化规则描述内容，增加规则描述字段大小。"
 
-### 2.3 echarts
+### 2.3 主机管理
 
-!!! abstract "升级 echarts 版本，优化图表展示。"
+!!! abstract "优化主机管理批量上传 excel xlsx 模板，新增 windows 类型。"
 
 ### 2.4 资源态势
 

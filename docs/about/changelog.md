@@ -18,7 +18,7 @@ v0.9.0
 !!! summary "🚀 性能优化 Optimization"
 - refactor（关于）：优化关于页面的检测引擎或工具的链接地址。
 - refactor（漏洞检测）：优化规则描述内容，增加规则描述字段大小。
-- refactor（echarts）：升级 echarts 版本，优化图表展示。
+- refactor（主机管理）：优化主机管理批量上传 excel xlsx 模板，新增 windows 类型。
 - refactor（资源态势）：优化 K8s 资源态势下的 ServiceAccount、Role、RoleBinding、ClusterRole、ClusterRoleBinding 等资源类型的数据同步。
 - refactor（漏洞检测）：优化漏洞检测 Nuclei 的检测结果查询列表中存在 Xray 的类型的问题。
 - refactor（检测查询）：优化检测查询过程中文件非空判断。
