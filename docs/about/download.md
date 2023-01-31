@@ -6,7 +6,7 @@
 
 | version |                                                                           linux/amd64                                                                            |
 |---------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| v0.8.0  | [点击下载(hummerrisk-offline-installer-v0.8.0.tar.gz)](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.8.0.tar.gz) |
+| v0.9.0  | [点击下载(hummerrisk-offline-installer-v0.9.0.tar.gz)](https://company.hummercloud.com/offline-package/hummerrisk/x86_64/hummerrisk-offline-installer-v0.9.0.tar.gz) |
 
 ## Vulnerabilities DB
 
@@ -14,4 +14,4 @@
 
 | version    |                                                                     linux/amd64                                                                     |
 |------------|:---------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 2023010821 | [点击下载(trivy-offline-v2-2023010821.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v2-2023010821.db.tar.gz) |
+| 2023011805 | [点击下载(trivy-offline-v2-2023011805.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v2-2023011805.db.tar.gz) |

@@ -104,6 +104,7 @@ nav:
           - 开源工具系列(七) Grype: related/opensource-tool/grype.md
           - 开源工具系列(八) Syft: related/opensource-tool/syft.md
           - 开源工具系列(九) Kube-bench: related/opensource-tool/kube-bench.md
+          - 开源工具系列(十) Nacos: related/opensource-tool/nacos.md
       - 云原生安全系列:
           - 云原生安全系列 1：零信任安全和软件开发生命周期: related/cloudnativesecurity/cloudnativesec-series1.md
           - 云原生安全系列 2：关于镜像安全必须知道的事儿: related/cloudnativesecurity/cloudnativesec-series2.md
@@ -335,6 +336,7 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 0.9.0: release/release-0.9.0.md
           - ReleaseNote 0.8.0: release/release-0.8.0.md
           - ReleaseNote 0.7.0: release/release-0.7.0.md
           - ReleaseNote 0.6.0: release/release-0.6.0.md
