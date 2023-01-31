@@ -25,7 +25,8 @@
     helm install hummerrisk hummerrisk/hummerrisk -n hummer --create-namespace \
     --set hummerrisk.serviceType="NodePort" \
     --set trivyServer.serviceType="NodePort" \
-    --set trivyServer.servicePort=4975
+    --set trivyServer.servicePort=4975 \
+    --set global.storageClass="<StorageClass Name>"
     ```
 
 !!! info "4. 使用外部的 MySQL 安装 hummerrisk"
