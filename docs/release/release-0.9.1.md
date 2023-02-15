@@ -10,17 +10,22 @@
 
 !!! abstract "RBAC 资源拓扑图"
     如下图所示，新增操作审计百度云类型，根据百度云账号，同步操作审计数据，进而进行事件分析、聚合查询、源 IP 分析。
-![新功能](../img/release/0.9.0/img_1.png){ width="95%" }
+![新功能](../img/release/0.9.1/img.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_1.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_2.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_3.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 
 ### 2.1 echarts
 
 !!! abstract "升级 echarts 以及 vue-echarts 版本，全新图标展示。"
+![新功能](../img/release/0.9.1/img_8.png){ width="95%" }
 
 ### 2.2 资源态势
 
 !!! abstract "提高资源态势查询速度。"
+![新功能](../img/release/0.9.1/img_9.png){ width="95%" }
 
 ### 2.3 安装配置
 
@@ -33,14 +38,22 @@
 ### 2.5 漏洞检测
 
 !!! abstract "优化漏洞检测 Nuclei 的检测结果查询列表中存在 Xray 的类型的问题。"
+![新功能](../img/release/0.9.1/img_7.png){ width="95%" }
 
 ### 2.6 用户登录
 
 !!! abstract "优化在登录页面密码位数限制。"
+![新功能](../img/release/0.9.1/img_4.png){ width="95%" }
 
 ### 2.7 多云检测
 
-!!! abstract "优化多云检测结果详情页面，百度云和青云的区域中文化的功能。"
+!!! abstract "优化多云检测结果详情页面，百度云和青云的区域`中文化`的功能。"
+![新功能](../img/release/0.9.1/img_5.png){ width="95%" }
+
+### 2.8 合规报告
+
+!!! abstract "优化下载云账号整体合规报告的功能。"
+![新功能](../img/release/0.9.1/img_6.png){ width="95%" }
 
 ## 3 Bug修复 Bug Fixes
 
@@ -75,3 +88,7 @@
 ### 3.8 对象存储
 
 !!! abstract "修复对象存储添加百度云账号失败的问题。"
+
+### 3.9 操作审计
+
+!!! abstract "修复操作审计页面因云账号删除后分页查询失败的问题。"
