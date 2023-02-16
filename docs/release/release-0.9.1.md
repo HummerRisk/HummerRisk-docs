@@ -4,7 +4,10 @@
 
 !!! abstract "主机检测"
     如下图所示，新增多条内置 Linux 主机检测规则。
-![新功能](../img/release/0.9.0/img.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_11.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_12.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_13.png){ width="95%" }
+![新功能](../img/release/0.9.1/img_14.png){ width="95%" }
 
 ### 1.2 操作审计
 
@@ -30,10 +33,12 @@
 ### 2.3 安装配置
 
 !!! abstract "安装前支持通过修改 install.conf 来配置使用外部数据库。"
+![新功能](../img/release/0.9.1/img_10.png){ width="95%" }
 
 ### 2.4 安装配置
 
 !!! abstract "优化在多网卡环境中，安装脚本精准获取 IP 地址功能。"
+![新功能](../img/release/0.9.1/img_15.png){ width="95%" }
 
 ### 2.5 漏洞检测
 
