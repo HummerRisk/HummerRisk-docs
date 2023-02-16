@@ -1,4 +1,5 @@
 ### K8s 检测须知
+
 !!! warning "环境要求"
     - Helm 3.0
 
@@ -78,4 +79,11 @@
     ```bash
     # 获取 token
     kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep hummer | awk '{print $1}') | grep token: | awk '{print $2}'
+    ```
+
+#### 3. 手动卸载 trivy-operator
+!!! warning "手动卸载 trivy-operator 命令"
+    ```bash
+    # 手动卸载 trivy-operator 命令
+    helm uninstall trivy-operator -n trivy-system
     ```
