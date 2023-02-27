@@ -15,3 +15,4 @@
 [![更新日志](./img/../../img/vedie/../vedio/v070cover.jpeg){ width="280"}](https://www.bilibili.com/video/BV1Mv4y1X7sT/)
 [![更新日志](./img/../../img/vedie/../vedio/v080cover.jpeg){ width="280"}](https://www.bilibili.com/video/BV1AP4y1C73y/)
 [![更新日志](./img/../../img/vedie/../vedio/v090docscover.jpeg){ width="280"}](https://www.bilibili.com/video/BV1Gy4y1R7SV/)
+[![更新日志](./img/../../img/vedie/../vedio/v091docscover.jpeg){ width="280"}](https://www.bilibili.com/video/BV1uY411r7DP/)
