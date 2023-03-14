@@ -16,5 +16,5 @@
 
 | version    |                                                                     linux/amd64                                                                     | hummerrisk version |
 |------------|:---------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------|
-| 2023031220 | [点击下载(trivy-offline-v2-2023031220.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v2-2023031220.db.tar.gz) | v0.10.0            |
+| 2023031400 | [点击下载(trivy-offline-v2-2023031400.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v2-2023031400.db.tar.gz) | v0.10.0            |
 | 2023021809 | [点击下载(trivy-offline-v2-2023021809.db.tar.gz)](https://company.hummercloud.com/offline-package/trivy/trivy-db/trivy-offline-v2-2023021809.db.tar.gz) | v0.9.1             |
