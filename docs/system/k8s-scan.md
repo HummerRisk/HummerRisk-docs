@@ -24,8 +24,9 @@
     --set trivy.mode="ClientServer" \
     --set trivy.serverURL="http://<hummerrisk-trivy-server-ip>:4975" \
     --set image.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
-    --set trivy.ignoreUnfixed=true \
     --set trivy.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy" \
+    --set nodeCollector.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/node-collector" \
+    --set trivy.ignoreUnfixed=true \
     --create-namespace
 
     # 4.检测operator是否启动成功
