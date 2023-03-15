@@ -50,8 +50,8 @@
       name: cluster-admin
     subjects:
       - kind: ServiceAccount
-      name: hummer
-      namespace: kube-system
+        name: hummer
+        namespace: kube-system
     EOF
     ```
     创建资源
