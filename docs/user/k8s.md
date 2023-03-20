@@ -1,4 +1,9 @@
 
+### K8s 检测概述
+
+!!! abstract "- 概述"
+    「Kubernetes 检测」功能，包括 Kubernetes 检测使用流程、配置信息详细说明、基础功能使用等。
+
 ### K8s 检测前置条件
 
 #### 1. 安装 tirvy-operator
@@ -66,12 +71,6 @@
     # 获取 token
     kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep hummer | awk '{print $1}') | grep token: | awk '{print $2}'
     ```
-
-### K8s 概述
-
-!!! abstract "「K8s 检测」- 概述"
-    HummerRisk 是开源的云原生安全平台，以非侵入的方式解决云原生环境的安全和治理问题。核心能力包括混合云的安全治理和容器云安全检测。
-    本文将介绍如何使用 HummerRisk 进行 kubernetes 检测，包括使用流程、配置信息详细说明、基础功能使用等。
 
 ### 工作流程
 !!! abstract "「K8s 检测」- 工作流程"
