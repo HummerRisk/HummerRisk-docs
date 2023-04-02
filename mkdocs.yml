@@ -44,6 +44,7 @@ nav:
   - 快速入门: quick/quickstart.md
   - 安装部署:
       - 在 Linux 主机上安装:
+          - 环境要求: system/host-env-requirements.md
           - 安装部署: system/setup-by-fast.md
           - 备份升级: system/upgrade.md
       - 在 K8s 上安装:
