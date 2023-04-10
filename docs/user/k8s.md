@@ -7,7 +7,8 @@
 ### K8s 检测前置条件
 
 #### 1. 安装 tirvy-operator
-!!! info "使用云原生 K8s 安全检测任务前需在k8s集群上安装 tirvy-operator"
+!!! abstract "前置条件"
+    使用云原生 K8s 安全检测任务前需在k8s集群上安装 tirvy-operator
     ```shell
     # 1.添加 chart 仓库
     helm repo add hummer https://registry.hummercloud.com/repository/charts
@@ -26,9 +27,9 @@
     trivy-system   trivy-operator-69f99f79c4-lvzvs           1/1     Running            0          118s
     ```
 
-#### 2. k8s 账号添加校验
+#### 2. 创建 k8s 凭据（ServiceAccount）
 
-!!! question "添加校验"
+!!! abstract "添加校验"
     1. 确定部署 hummerrisk 的主机可以访问该 k8s 集群的 6443 端口，需要网络可达、端口可以通，如果不通可以检查防火墙;
     2. 确定提供的 k8s Token 有足够的权限，hummerrisk 会通过该 Token 调用 k8s apiserver 的 api
     3. k8s token 权限可以参考如下
@@ -66,7 +67,7 @@
     ```
 
 #### 3. 获取 token
-!!! question "获取 token"
+!!! abstract "获取 token"
     ```bash
     # 获取 token
     kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep hummer | awk '{print $1}') | grep token: | awk '{print $2}'
@@ -78,7 +79,9 @@
     ![K8s](../img/user/k8s/k8s1.png){ width="75%" }
 
 ### Kubernetes 账号管理
-!!! abstract "「K8s 检测」- 创建 Kubernetes 账号.进行kubernetes 检测的第一步是“创建kubernetes 账号”，因此需要确保你填写的相关配置信息无误，kubernetes 账号创建完成后，可以勾选该账号进行一键校验。具体步骤如下："
+!!! abstract "「K8s 检测」- 账号管理"
+    「K8s 检测」- 创建 Kubernetes 账号.进行kubernetes 检测的第一步是“创建kubernetes 账号”，因此需要确保你填写的相关配置信息无误，kubernetes 账号创建完成后，可以勾选该账号进行一键校验。具体步骤如下：
+
     1. 登录到HummerRisk系统当中，点击云原生安全；
     2. 点击 “K8s检测”，点击“创建 kubernetes 账号”；
     3. 填写 kubernetes的配置信息；
@@ -141,7 +144,9 @@
 
 
 ### 检测结果
-!!! abstract "「K8s 检测」- 检测结果。Kubernetes检测完成后，会输出检测结果，并通过可视化的页面帮助安全管理分析、洞察 kubernetes安全状态。详细步骤如下："
+!!! abstract "「K8s 检测」- 检测结果"
+    Kubernetes检测完成后，会输出检测结果，并通过可视化的页面帮助安全管理分析、洞察 kubernetes安全状态。详细步骤如下：
+
     1. 登录到HummerRisk系统当中，点击云原生安全；
     2. 点击 “K8s检测”，点击“K8s检测结果”；
     3. 此时可以查看当前kubernetes安全状态，包含漏洞检测统计、配置审计统计、CIS统计等，同时根据风险级别进行分类统计，目前分为5类风险等级，包括：
@@ -165,7 +170,7 @@
         <tr>
     </table>
     4. 若需要查看检测结果详情，可以点击检测统计进行详细展示页面
-    ![K8s](../img/user/k8s/k8s4.png){ width="95%" }
+    ![K8s详细结果](../img/user/k8s/k8s4.png){ width="95%" }
     5. 以“漏洞检测”为例，点击“漏洞检测统计”结果后，可查看到如下漏洞详情页面，根据漏洞详情页面中的信息，我们可以查看到存在漏洞的软件名称、CVEID、风险等级、修复版本号等
     ![K8s](../img/user/k8s/k8s5.png){ width="95%" }
     6. 其他结果包括「配置审计报告 」「K8s CIS Benchmark 合规报告」
