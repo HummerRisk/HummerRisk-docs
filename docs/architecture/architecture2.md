@@ -1,6 +1,6 @@
 # 系统架构
 
-## 单体架构版
+## 微服务架构版
 
 ## 整体架构
 
@@ -21,8 +21,6 @@
 - [MySQL](https://www.mysql.com/)：HummerRisk 使用了 MySQL 作为数据库引擎
 - [Cloud Custodian](https://cloudcustodian.io/)：HummerRisk 使用了 Cloud Custodian 作为云平台检测引擎
 - [Prowler](https://prowler.pro/)：HummerRisk 使用了 Prowler 作为 AWS 检测引擎
-- [Nuclei](https://nuclei.projectdiscovery.io/)：HummerRisk 使用了 Nuclei 作为漏洞检测引擎
-- [Xray](https://xray.cool/)：HummerRisk 使用了 Xray 作为漏洞检测引擎
 - [Trivy](https://github.com/aquasecurity/trivy)：HummerRisk 使用了 Trivy 作为云原生检测引擎
 - [Element](https://element.eleme.cn/#/)：HummerRisk 使用了 Element 提供的优秀组件库
 

@@ -8,7 +8,7 @@
 
 !!! abstract "工作流程"
     下图是本模块的主要工作流程。
-    ![源码检测](../img/user/server/serverdetection1.png){ width="95%" }
+    ![文件检测](../img/user/server/serverdetection1.png){ width="95%" }
 
 ## 文件检测
 

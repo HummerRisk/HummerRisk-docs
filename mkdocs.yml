@@ -40,7 +40,10 @@ theme:
 
 nav:
   - 产品介绍: index.md
-  - 系统架构: architecture/architecture.md
+  - 系统架构:
+      - 架构升级说明: architecture/upgrade.md
+      - 单机版架构: architecture/architecture.md
+      - 微服务版架构: architecture/architecture2.md
   - 快速入门: quick/quickstart.md
   - 安装部署:
       - 在 Linux 主机上安装:
