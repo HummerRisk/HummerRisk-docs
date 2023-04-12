@@ -72,18 +72,18 @@
         [root@hummerrisk tmp]# hrctl version
         v1.0.0
         [root@hummerrisk tmp]# hrctl status
-        NAME                IMAGE                                                             COMMAND                  SERVICE             CREATED             STATUS                   PORTS
-        hmr-auth            registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-auth:v1.0.0       "/deployments/run-ja…"   auth                7 minutes ago       Up 6 minutes (healthy)   0.0.0.0:9200->9200/tcp, :::9200->9200/tcp
-        hmr-cloud           registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-cloud:v1.0.0      "/deployments/run-ja…"   cloud               7 minutes ago       Up 6 minutes (healthy)   8778/tcp, 9779/tcp, 0.0.0.0:9400->9400/tcp, :::9400->9400/tcp
-        hmr-flyway          registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-flyway:v1.0.0     "/deployments/run-ja…"   flyway              7 minutes ago       Up 6 minutes (healthy)   0.0.0.0:9000->9000/tcp, :::9000->9000/tcp
-        hmr-gateway         registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-gateway:v1.0.0    "/deployments/run-ja…"   gateway             2 minutes ago       Up 2 minutes (healthy)   0.0.0.0:8088->8080/tcp, :::8088->8080/tcp
-        hmr-job             registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-job:dev           "sh -c 'java -jar $J…"   jobs                7 minutes ago       Up 6 minutes (healthy)
-        hmr-k8s             registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-k8s:v1.0.0        "/deployments/run-ja…"   k8s                 7 minutes ago       Up 6 minutes (healthy)   0.0.0.0:9500->9500/tcp, :::9500->9500/tcp
-        hmr-mysql           registry.cn-beijing.aliyuncs.com/hummerrisk/mysql:8.0.32          "docker-entrypoint.s…"   mysql               7 minutes ago       Up 7 minutes (healthy)   3306/tcp, 33060/tcp
-        hmr-nacos           registry.cn-beijing.aliyuncs.com/hummerrisk/nacos-server:v2.2.0   "bin/docker-startup.…"   nacos               7 minutes ago       Up 6 minutes (healthy)   0.0.0.0:8848->8848/tcp, :::8848->8848/tcp, 0.0.0.0:9848->9848/tcp, :::9848->9848/tcp
-        hmr-redis           registry.cn-beijing.aliyuncs.com/hummerrisk/redis:6.2.10-alpine   "docker-entrypoint.s…"   redis               7 minutes ago       Up 7 minutes (healthy)   6379/tcp
-        hmr-system          registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-system:v1.0.0     "/deployments/run-ja…"   system              7 minutes ago       Up 6 minutes (healthy)   0.0.0.0:8001->8001/tcp, :::8001->8001/tcp, 0.0.0.0:9300-9301->9300-9301/tcp, :::9300-9301->9300-9301/tcp
-        hmr-ui              registry.cn-beijing.aliyuncs.com/hummerrisk/hmr-ui:v1.0.0         "/docker-entrypoint.…"   ui                  7 minutes ago       Up 6 minutes (healthy)   0.0.0.0:8111->80/tcp, :::8111->80/tcp
+        NAME                IMAGE                            COMMAND                  SERVICE             CREATED             STATUS                        PORTS
+        hmr-auth            hummerrisk/hmr-auth:v1.0.0       "/deployments/run-ja…"   auth                2 minutes ago       Up 2 minutes (healthy)        9200/tcp
+        hmr-cloud           hummerrisk/hmr-cloud:v1.0.0      "/deployments/run-ja…"   cloud               2 minutes ago       Up About a minute (healthy)   8778/tcp, 9400/tcp, 9779/tcp
+        hmr-flyway          hummerrisk/hmr-flyway:v1.0.0     "/deployments/run-ja…"   flyway              2 minutes ago       Up 2 minutes (healthy)        9000/tcp
+        hmr-gateway         hummerrisk/hmr-gateway:v1.0.0    "/deployments/run-ja…"   gateway             2 minutes ago       Up About a minute (healthy)   8080/tcp
+        hmr-job             hummerrisk/hmr-job:v1.0.0        "sh -c 'java -jar $J…"   jobs                2 minutes ago       Up About a minute (healthy)
+        hmr-k8s             hummerrisk/hmr-k8s:v1.0.0        "/deployments/run-ja…"   k8s                 2 minutes ago       Up About a minute (healthy)   9500/tcp
+        hmr-mysql           hummerrisk/mysql:8.0.32          "docker-entrypoint.s…"   mysql               2 minutes ago       Up 2 minutes (healthy)        3306/tcp, 33060/tcp
+        hmr-nacos           hummerrisk/nacos-server:v2.2.0   "bin/docker-startup.…"   nacos               2 minutes ago       Up 2 minutes (healthy)        8848/tcp
+        hmr-redis           hummerrisk/redis:6.2.10-alpine   "docker-entrypoint.s…"   redis               2 minutes ago       Up 2 minutes (healthy)        6379/tcp
+        hmr-system          hummerrisk/hmr-system:v1.0.0     "/deployments/run-ja…"   system              2 minutes ago       Up About a minute (healthy)   9300/tcp
+        hmr-ui              hummerrisk/hmr-ui:v1.0.0         "/docker-entrypoint.…"   ui                  2 minutes ago       Up About a minute (healthy)   0.0.0.0:8111->80/tcp, :::8111->80/tcp
         ```
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"
