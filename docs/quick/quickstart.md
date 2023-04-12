@@ -18,7 +18,7 @@
 ## 2 模块介绍
 
 !!! abstract "进入 HummerRisk 主界面后可以看到界面左侧导航栏，有【首页】【混合云安全】【云原生安全】【任务编排】【检测管理】【系统设置】六大模块"
-![模块介绍](../img/quickstart/HummerRisk-module.png){ width="95%" }
+![模块介绍](../img/quickstart/HummerRisk-module.png){ width="75%" }
 
 <!-- !!! abstract "【首页】【混合云安全】【云原生安全】【任务编排】【检测管理】【系统设置】六大模块的主要功能与作用"
 
@@ -54,7 +54,7 @@
 ## 3 快速上手
 
 ### 3.1 场景一：混合云安全
-[![快速入门1](./img/../../img/vedio/quickstart1.jpeg){ width="280"}](https://www.bilibili.com/video/BV1g84y1b79N/?vd_source=40cffdce443e3b05aff80ddde424f0c3)
+[![快速入门1](../img/vedio/quickstart1.png){ width="380"}](https://www.bilibili.com/video/BV1g84y1b79N/?vd_source=40cffdce443e3b05aff80ddde424f0c3)
 #### 3.1.1 绑定账号
 
 !!! abstract "添加/编辑云账号"
@@ -124,7 +124,7 @@
 
 
 ### 3.2 场景二：云原生安全
-[![快速入门2](./img/../../img/vedio/quickstart2.jpeg){ width="280"}](https://www.bilibili.com/video/BV1yA411D7kc/)
+[![快速入门2](../img/vedio/quickstart2.png){ width="380"}](https://www.bilibili.com/video/BV1yA411D7kc/)
 #### 3.2.1 前置 K8s 配置
 
 !!! warning "K8s 检测前置条件"
