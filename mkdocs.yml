@@ -46,13 +46,19 @@ nav:
       - 微服务版架构: architecture/architecture2.md
   - 快速入门: quick/quickstart.md
   - 安装部署:
-      - 在 Linux 主机上安装:
-          - 环境要求: system/host-env-requirements.md
-          - 安装部署: system/setup-by-fast.md
-          - 备份升级: system/upgrade.md
-      - 在 K8s 上安装:
-          - 安装部署: system/k8s-setup-by-fast.md
-          - 备份升级: system/k8s-upgrade.md
+      - 微服务版:
+        - 在 Linux 主机上安装:
+            - 环境要求: system/microservice-env-requirements.md
+            - 安装部署: system/microservice-setup-by-fast.md
+            - 备份升级: system/microservice-upgrade.md
+      - 单机版:
+        - 在 Linux 主机上安装:
+            - 环境要求: system/host-env-requirements.md
+            - 安装部署: system/setup-by-fast.md
+            - 备份升级: system/upgrade.md
+        - 在 K8s 上安装:
+            - 安装部署: system/k8s-setup-by-fast.md
+            - 备份升级: system/k8s-upgrade.md
       - 安装 operator: system/k8s-scan.md
   - 功能手册:
       - 使用流程: user/process.md
