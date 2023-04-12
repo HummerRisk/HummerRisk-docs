@@ -21,12 +21,13 @@
 
     helm install trivy-operator hummer/trivy-operator \
     --namespace trivy-system \
-    --set trivy.mode="ClientServer" \
-    --set trivy.serverURL="http://<hummerrisk-trivy-server-ip>:4975" \
-    --set image.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
     --set trivy.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy" \
-    --set nodeCollector.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/node-collector" \
+    --set trivy.dbRepository="reg.hummercloud.com/trivy/trivy-db" \
+    --set trivy.dbRepositoryInsecure="true" \
     --set trivy.ignoreUnfixed=true \
+    --set trivy.skipUpdate=true \
+    --set image.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
+    --set nodeCollector.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/node-collector" \
     --create-namespace
 
     # 4.检测operator是否启动成功
