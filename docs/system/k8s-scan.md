@@ -4,18 +4,21 @@
     - Helm 3.0
 
 !!! warning "使用云原生 K8s 安全检测前，需在k8s集群上安装 tirvy-operator"
+    1.添加 chart 仓库
     ```shell
-    # 1.添加 chart 仓库
     # 如果可以访问 github，可以使用 trivy 官方仓库
     helm repo add hummer https://aquasecurity.github.io/helm-charts/
     # 或
     # 如果访问 github 异常，使用国内仓库，使用是一样的
     helm repo add hummer https://registry.hummercloud.com/repository/charts
     
-    # 2.更新仓库源
+    2.更新仓库源
+    ```shell
     helm repo update
-    
-    # 3.开始安装, 可以自定义应用名称和NameSpace, 注意 trivy.serverURL 的 IP 地址需要替换为 Trivy 实际的 IP 地址
+    ```
+
+    3.开始安装, 可以自定义应用名称和NameSpace, 注意 trivy.serverURL 的 IP 地址需要替换为 Trivy 实际的 IP 地址
+    ```shell
     # 如果 hummerrisk 以主机方式运行，则 <hummerrisk-trivy-server-ip> 为主机 IP。
     # 如果 hummerrisk 在 k8s 上运行，则 <hummerrisk-trivy-server-ip> 和端口为节点 IP 和 NodePort 端口，若配置的有 ingress 则可配置域名
 
@@ -29,8 +32,10 @@
     --set image.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
     --set nodeCollector.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/node-collector" \
     --create-namespace
+    ```
 
-    # 4.检测operator是否启动成功
+    4.检测operator是否启动成功
+    ```shell
     kubectl get pod -A|grep trivy-operator
     trivy-system   trivy-operator-69f99f79c4-lvzvs           1/1     Running            0          118s
     ```

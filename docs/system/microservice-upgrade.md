@@ -32,7 +32,7 @@
         # 执行升级命令，等待升级完成
         hrctl upgrade
         ```
-        - 海外：
+        - 全球：
         ``` bash linenums="1"
         cd /tmp
         # 指定需要升级的目标版本号
