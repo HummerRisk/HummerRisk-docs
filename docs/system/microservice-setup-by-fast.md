@@ -10,7 +10,7 @@
         curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
         ```
 
-        海外:
+        全球:
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
         curl -sSL https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
@@ -35,7 +35,7 @@
         # 下载安装包
         wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
         ```
-        海外:
+        全球:
         ``` bash linenums="1"
         wget https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
         ```
