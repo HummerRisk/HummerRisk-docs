@@ -8,8 +8,14 @@
 [![快速入门2](./img/../../img/vedio/quickstart2.png){ width="280"}](https://www.bilibili.com/video/BV1yA411D7kc/)
 
 
+## 3 使用教程
 
-## 3 更新日志
+[![混合云资源态势](./img/../../img/vedio/cloudsituation-cover.png){ width="280"}](https://www.bilibili.com/video/BV1DN411A7ch/)
+[![K8s 检测](./img/../../img/vedio/k8s-vedio-cover.png){ width="280"}](https://www.bilibili.com/video/BV1pm4y1r7fu/)
+[![主机检测](./img/../../img/vedio/server-vedio-cover.png){ width="280"}](https://www.bilibili.com/video/BV1J24y187tD/)
+
+
+## 4 更新日志
 
 [![更新日志](./img/../../img/vedie/../vedio/v052cover.png){ width="280"}](https://www.bilibili.com/video/BV13P4y1d7kn/)
 [![更新日志](./img/../../img/vedie/../vedio/v060cover.png){ width="280"}](https://www.bilibili.com/video/BV1mD4y1h7cg/)
