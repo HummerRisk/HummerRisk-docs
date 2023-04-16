@@ -8,7 +8,8 @@
 
 !!! abstract "工作流程"
     下图是本模块的主要工作流程。
-    ![源码检测](../img/user/code/detection.png){ width="95%" }
+
+    ![源码检测](../img/user/code/detection.png){ width="65%" }
 
 ### 项目源码配置
 

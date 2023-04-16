@@ -3,7 +3,7 @@
 !!! abstract "SBOM 管理"
     基于软件的供应链安全，我们在进行源码、制品包、镜像检测的时候都会生成SBOM数据，所以在使用软件安全部分功能时，需要先创建逻辑的项目和版本，来和后面的源码、软件包、镜像进行关联。
 
-![sbom基本结构](../img/user/sbom/sbom_basic_arch.jpg){ width="95%" }
+![sbom基本结构](../img/user/sbom/sbom_basic_arch.jpg){ width="45%" }
 
 ### 项目管理
 
