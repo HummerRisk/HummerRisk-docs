@@ -4,15 +4,15 @@
 
 ## 整体架构
 
-![系统架构图](../img/index/架构.png){ width="95%" }
+![系统架构图](../img/index/架构.png){ width="65%" }
 
 ## 功能原理
 
-![系统架构图](../img/architecture/功能原理.png){ width="95%" }
+![系统架构图](../img/architecture/功能原理.png){ width="75%" }
 
 ## 工作流程
 
-![系统架构图](../img/architecture/工作流程.png){ width="95%" }
+![系统架构图](../img/architecture/工作流程.png){ width="75%" }
 
 ## 组件说明
 

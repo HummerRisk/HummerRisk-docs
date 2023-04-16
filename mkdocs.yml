@@ -5,7 +5,7 @@ site_description: 'HummerRisk 是开源的云原生安全平台'
 
 repo_name: 'HummerRisk/HummerRisk'
 repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
-edit_uri: ''
+edit_uri: 'https://github.com/HummerRisk/docs/edit/master/docs/'
 extra_javascript:
   - 'js/baidutongji.js'
 
@@ -437,3 +437,4 @@ extra_css:
 copyright: Copyright &copy; 2022 <a href="https://www.hummercloud.com">北京瀚马信息科技有限公司</a>, All Rights Reserved. <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备2022018178号-1</a>
 plugins:
   - search
+  - tags
