@@ -1,10 +1,8 @@
-# 系统架构
-
-## 单体架构版
+# 单体架构版(v1.0.0 版本以前的所有版本)
 
 ## 整体架构
 
-![系统架构图](../img/index/架构.png){ width="65%" }
+![系统架构图](../img/index/架构.png){ width="75%" }
 
 ## 功能原理
 
@@ -16,14 +14,15 @@
 
 ## 组件说明
 
-- [Vue](https://vuejs.org/)：使用了 Vue.js 作为前端技术栈
-- [Spring Cloud](https://spring.io/projects/spring-cloud)：使用了 Spring Cloud 作为微服务框架
-- [MySQL](https://www.mysql.com/)：使用了 MySQL 作为数据库引擎
-- [Cloud Custodian](https://cloudcustodian.io/)：使用了 Cloud Custodian 作为云平台检测引擎
-- [Prowler](https://prowler.pro/)：使用了 Prowler 作为 AWS 检测引擎
-- [Trivy](https://github.com/aquasecurity/trivy)：使用了 Trivy 作为云原生检测引擎
-- [Kube-Bench](https://github.com/aquasecurity/kube-bench)：使用了 Kube-Bench 作为 CIS Kubernetes Benchmark 检测工具
-- [Element](https://element.eleme.cn/#/)：使用了 Element 作为桌面端组件库
+- [Vue](https://vuejs.org/)：HummerRisk 使用了 Vue.js 作为前端技术栈
+- [Spring Boot](https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm)：HummerRisk 使用了 Spring Boot 作为后端技术栈
+- [MySQL](https://www.mysql.com/)：HummerRisk 使用了 MySQL 作为数据库引擎
+- [Cloud Custodian](https://cloudcustodian.io/)：HummerRisk 使用了 Cloud Custodian 作为云平台检测引擎
+- [Prowler](https://prowler.pro/)：HummerRisk 使用了 Prowler 作为 AWS 检测引擎
+- [Nuclei](https://nuclei.projectdiscovery.io/)：HummerRisk 使用了 Nuclei 作为漏洞检测引擎
+- [Xray](https://xray.cool/)：HummerRisk 使用了 Xray 作为漏洞检测引擎
+- [Trivy](https://github.com/aquasecurity/trivy)：HummerRisk 使用了 Trivy 作为云原生检测引擎
+- [Element](https://element.eleme.cn/#/)：HummerRisk 使用了 Element 提供的优秀组件库
 
 ## 技术优势
 
