@@ -1,40 +1,95 @@
-# 单机版
+# 微服务版
 
-!!! warning "单机版"
-    v0.10.x 以前的所有版本，现代码在 springboot 分支。欢迎大家在 springboot 开发分支提交 pr 。
+!!! warning "微服务版"
+    v1.0.0 以后的版本，现代码在 dev 分支。欢迎大家在 dev 开发分支提交 pr 。
 
 ## 1 项目结构
 
-```
-.
-├── Dockerfile                                      # 构建容器镜像使用的 dockerfile
-├── Dockerfile_base                                 # 构建基础容器镜像使用的 dockerfile    
-├── LICENSE
-├── README.md
-├── ROADMAP.md
-├── backend                                         # 后端项目主目录
-│   ├── backend.iml
-│   ├── pom.xml                                     # 后端 maven 项目使用的 pom 文件
-│   └── src                                         # 后端代码目录
-├── frontend                                        # 前端项目主目录
-│   ├── babel.config.js
-│   ├── frontend.iml
-│   ├── node
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── pom.xml                                     # 前端 maven 项目使用的 pom 文件
-│   ├── public
-│   └── src                                         # 前端代码目录
-└── pom.xml                                         # 整体 maven 项目使用的 pom 文件
-```
+### 系统模块
+
+~~~
+com.hummer     
+├── hummer-ui                                          // 前端框架 [80]
+├── hummer-flyway                                      // 数据迁移 [9000]
+├── hummer-gateway                                     // 网关模块 [8080]
+├── hummer-auth                                        // 认证中心 [9200]
+├── hummer-api                                         // 接口模块
+│       └── hummer-api-cloud                           // 混合云接口
+│       └── hummer-api-k8s                             // 云原生接口
+│       └── hummer-api-system                          // 系统接口
+├── hummer-common                                      // 通用模块
+│       └── hummer-common-core                         // 核心模块
+│       └── hummer-common-datascope                    // 权限范围
+│       └── hummer-common-redis                        // 缓存服务
+│       └── hummer-common-security                     // 安全模块
+│       └── hummer-common-swagger                      // 系统接口
+├── hummer-modules                                     // 业务模块
+│       └── hummer-system                              // 系统模块 [9300]
+│       └── hummer-cloud                               // 混合云服务 [9400]
+│       └── hummer-k8s                                 // 云原生服务 [9500]
+├── hummer-visual                                      // 图形化管理模块
+│       └── hummer-monitor                             // 监控中心 [9100]
+├──pom.xml                                             // 公共依赖
+~~~
+
+### 系统需求
+
+- JDK >= 17 (推荐17版本)
+- Mysql >= 8.0 (推荐8.0.32版本)
+- Maven >= 3.6 (推荐3.6.3版本)
+- Node >= 16.1 (推荐16.1.0版本)
+- Redis >= 6.2 (推荐6.2.10版本)
+- nacos >= 2.2 (推荐2.2.0版本)
+- sentinel >= 1.6.0
+
+### 技术选型
+
+1、系统环境
+
+- Java EE 17
+- Servlet 3.0
+- Apache Maven 3
+
+2、主框架
+
+- Spring Boot 3.0.0
+- Spring Cloud 2022.0.1
+- Spring Framework 6.0.0
+- Spring Security 6.0.0
+
+3、持久层
+
+- Apache MyBatis 3.5.x
+- Hibernate Validation 6.0.x
+- Alibaba Druid 1.2.x
+
+4、视图层
+
+- Vue 2.6.x
+- Axios 0.21.0
+- Element 2.15.x
+
+### 系统端口
+
+- hmr-ui [80]
+- hmr-flyway [9000]
+- hmr-gateway [8080]
+- hmr-auth [9200]
+- hmr-system [9300, 9301, 8001]
+- hmr-cloud [9400, 9401, 8002]
+- hmr-k8s [9500, 9501, 8003]
+- hmr-monitor [9100]
+- hmr-mysql [3306]
+- hmr-nacos [8848, 9848]
+- hmr-redis [6379]
+- hmr-job [8084]
 
 ## 2 配置开发环境
 ### 2.1 环境准备
 
 === "后端"
     !!! abstract "后端"
-        HummerRisk 后端使用了 Java 语言的 Spring Boot 框架，并使用 Maven 作为项目管理工具。开发者需要先在开发环境中安装 JDK 11 及 Maven。  
+        HummerRisk 后端使用了 Java 语言的 Spring Cloud 框架，并使用 Maven 作为项目管理工具。开发者需要先在开发环境中安装 JDK 17 及 Maven。  
 
 === "前端"
     !!! abstract "前端"
@@ -44,10 +99,17 @@
     !!! abstract "安装 npm 或 yarn"
         进入网站 https://nodejs.org/en/download 或 https://yarn.bootcss.com/docs/install， 选择相应的安装包进行安装即可。
 
+=== "组件"
+    !!! abstract "相关组件"
+        1. nacos https://nacos.io/zh-cn/docs/quick-start.html。
+        2. redis https://redis.io/。
+        3. xxl-job https://github.com/HummerRisk/xxl-job。
+
+
 ### 2.2 初始化配置
 
 !!! abstract "数据库初始化"
-    HummerRisk 使用 MySQL 数据库，推荐使用 MySQL 5.7 版本。同时 hummerrisk 对数据库部分配置项有要求，请参考下附的数据库配置，修改开发环境中的数据库配置文件
+    HummerRisk 使用 MySQL 数据库，推荐使用 MySQL 8.0 版本。同时 hummerrisk 对数据库部分配置项有要求，请参考下附的数据库配置，修改开发环境中的数据库配置文件
 
     ```
     [mysqld]
@@ -165,8 +227,6 @@
 !!! warning "**注意：** 若需要调试相应的检测功能，需要安装相应的组件引擎"
     1. Cloud Custodian 作为云平台检测引擎，详细的相关操作，请参考 [Cloud Custodian](../related/opensource-tool/custodian.md)
     2. Prowler 作为 AWS 检测引擎，详细的相关操作，请参考 [Prowler](../related/opensource-tool/prowler.md)
-    3. Nuclei 作为漏洞检测引擎，详细的相关操作，请参考 [Nuclei](../related/opensource-tool/nuclei.md)
-    4. Xray 作为漏洞检测引擎，详细的相关操作，请参考 [Xray](../related/opensource-tool/xray.md)
     5. Trivy 作为云原生检测引擎  ，详细的相关操作，请参考 [Trivy](../related/opensource-tool/trivy.md)
 
 
@@ -230,26 +290,6 @@
         sudo ./aws/install
         git clone https://github.com/prowler-cloud/prowler
         ```
-
-=== "安装 Nuclei"
-    !!! tip "安装 Nuclei"
-        * tar 安装 Nuclei
-        ```bash
-        tar -xzvf nuclei-linux-amd64.tar> mv nuclei-linux-amd64 /usr/bin/nuclei> nuclei -h
-        ```
-        * 源安装 Nuclei
-        ```bash
-        # Nuclei 要求目标设备成功配置好 Go v1.13+ 环境，然后运行下列命令获取项目代码：
-        GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/cmd/nuclei
-        # 如需更新 Nuclei，可以使用 -u 选项和 go get 命令。
-        ```
-
-=== "安装 Xray"
-    !!! tip "安装 Xray"
-        * 请下载的时候选择最新的版本下载。
-        * Github: https://github.com/chaitin/xray/releases （国外速度快）
-        * 网盘: https://yunpan.360.cn/surl_y3Gu6cugi8u （国内速度快）
-        * 注意： 不要直接 clone 仓库，xray 并不开源，仓库内不含源代码，直接下载构建的二进制文件即可。
 
 === "安装 Trivy"
     !!! tip "安装 Trivy"
