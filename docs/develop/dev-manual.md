@@ -1,7 +1,7 @@
 # 单机版
 
 !!! warning "单机版"
-    v0.10.x 以前的所有版本，现代码在 springboot 分支。欢迎大家在 springboot 开发分支提交 pr 。
+    v0.10.x 以前的所有版本，代码在 springboot 分支。欢迎大家在 springboot 开发分支提交 pr 。
 
 ## 1 项目结构
 
