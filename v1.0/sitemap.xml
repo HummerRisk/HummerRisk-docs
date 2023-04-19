@@ -1316,22 +1316,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.hummerrisk.com/v1.0/system/host-env-requirements/</loc>
-         <lastmod>2023-04-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.hummerrisk.com/v1.0/system/k8s-scan/</loc>
-         <lastmod>2023-04-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.hummerrisk.com/v1.0/system/k8s-setup-by-fast/</loc>
-         <lastmod>2023-04-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.hummerrisk.com/v1.0/system/k8s-upgrade/</loc>
          <lastmod>2023-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -1357,11 +1342,6 @@
     </url>
     <url>
          <loc>https://docs.hummerrisk.com/v1.0/system/microservice-upgrade/</loc>
-         <lastmod>2023-04-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.hummerrisk.com/v1.0/system/setup-by-fast/</loc>
          <lastmod>2023-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
