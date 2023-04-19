@@ -402,8 +402,6 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra:
-  hummerrisk:
-    version: v0.3.1
   search:
     separator: '[\s\-\.]+'
     language: 'zh'
