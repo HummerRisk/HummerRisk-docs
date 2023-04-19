@@ -33,8 +33,11 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - header.autohide
+#    - header.autohide
     - announce.dismiss
+#    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.action.edit
   font: false
   icon:
     repo: fontawesome/brands/github
