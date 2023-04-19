@@ -18,7 +18,7 @@
 ## 2 模块介绍
 
 !!! abstract "进入 HummerRisk 主界面后可以看到界面左侧导航栏，有【首页】【混合云安全】【云原生安全】【任务编排】【检测管理】【系统设置】六大模块"
-![模块介绍](../img/quickstart/HummerRisk-module.png){ width="95%" }
+![模块介绍](../img/quickstart/HummerRisk-module.png){ width="75%" }
 
 <!-- !!! abstract "【首页】【混合云安全】【云原生安全】【任务编排】【检测管理】【系统设置】六大模块的主要功能与作用"
 
