@@ -410,7 +410,6 @@ extra:
     Content-Encoding: gzip
   generator: false
   version:
-    default: master
     provider: mike
   social:
     - icon: fontawesome/brands/github
