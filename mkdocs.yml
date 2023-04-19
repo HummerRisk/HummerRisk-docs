@@ -427,9 +427,8 @@ extra:
     language: 'zh'
     Content-Encoding: gzip
   generator: false
-#  version:
-#    default: master
-#    provider: mike
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/HummerRisk
