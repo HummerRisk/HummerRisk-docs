@@ -34,6 +34,7 @@ theme:
     - search.highlight
     - search.share
     - header.autohide
+    - announce.dismiss
   font: false
   icon:
     repo: fontawesome/brands/github
@@ -51,6 +52,9 @@ nav:
             - 环境要求: system/microservice-env-requirements.md
             - 安装部署: system/microservice-setup-by-fast.md
             - 备份升级: system/microservice-upgrade.md
+        - 在 K8s 上安装:
+            - 安装部署: system/microservice-k8s-setup-by-fast.md
+            - 备份升级: system/microservice-k8s-upgrade.md
       - 单机版:
         - 在 Linux 主机上安装:
             - 环境要求: system/host-env-requirements.md
@@ -420,9 +424,9 @@ extra:
     language: 'zh'
     Content-Encoding: gzip
   generator: false
-  version:
-    default: master
-    provider: mike
+#  version:
+#    default: master
+#    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/HummerRisk
@@ -439,3 +443,7 @@ copyright: Copyright &copy; 2022 <a href="https://www.hummercloud.com">北京瀚
 plugins:
   - search
   - tags
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
