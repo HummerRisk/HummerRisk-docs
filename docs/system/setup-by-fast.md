@@ -4,7 +4,7 @@
     !!! tip "1.使用快速安装脚本一键安装部署"
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
-        curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
+        curl -sSL https://github.com/HummerRisk/HummerRisk/releases/download/v0.10.0/quick_start.sh -o quick_start.sh
     
         # 执行安装命令
         bash quick_start.sh
@@ -16,7 +16,7 @@
     !!! tip "1.下载安装包"
         ``` bash linenums="1"
         # 指定需要安装的版本
-        export hummerrisk_version=v0.2.0
+        export hummerrisk_version=v0.10.0
         
         # 下载安装包
         wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
@@ -43,7 +43,7 @@
         HR_HTTP_PORT=${HR_HTTP_PORT}
         
         # 当前版本
-        HR_CURRENT_VERSION=v1.0
+        HR_CURRENT_VERSION=v0.10.0
         
         ##  MySQL 数据库配置, USE_EXTERNAL_MYSQL=1 表示使用外置数据库, 请输入正确的 MySQL 信息
         HR_USE_EXTERNAL_MYSQL=${HR_USE_EXTERNAL_MYSQL}

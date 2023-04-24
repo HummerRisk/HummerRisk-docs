@@ -9,7 +9,7 @@
         - 网络要求：可访问互联网（如遇内网环境，理论上除公有云安全检测、Github源码检测外，其他功能可照常使用）
     2. 执行以下脚本进行一键安装：
     ```bash
-    curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
+    curl -sSL https://github.com/HummerRisk/HummerRisk/releases/download/v0.10.0/quick_start.sh -o quick_start.sh
     ```
     3. HummerRisk 是一款 B/S 架构的产品，即浏览器/服务器结构，在服务器安装完成后，客户端通过浏览器访问以下地址，即可开始使用。
         - http://目标服务器 IP 地址：服务运行端口，例如：http: 82.157.130.20:80（默认端口为80，用户可在安装时自定义）
