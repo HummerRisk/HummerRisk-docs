@@ -4,13 +4,13 @@
 ### 1.开始安装
 === "一键部署"
     !!! tip "1.使用快速安装脚本一键安装部署"
-        中国大陆:
+        全球:
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
         curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
         ```
 
-        全球:
+        中国大陆:
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
         curl -sSL https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
