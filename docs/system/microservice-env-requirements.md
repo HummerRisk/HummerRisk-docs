@@ -27,7 +27,7 @@
 | CPU    | 4核           | 8核                      |
 | 内存     | 8G           | 16G                     |
 | 磁盘     | 50GB         | 100GB                   |
-| 数据库    | MySQL 5.7    | MySQL 5.7/ MariaDB 10.2 |
+| 数据库    | MySQL 8.0    | MySQL 8.0/ MariaDB 10.4 |
 | Docker | v20.10.10    | >= v20.10.10            |
 
 #### 3.数据库及 Docker

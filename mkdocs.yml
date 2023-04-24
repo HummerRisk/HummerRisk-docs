@@ -4,7 +4,7 @@ site_author: 'Harris'
 site_description: 'HummerRisk 是开源的云原生安全平台'
 
 repo_name: 'HummerRisk/HummerRisk'
-repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
+repo_url: https://github.com/HummerRisk/HummerRisk
 edit_uri: 'https://github.com/HummerRisk/docs/edit/master/docs/'
 extra_javascript:
   - 'js/baidutongji.js'
