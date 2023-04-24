@@ -8,9 +8,32 @@
         - 部署目录空间（默认/opt目录）要求： 50G
         - 网络要求：可访问互联网（如遇内网环境，理论上除公有云安全检测、Github源码检测外，其他功能可照常使用）
     2. 执行以下脚本进行一键安装：
-    ```bash
-    curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
-    ```
+        全球:
+        ``` bash linenums="1"
+        # 下载安装包
+        wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
+        ```
+
+        中国大陆:
+        ``` bash linenums="1"
+        wget https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
+        ```
+
+        解压安装包
+        ``` bash linenums="1"
+        tar -xf hummerrisk-installer-${hummerrisk_version}.tar.gz
+        cd hummerrisk-installer-${hummerrisk_version}
+        ```
+
+        ``` bash linenums="1"
+        # 安装
+        bash install.sh
+        
+        # 启动
+        hrctl start
+        
+        # 安装完成后默认配置文件在 /opt/hummerrisk/config/install.conf
+        ```
     3. HummerRisk 是一款 B/S 架构的产品，即浏览器/服务器结构，在服务器安装完成后，客户端通过浏览器访问以下地址，即可开始使用。
         - http://目标服务器 IP 地址：服务运行端口，例如：http: 82.157.130.20:80（默认端口为80，用户可在安装时自定义）
         - 使用默认用户名 admin 密码 hummer 进行登录。
