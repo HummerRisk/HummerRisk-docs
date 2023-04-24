@@ -13,7 +13,7 @@
         中国大陆:
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
-        curl -sSL https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
+        curl -sSL https://download.hummerrisk.com/hummerrisk/hummerrisk/releases/download/latest/quick_start.sh -o quick_start.sh
         ```
         
         开始安装:
