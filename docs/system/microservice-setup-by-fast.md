@@ -30,15 +30,18 @@
         # 指定需要安装的版本
         export hummerrisk_version=v1.0.0
         ```
-        中国大陆:
+        
+        全球:
         ``` bash linenums="1"
         # 下载安装包
         wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
         ```
-        全球:
+
+        中国大陆:
         ``` bash linenums="1"
         wget https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
         ```
+
         解压安装包
         ``` bash linenums="1"
         tar -xf hummerrisk-installer-${hummerrisk_version}.tar.gz
