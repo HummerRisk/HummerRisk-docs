@@ -265,14 +265,7 @@ HummerRisk
 
 !!! abstract "5. 启动前端"
     进入 hummer-ui 目录，执行以下命令安装相关前端组件。
-    ```
-    npm install
-    ```
-    进入到 hummer-ui 目录，执行以下命令启动前端服务。
-    ```
-    npm run serve
-    ```
-    或者使用 yarn 启动
+    使用 yarn 启动（建议yarn，更好用，没有版本冲突问题）
     ```
     # 项目设置
     yarn install
@@ -284,6 +277,14 @@ HummerRisk
     ```
     # 编译和热重装以进行开发
     yarn serve
+    ```
+    或者使用 npm 启动
+    ```
+    npm install
+    ```
+    进入到 hummer-ui 目录，执行以下命令启动前端服务。
+    ```
+    npm run serve
     ```
     前端服务成功运行如下所示。
     ![前端服务成功运行](../img/developement/dev2/img_14.png){ width="95%" }
