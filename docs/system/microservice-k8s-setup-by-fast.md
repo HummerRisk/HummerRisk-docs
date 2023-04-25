@@ -133,8 +133,6 @@
     #  trivy Server 配置
     trivyServer:
       trivyDBVersion: "2022122008"
-      servicePort: 4975
-      serviceType: ClusterIP
 
     #  Redis 配置
     redis:
