@@ -71,7 +71,6 @@ nav:
       - 混合云安全:
           - 资源态势: user/cloud-situation.md
           - 多云检测: user/account.md
-          - 漏洞检测: user/vuln.md
           - 合规报告: user/report.md
           - 操作审计: user/event.md
           - 对象存储: user/oss.md
@@ -84,9 +83,6 @@ nav:
           - 源码检测: user/code.md
           - 文件检测: user/fs.md
           - SBOM 管理: user/sbom.md
-      - 任务编排:
-          - 任务列表: user/task.md
-          - 任务报告: user/taskReport.md
       - 检测管理:
           - 检测规则: user/rule.md
           - 检测结果: user/resource.md
