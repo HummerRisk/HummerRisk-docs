@@ -176,3 +176,7 @@
     - 默认密码：hummer
     - 访问地址：http://<hummerrisk_ip>:<hummerrisk_port>
     ```
+
+
+### 5.安装视频预览
+<script async id="asciicast-gGGWL035bwglpe3vmZ9F63pji" src="https://asciinema.org/a/gGGWL035bwglpe3vmZ9F63pji.js"></script>

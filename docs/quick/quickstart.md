@@ -1,6 +1,7 @@
 
 ## 1 一键部署
-[![安装部署](../img/vedio/install-cover.png){ width="380"}](https://www.bilibili.com/video/BV1JK411d79A/)
+<script async id="asciicast-gGGWL035bwglpe3vmZ9F63pji" src="https://asciinema.org/a/gGGWL035bwglpe3vmZ9F63pji.js"></script>
+
 !!! tip "3分钟快速一键部署"
     1. 部署服务器要求
         - 操作系统要求：任何支持 Docker 的 Linux x64

@@ -35,7 +35,4 @@
 | 数据库    | MySQL 8.0 | MySQL 8.0/ MariaDB 10.2 |
 | Docker | v20.10.10 | >= v20.10.10            |
 
-!!! info "快速安装预览"
-[![asciicast](https://asciinema.org/a/514353.svg)](https://asciinema.org/a/514353)
 
----
