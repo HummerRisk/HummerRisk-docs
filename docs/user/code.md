@@ -81,20 +81,20 @@
 ### 源码检测结果
 
 !!! abstract "源码检测结果"
-    1. 源码检测结果列表会显示出所有的检测任务。
-    ![源码检测结果](../img/user/code/code_scan_result.jpg){ width="95%" }
+    1. 项目源码列表会显示出所有的检测任务。
+    ![源码检测结果](../img/user/code/code_scan_result.png){ width="95%" }
     2. 统计列中的数字表示漏洞数量，点击该数字可以打开和该项目相关的漏洞列表
     ![源码检测详情列表](../img/user/code/code_result_detail.jpg){ width="95%" }
     3. 点击源码检测结果列表中状态列中的按钮，可以打开检测的详细日志页面，在这里可以看到检测的详细内容。
     ![源码检测详情日志](../img/user/code/code_log_detail.jpg){ width="95%" }
     4. 源码检测的漏洞和SBOM数据可以通过SBOM管理统一查看。
-    ![Sbom](../img/user/sbom/sbom_analyze.jpg){ width="95%" }    
+    ![Sbom](../img/user/sbom/sbom_analyze.png){ width="95%" }    
 
 ### 源码检测历史记录
 
 !!! abstract "历史记录"    
     - 查看到所有检测历史记录，查看过往的执行情况。
-    ![源码检测历史](../img/user/code/code_scan_history.jpg){ width="95%" }
+    ![源码检测历史](../img/user/code/code_scan_history.png){ width="95%" }
     - 通过检测结果 json 对比，可以发现漏洞差异。
     ![源码检测历史](../img/release/0.4.0/code4.png){ width="95%" }
 
