@@ -31,3 +31,4 @@ jobs:
       run: |
         git fetch origin deploy:deploy
         mike deploy --push --branch deploy --rebase ${{ github.ref_name }}
+        mike set-default --push --branch deploy --rebase ${{ github.ref_name }}
