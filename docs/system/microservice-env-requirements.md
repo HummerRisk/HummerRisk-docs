@@ -23,22 +23,16 @@
 
 | 配置项    | 最低配置         | 推荐配置                    |
 |:-------|:-------------|-------------------------|
-| OS     | Ubuntu 20.04 | >= Ubuntu 20.04         |
 | CPU    | 4核           | 8核                      |
 | 内存     | 8G           | 16G                     |
 | 磁盘     | 50GB         | 100GB                   |
-| 数据库    | MySQL 5.7    | MySQL 5.7/ MariaDB 10.2 |
-| Docker | v20.10.10    | >= v20.10.10            |
 
 #### 3.数据库及 Docker
 !!! info "数据库及 Docker"
 
 | 配置项    | 最低配置      | 推荐配置                    |
 |:-------|:----------|-------------------------|
-| 数据库    | MySQL 5.8 | MySQL 5.8/ MariaDB 10.2 |
+| 数据库    | MySQL 8.0 | MySQL 8.0/ MariaDB 10.2 |
 | Docker | v20.10.10 | >= v20.10.10            |
 
-!!! info "快速安装预览"
-[![asciicast](https://asciinema.org/a/514353.svg)](https://asciinema.org/a/514353)
 
----

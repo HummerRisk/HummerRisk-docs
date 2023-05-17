@@ -1,5 +1,5 @@
 # 升级文档
-!!! warning "更新前请一定要做好数据库备份工作"
+!!! warning "更新前请一定要做好数据库备份工作！HummerRisk v1.0 开始采用 springcloud 微服务架构，微服务架构更加易于扩展、易于容错、灵活部署，但是需要注意的是 HummerRisk v0.x 版本无法直接升级到 v1.0，如需使用 HummerRisk 请手动安装最新版本"
 
 ### 1.备份
 !!! tip "备份"
@@ -47,13 +47,20 @@
     !!! tip "2.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy"
         ``` bash linenums="1"
         [root@hummerrisk tmp]# hrctl version
-        v0.7.0
+        v1.0.0
         [root@hummerrisk tmp]# hrctl status
-            Name                  Command                  State                         Ports
-        ---------------------------------------------------------------------------------------------------------
-        hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
-        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp, 8778/tcp, 9779/tcp
-        trivy_server   trivy server --skip-update ...   Up (healthy)   0.0.0.0:4975->4975/tcp, 8778/tcp, 9779/tcp
+        NAME                IMAGE                            COMMAND                  SERVICE             CREATED             STATUS                        PORTS
+        hmr-auth            hummerrisk/hmr-auth:v1.0.0       "/deployments/run-ja…"   auth                2 minutes ago       Up 2 minutes (healthy)        9200/tcp
+        hmr-cloud           hummerrisk/hmr-cloud:v1.0.0      "/deployments/run-ja…"   cloud               2 minutes ago       Up About a minute (healthy)   8778/tcp, 9400/tcp, 9779/tcp
+        hmr-flyway          hummerrisk/hmr-flyway:v1.0.0     "/deployments/run-ja…"   flyway              2 minutes ago       Up 2 minutes (healthy)        9000/tcp
+        hmr-gateway         hummerrisk/hmr-gateway:v1.0.0    "/deployments/run-ja…"   gateway             2 minutes ago       Up About a minute (healthy)   8080/tcp
+        hmr-job             hummerrisk/hmr-job:v1.0.0        "sh -c 'java -jar $J…"   jobs                2 minutes ago       Up About a minute (healthy)
+        hmr-k8s             hummerrisk/hmr-k8s:v1.0.0        "/deployments/run-ja…"   k8s                 2 minutes ago       Up About a minute (healthy)   9500/tcp
+        hmr-mysql           hummerrisk/mysql:8.0.32          "docker-entrypoint.s…"   mysql               2 minutes ago       Up 2 minutes (healthy)        3306/tcp, 33060/tcp
+        hmr-nacos           hummerrisk/nacos-server:v2.2.0   "bin/docker-startup.…"   nacos               2 minutes ago       Up 2 minutes (healthy)        8848/tcp
+        hmr-redis           hummerrisk/redis:6.2.10-alpine   "docker-entrypoint.s…"   redis               2 minutes ago       Up 2 minutes (healthy)        6379/tcp
+        hmr-system          hummerrisk/hmr-system:v1.0.0     "/deployments/run-ja…"   system              2 minutes ago       Up About a minute (healthy)   9300/tcp
+        hmr-ui              hummerrisk/hmr-ui:v1.0.0         "/docker-entrypoint.…"   ui                  2 minutes ago       Up About a minute (healthy)   0.0.0.0:8111->80/tcp, :::8111->80/tcp
         ```
 
 === "离线升级"
