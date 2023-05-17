@@ -24,3 +24,7 @@
 #### Q. 安装失败如何卸载，如何重新安装？
 !!! question ""
     A. 您可以使用 `hrctl uninstall` 命令快速卸载 HummerRisk，之后再次运行安装脚本即可
+
+#### Q. HummerRisk 导入 license 后，XPACK 功能模块依旧不可用？
+!!! question ""
+    A. 在确保 license 正确导入并且在有效期内后，在部署 HummerRisk 的服务器运行 `hrctl start`命令进行加载 XPACK 组件
