@@ -55,6 +55,7 @@
 ### 2.1 首页
 
 !!! abstract "优化首页 Dashboard 展示，去除面板。"
+![新功能](../img/release/1.1.0/img_22.png){ width="95%" }
 
 ### 2.2 多云检测
 
