@@ -4,8 +4,11 @@
 
 !!! abstract "资源态势"
     如下图所示，新增云资源检测拓扑（2.5D 图）与云资源关系拓扑。
-![新功能](../img/release/1.1.0/img.png){ width="95%" }
-![新功能](../img/release/1.1.0/img_1.png){ width="95%" }
+![新功能](../img/release/1.2.0/img_8.png){ width="95%" }
+![新功能](../img/release/1.2.0/img_10.png){ width="95%" }
+![新功能](../img/release/1.2.0/img_9.png){ width="95%" }
+![新功能](../img/release/1.2.0/img_12.png){ width="95%" }
+![新功能](../img/release/1.2.0/img_11.png){ width="95%" }
 
 ### 1.2 多云检测
 
