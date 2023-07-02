@@ -63,7 +63,7 @@
 
     !!! tip "1.准备离线包"
         ``` bash linenums="1"
-        百度网盘下载链接: https://pan.baidu.com/s/1LeDx5hF_RkkpO8HcsYUDAQ 提取码: 4ljt
+        百度网盘下载链接:https://pan.baidu.com/s/1ytLxkdrTgHEjyBKnPoalyg 提取码: aso7
         网站资源下载链接: https://docs.hummerrisk.com/about/download/
         
         tar zxf hummerrisk-offline-installer-${hummerrisk_version}.tar.gz
