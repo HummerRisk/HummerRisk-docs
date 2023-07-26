@@ -344,6 +344,7 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 1.3.0: release/release-1.3.0.md
           - ReleaseNote 1.2.0: release/release-1.2.0.md
           - ReleaseNote 1.1.0: release/release-1.1.0.md
           - ReleaseNote 1.0.1: release/release-1.0.1.md
