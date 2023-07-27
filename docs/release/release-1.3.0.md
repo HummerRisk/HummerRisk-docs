@@ -4,33 +4,29 @@
 
 !!! abstract "多云管理"
     如下图所示，新增云账号关联对象存储、操作审计、镜像仓库等功能。
-![新功能](../img/release/1.2.0/img_8.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_10.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_9.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_12.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_11.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_3.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_5.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_4.png){ width="95%" }
 
 ### 1.2 多云检测
 
 !!! abstract "多云检测"
     如下图所示，新增多云检测执行过程功能。
-![新功能](../img/release/1.2.0/img.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_1.png){ width="95%" }
+![新功能](../img/release/1.3.0/img.png){ width="95%" }
 
 ### 1.3 资源态势
 
 !!! abstract "资源态势"
     如下图所示，新增腾讯云、华为云部分资源关系，增加 AWS 资源类型，新增关系拓扑资源类型。
-![新功能](../img/release/1.2.0/img_1.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_2.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_7.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_8.png){ width="95%" }
 
 ### 1.4 镜像仓库
 
 !!! abstract "镜像仓库"
     如下图所示，镜像仓库 AWS 类型增加中国区同步，增加私有仓库同步。
-![新功能](../img/release/1.2.0/img_4.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_5.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_6.png){ width="95%" }
-![新功能](../img/release/1.2.0/img_7.png){ width="95%" }
+![新功能](../img/release/1.3.0/img_6.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 
