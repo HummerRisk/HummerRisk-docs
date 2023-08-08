@@ -23,13 +23,19 @@
 
     helm install trivy-operator hummer/trivy-operator \
     --namespace trivy-system \
-    --set trivy.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy" \
-    --set trivy.dbRepository="reg.hummercloud.com/trivy/trivy-db" \
+    --set image.registry="registry.cn-beijing.aliyuncs.com" \
+    --set image.repository="hummerrisk/trivy-operator" \
+    --set trivy.image.registry="registry.cn-beijing.aliyuncs.com" \
+    --set trivy.image.repository="hummerrisk/trivy" \
+    --set trivy.dbRepository="reg.hummercloud.com" \
+    --set trivy.dbRepository="trivy/trivy-db" \
+    --set trivy.javaDbRegistry="reg.hummercloud.com" \
+    --set trivy.javaDbRepository="trivy/trivy-java-db" \
+    --set nodeCollector.registry="reg.hummercloud.com" \
+    --set nodeCollector.repository="hummerrisk/node-collector" \
     --set trivy.dbRepositoryInsecure="true" \
     --set trivy.ignoreUnfixed=true \
-    --set trivy.skipUpdate=true \
-    --set image.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
-    --set nodeCollector.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/node-collector" \
+    --set trivy.offlineScan=true \
     --create-namespace
     ```
 
