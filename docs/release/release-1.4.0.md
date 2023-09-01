@@ -7,6 +7,7 @@
 ![新功能](../img/release/1.4.0/img.png){ width="95%" }
 ![新功能](../img/release/1.4.0/img_1.png){ width="95%" }
 ![新功能](../img/release/1.4.0/img_2.png){ width="95%" }
+![新功能](../img/release/1.4.0/img_7.png){ width="95%" }
 
 ### 1.2 检测规则
 
