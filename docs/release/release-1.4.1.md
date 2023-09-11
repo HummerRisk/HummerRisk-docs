@@ -7,26 +7,27 @@
 ![新功能](../img/release/1.4.1/img.png){ width="95%" }
 ![新功能](../img/release/1.4.1/img_1.png){ width="95%" }
 ![新功能](../img/release/1.4.1/img_2.png){ width="95%" }
-![新功能](../img/release/1.4.1/img_7.png){ width="95%" }
+![新功能](../img/release/1.4.1/img_3.png){ width="95%" }
 
 ### 1.2 K8s 检测
 
 !!! abstract "K8s 检测"
     如下图所示，新增 Kubernetes、Rancher、KubeSphere 检测规则组以及规则。
-![新功能](../img/release/1.4.1/img_3.png){ width="95%" }
 ![新功能](../img/release/1.4.1/img_4.png){ width="95%" }
+![新功能](../img/release/1.4.1/img_5.png){ width="95%" }
 
 ### 1.3 账号管理
 
 !!! abstract "账号管理"
     如下图所示，新增云账号管理页面关联菜单功能，新增资源同步日志。
-![新功能](../img/release/1.4.1/img_5.png){ width="95%" }
+![新功能](../img/release/1.4.1/img_6.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 
 ### 2.1 检测结果
 
 !!! abstract "优化资源检测结果列表页面。"
+![新功能](../img/release/1.4.1/img_7.png){ width="95%" }
 
 ### 2.2 规则列表
 
