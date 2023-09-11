@@ -20,7 +20,8 @@
 
 !!! abstract "账号管理"
     如下图所示，新增云账号管理页面关联菜单功能，新增资源同步日志。
-![新功能](../img/release/1.4.1/img_6.png){ width="95%" }
+![新功能](../img/release/1.4.1/img_8.png){ width="95%" }
+![新功能](../img/release/1.4.1/img_9.png){ width="95%" }
 
 ## 2 性能优化 Optimization
 
@@ -67,3 +68,4 @@
 ### 3.3 关于
 
 !!! abstract "修复关于页面信息。"
+![新功能](../img/release/1.4.1/img_6.png){ width="95%" }
