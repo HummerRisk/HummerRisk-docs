@@ -17,20 +17,25 @@
     helm repo update
     ```
 
-    3.开始安装, 可以自定义应用名称和NameSpace, 注意 trivy.serverURL 的 IP 地址需要替换为 Trivy 实际的 IP 地址
+    3.开始安装, 可以自定义应用名称和 NameSpace
     ```shell
-    # 如果 hummerrisk 以主机方式运行，则 <hummerrisk-trivy-server-ip> 为主机 IP。
-    # 如果 hummerrisk 在 k8s 上运行，则 <hummerrisk-trivy-server-ip> 和端口为节点 IP 和 NodePort 端口，若配置的有 ingress 则可配置域名
+    # 注意：如果你是在离线环境中使用 helm 部署，需要将 trivy-operator 对应的镜像 push 到你的私有仓库，并在安装时更新仓库地址
 
     helm install trivy-operator hummer/trivy-operator \
     --namespace trivy-system \
-    --set trivy.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy" \
-    --set trivy.dbRepository="reg.hummercloud.com/trivy/trivy-db" \
+    --set image.registry="registry.cn-beijing.aliyuncs.com" \
+    --set image.repository="hummerrisk/trivy-operator" \
+    --set trivy.image.registry="registry.cn-beijing.aliyuncs.com" \
+    --set trivy.image.repository="hummerrisk/trivy" \
+    --set trivy.dbRepository="reg.hummercloud.com" \
+    --set trivy.dbRepository="trivy/trivy-db" \
+    --set trivy.javaDbRegistry="reg.hummercloud.com" \
+    --set trivy.javaDbRepository="trivy/trivy-java-db" \
+    --set nodeCollector.registry="reg.hummercloud.com" \
+    --set nodeCollector.repository="hummerrisk/node-collector" \
     --set trivy.dbRepositoryInsecure="true" \
     --set trivy.ignoreUnfixed=true \
-    --set trivy.skipUpdate=true \
-    --set image.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
-    --set nodeCollector.repository="registry.cn-beijing.aliyuncs.com/hummerrisk/node-collector" \
+    --set trivy.offlineScan=true \
     --create-namespace
     ```
 

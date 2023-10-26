@@ -148,9 +148,21 @@
     
     # 3.开始安装, 可以自定义应用名称和NameSpace
     helm install trivy-operator hummer/trivy-operator \
-     --namespace trivy-system \
-     --set="image.repository=registry.cn-beijing.aliyuncs.com/hummerrisk/trivy-operator" \
-     --create-namespace --set="trivy.ignoreUnfixed=true"
+    --namespace trivy-system \
+    --set image.registry="registry.cn-beijing.aliyuncs.com" \
+    --set image.repository="hummerrisk/trivy-operator" \
+    --set trivy.image.registry="registry.cn-beijing.aliyuncs.com" \
+    --set trivy.image.repository="hummerrisk/trivy" \
+    --set trivy.dbRepository="reg.hummercloud.com" \
+    --set trivy.dbRepository="trivy/trivy-db" \
+    --set trivy.javaDbRegistry="reg.hummercloud.com" \
+    --set trivy.javaDbRepository="trivy/trivy-java-db" \
+    --set nodeCollector.registry="reg.hummercloud.com" \
+    --set nodeCollector.repository="hummerrisk/node-collector" \
+    --set trivy.dbRepositoryInsecure="true" \
+    --set trivy.ignoreUnfixed=true \
+    --set trivy.offlineScan=true \
+    --create-namespace
     
     # 4.检测operator是否启动成功
     kubectl get pod -A|grep trivy-operator
