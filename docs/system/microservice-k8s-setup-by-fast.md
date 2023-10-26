@@ -114,7 +114,7 @@
         repository: nginx
         pullPolicy: IfNotPresent
         # Overrides the image tag whose default is the chart appVersion.
-        tag: v0.4.0
+        tag: v1.0.0
       replicas: 1
       # servicePort is the HTTP listener port for the webserver
       servicePort: 80
@@ -133,8 +133,6 @@
     #  trivy Server 配置
     trivyServer:
       trivyDBVersion: "2022122008"
-      servicePort: 4975
-      serviceType: ClusterIP
 
     #  Redis 配置
     redis:

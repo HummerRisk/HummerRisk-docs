@@ -4,16 +4,16 @@
 ### 1.开始安装
 === "一键部署"
     !!! tip "1.使用快速安装脚本一键安装部署"
-        中国大陆:
+        全球:
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
         curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
         ```
 
-        全球:
+        中国大陆:
         ``` bash linenums="1"
         # 下载最新版本的安装脚本
-        curl -sSL https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
+        curl -sSL https://download.hummerrisk.com/hummerrisk/hummerrisk/releases/download/latest/quick_start.sh -o quick_start.sh
         ```
         
         开始安装:
@@ -30,15 +30,18 @@
         # 指定需要安装的版本
         export hummerrisk_version=v1.0.0
         ```
-        中国大陆:
+        
+        全球:
         ``` bash linenums="1"
         # 下载安装包
         wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
         ```
-        全球:
+
+        中国大陆:
         ``` bash linenums="1"
         wget https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
         ```
+
         解压安装包
         ``` bash linenums="1"
         tar -xf hummerrisk-installer-${hummerrisk_version}.tar.gz
@@ -60,7 +63,7 @@
 
     !!! tip "1.准备离线包"
         ``` bash linenums="1"
-        百度网盘下载链接: https://pan.baidu.com/s/1LeDx5hF_RkkpO8HcsYUDAQ 提取码: 4ljt
+        百度网盘下载链接:https://pan.baidu.com/s/1ytLxkdrTgHEjyBKnPoalyg 提取码: aso7
         网站资源下载链接: https://docs.hummerrisk.com/about/download/
         
         tar zxf hummerrisk-offline-installer-${hummerrisk_version}.tar.gz
@@ -173,3 +176,7 @@
     - 默认密码：hummer
     - 访问地址：http://<hummerrisk_ip>:<hummerrisk_port>
     ```
+
+
+### 5.安装视频预览
+<script async id="asciicast-gGGWL035bwglpe3vmZ9F63pji" src="https://asciinema.org/a/gGGWL035bwglpe3vmZ9F63pji.js"></script>

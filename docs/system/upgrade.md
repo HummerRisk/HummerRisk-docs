@@ -34,13 +34,21 @@
     !!! tip "2.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy"
         ``` bash linenums="1"
         [root@hummerrisk tmp]# hrctl version
-        v0.7.0
+        v1.0.0
         [root@hummerrisk tmp]# hrctl status
-            Name                  Command                  State                         Ports
-        ---------------------------------------------------------------------------------------------------------
-        hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
-        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp, 8778/tcp, 9779/tcp
-        trivy_server   trivy server --skip-update ...   Up (healthy)   0.0.0.0:4975->4975/tcp, 8778/tcp, 9779/tcp
+        Name                  Command                  State                      Ports
+        --------------------------------------------------------------------------------------------------
+        hmr-auth      /deployments/run-java.sh         Up (healthy)   9200/tcp
+        hmr-cloud     /deployments/run-java.sh         Up (healthy)   8778/tcp, 9400/tcp, 9779/tcp
+        hmr-flyway    /deployments/run-java.sh         Up (healthy)   9000/tcp
+        hmr-gateway   /deployments/run-java.sh         Up (healthy)   8080/tcp
+        hmr-job       sh -c java -jar $JAVA_OPTS ...   Up (healthy)   8084/tcp
+        hmr-k8s       /deployments/run-java.sh         Up (healthy)   9500/tcp
+        hmr-mysql     docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
+        hmr-nacos     bin/docker-startup.sh            Up (healthy)   8848/tcp
+        hmr-redis     docker-entrypoint.sh redis ...   Up (healthy)   6379/tcp
+        hmr-system    /deployments/run-java.sh         Up (healthy)   9300/tcp
+        hmr-ui        /docker-entrypoint.sh ngin ...   Up (healthy)   0.0.0.0:80->80/tcp,:::8089->80/tcp
         ```
 
 === "离线升级"
@@ -57,13 +65,21 @@
     !!! tip "2.升级完成后查看当前状态，验证是否升级成功,正常所有容器应该是 healthy"
         ``` bash linenums="1"
         [root@hummerrisk tmp]# hrctl version
-        v0.7.0
+        v1.0.0
         [root@hummerrisk tmp]# hrctl status
-            Name                  Command                  State                         Ports
-        ---------------------------------------------------------------------------------------------------------
-        hummer_mysql   docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
-        hummer_risk    /deployments/run-java.sh         Up (healthy)   0.0.0.0:80->8088/tcp, 8778/tcp, 9779/tcp
-        trivy_server   trivy server --skip-update ...   Up (healthy)   0.0.0.0:4975->4975/tcp, 8778/tcp, 9779/tcp
+        Name                  Command                  State                      Ports
+        --------------------------------------------------------------------------------------------------
+        hmr-auth      /deployments/run-java.sh         Up (healthy)   9200/tcp
+        hmr-cloud     /deployments/run-java.sh         Up (healthy)   8778/tcp, 9400/tcp, 9779/tcp
+        hmr-flyway    /deployments/run-java.sh         Up (healthy)   9000/tcp
+        hmr-gateway   /deployments/run-java.sh         Up (healthy)   8080/tcp
+        hmr-job       sh -c java -jar $JAVA_OPTS ...   Up (healthy)   8084/tcp
+        hmr-k8s       /deployments/run-java.sh         Up (healthy)   9500/tcp
+        hmr-mysql     docker-entrypoint.sh --def ...   Up (healthy)   3306/tcp, 33060/tcp
+        hmr-nacos     bin/docker-startup.sh            Up (healthy)   8848/tcp
+        hmr-redis     docker-entrypoint.sh redis ...   Up (healthy)   6379/tcp
+        hmr-system    /deployments/run-java.sh         Up (healthy)   9300/tcp
+        hmr-ui        /docker-entrypoint.sh ngin ...   Up (healthy)   0.0.0.0:8089->80/tcp,:::8089->80/tcp
         ```
 
 !!! warning "默认 web 登录账户: admin 密码：hummer"

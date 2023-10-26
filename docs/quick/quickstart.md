@@ -1,6 +1,7 @@
 
 ## 1 一键部署
-[![安装部署](../img/vedio/install-cover.png){ width="380"}](https://www.bilibili.com/video/BV1JK411d79A/)
+<script async id="asciicast-gGGWL035bwglpe3vmZ9F63pji" src="https://asciinema.org/a/gGGWL035bwglpe3vmZ9F63pji.js"></script>
+
 !!! tip "3分钟快速一键部署"
     1. 部署服务器要求
         - 操作系统要求：任何支持 Docker 的 Linux x64
@@ -8,19 +9,42 @@
         - 部署目录空间（默认/opt目录）要求： 50G
         - 网络要求：可访问互联网（如遇内网环境，理论上除公有云安全检测、Github源码检测外，其他功能可照常使用）
     2. 执行以下脚本进行一键安装：
-    ```bash
-    curl -sSL https://github.com/HummerRisk/HummerRisk/releases/latest/download/quick_start.sh -o quick_start.sh
-    ```
+        全球:
+        ``` bash linenums="1"
+        # 下载安装包
+        wget https://github.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
+        ```
+
+        中国大陆:
+        ``` bash linenums="1"
+        wget https://download.hummerrisk.com/HummerRisk/HummerRisk/releases/download/${hummerrisk_version}/hummerrisk-installer-${hummerrisk_version}.tar.gz
+        ```
+
+        解压安装包
+        ``` bash linenums="1"
+        tar -xf hummerrisk-installer-${hummerrisk_version}.tar.gz
+        cd hummerrisk-installer-${hummerrisk_version}
+        ```
+
+        ``` bash linenums="1"
+        # 安装
+        bash install.sh
+        
+        # 启动
+        hrctl start
+        
+        # 安装完成后默认配置文件在 /opt/hummerrisk/config/install.conf
+        ```
     3. HummerRisk 是一款 B/S 架构的产品，即浏览器/服务器结构，在服务器安装完成后，客户端通过浏览器访问以下地址，即可开始使用。
         - http://目标服务器 IP 地址：服务运行端口，例如：http: 82.157.130.20:80（默认端口为80，用户可在安装时自定义）
         - 使用默认用户名 admin 密码 hummer 进行登录。
 
 ## 2 模块介绍
 
-!!! abstract "进入 HummerRisk 主界面后可以看到界面左侧导航栏，有【首页】【混合云安全】【云原生安全】【任务编排】【检测管理】【系统设置】六大模块"
+!!! abstract "进入 HummerRisk 主界面后可以看到界面左侧导航栏，有【首页】【混合云安全】【云原生安全】【检测管理】【系统设置】五大模块"
 ![模块介绍](../img/quickstart/HummerRisk-module.png){ width="75%" }
 
-<!-- !!! abstract "【首页】【混合云安全】【云原生安全】【任务编排】【检测管理】【系统设置】六大模块的主要功能与作用"
+<!-- !!! abstract "【首页】【混合云安全】【云原生安全】【检测管理】【系统设置】五大模块的主要功能与作用"
 
 !!! tip "1. 首页"
     - 包含面板、总览、分析、活动记录。
@@ -35,20 +59,15 @@
 !!! tip "3. 云原生安全"
     - 包含资源态势、主机检测、K8s 检测、部署检测、镜像检测、源码检测、文件检测、SBOM 管理等功能。
     - 主要作用是在整个开发生命周期提供云原生安全和合规性检测服务，深入探究漏洞详情，简单便捷的进行安全性分析，修正漏洞并形成最佳实践。
-![云原生安全](../img/quickstart/img_1.png){ width="95%" }
+![云原生安全](../img/quickstart/sbom_analyze.png){ width="95%" }
 
-!!! tip "4. 任务编排"
-    - 包含任务列表和任务报告功能。
-    - 主要作用是可以自由将各个模块中的检测任务进行编排，组合成一个综合检测任务，简化用户进行跨模块、跨资源的检测操作。
-![任务编排](../img/quickstart/img_2.png){ width="95%" }
-
-!!! tip "5. 检测管理"
+!!! tip "4. 检测管理"
     - 包含检测规则和检测结果功能。
     - 主要作用是统一汇总所有模块的检测规则和执行检测后获取的检测结果，使用户可以快速便捷的在统一入口查看和操作。
 ![检测管理](../img/quickstart/img_3.png){ width="95%" }
 
-!!! tip "6. 系统设置"
-    包含系统设置（用户设置、参数设置、消息通知、代理设置、站内消息、系统参数等）、个人设置等功能。
+!!! tip "5. 系统设置"
+    包含系统设置（用户设置、参数设置、消息通知、代理设置、站内消息、系统参数、关于等）、个人设置等功能。
 ![系统设置](../img/quickstart/img_4.png){ width="95%" } -->
 
 ## 3 快速上手
@@ -91,16 +110,6 @@
     - 在点击上述一键检测后，将自动跳转云资源检测结果页面，检测结果将会显示正在执行。
     - 等待检测执行完毕后获得检测结果的安全合规信息与优化建议。
 ![云账号](../img/quickstart/img_11.png){ width="95%" }
-
-!!! abstract "漏洞检测"
-    - 漏洞检测主要用于扫描网络信息安全，通过设置目标地址信息即可。
-    - 绑定的目标地址可以是域名，也可以是 IP + 端口。
-![漏洞检测](../img/quickstart/img_17.png){ width="95%" }
-
-!!! abstract "漏洞检测结果"
-    - 完成上述漏洞设置后，点击一键检测，将自动跳转漏洞检测结果页面，检测结果将会显示正在执行。
-    - 等待检测执行完毕后，获得检测结果的漏洞信息与优化建议。
-![漏洞检测](../img/quickstart/img_18.png){ width="95%" }
 
 #### 3.1.3 查看报告
 

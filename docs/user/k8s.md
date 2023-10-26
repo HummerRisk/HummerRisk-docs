@@ -108,20 +108,6 @@
                 <td>用于 API Server验证的token，可以在K8s集群上手动创建，该Token需要对K8s资源有访问权限</td>
             </tr>
             <tr>
-                <td>Trivy Server</td>
-                <td>Trivy Server服务的IP地址，根据部署环境而定。
-                  <ul>
-                  <li>如果 HummerRisk以主机方式运行，则 <hummerrisk-trivy-server-ip> 为主机 IP。</li>
-                  <li>如果 HummerRisk在 k8s 上运行，则 <hummerrisk-trivy-server-ip> 和端口为节点 IP 和 NodePort 端口。</li>
-                  <li>若配置的有 ingress 则可配置域名。eg:  `https://40.140.219.236` eg:  `https://tirvyserver.example.com`</li>
-                  </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Trivy Port</td>
-                <td>Trivy Server的端口，默认4975, 如果trivy Server运行的端口做了修改或代理配置，则需要修改为实际端口。</td>
-            </tr>
-            <tr>
                 <td>是否启用代理</td>
                 <td>开启后可选择代理进行配置使用</td>
             </tr>

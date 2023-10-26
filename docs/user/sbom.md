@@ -22,6 +22,6 @@
 ### SBOM 分析
 
 !!! abstract "SBOM 分析"
-    - 根据项目绑定的源码、镜像或软件包，生成软件物料清单，并结合漏洞生成 SBOM + CVE。
+    - 根据项目绑定的源码、镜像或依赖文件，生成软件物料清单，并结合漏洞生成 SBOM + CVE。
 
-![sbom分析](../img/user/sbom/sbom_analyze.jpg){ width="95%" }
+![sbom分析](../img/user/sbom/sbom_analyze.png){ width="95%" }

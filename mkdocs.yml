@@ -4,7 +4,7 @@ site_author: 'Harris'
 site_description: 'HummerRisk 是开源的云原生安全平台'
 
 repo_name: 'HummerRisk/HummerRisk'
-repo_url: 'https://github.com/HummerRisk/HummerRisk.git'
+repo_url: https://github.com/HummerRisk/HummerRisk
 edit_uri: 'https://github.com/HummerRisk/docs/edit/master/docs/'
 extra_javascript:
   - 'js/baidutongji.js'
@@ -64,7 +64,6 @@ nav:
       - 混合云安全:
           - 资源态势: user/cloud-situation.md
           - 多云检测: user/account.md
-          - 漏洞检测: user/vuln.md
           - 合规报告: user/report.md
           - 操作审计: user/event.md
           - 对象存储: user/oss.md
@@ -77,15 +76,13 @@ nav:
           - 源码检测: user/code.md
           - 文件检测: user/fs.md
           - SBOM 管理: user/sbom.md
-      - 任务编排:
-          - 任务列表: user/task.md
-          - 任务报告: user/taskReport.md
       - 检测管理:
           - 检测规则: user/rule.md
           - 检测结果: user/resource.md
       - 系统设置: user/settings.md
   - 教学视频: video/video.md
   - 常见问题:
+      - 安装问题:  question/install.md
       - 混合云账号校验失败问题: question/cloud.md
       - 多云检测结果状态不停问题: question/rule.md
       - 漏洞里报错需要更新漏洞库: question/updateDb.md
@@ -100,6 +97,7 @@ nav:
   - 开发文档:
       - 开发手册(微服务): develop/dev-manual2.md
       - 开发手册(单机版): develop/dev-manual.md
+      - 开发手册(RestFul API): develop/dev-api.md
       - 如何自定义云资源检测规则: develop/rule.md
       - 自定义阿里云监控规则示例: develop/example.md
   - 技术文章:
@@ -346,6 +344,9 @@ nav:
   - 版本迭代:
       - 更新日志: about/changelog.md
       - 更新说明:
+          - ReleaseNote 1.2.0: release/release-1.2.0.md
+          - ReleaseNote 1.1.0: release/release-1.1.0.md
+          - ReleaseNote 1.0.1: release/release-1.0.1.md
           - ReleaseNote 1.0.0: release/release-1.0.0.md
           - ReleaseNote 0.10.0: release/release-0.10.0.md
           - ReleaseNote 0.9.1: release/release-0.9.1.md
@@ -411,8 +412,6 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra:
-  hummerrisk:
-    version: v0.3.1
   search:
     separator: '[\s\-\.]+'
     language: 'zh'

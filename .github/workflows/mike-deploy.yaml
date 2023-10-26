@@ -2,7 +2,7 @@ name: Mkdocs Build
 
 on:
   push:
-    branches: [ "v0.x", "v1.0" ]
+    branches: [ "v1.*" ]
   workflow_dispatch:   
 
 jobs:
@@ -30,4 +30,5 @@ jobs:
     - name: Build package
       run: |
         git fetch origin deploy:deploy
-        mike deploy --push --branch deploy --rebase ${{ github.ref_name }}
+        mike deploy --push --branch deploy --rebase v1.x
+        mike set-default --push --branch deploy --rebase v1.x
